@@ -1,11 +1,12 @@
 [
   {
     "id": "F07",
+    "role": "recommended",
     "parameters": {
       "lift_mm": 80.00004520634599,
       "shift_x_mm": -0.0004690842754385277
     },
-    "source_sha256": "7935e6fe9af3d66c64c8252f8a937b9d2c7070eb9dded0b84f31693ec641c62e",
+    "source_sha256": "3b03f9e53c2c4e9102f4cbf4595dfaeda9e17c6557e517b319c4ce7bf7e26f0a",
     "is_valid": true,
     "solid_count": 3,
     "volume_mm3": 3110100.0,
@@ -26,10 +27,11 @@
   },
   {
     "id": "F12",
+    "role": "recommended",
     "parameters": {
       "overlap_mm": 65.34050206952026
     },
-    "source_sha256": "0bff0219c67527dc1e0e7d54a7a050df1dbd6bbdc8859d34f4a73f23ad11e06a",
+    "source_sha256": "e11337b66a7ccd319efca7e90c91364fb3de977f43a0b5fac822a447a03475e2",
     "is_valid": true,
     "solid_count": 2,
     "volume_mm3": 2960948.264,
@@ -46,6 +48,58 @@
       "f12.step",
       "f12.stl",
       "f12_model.py"
+    ]
+  },
+  {
+    "id": "SCZ",
+    "role": "third_exploratory",
+    "parameters": {
+      "arm_length_mm": 152.50555313625247,
+      "height_fold_mm": 45.000040083134806
+    },
+    "source_sha256": "5bbe3a7126f6a9acf138579892e8ede6e511f7eab83c13881bd6c002e9911008",
+    "is_valid": true,
+    "solid_count": 2,
+    "volume_mm3": 5620502.172612743,
+    "bbox_mm": [
+      0.0,
+      -347.0,
+      0.0,
+      315.0,
+      0.0,
+      105.00004
+    ],
+    "interfaces": "all custom and unchecked; no vendor or measured interface claimed",
+    "files": [
+      "scz.step",
+      "scz.stl",
+      "scz_model.py"
+    ]
+  },
+  {
+    "id": "F08",
+    "role": "third_fallback",
+    "parameters": {
+      "lift_mm": 10.000019767593255,
+      "shift_x_mm": -30.000001769341992
+    },
+    "source_sha256": "769f4538b5815f9d6603e5c77cae3b20297667440fb44cf9a7a0034a250f670e",
+    "is_valid": true,
+    "solid_count": 3,
+    "volume_mm3": 3110100.0,
+    "bbox_mm": [
+      -335.0,
+      -347.0,
+      0.0,
+      315.0,
+      0.0,
+      60.0
+    ],
+    "interfaces": "all custom and unchecked; no vendor or measured interface claimed",
+    "files": [
+      "f08.step",
+      "f08.stl",
+      "f08_model.py"
     ]
   }
 ]

@@ -1,0 +1,52 @@
+{
+  "simulation_level": "L3_linear_elastic_hex_fea_for_equivalent_beam_only",
+  "model": {
+    "length_mm": 345.0,
+    "width_mm": 20.0,
+    "height_mm": 16.1,
+    "E_MPa": 69000.0,
+    "poisson": 0.33,
+    "tip_load_N": 10.0,
+    "second_moment_mm4": 6955.468333333335
+  },
+  "mesh_convergence": [
+    {
+      "elements_along": 20,
+      "elements": 320,
+      "dofs": 1575,
+      "fea_tip_deflection_mm": 0.19509756338526327,
+      "euler_bernoulli_tip_deflection_mm": 0.2852072506021041,
+      "relative_error": -0.31594458775718115,
+      "second_moment_mm4": 6955.468333333335
+    },
+    {
+      "elements_along": 40,
+      "elements": 640,
+      "dofs": 3075,
+      "fea_tip_deflection_mm": 0.25228233975804626,
+      "euler_bernoulli_tip_deflection_mm": 0.2852072506021041,
+      "relative_error": -0.1154420540661211,
+      "second_moment_mm4": 6955.468333333335
+    },
+    {
+      "elements_along": 80,
+      "elements": 1280,
+      "dofs": 6075,
+      "fea_tip_deflection_mm": 0.27256731793084854,
+      "euler_bernoulli_tip_deflection_mm": 0.2852072506021041,
+      "relative_error": -0.04431841281934899,
+      "second_moment_mm4": 6955.468333333335
+    },
+    {
+      "elements_along": 160,
+      "elements": 2560,
+      "dofs": 12075,
+      "fea_tip_deflection_mm": 0.2782626689389922,
+      "euler_bernoulli_tip_deflection_mm": 0.2852072506021041,
+      "relative_error": -0.024349246551239923,
+      "second_moment_mm4": 6955.468333333335
+    }
+  ],
+  "finest_relative_error": -0.024349246551239923,
+  "limitation": "Equivalent solid rectangular cantilever with I=7000 mm^4; this validates the reduced beam formula and FE workflow, not the T-slot profile, joint stiffness, full-frame load path, plasticity, buckling, fatigue, or physical printer accuracy."
+}

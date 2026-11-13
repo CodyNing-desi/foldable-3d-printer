@@ -40,7 +40,7 @@
 - `evidence/进度对比_01.md`：对照图的文字说明、来源与生成记录。
 - `external/`：26 个上游项目的快照、导读、commit 与许可证记录。
 - `scripts/virtual_fold_checks.py`：铰链扫掠、剪刀映射和翻转力矩的方法自检。
-- `simulation/`：F01–F14 与剪刀式 Z 轴的全方案 L1/L2 仿真、NSGA-II、原始数据、动画、概念 CAD 与筛选报告；先读 `simulation/REPORT.md`。
+- `simulation/`：F01–F14 与剪刀式 Z 轴的全方案 L1/L2 仿真、局部梁 L3 有限元、NSGA-II、原始数据、动画、概念 CAD、第三项决策与实物材料清单；先读 `simulation/REPORT.md`。
 - `deliverables/折叠收纳方案_完善版.pptx`：保留队友原 34 页，追加证据边界、同尺度示意和根部关节验证 3 页。
 - `deliverables/折叠收纳与模块化_完善版.pptx`：保留新版 47 页，追加主线分层、M01 同尺度示意和四方向共同验证 3 页。
 - `task_plan.md`：工作过程、错误和验证记录。

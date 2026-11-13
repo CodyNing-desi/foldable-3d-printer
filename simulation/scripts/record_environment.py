@@ -9,7 +9,7 @@ SIMULATION_DIR = Path(__file__).resolve().parents[1]
 PACKAGES = [
     "numpy", "scipy", "sympy", "pandas", "matplotlib", "pymoo", "shapely",
     "trimesh", "build123d", "pillow", "imageio", "imageio-ffmpeg", "pyDOE3",
-    "pint", "uncertainties", "cadquery-ocp-novtk",
+    "pint", "uncertainties", "scikit-fem", "cadquery-ocp-novtk",
 ]
 
 

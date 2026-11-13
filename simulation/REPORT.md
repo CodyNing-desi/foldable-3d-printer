@@ -1,13 +1,14 @@
 # 可折叠 3D 打印机全方案虚拟仿真与优化筛选报告
 
-> 本报告是基于显式概念假设的 L1/L2 计算机仿真，不是实机验证。仓库尚无冻结实机、完整实测尺寸、长期寿命或恢复打印数据。所有尺寸为 mm、力矩为 N·mm、力为 N、成本为概念增量 CNY。
+> 本报告包含基于显式概念假设的 L1/L2 仿真和仅针对等效悬臂梁的 L3 线弹性有限元，不是实机或整机 FEA 验证。仓库尚无冻结实机、完整实测尺寸、长期寿命或恢复打印数据。所有尺寸为 mm、力矩为 N·mm、力为 N、成本为概念增量 CNY。
 
 ## 1. 结论与证据边界
 
 - 已对 **15 套候选（F01–F14 与 SCZ）**逐姿态运行统一刚体初筛；4 套通过名义参数硬约束。
-- 每套名义轨迹使用 201 个状态，计算可达性、Shapely 相交面积、工作空间与运输系统包络；推荐解另以 1001 个状态复验。所有原始轨迹均保存在 `results/traces/`。
+- 每套名义轨迹使用 201 个状态，并完成 201/501/1001 收敛检查；推荐解以 1001、第三项与备选以 5001 个状态复验。所有原始轨迹均保存在 `results/traces/`。
 - 对全部方案计算了指示性静力学/刚度；只有 L1 通过者标记为 `L2_completed`。重复定位误差来自每套 10,000 次、推荐方案每套 20,000 次独立输入抽样的蒙特卡洛结果。
-- 未运行完整三维装配碰撞、计算流体、实机标定有限元或实机恢复打印；不得把挠度与误差百分位数当作量产打印精度承诺。
+- 额外对 I=7000 mm⁴ 的等效悬臂梁做了三维六面体线弹性有限元网格收敛；最细网格与 Euler–Bernoulli 相差 2.4%，仅验证梁公式与 FE 流程。
+- 未运行完整三维装配碰撞、整机/铰链有限元、多体动力学、计算流体或实机恢复打印；不得把挠度与误差百分位数当作量产打印精度承诺。
 
 ## 2. 统一模型与评价契约
 
@@ -17,6 +18,7 @@
 - 系统边界：非箱体/外托架方案在运输态加入 200×200 mm 料盘、电源与工具包络；F06/F11/F14 的柜体/箱体已包含附件。报告同时保留裸机芯与运输系统两种体积比。
 - 硬约束：轨迹无穿透、装配可达、180 mm 工作空间、运输系统收纳体积比 ≤0.800；伸缩重叠率 ≥25%；抽屉线缆动态弯曲半径 ≥35 mm。
 - L2：重力矩、驱动几何增益、Euler–Bernoulli 降阶梁、线性化锁点接触刚度、独立矩形间隙/基准座误差蒙特卡洛。锁紧刚度和材料参数均为未标定假设。
+- L3（局部）：scikit-fem 三维六面体线弹性等效悬臂梁，网格 20/40/80/160 单元收敛；不是 T-slot 空心截面、铰链、整机或塑性/屈曲/疲劳分析。
 - 优化：NSGA-II，32 个体×20 代/可变方案，固定随机种子；目标为收纳、重复定位代理、挠度、成本。另以 48 点拉丁超立方/可变方案计算 Spearman 秩相关。
 
 ## 3. 全方案名义参数结果
@@ -48,6 +50,8 @@
 - `results/optimization_raw.json` 保存末代非支配/最小不可行解、约束、随机种子和逐代历史；没有为固定拓扑失败方案伪造可行解。
 - 本次优化无可行解的候选：F02、F04、F05、F06、F09、F10、F11、F13、F14。这些候选保留 `least_infeasible` 参数与约束违反度，不能进入推荐。
 - 选择阶段对归一化权重进行 100 次扰动，记录各候选进入前三的频率，并要求推荐方案来自不同机构族。
+- 名义 15 套在 201/501/1001 姿态下通过状态全部稳定；优化候选 F07/F08/F12/SCZ 在最高 5001 姿态下仍全部通过且最大穿透为 0 mm²。离散采样不等同连续扫掠证明。
+- 等效梁 FEA 最细网格 160×4×4 单元、12075 自由度，端部挠度 0.2783 mm，对 Euler–Bernoulli 的相对差 -2.43%。
 
 | 候选 | 权重扰动前三频率 | 基线分数（越小越好） | 候选间 Pareto |
 |---|---:|---:|---|
@@ -86,14 +90,34 @@
 - 模型假设：三级嵌套，完整展开后分级独立锁紧；仅工作位保证打印行程。
 - 概念 CAD：`cad/F12/`（STEP 为概念装配，不是可直接加工图）。
 
-## 6. 推荐 CAD 的实际检查
+## 6. 第三项选择：探索型 SCZ + 工程备选 F08
+
+F07 与 F12 已覆盖根部翻折和伸缩两类。第三项不按单纯通过概率选择，否则只会重复根部翻折；本阶段按“独立机构证据增益”选 SCZ，按“最可能通过”保留 F08 为备选。
+
+| 选项 | 定位 | 5001姿态 | 前三频率 | 收纳比 | P95 mm | 成本 CNY | 主要问题 |
+|---|---|---|---:|---:|---:|---:|---|
+| SCZ | 探索型第三项 | 通过 | 0% | 0.4703 | 0.893 | 850 | 低位力比、回差、同步、非线性 Z |
+| F08 | 工程备选 | 通过 | 100% | 0.5175 | 0.656 | 337 | 与 F07 同族冗余，偏置铰链刚度 |
+
+- SCZ 靶参数：`arm_length_mm=153, height_fold_mm=45`；模型驱动峰值 105.7 N，仅是几何/效率模型，不是电机选型值。
+- 决策与测试门槛：[verification/THIRD_OPTION_DECISION.md](verification/THIRD_OPTION_DECISION.md)、[verification/PHYSICAL_VALIDATION_PLAN.md](verification/PHYSICAL_VALIDATION_PLAN.md)。
+- 材料与工具估算：SCZ 样机 **1538–3020 CNY**；F08 备选 **870–1650 CNY**；共用测试装备 **1770–4700 CNY**。均为概念估算，不是报价。
+- 具体 BOM：[verification/third_option_bom.csv](verification/third_option_bom.csv)；摘要：[verification/BOM_SUMMARY.md](verification/BOM_SUMMARY.md)。
+
+## 7. 推荐 CAD 与第三项 CAD 的实际检查
 
 - F07 STEP：385.0×347.0×110.0 mm，3 个有效实体；F12 STEP：315.0×347.0×178.6 mm，2 个有效实体。独立 `facts` 与 2/2 几何量规通过。
-- 已逐张读取六视图快照：可见底座、热床与折叠/伸缩立柱等概念实体及其相对位置；没有铰链孔、槽轨、定位销或锁点细节。这些 STEP 仅是参数化概念装配，不是加工就绪零件。
+- 第三项/备选 CAD：SCZ 315.0×347.0×105.0 mm、2 个实体；F08 650.0×347.0×60.0 mm、3 个实体；两者均通过独立 2/2 几何量规。
+- 已逐张读取六视图快照：可见底座、热床、折叠/伸缩立柱、剪刀臂与上框架等概念实体及其相对位置；没有销轴孔、轴承座、锁点或线缆细节。这些 STEP 仅是参数化概念装配，不是加工就绪零件。
 - 已复用并实测读取 FoldaRap 上游铰链 CAD：内件 23×28×48 mm、外件 35×69×46 mm，均为单一有效实体；孔系数据与六视图保存在 `cad/reference/`。可见导槽、夹持结构和安装孔，作为 F07 后续关节细化参考；未在未知装配变换下硬拼入概念装配。
 - 所有型材槽宽、转轴、锁点和配合公差均为未核验接口；先制造配合试片并实测，再细化关节 CAD。
 
-## 7. 实测建议与停止条件
+## 8. 第三项实物验证准备
+
+- 完整方案：[verification/PHYSICAL_VALIDATION_PLAN.md](verification/PHYSICAL_VALIDATION_PLAN.md)；材料：[verification/third_option_bom.csv](verification/third_option_bom.csv)；成本摘要：[verification/BOM_SUMMARY.md](verification/BOM_SUMMARY.md)。
+- 试验顺序固定为：原机基线 → 关节试片 → 空载 SCZ 台架 → 分级静载 → 20 次重复定位 → 200 次锁紧 → 驱动与非线性 Z 映射 → 整机打印。
+- 临时门槛：20 次展开 P95 ≤1.0 mm、最大 ≤2.0 mm；30 N 锁紧滑移 ≤0.05 mm；10 N 端部挠度 ≤0.50 mm；双向回差 ≤0.10 mm；未锁定不得运动/加热。
+- 材料采购必须先核对型材槽宽、轴承/肩轴实测尺寸、热床与工具头接口；打印件只用于试片，不承担正式承力路径。
 
 1. 先冻结实机和全部接口：型材槽宽/螺母、转轴、锁点、热床、工具头、线缆、料盘、电源、重心和附件尺寸；当前这些接口均未被标准或供应商图纸核验。
 2. 加工关键关节试片而非整机：CNC 铝合金或合适金属承力件用于正式样机；FDM 件只作装配试片。先做配合试片，记录实际间隙后回写模型。
@@ -103,12 +127,14 @@
 6. 家族专项：伸缩方案增加热床辐射下卡滞/预紧测试；剪刀方案测全行程双向回差、左右同步和低位失步；抽屉方案测 35 mm 弯曲半径下线缆疲劳；外部托架测倾覆与失电防坠。
 7. 若关键接口实测后轨迹穿透、工作空间不足、20 次展开误差超过原机冻结阈值或锁紧不能独立承载，则停止该路线，不用增加电机掩盖机构失败。
 
-## 8. 交付文件与复现
+## 9. 交付文件与复现
 
 - 参数：`config/candidates.json`；代码：`src/foldsim/` 与 `scripts/`；测试：`tests/`。
 - 初筛：`results/screening_summary.*`、`results/traces/`；深化：`deep_summary.*` 与 `repeatability_samples/*.npz`。
 - 扫描/优化：`sensitivity_*`、`optimization_*`、`weight_sensitivity.csv`、`selection.json`。
-- 图：`figures/`（PNG/SVG 与来源清单）；动画：`animations/*_fold.gif`（每套 21 个真实求值姿态）。
+- 补充验证：`results/convergence_validation.json`、`results/beam_fea.json`、`results/third_option_analysis.json`。
+- 图：`figures/`（PNG/SVG 与来源清单，含 `fea_convergence` 与 `third_option_comparison`）；动画：`animations/*_fold.gif`（每套 21 个真实求值姿态）。
+- 实物准备：`verification/THIRD_OPTION_DECISION.md`、`PHYSICAL_VALIDATION_PLAN.md`、`third_option_bom.csv`、`BOM_SUMMARY.md`、空白 `physical_test_log.csv`。
 - 从仓库根目录运行：
 
 ```bash
@@ -119,7 +145,10 @@ bash simulation/uv_run.sh scripts/run_deepening.py
 bash simulation/uv_run.sh scripts/run_optimization.py
 bash simulation/uv_run.sh scripts/run_sensitivity.py
 bash simulation/uv_run.sh scripts/select_recommendations.py
+bash simulation/uv_run.sh scripts/validate_convergence.py
+bash simulation/uv_run.sh scripts/select_third_option.py
 bash simulation/uv_run.sh scripts/generate_figures.py
+bash simulation/uv_run.sh scripts/run_beam_fea.py
 bash simulation/uv_run.sh scripts/generate_cad.py
 bash simulation/uv_run.sh scripts/record_environment.py
 bash simulation/uv_run.sh scripts/generate_report.py
@@ -128,7 +157,7 @@ bash simulation/uv_run.sh scripts/validate_deliverables.py
 
 实际依赖版本见 `results/environment.json`。`uv_run.sh` 使用本机 uv 缓存隔离环境，不需要把 `.venv` 放入云端仓库。
 
-## 9. 参考资料
+## 10. 参考资料
 
 - 本仓库 `docs/planning/虚拟端可行性验证准备.md`、`docs/research/折叠方向补充案例.md`、`docs/research/可折叠3D打印机_案例与现有做法.md`。
 - Kassis, T., Agarwal, V., He, Y., Patel, D., & Brueckner, A. M. (2026). *Scientific Agent Skills: A Library of Procedural Knowledge for Research Agents*. arXiv:2609.00065. https://doi.org/10.48550/arXiv.2609.00065

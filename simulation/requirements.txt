@@ -13,3 +13,4 @@ imageio-ffmpeg>=0.5
 pyDOE3>=1.0
 pint>=0.24
 uncertainties>=3.2
+scikit-fem>=11

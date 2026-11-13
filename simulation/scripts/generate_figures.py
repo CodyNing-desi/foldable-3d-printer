@@ -141,6 +141,28 @@ def sensitivity_figure(sensitivity):
     _save(fig, "sensitivity_storage_heatmap")
 
 
+def third_option_figure():
+    with (RESULTS / "third_option_analysis.json").open(encoding="utf-8") as handle:
+        third = json.load(handle)
+    scores = third["weighted_scores"]
+    criteria = ["engineering", "information"]
+    labels = ["工程通过优先", "独立证据优先"]
+    fig, ax = plt.subplots(figsize=(8, 5), layout="constrained")
+    x = np.arange(len(criteria))
+    for offset, (candidate_id, color) in zip((-0.2, 0.2), (("F08", COLORS["blue"]), ("SCZ", COLORS["orange"]))):
+        values = [scores[criterion][candidate_id] for criterion in criteria]
+        bars = ax.bar(x + offset, values, width=0.36, color=color, label=candidate_id)
+        for bar, value in zip(bars, values):
+            ax.text(bar.get_x() + bar.get_width() / 2, value + 0.02, f"{value:.2f}", ha="center", fontsize=9)
+    ax.set_xticks(x, labels)
+    ax.set_ylim(0, 1.0)
+    ax.set_ylabel("加权失分（越低越好）")
+    ax.set_title("第三项决策分数｜F08 更稳，SCZ 提供独立机构证据")
+    ax.legend(title="第三项候选")
+    ax.grid(axis="y", alpha=0.2)
+    _save(fig, "third_option_comparison")
+
+
 def motion_outputs(candidates):
     contact_rows = 5
     fig, axes = plt.subplots(contact_rows, 6, figsize=(18, 15), layout="constrained")
@@ -181,6 +203,7 @@ def main():
     deep_figure(deep)
     optimization_figure(optimization)
     sensitivity_figure(sensitivity)
+    third_option_figure()
     candidates = load_candidates(SIMULATION_DIR / "config" / "candidates.json")
     motion_outputs(candidates)
     manifest = {
@@ -190,6 +213,7 @@ def main():
         "transformations": ["declared pass/fail grouping", "feasible-only Pareto plot", "Spearman rank correlation"],
         "missing_data": "empty cells mean not applicable; no observations are connected across missing values",
         "color_encoding": "color is redundant with labels, markers, hatching and direct candidate IDs",
+        "third_option_comparison": "min-max scores within only F08 and SCZ; raw values remain in results/third_option_analysis.json",
         "animations": "21 actual evaluated states per candidate; GIF is a visualization of L1 geometry, not physical video",
     }
     with (FIGURES / "figure_manifest.json").open("w", encoding="utf-8") as handle:

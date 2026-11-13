@@ -18,8 +18,8 @@ def interfaces() -> list[dict]:
 def checks() -> list[dict]:
     min_x, min_z, max_x, max_z = EXPECTED_BOUNDS_MM
     return [
-        {"feature": "expected folded X extent", "bbox_x": {"min": min_x - 0.1, "max": max_x + 0.1}},
-        {"feature": "expected folded Z extent", "bbox_z": {"min": min_z - 0.1, "max": max_z + 0.1}},
+        {"feature": "expected folded X span", "bbox_x": {"min": 0.0, "max": max_x - min_x + 0.1}},
+        {"feature": "expected folded Z span", "bbox_z": {"min": 0.0, "max": max_z - min_z + 0.1}},
     ]
 
 

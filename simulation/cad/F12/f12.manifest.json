@@ -1,9 +1,10 @@
 {
   "id": "F12",
+  "role": "recommended",
   "parameters": {
     "overlap_mm": 65.34050206952026
   },
-  "source_sha256": "0bff0219c67527dc1e0e7d54a7a050df1dbd6bbdc8859d34f4a73f23ad11e06a",
+  "source_sha256": "e11337b66a7ccd319efca7e90c91364fb3de977f43a0b5fac822a447a03475e2",
   "is_valid": true,
   "solid_count": 2,
   "volume_mm3": 2960948.264,

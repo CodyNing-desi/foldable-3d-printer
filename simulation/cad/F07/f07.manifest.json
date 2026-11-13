@@ -1,10 +1,11 @@
 {
   "id": "F07",
+  "role": "recommended",
   "parameters": {
     "lift_mm": 80.00004520634599,
     "shift_x_mm": -0.0004690842754385277
   },
-  "source_sha256": "7935e6fe9af3d66c64c8252f8a937b9d2c7070eb9dded0b84f31693ec641c62e",
+  "source_sha256": "3b03f9e53c2c4e9102f4cbf4595dfaeda9e17c6557e517b319c4ce7bf7e26f0a",
   "is_valid": true,
   "solid_count": 3,
   "volume_mm3": 3110100.0,

@@ -57,8 +57,8 @@ def interfaces() -> list[dict]:
 def checks() -> list[dict]:
     min_x, min_z, max_x, max_z = EXPECTED_BOUNDS_MM
     return [
-        {{"feature": "expected folded X extent", "bbox_x": {{"min": min_x - 0.1, "max": max_x + 0.1}}}},
-        {{"feature": "expected folded Z extent", "bbox_z": {{"min": min_z - 0.1, "max": max_z + 0.1}}}},
+        {{"feature": "expected folded X span", "bbox_x": {{"min": 0.0, "max": max_x - min_x + 0.1}}}},
+        {{"feature": "expected folded Z span", "bbox_z": {{"min": 0.0, "max": max_z - min_z + 0.1}}}},
     ]
 
 
@@ -77,12 +77,23 @@ def build() -> Part:
 def main():
     with (RESULTS / "selection.json").open(encoding="utf-8") as handle:
         selection = json.load(handle)
+    third_path = RESULTS / "third_option_analysis.json"
+    entries = [
+        (recommendation["id"], recommendation["parameters"], "recommended")
+        for recommendation in selection["recommendations"]
+    ]
+    if third_path.is_file():
+        with third_path.open(encoding="utf-8") as handle:
+            third = json.load(handle)
+        entries.append((third["selected_third_option"], third["selected"]["parameters"], "third_exploratory"))
+        if third["fallback_option"] != third["selected_third_option"]:
+            fallback = next(row for row in third["candidate_metrics"] if row["id"] == third["fallback_option"])
+            entries.append((fallback["id"], fallback["parameters"], "third_fallback"))
     candidates = load_candidates(SIMULATION_DIR / "config" / "candidates.json")
     manifest = []
-    for recommendation in selection["recommendations"]:
-        candidate_id = recommendation["id"]
+    for candidate_id, parameters, role in entries:
         spec = candidates[candidate_id]
-        evaluated = evaluate_candidate(spec, parameters=recommendation["parameters"], steps=31)
+        evaluated = evaluate_candidate(spec, parameters=parameters, steps=31)
         state = evaluated["trace"][-1]
         shapes = []
         for name, geometry in list(state["fixed"].items()) + list(state["moving"].items()):
@@ -112,7 +123,8 @@ def main():
         bbox = part.bounding_box()
         record = {
             "id": candidate_id,
-            "parameters": recommendation["parameters"],
+            "role": role,
+            "parameters": parameters,
             "source_sha256": hashlib.sha256(source.encode("utf-8")).hexdigest(),
             "is_valid": part.is_valid,
             "solid_count": len(part.solids()),

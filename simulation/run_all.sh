@@ -9,7 +9,10 @@ bash uv_run.sh scripts/run_deepening.py --samples 10000
 bash uv_run.sh scripts/run_optimization.py --pop-size 32 --generations 20
 bash uv_run.sh scripts/run_sensitivity.py --samples 48
 bash uv_run.sh scripts/select_recommendations.py
+bash uv_run.sh scripts/validate_convergence.py
+bash uv_run.sh scripts/select_third_option.py
 bash uv_run.sh scripts/generate_figures.py
+bash uv_run.sh scripts/run_beam_fea.py
 bash uv_run.sh scripts/generate_cad.py
 bash uv_run.sh scripts/record_environment.py
 bash uv_run.sh scripts/generate_report.py

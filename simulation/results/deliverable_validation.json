@@ -1,6 +1,6 @@
 {
   "passed": true,
-  "check_count": 102,
+  "check_count": 136,
   "checks": [
     {
       "name": "15 candidates",
@@ -194,6 +194,39 @@
       ]
     },
     {
+      "name": "all nominal pass/fail states stable to 1001 states",
+      "passed": true,
+      "evidence": 15
+    },
+    {
+      "name": "all optimized watchlist pass 5001 states",
+      "passed": true,
+      "evidence": []
+    },
+    {
+      "name": "third option is SCZ and fallback is F08",
+      "passed": true,
+      "evidence": [
+        "SCZ",
+        "F08"
+      ]
+    },
+    {
+      "name": "third option passes 5001 states",
+      "passed": true,
+      "evidence": 0.0
+    },
+    {
+      "name": "beam FEA finest relative error below 3 percent",
+      "passed": true,
+      "evidence": -0.024349246551239923
+    },
+    {
+      "name": "beam FEA records local-only limitation",
+      "passed": true,
+      "evidence": "Equivalent solid rectangular cantilever with I=7000 mm^4; this validates the reduced beam formula and FE workflow, not the T-slot profile, joint stiffness, full-frame load path, plasticity, buckling, fatigue, or physical printer accuracy."
+    },
+    {
       "name": "15 folding GIFs",
       "passed": true,
       "evidence": 15
@@ -324,17 +357,52 @@
       "evidence": "svg"
     },
     {
-      "name": "F07 valid STEP with at least two solids",
+      "name": "fea_convergence.png exists",
+      "passed": true,
+      "evidence": "png"
+    },
+    {
+      "name": "fea_convergence.svg exists",
+      "passed": true,
+      "evidence": "svg"
+    },
+    {
+      "name": "third_option_comparison.png exists",
+      "passed": true,
+      "evidence": "png"
+    },
+    {
+      "name": "third_option_comparison.svg exists",
+      "passed": true,
+      "evidence": "svg"
+    },
+    {
+      "name": "F08 valid STEP with at least two solids",
       "passed": true,
       "evidence": 3
     },
     {
-      "name": "F07 STEP and STL exist",
+      "name": "F08 STEP and STL exist",
       "passed": true,
       "evidence": true
     },
     {
-      "name": "F07 snapshot exists",
+      "name": "F08 snapshot exists",
+      "passed": true,
+      "evidence": true
+    },
+    {
+      "name": "SCZ valid STEP with at least two solids",
+      "passed": true,
+      "evidence": 2
+    },
+    {
+      "name": "SCZ STEP and STL exist",
+      "passed": true,
+      "evidence": true
+    },
+    {
+      "name": "SCZ snapshot exists",
       "passed": true,
       "evidence": true
     },
@@ -350,6 +418,21 @@
     },
     {
       "name": "F12 snapshot exists",
+      "passed": true,
+      "evidence": true
+    },
+    {
+      "name": "F07 valid STEP with at least two solids",
+      "passed": true,
+      "evidence": 3
+    },
+    {
+      "name": "F07 STEP and STL exist",
+      "passed": true,
+      "evidence": true
+    },
+    {
+      "name": "F07 snapshot exists",
       "passed": true,
       "evidence": true
     },
@@ -397,6 +480,21 @@
       "name": "syntax selection.py",
       "passed": true,
       "evidence": "src\\foldsim\\selection.py"
+    },
+    {
+      "name": "syntax convergence.py",
+      "passed": true,
+      "evidence": "src\\foldsim\\convergence.py"
+    },
+    {
+      "name": "syntax fea.py",
+      "passed": true,
+      "evidence": "src\\foldsim\\fea.py"
+    },
+    {
+      "name": "syntax third_option.py",
+      "passed": true,
+      "evidence": "src\\foldsim\\third_option.py"
     },
     {
       "name": "syntax run_screening.py",
@@ -454,6 +552,21 @@
       "evidence": "scripts\\validate_deliverables.py"
     },
     {
+      "name": "syntax validate_convergence.py",
+      "passed": true,
+      "evidence": "scripts\\validate_convergence.py"
+    },
+    {
+      "name": "syntax run_beam_fea.py",
+      "passed": true,
+      "evidence": "scripts\\run_beam_fea.py"
+    },
+    {
+      "name": "syntax select_third_option.py",
+      "passed": true,
+      "evidence": "scripts\\select_third_option.py"
+    },
+    {
       "name": "syntax test_mechanisms.py",
       "passed": true,
       "evidence": "tests\\test_mechanisms.py"
@@ -484,12 +597,42 @@
       "evidence": "tests\\test_review_regressions.py"
     },
     {
+      "name": "syntax test_convergence.py",
+      "passed": true,
+      "evidence": "tests\\test_convergence.py"
+    },
+    {
+      "name": "syntax test_fea.py",
+      "passed": true,
+      "evidence": "tests\\test_fea.py"
+    },
+    {
+      "name": "syntax test_third_option.py",
+      "passed": true,
+      "evidence": "tests\\test_third_option.py"
+    },
+    {
+      "name": "syntax test_verification_docs.py",
+      "passed": true,
+      "evidence": "tests\\test_verification_docs.py"
+    },
+    {
       "name": "report states not physical validation",
       "passed": true,
       "evidence": true
     },
     {
       "name": "report has CAD visual limitations",
+      "passed": true,
+      "evidence": true
+    },
+    {
+      "name": "report includes third option and physical plan",
+      "passed": true,
+      "evidence": true
+    },
+    {
+      "name": "report includes material BOM",
       "passed": true,
       "evidence": true
     },
@@ -517,6 +660,48 @@
       "name": "hinge-outer upstream snapshot exists",
       "passed": true,
       "evidence": true
+    },
+    {
+      "name": "physical BOM has at least 40 rows",
+      "passed": true,
+      "evidence": 48
+    },
+    {
+      "name": "BOM covers SCZ and F08",
+      "passed": true,
+      "evidence": [
+        "CONSUMABLE",
+        "F08_mechanical",
+        "F08_reuse",
+        "METROLOGY",
+        "SAFETY",
+        "SCZ_drive",
+        "SCZ_fasteners",
+        "SCZ_lock",
+        "SCZ_mechanical",
+        "SCZ_reuse",
+        "SCZ_structure"
+      ]
+    },
+    {
+      "name": "BOM SCZ low subtotal matches summary",
+      "passed": true,
+      "evidence": 1538.0
+    },
+    {
+      "name": "third-option decision document exists",
+      "passed": true,
+      "evidence": true
+    },
+    {
+      "name": "physical validation plan exists",
+      "passed": true,
+      "evidence": true
+    },
+    {
+      "name": "physical test log has required traceability header",
+      "passed": true,
+      "evidence": "test_id,date,option,prototype_version,joint_id,condition,metric,value,unit,instrument_id,instrument_resolution,calibration_status,operator,pass_fail,photo_video_path,notes"
     },
     {
       "name": "environment recorded",

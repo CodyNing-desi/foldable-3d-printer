@@ -20,4 +20,5 @@ uv run --isolated --no-project --python 3.13 \
   --with "pyDOE3>=1.0" \
   --with "pint>=0.24" \
   --with "uncertainties>=3.2" \
+  --with "scikit-fem>=11" \
   python "$@"

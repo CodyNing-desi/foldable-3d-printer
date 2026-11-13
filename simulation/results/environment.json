@@ -1,7 +1,7 @@
 {
   "python": "3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)]",
   "platform": "Windows-11-10.0.26100-SP0",
-  "source_commit_base": "9191ba9f7f83462014e77a7489a9e0b361bbff0f",
+  "source_commit_base": "390c30ee25885c11e2718f62a4d01da7d5aae23f",
   "working_tree_dirty_at_run": true,
   "master_seed": 20261113,
   "packages": {
@@ -20,6 +20,7 @@
     "pyDOE3": "1.6.2",
     "pint": "0.26.2",
     "uncertainties": "3.2.3",
+    "scikit-fem": "12.0.2",
     "cadquery-ocp-novtk": "7.9.3.1.1"
   },
   "not_available": {
