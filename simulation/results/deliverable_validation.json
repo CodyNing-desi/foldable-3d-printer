@@ -1,0 +1,527 @@
+{
+  "passed": true,
+  "check_count": 102,
+  "checks": [
+    {
+      "name": "15 candidates",
+      "passed": true,
+      "evidence": 15
+    },
+    {
+      "name": "four nominal passes after review corrections",
+      "passed": true,
+      "evidence": [
+        "F07",
+        "F08",
+        "F12",
+        "SCZ"
+      ]
+    },
+    {
+      "name": "15 trace files",
+      "passed": true,
+      "evidence": 15
+    },
+    {
+      "name": "F01 has 201 states",
+      "passed": true,
+      "evidence": 201
+    },
+    {
+      "name": "F02 has 201 states",
+      "passed": true,
+      "evidence": 201
+    },
+    {
+      "name": "F03 has 201 states",
+      "passed": true,
+      "evidence": 201
+    },
+    {
+      "name": "F04 has 201 states",
+      "passed": true,
+      "evidence": 201
+    },
+    {
+      "name": "F05 has 201 states",
+      "passed": true,
+      "evidence": 201
+    },
+    {
+      "name": "F06 has 201 states",
+      "passed": true,
+      "evidence": 201
+    },
+    {
+      "name": "F07 has 201 states",
+      "passed": true,
+      "evidence": 201
+    },
+    {
+      "name": "F08 has 201 states",
+      "passed": true,
+      "evidence": 201
+    },
+    {
+      "name": "F09 has 201 states",
+      "passed": true,
+      "evidence": 201
+    },
+    {
+      "name": "F10 has 201 states",
+      "passed": true,
+      "evidence": 201
+    },
+    {
+      "name": "F11 has 201 states",
+      "passed": true,
+      "evidence": 201
+    },
+    {
+      "name": "F12 has 201 states",
+      "passed": true,
+      "evidence": 201
+    },
+    {
+      "name": "F13 has 201 states",
+      "passed": true,
+      "evidence": 201
+    },
+    {
+      "name": "F14 has 201 states",
+      "passed": true,
+      "evidence": 201
+    },
+    {
+      "name": "SCZ has 201 states",
+      "passed": true,
+      "evidence": 201
+    },
+    {
+      "name": "15 raw Monte Carlo files",
+      "passed": true,
+      "evidence": 15
+    },
+    {
+      "name": "F01 has 10000 raw samples",
+      "passed": true,
+      "evidence": 10000
+    },
+    {
+      "name": "F02 has 10000 raw samples",
+      "passed": true,
+      "evidence": 10000
+    },
+    {
+      "name": "F03 has 10000 raw samples",
+      "passed": true,
+      "evidence": 10000
+    },
+    {
+      "name": "F04 has 10000 raw samples",
+      "passed": true,
+      "evidence": 10000
+    },
+    {
+      "name": "F05 has 10000 raw samples",
+      "passed": true,
+      "evidence": 10000
+    },
+    {
+      "name": "F06 has 10000 raw samples",
+      "passed": true,
+      "evidence": 10000
+    },
+    {
+      "name": "F07 has 10000 raw samples",
+      "passed": true,
+      "evidence": 10000
+    },
+    {
+      "name": "F08 has 10000 raw samples",
+      "passed": true,
+      "evidence": 10000
+    },
+    {
+      "name": "F09 has 10000 raw samples",
+      "passed": true,
+      "evidence": 10000
+    },
+    {
+      "name": "F10 has 10000 raw samples",
+      "passed": true,
+      "evidence": 10000
+    },
+    {
+      "name": "F11 has 10000 raw samples",
+      "passed": true,
+      "evidence": 10000
+    },
+    {
+      "name": "F12 has 10000 raw samples",
+      "passed": true,
+      "evidence": 10000
+    },
+    {
+      "name": "F13 has 10000 raw samples",
+      "passed": true,
+      "evidence": 10000
+    },
+    {
+      "name": "F14 has 10000 raw samples",
+      "passed": true,
+      "evidence": 10000
+    },
+    {
+      "name": "SCZ has 10000 raw samples",
+      "passed": true,
+      "evidence": 10000
+    },
+    {
+      "name": "two diverse robust recommendations",
+      "passed": true,
+      "evidence": [
+        "F07",
+        "F12"
+      ]
+    },
+    {
+      "name": "recommendations exceed 80 percent robust frequency",
+      "passed": true,
+      "evidence": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "15 folding GIFs",
+      "passed": true,
+      "evidence": 15
+    },
+    {
+      "name": "F01_fold has 21 frames",
+      "passed": true,
+      "evidence": 21
+    },
+    {
+      "name": "F02_fold has 21 frames",
+      "passed": true,
+      "evidence": 21
+    },
+    {
+      "name": "F03_fold has 21 frames",
+      "passed": true,
+      "evidence": 21
+    },
+    {
+      "name": "F04_fold has 21 frames",
+      "passed": true,
+      "evidence": 21
+    },
+    {
+      "name": "F05_fold has 21 frames",
+      "passed": true,
+      "evidence": 21
+    },
+    {
+      "name": "F06_fold has 21 frames",
+      "passed": true,
+      "evidence": 21
+    },
+    {
+      "name": "F07_fold has 21 frames",
+      "passed": true,
+      "evidence": 21
+    },
+    {
+      "name": "F08_fold has 21 frames",
+      "passed": true,
+      "evidence": 21
+    },
+    {
+      "name": "F09_fold has 21 frames",
+      "passed": true,
+      "evidence": 21
+    },
+    {
+      "name": "F10_fold has 21 frames",
+      "passed": true,
+      "evidence": 21
+    },
+    {
+      "name": "F11_fold has 21 frames",
+      "passed": true,
+      "evidence": 21
+    },
+    {
+      "name": "F12_fold has 21 frames",
+      "passed": true,
+      "evidence": 21
+    },
+    {
+      "name": "F13_fold has 21 frames",
+      "passed": true,
+      "evidence": 21
+    },
+    {
+      "name": "F14_fold has 21 frames",
+      "passed": true,
+      "evidence": 21
+    },
+    {
+      "name": "SCZ_fold has 21 frames",
+      "passed": true,
+      "evidence": 21
+    },
+    {
+      "name": "screening_storage_comparison.png exists",
+      "passed": true,
+      "evidence": "png"
+    },
+    {
+      "name": "screening_storage_comparison.svg exists",
+      "passed": true,
+      "evidence": "svg"
+    },
+    {
+      "name": "deep_tradeoff.png exists",
+      "passed": true,
+      "evidence": "png"
+    },
+    {
+      "name": "deep_tradeoff.svg exists",
+      "passed": true,
+      "evidence": "svg"
+    },
+    {
+      "name": "optimization_pareto.png exists",
+      "passed": true,
+      "evidence": "png"
+    },
+    {
+      "name": "optimization_pareto.svg exists",
+      "passed": true,
+      "evidence": "svg"
+    },
+    {
+      "name": "sensitivity_storage_heatmap.png exists",
+      "passed": true,
+      "evidence": "png"
+    },
+    {
+      "name": "sensitivity_storage_heatmap.svg exists",
+      "passed": true,
+      "evidence": "svg"
+    },
+    {
+      "name": "all_candidates_work_and_folded.png exists",
+      "passed": true,
+      "evidence": "png"
+    },
+    {
+      "name": "all_candidates_work_and_folded.svg exists",
+      "passed": true,
+      "evidence": "svg"
+    },
+    {
+      "name": "F07 valid STEP with at least two solids",
+      "passed": true,
+      "evidence": 3
+    },
+    {
+      "name": "F07 STEP and STL exist",
+      "passed": true,
+      "evidence": true
+    },
+    {
+      "name": "F07 snapshot exists",
+      "passed": true,
+      "evidence": true
+    },
+    {
+      "name": "F12 valid STEP with at least two solids",
+      "passed": true,
+      "evidence": 2
+    },
+    {
+      "name": "F12 STEP and STL exist",
+      "passed": true,
+      "evidence": true
+    },
+    {
+      "name": "F12 snapshot exists",
+      "passed": true,
+      "evidence": true
+    },
+    {
+      "name": "syntax sitecustomize.py",
+      "passed": true,
+      "evidence": "src\\sitecustomize.py"
+    },
+    {
+      "name": "syntax registry.py",
+      "passed": true,
+      "evidence": "src\\foldsim\\registry.py"
+    },
+    {
+      "name": "syntax mechanisms.py",
+      "passed": true,
+      "evidence": "src\\foldsim\\mechanisms.py"
+    },
+    {
+      "name": "syntax evaluate.py",
+      "passed": true,
+      "evidence": "src\\foldsim\\evaluate.py"
+    },
+    {
+      "name": "syntax __init__.py",
+      "passed": true,
+      "evidence": "src\\foldsim\\__init__.py"
+    },
+    {
+      "name": "syntax metrics.py",
+      "passed": true,
+      "evidence": "src\\foldsim\\metrics.py"
+    },
+    {
+      "name": "syntax optimize.py",
+      "passed": true,
+      "evidence": "src\\foldsim\\optimize.py"
+    },
+    {
+      "name": "syntax sensitivity.py",
+      "passed": true,
+      "evidence": "src\\foldsim\\sensitivity.py"
+    },
+    {
+      "name": "syntax selection.py",
+      "passed": true,
+      "evidence": "src\\foldsim\\selection.py"
+    },
+    {
+      "name": "syntax run_screening.py",
+      "passed": true,
+      "evidence": "scripts\\run_screening.py"
+    },
+    {
+      "name": "syntax run_deepening.py",
+      "passed": true,
+      "evidence": "scripts\\run_deepening.py"
+    },
+    {
+      "name": "syntax run_optimization.py",
+      "passed": true,
+      "evidence": "scripts\\run_optimization.py"
+    },
+    {
+      "name": "syntax run_sensitivity.py",
+      "passed": true,
+      "evidence": "scripts\\run_sensitivity.py"
+    },
+    {
+      "name": "syntax generate_figures.py",
+      "passed": true,
+      "evidence": "scripts\\generate_figures.py"
+    },
+    {
+      "name": "syntax select_recommendations.py",
+      "passed": true,
+      "evidence": "scripts\\select_recommendations.py"
+    },
+    {
+      "name": "syntax generate_report.py",
+      "passed": true,
+      "evidence": "scripts\\generate_report.py"
+    },
+    {
+      "name": "syntax generate_cad.py",
+      "passed": true,
+      "evidence": "scripts\\generate_cad.py"
+    },
+    {
+      "name": "syntax verify_units_and_symbolic.py",
+      "passed": true,
+      "evidence": "scripts\\verify_units_and_symbolic.py"
+    },
+    {
+      "name": "syntax record_environment.py",
+      "passed": true,
+      "evidence": "scripts\\record_environment.py"
+    },
+    {
+      "name": "syntax validate_deliverables.py",
+      "passed": true,
+      "evidence": "scripts\\validate_deliverables.py"
+    },
+    {
+      "name": "syntax test_mechanisms.py",
+      "passed": true,
+      "evidence": "tests\\test_mechanisms.py"
+    },
+    {
+      "name": "syntax test_metrics.py",
+      "passed": true,
+      "evidence": "tests\\test_metrics.py"
+    },
+    {
+      "name": "syntax test_optimization.py",
+      "passed": true,
+      "evidence": "tests\\test_optimization.py"
+    },
+    {
+      "name": "syntax test_sensitivity.py",
+      "passed": true,
+      "evidence": "tests\\test_sensitivity.py"
+    },
+    {
+      "name": "syntax test_selection.py",
+      "passed": true,
+      "evidence": "tests\\test_selection.py"
+    },
+    {
+      "name": "syntax test_review_regressions.py",
+      "passed": true,
+      "evidence": "tests\\test_review_regressions.py"
+    },
+    {
+      "name": "report states not physical validation",
+      "passed": true,
+      "evidence": true
+    },
+    {
+      "name": "report has CAD visual limitations",
+      "passed": true,
+      "evidence": true
+    },
+    {
+      "name": "external unchanged",
+      "passed": true,
+      "evidence": ""
+    },
+    {
+      "name": "hinge-inner upstream STEP valid",
+      "passed": true,
+      "evidence": 1
+    },
+    {
+      "name": "hinge-inner upstream snapshot exists",
+      "passed": true,
+      "evidence": true
+    },
+    {
+      "name": "hinge-outer upstream STEP valid",
+      "passed": true,
+      "evidence": 1
+    },
+    {
+      "name": "hinge-outer upstream snapshot exists",
+      "passed": true,
+      "evidence": true
+    },
+    {
+      "name": "environment recorded",
+      "passed": true,
+      "evidence": true
+    }
+  ]
+}

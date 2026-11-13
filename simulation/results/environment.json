@@ -1,0 +1,30 @@
+{
+  "python": "3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26100-SP0",
+  "source_commit_base": "9191ba9f7f83462014e77a7489a9e0b361bbff0f",
+  "working_tree_dirty_at_run": true,
+  "master_seed": 20261113,
+  "packages": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "sympy": "1.14.0",
+    "pandas": "3.1.1",
+    "matplotlib": "3.11.2",
+    "pymoo": "0.6.1.6",
+    "shapely": "2.2.0",
+    "trimesh": "5.2.1",
+    "build123d": "0.11.1",
+    "pillow": "13.0.0",
+    "imageio": "2.38.1",
+    "imageio-ffmpeg": "0.8.1",
+    "pyDOE3": "1.6.2",
+    "pint": "0.26.2",
+    "uncertainties": "3.2.3",
+    "cadquery-ocp-novtk": "7.9.3.1.1"
+  },
+  "not_available": {
+    "pybullet": "not used: local source build requires unavailable MSVC; no dynamics claim",
+    "CalculiX": "not installed; no 3D FEA claim",
+    "FreeCAD": "not installed; build123d/OpenCascade used instead"
+  }
+}

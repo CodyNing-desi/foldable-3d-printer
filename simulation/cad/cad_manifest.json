@@ -1,0 +1,51 @@
+[
+  {
+    "id": "F07",
+    "parameters": {
+      "lift_mm": 80.00004520634599,
+      "shift_x_mm": -0.0004690842754385277
+    },
+    "source_sha256": "7935e6fe9af3d66c64c8252f8a937b9d2c7070eb9dded0b84f31693ec641c62e",
+    "is_valid": true,
+    "solid_count": 3,
+    "volume_mm3": 3110100.0,
+    "bbox_mm": [
+      0.0,
+      -347.0,
+      0.0,
+      384.99953,
+      0.0,
+      110.00005
+    ],
+    "interfaces": "all custom and unchecked; no vendor or measured interface claimed",
+    "files": [
+      "f07.step",
+      "f07.stl",
+      "f07_model.py"
+    ]
+  },
+  {
+    "id": "F12",
+    "parameters": {
+      "overlap_mm": 65.34050206952026
+    },
+    "source_sha256": "0bff0219c67527dc1e0e7d54a7a050df1dbd6bbdc8859d34f4a73f23ad11e06a",
+    "is_valid": true,
+    "solid_count": 2,
+    "volume_mm3": 2960948.264,
+    "bbox_mm": [
+      0.0,
+      -347.0,
+      0.0,
+      315.0,
+      0.0,
+      178.56033
+    ],
+    "interfaces": "all custom and unchecked; no vendor or measured interface claimed",
+    "files": [
+      "f12.step",
+      "f12.stl",
+      "f12_model.py"
+    ]
+  }
+]

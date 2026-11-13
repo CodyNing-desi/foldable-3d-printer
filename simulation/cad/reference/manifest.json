@@ -1,0 +1,19 @@
+{
+  "purpose": "Reuse existing FoldaRap hinge CAD as measured geometry reference for later F07 joint detailing; not placed into the concept assembly without a measured transform",
+  "upstream_project": "xoan/FoldaRap (MIT)",
+  "upstream_commit": "eaef302dd42ba4b994caa863a3b8f0edb2c05b67",
+  "external_original_modified": false,
+  "files": [
+    {
+      "path": "hinge-inner-left.step",
+      "source_url": "https://raw.githubusercontent.com/CodyNing-desi/foldable-3d-printer/main/external/foldarap-freecad/step/hinge-inner-left.step",
+      "sha256": "36043b42b6e4ca1e238fa57264a78d058f1ca172af65ef3c309c13d315a08f20"
+    },
+    {
+      "path": "hinge-outer-left.step",
+      "source_url": "https://raw.githubusercontent.com/CodyNing-desi/foldable-3d-printer/main/external/foldarap-freecad/step/hinge-outer-left.step",
+      "sha256": "02f25ff8b2e935b4b1bdd2ff53a7deee49dbf8abc6146e54fc51cb7fdbc6b6e6"
+    }
+  ],
+  "interface_warning": "All hinge interfaces remain unchecked against the physical printer; facts and bore census are geometric measurements of the upstream STEP only, not fit validation"
+}
