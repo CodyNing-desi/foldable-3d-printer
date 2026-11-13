@@ -1,0 +1,27 @@
+﻿local_name,project,upstream_url,commit,branch,downloaded,license,license_basis,reference,public_status
+positron,Positron3D/Positron,https://github.com/Positron3D/Positron,75ac17a07e02694e1fc80a3a256ede64cca90e6d,main,2026-11-09,CC-BY-SA-4.0（README声明；PCB例外）,README许可证原文,折叠Z柱、CAD、改装与校准,公开协作库快照
+foldarap,EmmanuelG/Foldarap,https://github.com/EmmanuelG/Foldarap,6cde82f393a76f949fa6395d9ab9ed698a571288,master,2026-11-09,GPL-3.0,GitHub元数据与仓库许可证,折叠RepRap、铰链夹紧与版本演进,公开协作库快照
+foldarapx,EmmanuelG/FoldaRapX,https://github.com/EmmanuelG/FoldaRapX,6eb2c80b51f60e251a5112fc68a298b04a415f99,master,2026-11-09,GPL-3.0,GitHub元数据与仓库许可证,剪刀Z轴与非线性开发记录,公开协作库快照
+x-printer,alpha3141/X_printer,https://github.com/alpha3141/X_printer,8582799fa8a125970485969a4146f449af10ffeb,master,2026-11-09,GPL-3.0,GitHub元数据与LICENSE,剪刀CoreXY CAD；未公开固件源码,公开协作库快照
+portaprusa,cubedparadox/PortaPrusa,https://github.com/cubedparadox/PortaPrusa,d6068a063dbfb504f8b9b48c4cdf243e8210f916,master,2026-11-09,GPL-3.0,GitHub元数据,公文包框架、滑动箱板与锁扣,公开协作库快照
+portabee,romscraj/Portabee,https://github.com/romscraj/Portabee,8fb8097dc44cfe9842b783af969f7cdf4eaf60f8,master,2026-11-09,未找到明确许可证,GitHub元数据未识别,快拆平放与重复校准反例,公开协作库快照
+foldarap-freecad,xoan/FoldaRap,https://github.com/xoan/FoldaRap,eaef302dd42ba4b994caa863a3b8f0edb2c05b67,master,2026-11-09,MIT,GitHub元数据与仓库许可证,FoldaRap的FreeCAD移植,公开协作库快照
+tobeca,pyroboynroses/Tobeca,https://github.com/pyroboynroses/Tobeca,4fb86577cd25914013f93b202616f71b49bbca74,master,2026-11-09,未找到明确许可证,GitHub元数据未识别,箱体集成；排除上游捆绑的旧Arduino IDE安装包,公开协作库快照
+valentia-case-rap,dasaki/valentia,https://github.com/dasaki/valentia,8837b50d15d2ac20d5df59e9a0eba63a054fe10a,master,2026-11-09,未找到明确许可证,GitHub元数据未识别,Case-Rap衍生框架与箱体,公开协作库快照
+mowi-printer,Mowi/MowiPrinter,https://github.com/Mowi/MowiPrinter,bef4e5ac3e8ca2d01220d5169df41dcaabc04d14,master,2026-11-09,未找到明确许可证,GitHub元数据未识别,折平、展开与双材料设想；仍在开发,公开协作库快照
+nomad,technoiris1/nomad,https://github.com/technoiris1/nomad,167e869e8666e4857cba543f08ae5adb407c62f9,main,2026-11-09,MIT,GitHub元数据与LICENSE,伸缩Y导轨、铰链Z罩与手提箱,公开协作库快照
+foldabot,IlliterateChicken/Foldabot,https://github.com/IlliterateChicken/Foldabot,e072004f66443d3ade5d27a526e0670545f8144f,main,2026-11-09,GPL-3.0,GitHub元数据与LICENSE,便携折叠与外置电源；资料较少,公开协作库快照
+elka1,kimented/elka1,https://github.com/kimented/elka1,32025132408d166be1dcaf73c56a7ee0f57b77f8,master,2026-11-09,GPL-3.0,GitHub元数据与LICENSE,免工具折叠、i3兼容与OpenSCAD,公开协作库快照
+foldup,KaiPereira/Foldup-3D-Printer,https://github.com/KaiPereira/Foldup-3D-Printer,1986ed6e07e86022aa3d63997e41e925247bd1a6,main,2026-11-09,未找到明确许可证,GitHub元数据未识别,剪刀交叉悬臂、CAD、BOM与固件起点,公开协作库快照
+klipper,Klipper3d/klipper,https://github.com/Klipper3d/klipper,282db764dc568841837f68af3964762189d2baee,master,2026-11-09,GPL-3.0,GitHub元数据与仓库许可证,自定义运动学、回零与测试框架,公开协作库快照
+fullcontrol,FullControlXYZ/fullcontrol,https://github.com/FullControlXYZ/fullcontrol,588ecfe7551c7c75e6307ddfeac302f563346b4c,master,2026-11-09,GPL-3.0,GitHub元数据与仓库许可证,路径与G-code生成基础,公开协作库快照
+open5x,FreddieHong19/Open5x,https://github.com/FreddieHong19/Open5x,500a786e51447b47e00d2a5ca3dcc938ae542926,main,2026-11-09,MIT,GitHub元数据与仓库许可证,五轴正逆运动学、保形切片与G-code,公开协作库快照
+fractal-cortex,FractalRobotics/Fractal-Cortex,https://github.com/FractalRobotics/Fractal-Cortex,d14de3212ac387bc0813bc4ceea5790ebe91e600,main,2026-11-09,GPL-3.0,GitHub元数据与仓库许可证,多方向五轴切片,公开协作库快照
+positron-config,Positron3D/PositronConfig,https://github.com/Positron3D/PositronConfig,48419c9b58c9ba86a6a87dcfc1e9a2bc62ffc46c,main,2026-11-09,GPL-3.0,LICENSE,Positron Klipper配置、回零与校准,公开协作库快照
+positron-hardware,MotorDynamicsLab/PositronHardware,https://github.com/MotorDynamicsLab/PositronHardware,653e1050e15e4c7aa8d7697c1baa9030862ca243,master,2026-11-09,未找到明确许可证,仓库根目录未见LICENSE,Positron V3.2电控与接口资料,公开协作库快照
+prusa-i3,prusa3d/Original-Prusa-i3,https://github.com/prusa3d/Original-Prusa-i3,529e5ad6892ce3b25015b7cca7f0481b8335a76c,MK3S,2026-11-10,GPL-2.0,GitHub元数据与LICENSE,成熟i3结构、打印件与床面Y轴布置,公开协作库快照
+creality-part-remover,cam-cambridge/creality-part-remover,https://github.com/cam-cambridge/creality-part-remover,71aef4a0088e782c270f366f1890737748bbe9cb,main,2026-11-10,MIT,GitHub元数据与LICENSE,磁吸对接、低温脱附与工具头拖动取件,公开协作库快照
+ender3-auto-removal-gcode,zayn07/Ender-3-Auto-Print-Removal-Gcode-Condensed-,https://github.com/zayn07/Ender-3-Auto-Print-Removal-Gcode-Condensed-,47fbadaff20bba0323c4a1e7c3767e7e3e5f618a,main,2026-11-10,未找到明确许可证,GitHub元数据未识别,Ender 3自动取件首尾G-code示例；仅限参考,公开协作库快照
+voron-trident,VoronDesign/Voron-Trident,https://github.com/VoronDesign/Voron-Trident,7fcb3257a3063225934d9608f82037aa6587d844,main,2026-11-10,GPL-3.0,仓库LICENSE,选择性保存：总装CAD、STEP包、床板工程图、M8P配置与装配手册,公开协作库快照
+teebotmax,EmmanuelAdetutu/TeeBotMax,https://github.com/EmmanuelAdetutu/TeeBotMax,fc349ef35fd0dd2972846b8747b348095ca24886,master,2026-11-12,GPL-3.0（GitHub）／CC-BY-SA-3.0（RepRap页）,两处许可标识不同；保存仓库实际文件并标注冲突,折叠打印件与历史构建资料,公开协作库快照
+teebot-suitcase,EmmanuelAdetutu/TeeBot_Suitcase,https://github.com/EmmanuelAdetutu/TeeBot_Suitcase,2bc9571ba469125b0eb3d6a43e0b8bc7ff6632b0,master,2026-11-12,未找到明确许可证,GitHub元数据未识别,手提箱式折叠结构资料,公开协作库快照

@@ -1,0 +1,20 @@
+id,case,year,status,folding_object,mechanism,deployment_and_calibration,key_risks,source_url,evidence_level
+F01,Positron V3.2,2024,商品化开源套件,Z柱与整机收纳,导向槽铰链折下Z柱；弹簧张紧杆；行星减速Z驱动,卸料并取下玻璃床与部分支架；折叠步骤见官方指南,多次折叠重复定位数据未见公开,https://ldomotion.com/guides/positron-v32---how-to-fold,官方手册+开源仓库
+F02,Fokoos Odin-5 F3,2021,历史量产机；当前销售未核,XZ龙门,底部铰链折下龙门；四螺栓锁定,展开90度后螺栓固定；床面常规调平,不是免工具频繁收纳；铰链与连接刚度,https://3dwithus.com/fokoos-odin-5-f3-review-foldable-3d-printer,实机评测
+F03,FoldaRap,2012,可工作开源机器,XZ龙门,折叠铰链+夹紧消隙；后续皮带或齿条Z驱动,重力Z回零；开发者称重复折叠后可用,铰链晃动与夹具状态影响精度,https://reprap.org/wiki/FoldaRap,项目文档
+F04,FoldaRapX,2018,在研原型,剪刀Z轴兼作折叠机构,双侧剪刀升降；减速电机与皮带驱动,需要非线性Z补偿；底板与回差影响定位,50mm立方体曾打成80mm高；低位扭矩与跳齿,https://reprap.org/wiki/FoldaRapX,一手开发记录
+F05,X printer V1,2019,可工作原型,剪刀Z轴兼作折叠机构,径向与轴向轴承；滚珠丝杆驱动剪刀,非线性Z固件；日志记录回零漂移,回差；支架弯曲；失步；左右高度差,https://hackaday.io/project/165889-x-printer-portable,一手开发记录+CAD
+F06,X printer V2,2021,改进原型,剪刀Z轴兼作折叠机构,双侧10mm皮带；20比1减速；滚针轴承,运动学床座；改动目标为改善同步与减重,改进意图不等于全部问题已解决,https://hackaday.io/project/180369-x-printer-v2,一手开发记录
+F07,Portable CoreXY后续版,2025,报道中的工作原型,剪刀Z轴与管线,单电机减速箱联动两侧剪刀；Bowden与线缆转动收纳,固定床+三点运动学安装+BLTouch,同步与折叠后的实际重复精度仍需测量,https://hackaday.com/2025/10/19/corexy-3d-printer-has-a-scissor-lift-z-axis-so-it-folds-down/,技术媒体报道
+F08,Case-Rap,2015,可工作DIY原型,两套框架兼作运输箱,木框+钢琴铰链+锁扣；XZ与Y电控分框,两种方向分别锁成箱体或打印状态,箱板刚度与锁扣基准；搬运冲击进入框架,https://reprap.org/wiki/Case-rap,项目文档
+F09,PortaPrusa,2016,实验性在研,公文包式整机,BasePivot+滑动箱板+折叠支撑铰链+锁扣,保留传统双Z丝杆与限位,工作进度中；规格不等于成熟性能,https://reprap.org/wiki/PortaPrusa,项目文档
+F10,Tobeca,2013,开源历史案例,箱体与打印结构,机器集成运输箱并展开内部打印结构,箱体展开后打印,本轮未深核机构细节与当前文件,https://www.thingiverse.com/thing:147011,项目发布页
+F11,Portabee,2012,可工作历史产品,Y轴快拆平放；电控旋转；Z杆分离,快拆夹+旋转电控板+可分离联轴器,拆后需检查床面调平和Z限位,连接磨损与重复校准；不是严格折叠,https://reprap.org/wiki/Portabee,项目文档
+F12,LumiFold TB,2018,树脂原型与设计奖案例,剪刀升降Z轴,精密剪刀机构；铝与亚克力结构；距离传感器,闭合高度小于最大打印高度；六轮以上迭代,树脂工艺不同；精度为开发者资料,https://designers.org/design-press-releases/87725,设计奖发布资料
+F13,Anycubic折叠概念机,2025,概念而非验证产品,五旋转轴机械臂,多关节收拢,宣称折叠高75mm与打印高460mm,运动学；切片；冷却；线材路径；耐久均未证实,https://www.fabbaloo.com/news/foldable-3d-printer-concept-by-anycubic-wins-if-design-award,二手报道+奖项概念
+F14,Arthur Tollet折叠打印机,2022,在研并暂停,龙门折叠与自动展开构想,槽式铰链与杠杆方案比较；三点连接；蜗杆构想,考虑ABL补偿展开误差,未完成整机；概念不能当产品证据,https://fabacademy.org/2022/labs/aalto/students/arthur-tollet/projects/fold.html,学生项目文档
+P01,CN105034368B,2015,专利,打印部相对底座摆动,轴承转动副+U形块+夹紧螺栓+碟形螺母+压簧,展开至垂直后锁紧；释放后折叠,专利不证明量产或可靠性,https://patents.google.com/patent/CN105034368B/zh,专利全文
+P02,CN110815813B,2019,专利,F形Z框架与滑块联动,滑杆+滑块铰链+液压杆+弹簧+阻尼轴承,下限位与闭锁定位；辅助展开并避让热床丝杆,机构与装配复杂；性能宣称非独立实测,https://patents.google.com/patent/CN110815813A/zh,专利全文
+P03,CN103341972B,2013,专利,双极坐标摆杆与外壳,立柱Z传动+双摆杆XY+旋转侧壁与上盖,侧壁成工作台；上盖成供丝架,更换运动学而非简单折Z；无产品验证,https://patents.google.com/patent/CN103341972B/zh,专利全文
+P04,CN107877849A,2017,专利,SCARA机械臂与翻转工作台,大小臂收拢；整臂Z升降；驱动减速移至支撑台,工作台合页翻转；手动调平,新运动学与控制复杂；无产品验证,https://patents.google.com/patent/CN107877849A/zh,专利全文
+P05,CN115246217B,2022,专利,蜘蛛腿式支腿与工作空间,三段支腿转动收拢并改变打印空间,连接处锁紧；支脚螺纹调平,不是常规Z轴折叠；无产品验证,https://patents.google.com/patent/CN115246217B/zh,专利全文
