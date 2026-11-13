@@ -19,7 +19,7 @@
 - [x] Phase 13: 准备虚拟验证模型、参数表与方法自检并同步 GitHub
 - [x] Phase 14: 完成根部翻折参数化虚拟演示并保存结果
 - [x] Phase 15: 完成 F01–F14 与剪刀式 Z 轴统一初筛、L2 深化、NSGA-II、敏感性分析、CAD、动画与报告
-- [ ] Phase 16: 全流程复现复核并提交 Git
+- [x] Phase 16: 全流程复现复核并提交 Git
 
 ## Key Questions
 1. 哪些真实产品或研究原型可以折叠，折叠的是整机、龙门、Z 轴还是其他部件？
@@ -79,6 +79,8 @@
 - 22 项契约与审阅回归测试通过；SymPy 导数与有限差分一致，Pint 力矩/刚度单位检查通过。
 - F07/F12 STEP 均为有效概念实体且 2/2 几何量规通过；六视图已读取，明确不含加工就绪铰链/锁点。F04 在新槽轨模型下无可行优化解。
 - 每套 21 姿态 GIF、全部 PNG/SVG 图和中文 `simulation/REPORT.md` 已生成。
+- 最终 `bash simulation/run_all.sh` 完整成功，102/102 交付检查通过；`external/` 与基线一致。
+- 已提交 `6142192 feat(simulation): add full foldable printer screening` 到 `feature/full-mechanism-simulation`。
 
 ## Status
-**In progress** - 全方案仿真与筛选交付已生成，正在做最终复现、文件清理和 Git 提交。
+**Completed** - 全方案仿真、优化、CAD、动画、报告、复现验证与 Git 提交已完成。
