@@ -27,7 +27,7 @@
 - [实物验证计划](simulation/verification/PHYSICAL_VALIDATION_PLAN.md)
 - [实物材料清单](simulation/verification/third_option_bom.csv)（48 项，概念估算，不是报价）
 
-当前成果同步在 `feature/full-mechanism-simulation` 分支；尚未把仿真候选当作实机可行产品。
+当前成果已同步到 GitHub `main` 与 `feature/full-mechanism-simulation` 分支；尚未把仿真候选当作实机可行产品。
 
 ## 文件导航
 
