@@ -1,0 +1,105 @@
+{
+  "sympy_jacobian_error": 1.1102230246251565e-16,
+  "fea_convergence": {
+    "F07": {
+      "levels": [
+        {
+          "n_sub": 4,
+          "dofs": 54,
+          "tip_deflection_mm": 0.8372959914695295
+        },
+        {
+          "n_sub": 8,
+          "dofs": 78,
+          "tip_deflection_mm": 0.7459153689766059
+        },
+        {
+          "n_sub": 16,
+          "dofs": 126,
+          "tip_deflection_mm": 0.8166367274112201
+        }
+      ],
+      "rel_change_8_to_16": 0.08660075656749414
+    },
+    "F09": {
+      "levels": [
+        {
+          "n_sub": 4,
+          "dofs": 78,
+          "tip_deflection_mm": 0.03338403165780946
+        },
+        {
+          "n_sub": 8,
+          "dofs": 126,
+          "tip_deflection_mm": 0.031136557151401973
+        },
+        {
+          "n_sub": 16,
+          "dofs": 222,
+          "tip_deflection_mm": 0.031136557151381652
+        }
+      ],
+      "rel_change_8_to_16": 6.526267724076429e-13
+    },
+    "SCZ": {
+      "levels": [
+        {
+          "n_sub": 4,
+          "dofs": 60,
+          "tip_deflection_mm": 0.6026879412970197
+        },
+        {
+          "n_sub": 8,
+          "dofs": 60,
+          "tip_deflection_mm": 0.6026879412970197
+        },
+        {
+          "n_sub": 16,
+          "dofs": 60,
+          "tip_deflection_mm": 0.6026879412970197
+        }
+      ],
+      "rel_change_8_to_16": 0.0
+    },
+    "F12": {
+      "levels": [
+        {
+          "n_sub": 4,
+          "dofs": 78,
+          "tip_deflection_mm": 0.05256175679746641
+        },
+        {
+          "n_sub": 8,
+          "dofs": 126,
+          "tip_deflection_mm": 0.05860769828525932
+        },
+        {
+          "n_sub": 16,
+          "dofs": 222,
+          "tip_deflection_mm": 0.05990079793422118
+        }
+      ],
+      "rel_change_8_to_16": 0.02158735264898885
+    },
+    "F08": {
+      "levels": [
+        {
+          "n_sub": 4,
+          "dofs": 54,
+          "tip_deflection_mm": 0.8372959914695295
+        },
+        {
+          "n_sub": 8,
+          "dofs": 78,
+          "tip_deflection_mm": 0.7459153689766059
+        },
+        {
+          "n_sub": 16,
+          "dofs": 126,
+          "tip_deflection_mm": 0.8166367274112201
+        }
+      ],
+      "rel_change_8_to_16": 0.08660075656749414
+    }
+  }
+}

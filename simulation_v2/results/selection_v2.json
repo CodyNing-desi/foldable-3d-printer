@@ -1,0 +1,94 @@
+{
+  "ranking": [
+    {
+      "id": "F09",
+      "family": "root_double",
+      "solution_index": 0,
+      "parameters": {
+        "lift_mm": 100.0,
+        "shift_x_mm": 0.05993862537292619
+      },
+      "storage": 0.604696673189824,
+      "error": 0.4726040297410621,
+      "deflection": 0.14169642857142858,
+      "reliability": -60.5,
+      "cost": 430.0239754501492,
+      "complexity": 2.5,
+      "peak_drive_force_N": 134.9856,
+      "baseline_score": 0.19038831926134675,
+      "top3_frequency": 1.0,
+      "dense_1001_passed": true,
+      "dense_1001_pen_mm": 0.0,
+      "mc20000_p95_mm": 0.4679927271805614
+    },
+    {
+      "id": "F07",
+      "family": "root_single_lift",
+      "solution_index": 1,
+      "parameters": {
+        "lift_mm": 75.00000000000001,
+        "shift_x_mm": -4.817024841930219
+      },
+      "storage": 0.5618395820347256,
+      "error": 0.631288391716274,
+      "deflection": 0.7459153689766059,
+      "reliability": -72.8,
+      "cost": 374.4268099367721,
+      "complexity": 2.4,
+      "peak_drive_force_N": 85.78845000000001,
+      "baseline_score": 0.4079968924333603,
+      "top3_frequency": 1.0,
+      "dense_1001_passed": true,
+      "dense_1001_pen_mm": 0.0,
+      "mc20000_p95_mm": 0.6602448790063095
+    },
+    {
+      "id": "SCZ",
+      "family": "scissor",
+      "solution_index": 1,
+      "parameters": {
+        "arm_length_mm": 155.0086714446758,
+        "height_fold_mm": 45.0
+      },
+      "storage": 0.4703196347031963,
+      "error": 0.5017187906113703,
+      "deflection": 0.5710448098038718,
+      "reliability": -24.6,
+      "cost": 880.0,
+      "complexity": 4.8,
+      "peak_drive_force_N": 161.33382184720085,
+      "baseline_score": 0.4867836415360124,
+      "top3_frequency": 0.94,
+      "dense_1001_passed": true,
+      "dense_1001_pen_mm": 0.0,
+      "mc20000_p95_mm": 0.5009456541374407
+    },
+    {
+      "id": "F08",
+      "family": "root_single_rear",
+      "solution_index": 1,
+      "parameters": {
+        "lift_mm": 15.000000000000002,
+        "shift_x_mm": -86.61258686130772
+      },
+      "storage": 0.6773626589816782,
+      "error": 0.713651995542996,
+      "deflection": 0.7459153689766059,
+      "reliability": -72.2,
+      "cost": 407.14503474452306,
+      "complexity": 2.6,
+      "peak_drive_force_N": 87.40710000000001,
+      "baseline_score": 0.6275092737065713,
+      "top3_frequency": 0.06,
+      "dense_1001_passed": true,
+      "dense_1001_pen_mm": 0.0,
+      "mc20000_p95_mm": 0.7388772802929925
+    }
+  ],
+  "feasible_candidate_ids": [
+    "F09",
+    "F07",
+    "SCZ",
+    "F08"
+  ]
+}

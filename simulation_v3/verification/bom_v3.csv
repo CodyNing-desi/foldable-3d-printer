@@ -1,0 +1,18 @@
+candidate,stage,item,spec,qty,unit_cny,total_cny,lead_days,source_type,purpose
+F07,Batch1_Rig,2040/3060铝型材立柱段,3060 L=360mm 6061-T6,1,45,45,3,purchase,验证立柱抗扭与抬升导向
+F07,Batch1_Rig,光轴与直线轴承,Ø8×150mm 镀铬光轴 + LM8UU,2,18,36,3,purchase,抬升导向塔副
+F07,Batch1_Rig,T8丝杆螺母副,T8导程2mm L=150mm + 消隙螺母,1,35,35,3,purchase,抬升驱动
+F07,Batch1_Rig,CNC双剪叉耳片与铰链,6061-T6 加工件 + M8肩轴 + 608轴承,1,160,160,7,cnc_custom,根部翻折关键关节试片
+F07,Batch1_Rig,1:50锥销与水平肘夹,Ø6mm 定位锥销 + GH-201B 肘夹,2,22,44,3,purchase,展开锁紧与重复定位
+F09,Batch1_Rig,双侧抬升导向光轴组,Ø8×160mm 光轴×4 + LM8UU×4,1,72,72,3,purchase,双柱同步抬升台架
+F09,Batch1_Rig,双T8丝杆与同步带轮,T8 L=160mm×2 + 2GT闭环同步带,1,95,95,4,purchase,单电机双侧同步驱动验证
+F09,Batch1_Rig,龙门立柱与横梁型材,2040×350mm×2 + 2020×300mm×1,1,110,110,3,purchase,龙门框架刚度实测
+F09,Batch1_Rig,四角锁紧耳片与锥销,CNC 6061 耳片×2 + Ø6锥销×4,1,220,220,7,cnc_custom,四点锁紧与同步别卡测试
+SCZ,Batch1_Rig,6061-T6剪刀臂试片,6×20×160mm CNC扩孔铰链臂,8,20,160,7,cnc_custom,左右Y向错层剪刀连杆
+SCZ,Batch1_Rig,M8肩轴+608轴承+止推垫片,608-2RS×24 + Ø8肩轴×12 + 垫片包,1,130,130,3,purchase,低摩擦铰链消隙装配
+SCZ,Batch1_Rig,MGN12H导轨与滑块,300mm导轨×2 + 4滑块,2,95,190,4,purchase,底座水平导向轨
+SCZ,Batch1_Rig,1204滚珠丝杆副(替代T8),SFU1204 L=350mm + 螺母座,1,145,145,5,purchase,抑制低位回差与高推力失步
+SCZ,Batch1_Rig,NEMA17高扭矩步进电机,42-48 0.55N·m + TMC2209驱动,1,110,110,3,purchase,低位160N+推力验证
+F08,Backup_Rig,后移偏置CNC铰链座,6061-T6 偏置80mm双耳片+后支脚,1,190,190,7,cnc_custom,备选后移铰链刚度与防倾覆
+COMMON,Metrology,数显千分表与磁性表座,0.001mm分辨率+独立表架,1,240,240,3,reuse_or_buy,测10N侧载挠度与展开重复定位
+COMMON,Metrology,数显推拉力计,0-500N 量程,1,160,160,3,reuse_or_buy,实测抬升/剪刀驱动力与锁紧滑移

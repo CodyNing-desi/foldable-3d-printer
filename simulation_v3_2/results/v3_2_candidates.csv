@@ -1,0 +1,7 @@
+id,base_id,role,collision_status,passed_screen,storage_ratio,folded_max_dim_mm,max_penetration_mm,min_clearance_mm,com_stable,workspace_coverage,fea_y_mm,fea_x_mm,fea_z_mm,fea_ideal_y_mm,fea_dofs
+F09,F09,Primary (215mm folding X-arm),PASS,False,0.802,587.0,0.0,0.063,True,1.0,0.1252,0.1023,0.2129,0.1004,870
+F07,F07,Conditional Backup (Zero-gap tolerance risk),PASS,True,0.751,587.0,0.0,0.053,True,1.0,0.8166,0.2012,0.3307,0.7116,294
+SCZ,SCZ,Bench-only Mechanism Prototype,PASS,True,0.503,549.0,0.0,0.006,True,1.0,0.4446,0.0108,0.0207,0.4446,564
+F08_L25,F08,"Fallback (lift=25mm, compact)",PASS,True,0.446,897.0,0.0,0.019,True,1.0,0.8166,0.2012,0.3307,0.7116,294
+F08_L30,F08,"Fallback (lift=30mm, +5mm clearance)",PASS,True,0.446,897.0,0.0,0.022,True,1.0,0.8166,0.2012,0.3307,0.7116,294
+F12,F12,No-Go / Archived (6-week rail risk),PASS,True,0.735,549.0,0.0,0.002,True,1.0,0.0612,0.0064,0.0434,0.0612,486

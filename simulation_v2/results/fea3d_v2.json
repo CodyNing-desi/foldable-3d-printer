@@ -1,0 +1,34 @@
+{
+  "F07": {
+    "id": "F07",
+    "fea_level": "L3_3D_space_frame_FEA",
+    "dofs": 102,
+    "tip_lateral_deflection_mm": 0.8066472574161471,
+    "column_top_deflection_mm": 0.16368062729539654,
+    "torsion_induced_mm": 0.6429666301207505
+  },
+  "F12": {
+    "id": "F12",
+    "fea_level": "L3_3D_space_frame_FEA",
+    "dofs": 174,
+    "tip_lateral_deflection_mm": 0.05913766618659148,
+    "column_top_deflection_mm": 0.006103282427702755,
+    "torsion_induced_mm": 0.05303438375888872
+  },
+  "SCZ": {
+    "id": "SCZ",
+    "fea_level": "L3_3D_space_frame_FEA",
+    "dofs": 60,
+    "tip_lateral_deflection_mm": 0.6026879412970197,
+    "column_top_deflection_mm": 0.6026879412970197,
+    "torsion_induced_mm": 0.0
+  },
+  "F08": {
+    "id": "F08",
+    "fea_level": "L3_3D_space_frame_FEA",
+    "dofs": 102,
+    "tip_lateral_deflection_mm": 0.8066472574161471,
+    "column_top_deflection_mm": 0.16368062729539654,
+    "torsion_induced_mm": 0.6429666301207505
+  }
+}
