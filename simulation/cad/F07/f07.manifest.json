@@ -1,0 +1,26 @@
+{
+  "id": "F07",
+  "role": "recommended",
+  "parameters": {
+    "lift_mm": 80.00004520634599,
+    "shift_x_mm": -0.0004690842754385277
+  },
+  "source_sha256": "3b03f9e53c2c4e9102f4cbf4595dfaeda9e17c6557e517b319c4ce7bf7e26f0a",
+  "is_valid": true,
+  "solid_count": 3,
+  "volume_mm3": 3110100.0,
+  "bbox_mm": [
+    0.0,
+    -347.0,
+    0.0,
+    384.99953,
+    0.0,
+    110.00005
+  ],
+  "interfaces": "all custom and unchecked; no vendor or measured interface claimed",
+  "files": [
+    "f07.step",
+    "f07.stl",
+    "f07_model.py"
+  ]
+}

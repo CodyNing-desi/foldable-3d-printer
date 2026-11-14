@@ -1,0 +1,75 @@
+{
+  "cylindrical_faces": [
+    {
+      "at_mm": [
+        -20.0,
+        -6.0
+      ],
+      "axis": "x",
+      "diameter_mm": 3.2,
+      "extent_mm": 4.0,
+      "full": true,
+      "radius_mm": 1.6,
+      "span_max_mm": 30.0,
+      "span_min_mm": 26.0,
+      "sweep_deg": 360.0
+    },
+    {
+      "at_mm": [
+        -20.0,
+        -6.0
+      ],
+      "axis": "x",
+      "diameter_mm": 30.0,
+      "extent_mm": 10.0,
+      "full": false,
+      "radius_mm": 15.0,
+      "span_max_mm": 30.0,
+      "span_min_mm": 20.0,
+      "sweep_deg": 23.6
+    },
+    {
+      "at_mm": [
+        -20.0,
+        -6.0
+      ],
+      "axis": "x",
+      "diameter_mm": 30.0,
+      "extent_mm": 10.0,
+      "full": false,
+      "radius_mm": 15.0,
+      "span_max_mm": 30.0,
+      "span_min_mm": 20.0,
+      "sweep_deg": 172.2
+    },
+    {
+      "at_mm": [
+        10.0,
+        -23.0
+      ],
+      "axis": "x",
+      "diameter_mm": 4.2,
+      "extent_mm": 4.0,
+      "full": true,
+      "radius_mm": 2.1,
+      "span_max_mm": -1.0,
+      "span_min_mm": -5.0,
+      "sweep_deg": 360.0
+    },
+    {
+      "at_mm": [
+        29.0,
+        -36.0
+      ],
+      "axis": "x",
+      "diameter_mm": 4.2,
+      "extent_mm": 4.0,
+      "full": true,
+      "radius_mm": 2.1,
+      "span_max_mm": 20.0,
+      "span_min_mm": 16.0,
+      "sweep_deg": 360.0
+    }
+  ],
+  "target": "cad\\reference\\hinge-outer-left.step"
+}

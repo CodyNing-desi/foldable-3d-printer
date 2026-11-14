@@ -1,0 +1,26 @@
+{
+  "id": "SCZ",
+  "role": "third_exploratory",
+  "parameters": {
+    "arm_length_mm": 152.50555313625247,
+    "height_fold_mm": 45.000040083134806
+  },
+  "source_sha256": "5bbe3a7126f6a9acf138579892e8ede6e511f7eab83c13881bd6c002e9911008",
+  "is_valid": true,
+  "solid_count": 2,
+  "volume_mm3": 5620502.172612743,
+  "bbox_mm": [
+    0.0,
+    -347.0,
+    0.0,
+    315.0,
+    0.0,
+    105.00004
+  ],
+  "interfaces": "all custom and unchecked; no vendor or measured interface claimed",
+  "files": [
+    "scz.step",
+    "scz.stl",
+    "scz_model.py"
+  ]
+}

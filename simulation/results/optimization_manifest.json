@@ -1,0 +1,20 @@
+{
+  "algorithm": "NSGA-II",
+  "pop_size": 32,
+  "generations": 20,
+  "master_seed": 20261113,
+  "objectives": [
+    "system storage ratio",
+    "repeatability surrogate mm",
+    "tip deflection mm",
+    "incremental cost / 1000 CNY"
+  ],
+  "constraints": [
+    "collision",
+    "storage ratio <= 0.8",
+    "workspace coverage",
+    "drive force or family-specific geometry",
+    "assembly reachability"
+  ],
+  "note": "Failed fixed-topology candidates remain in screening data; no feasible solution is invented for them."
+}

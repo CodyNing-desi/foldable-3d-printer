@@ -1,0 +1,6 @@
+{
+  "design": "Latin hypercube over declared engineering-assumption bounds",
+  "samples_per_variable_candidate": 48,
+  "master_seed": 20261113,
+  "analysis": "Spearman rank correlation; deterministic computer experiments, no causal physical claim or p-value-driven selection"
+}

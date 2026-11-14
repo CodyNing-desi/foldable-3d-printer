@@ -1,0 +1,103 @@
+{
+  "artifact_name": "f08",
+  "artifacts": {
+    "step": "G:\\\u6211\u7684\u4e91\u7aef\u786c\u76d8\\foldable-3d-printer-sim-work\\repo\\simulation\\cad\\F08\\skill\\f08.step",
+    "stl": "G:\\\u6211\u7684\u4e91\u7aef\u786c\u76d8\\foldable-3d-printer-sim-work\\repo\\simulation\\cad\\F08\\skill\\f08.stl"
+  },
+  "dxf_error": null,
+  "dxf_section_z_mm": null,
+  "environment": {
+    "build123d": "0.11.1",
+    "platform": "Windows-11-10.0.26100-SP0",
+    "python": "3.13.5"
+  },
+  "geometry": {
+    "area_mm2": 367290.0,
+    "bounding_box_mm": {
+      "max": [
+        315.0,
+        0.0,
+        60.0
+      ],
+      "min": [
+        -335.0,
+        -347.0,
+        0.0
+      ],
+      "x": 650.0,
+      "y": 347.0,
+      "z": 60.0
+    },
+    "center_mm": [
+      129.6231,
+      -142.4804,
+      20.109
+    ],
+    "center_of": "mass",
+    "is_valid": true,
+    "solid_count": 3,
+    "volume_mm3": 3110100.0
+  },
+  "geometry_checks": {
+    "checked_count": 2,
+    "declared": [
+      {
+        "feature": "expected folded X span",
+        "kind": "measure",
+        "max": 650.100001769342,
+        "measure": "bbox_x",
+        "min": 0.0
+      },
+      {
+        "feature": "expected folded Z span",
+        "kind": "measure",
+        "max": 60.1,
+        "measure": "bbox_z",
+        "min": 0.0
+      }
+    ],
+    "pass": true,
+    "results": [
+      {
+        "actual_mm": 650.0,
+        "feature": "expected folded X span",
+        "kind": "measure",
+        "max": 650.100001769342,
+        "measure": "bbox_x",
+        "min": 0.0,
+        "pass": true
+      },
+      {
+        "actual_mm": 60.0,
+        "feature": "expected folded Z span",
+        "kind": "measure",
+        "max": 60.1,
+        "measure": "bbox_z",
+        "min": 0.0,
+        "pass": true
+      }
+    ],
+    "status": "passed"
+  },
+  "interfaces": [],
+  "output_status": "complete",
+  "overrides": {},
+  "parameters": {
+    "CM": 10,
+    "FT": 304.79999999999995,
+    "G": 1,
+    "IN": 25.4,
+    "KG": 1000,
+    "LB": 453.59237,
+    "M": 1000,
+    "MC": 0.001,
+    "MM": 1,
+    "THOU": 0.0254
+  },
+  "source": {
+    "path": "G:\\\u6211\u7684\u4e91\u7aef\u786c\u76d8\\foldable-3d-printer-sim-work\\repo\\simulation\\cad\\F08\\f08_model.py",
+    "sha256": "fafd97cc79fd7147f84f9f46ffaf2c107ad34f699e31aa4cde59b6bd1fdc53e7"
+  },
+  "staging_directory": "G:\\\u6211\u7684\u4e91\u7aef\u786c\u76d8\\foldable-3d-printer-sim-work\\repo\\simulation\\cad\\F08\\skill\\.labcad-b4lg2zsg",
+  "units": "mm"
+}

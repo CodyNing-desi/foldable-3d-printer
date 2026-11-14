@@ -1,0 +1,7 @@
+{
+  "samples_per_candidate": 10000,
+  "master_seed": 20261113,
+  "distribution": "independent rectangular joint-clearance and datum-seat errors",
+  "intervals": "p50/p95/p99 are Monte Carlo output percentiles, not confidence intervals or measured printer accuracy",
+  "statics": "Euler-Bernoulli reduced-order beam plus linearized lock-contact stiffness; not 3D FEA"
+}

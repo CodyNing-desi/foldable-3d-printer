@@ -1,0 +1,3568 @@
+[
+  {
+    "id": "F02",
+    "algorithm": "NSGA-II",
+    "seed": 20261114,
+    "pop_size": 32,
+    "generations": 20,
+    "solutions": [],
+    "least_infeasible": {
+      "parameters": {
+        "arm_length_mm": 180.00000000004795
+      },
+      "objectives": [
+        1.6666666666666667,
+        0.2800000000000639,
+        0.04664844720500451,
+        0.22
+      ],
+      "constraints": [
+        2299.9999990004794,
+        0.8666666666666667,
+        0.0,
+        -477.4804213114728,
+        0.0
+      ],
+      "max_constraint_violation": 2299.9999990004794,
+      "population_size": 32,
+      "worst_constraint_violation": 2299.9999990101765
+    },
+    "history": [
+      {
+        "generation": 1,
+        "best_storage_ratio": 1.6666666666666667,
+        "best_error_surrogate_mm": 0.2802008684401775
+      },
+      {
+        "generation": 2,
+        "best_storage_ratio": 1.6666666666666667,
+        "best_error_surrogate_mm": 0.2801649448615518
+      },
+      {
+        "generation": 3,
+        "best_storage_ratio": 1.6666666666666667,
+        "best_error_surrogate_mm": 0.2800280964313281
+      },
+      {
+        "generation": 4,
+        "best_storage_ratio": 1.6666666666666667,
+        "best_error_surrogate_mm": 0.2800280964313281
+      },
+      {
+        "generation": 5,
+        "best_storage_ratio": 1.6666666666666667,
+        "best_error_surrogate_mm": 0.28000025562931385
+      },
+      {
+        "generation": 6,
+        "best_storage_ratio": 1.6666666666666667,
+        "best_error_surrogate_mm": 0.28000025562931385
+      },
+      {
+        "generation": 7,
+        "best_storage_ratio": 1.6666666666666667,
+        "best_error_surrogate_mm": 0.28000018402818444
+      },
+      {
+        "generation": 8,
+        "best_storage_ratio": 1.6666666666666667,
+        "best_error_surrogate_mm": 0.2800000286863243
+      },
+      {
+        "generation": 9,
+        "best_storage_ratio": 1.6666666666666667,
+        "best_error_surrogate_mm": 0.2800000117037068
+      },
+      {
+        "generation": 10,
+        "best_storage_ratio": 1.6666666666666667,
+        "best_error_surrogate_mm": 0.28000000867982666
+      },
+      {
+        "generation": 11,
+        "best_storage_ratio": 1.6666666666666667,
+        "best_error_surrogate_mm": 0.2800000018690453
+      },
+      {
+        "generation": 12,
+        "best_storage_ratio": 1.6666666666666667,
+        "best_error_surrogate_mm": 0.2800000006692709
+      },
+      {
+        "generation": 13,
+        "best_storage_ratio": 1.6666666666666667,
+        "best_error_surrogate_mm": 0.2800000000223336
+      },
+      {
+        "generation": 14,
+        "best_storage_ratio": 1.6666666666666667,
+        "best_error_surrogate_mm": 0.2800000000046196
+      },
+      {
+        "generation": 15,
+        "best_storage_ratio": 1.6666666666666667,
+        "best_error_surrogate_mm": 0.2800000000046196
+      },
+      {
+        "generation": 16,
+        "best_storage_ratio": 1.6666666666666667,
+        "best_error_surrogate_mm": 0.28000000000167186
+      },
+      {
+        "generation": 17,
+        "best_storage_ratio": 1.6666666666666667,
+        "best_error_surrogate_mm": 0.28000000000069764
+      },
+      {
+        "generation": 18,
+        "best_storage_ratio": 1.6666666666666667,
+        "best_error_surrogate_mm": 0.2800000000004207
+      },
+      {
+        "generation": 19,
+        "best_storage_ratio": 1.6666666666666667,
+        "best_error_surrogate_mm": 0.2800000000000639
+      },
+      {
+        "generation": 20,
+        "best_storage_ratio": 1.6666666666666667,
+        "best_error_surrogate_mm": 0.2800000000000639
+      }
+    ]
+  },
+  {
+    "id": "F04",
+    "algorithm": "NSGA-II",
+    "seed": 20261116,
+    "pop_size": 32,
+    "generations": 20,
+    "solutions": [],
+    "least_infeasible": {
+      "parameters": {
+        "lift_mm": 101.47497900949455,
+        "shift_x_mm": 55.03823604506113,
+        "slot_width_mm": 9.912628797296096
+      },
+      "objectives": [
+        0.5889072771462465,
+        0.863371245772553,
+        0.3400043533389687,
+        0.4327527839227718
+      ],
+      "constraints": [
+        25.09238692436751,
+        -0.21109272285375358,
+        0.0,
+        -0.7063143986480478,
+        0.0
+      ],
+      "max_constraint_violation": 25.09238692436751,
+      "population_size": 32,
+      "worst_constraint_violation": 25.09238692436751
+    },
+    "history": [
+      {
+        "generation": 1,
+        "best_storage_ratio": 0.5889072771462465,
+        "best_error_surrogate_mm": 0.863371245772553
+      },
+      {
+        "generation": 2,
+        "best_storage_ratio": 0.5889072771462465,
+        "best_error_surrogate_mm": 0.863371245772553
+      },
+      {
+        "generation": 3,
+        "best_storage_ratio": 0.5889072771462465,
+        "best_error_surrogate_mm": 0.863371245772553
+      },
+      {
+        "generation": 4,
+        "best_storage_ratio": 0.5889072771462465,
+        "best_error_surrogate_mm": 0.863371245772553
+      },
+      {
+        "generation": 5,
+        "best_storage_ratio": 0.5889072771462465,
+        "best_error_surrogate_mm": 0.863371245772553
+      },
+      {
+        "generation": 6,
+        "best_storage_ratio": 0.5889072771462465,
+        "best_error_surrogate_mm": 0.863371245772553
+      },
+      {
+        "generation": 7,
+        "best_storage_ratio": 0.5889072771462465,
+        "best_error_surrogate_mm": 0.863371245772553
+      },
+      {
+        "generation": 8,
+        "best_storage_ratio": 0.5889072771462465,
+        "best_error_surrogate_mm": 0.863371245772553
+      },
+      {
+        "generation": 9,
+        "best_storage_ratio": 0.5889072771462465,
+        "best_error_surrogate_mm": 0.863371245772553
+      },
+      {
+        "generation": 10,
+        "best_storage_ratio": 0.5889072771462465,
+        "best_error_surrogate_mm": 0.863371245772553
+      },
+      {
+        "generation": 11,
+        "best_storage_ratio": 0.5889072771462465,
+        "best_error_surrogate_mm": 0.863371245772553
+      },
+      {
+        "generation": 12,
+        "best_storage_ratio": 0.5889072771462465,
+        "best_error_surrogate_mm": 0.863371245772553
+      },
+      {
+        "generation": 13,
+        "best_storage_ratio": 0.5889072771462465,
+        "best_error_surrogate_mm": 0.863371245772553
+      },
+      {
+        "generation": 14,
+        "best_storage_ratio": 0.5889072771462465,
+        "best_error_surrogate_mm": 0.863371245772553
+      },
+      {
+        "generation": 15,
+        "best_storage_ratio": 0.5889072771462465,
+        "best_error_surrogate_mm": 0.863371245772553
+      },
+      {
+        "generation": 16,
+        "best_storage_ratio": 0.5889072771462465,
+        "best_error_surrogate_mm": 0.863371245772553
+      },
+      {
+        "generation": 17,
+        "best_storage_ratio": 0.5889072771462465,
+        "best_error_surrogate_mm": 0.863371245772553
+      },
+      {
+        "generation": 18,
+        "best_storage_ratio": 0.5889072771462465,
+        "best_error_surrogate_mm": 0.863371245772553
+      },
+      {
+        "generation": 19,
+        "best_storage_ratio": 0.5889072771462465,
+        "best_error_surrogate_mm": 0.863371245772553
+      },
+      {
+        "generation": 20,
+        "best_storage_ratio": 0.5889072771462465,
+        "best_error_surrogate_mm": 0.863371245772553
+      }
+    ]
+  },
+  {
+    "id": "F05",
+    "algorithm": "NSGA-II",
+    "seed": 20261117,
+    "pop_size": 32,
+    "generations": 20,
+    "solutions": [],
+    "least_infeasible": {
+      "parameters": {
+        "overlap_mm": 49.28172048985788
+      },
+      "objectives": [
+        0.9726248578050742,
+        0.4364172846436028,
+        0.19490576957984074,
+        0.42
+      ],
+      "constraints": [
+        -1e-06,
+        0.1726248578050742,
+        0.0,
+        1.7726266234280308e-05,
+        0.0
+      ],
+      "max_constraint_violation": 0.1726248578050742,
+      "population_size": 32,
+      "worst_constraint_violation": 0.17264145530729613
+    },
+    "history": [
+      {
+        "generation": 1,
+        "best_storage_ratio": 0.9734739312599479,
+        "best_error_surrogate_mm": 0.43478338563503954
+      },
+      {
+        "generation": 2,
+        "best_storage_ratio": 0.9728901425619446,
+        "best_error_surrogate_mm": 0.4359053003076018
+      },
+      {
+        "generation": 3,
+        "best_storage_ratio": 0.9728901425619446,
+        "best_error_surrogate_mm": 0.4359053003076018
+      },
+      {
+        "generation": 4,
+        "best_storage_ratio": 0.9727828400361828,
+        "best_error_surrogate_mm": 0.4361122245291199
+      },
+      {
+        "generation": 5,
+        "best_storage_ratio": 0.9727828400361828,
+        "best_error_surrogate_mm": 0.4361122245291199
+      },
+      {
+        "generation": 6,
+        "best_storage_ratio": 0.9726812830154377,
+        "best_error_surrogate_mm": 0.436308273516359
+      },
+      {
+        "generation": 7,
+        "best_storage_ratio": 0.9726795122131638,
+        "best_error_surrogate_mm": 0.43631169369684464
+      },
+      {
+        "generation": 8,
+        "best_storage_ratio": 0.9726795122131638,
+        "best_error_surrogate_mm": 0.43631169369684464
+      },
+      {
+        "generation": 9,
+        "best_storage_ratio": 0.9726233965912667,
+        "best_error_surrogate_mm": 0.4364201084643166
+      },
+      {
+        "generation": 10,
+        "best_storage_ratio": 0.9726237418119744,
+        "best_error_surrogate_mm": 0.4364194413156614
+      },
+      {
+        "generation": 11,
+        "best_storage_ratio": 0.9726237418119744,
+        "best_error_surrogate_mm": 0.4364194413156614
+      },
+      {
+        "generation": 12,
+        "best_storage_ratio": 0.9726414496271624,
+        "best_error_surrogate_mm": 0.43638522355784215
+      },
+      {
+        "generation": 13,
+        "best_storage_ratio": 0.9726414496271624,
+        "best_error_surrogate_mm": 0.43638522355784215
+      },
+      {
+        "generation": 14,
+        "best_storage_ratio": 0.9726414496271624,
+        "best_error_surrogate_mm": 0.43638522355784215
+      },
+      {
+        "generation": 15,
+        "best_storage_ratio": 0.9726414496271624,
+        "best_error_surrogate_mm": 0.43638522355784215
+      },
+      {
+        "generation": 16,
+        "best_storage_ratio": 0.9726413523747804,
+        "best_error_surrogate_mm": 0.43638541146726856
+      },
+      {
+        "generation": 17,
+        "best_storage_ratio": 0.9726407672207273,
+        "best_error_surrogate_mm": 0.4363865420960046
+      },
+      {
+        "generation": 18,
+        "best_storage_ratio": 0.9726407672207273,
+        "best_error_surrogate_mm": 0.4363865420960046
+      },
+      {
+        "generation": 19,
+        "best_storage_ratio": 0.9726402666460972,
+        "best_error_surrogate_mm": 0.4363875093064882
+      },
+      {
+        "generation": 20,
+        "best_storage_ratio": 0.9726402088213942,
+        "best_error_surrogate_mm": 0.4363876210357121
+      }
+    ]
+  },
+  {
+    "id": "F06",
+    "algorithm": "NSGA-II",
+    "seed": 20261118,
+    "pop_size": 32,
+    "generations": 20,
+    "solutions": [],
+    "least_infeasible": {
+      "parameters": {
+        "cabinet_clearance_mm": 10.000000000000302
+      },
+      "objectives": [
+        1.781888234557079,
+        0.16040000000000001,
+        0.28415461714285717,
+        0.5600000000000013
+      ],
+      "constraints": [
+        -1e-06,
+        0.981888234557079,
+        0.0,
+        -238.13962099069488,
+        0.0
+      ],
+      "max_constraint_violation": 0.981888234557079,
+      "population_size": 32,
+      "worst_constraint_violation": 0.981888234565315
+    },
+    "history": [
+      {
+        "generation": 1,
+        "best_storage_ratio": 1.8066657056871933,
+        "best_error_surrogate_mm": 0.16040000000000001
+      },
+      {
+        "generation": 2,
+        "best_storage_ratio": 1.782079642021604,
+        "best_error_surrogate_mm": 0.16040000000000001
+      },
+      {
+        "generation": 3,
+        "best_storage_ratio": 1.782079642021604,
+        "best_error_surrogate_mm": 0.16040000000000001
+      },
+      {
+        "generation": 4,
+        "best_storage_ratio": 1.7820084016729152,
+        "best_error_surrogate_mm": 0.16040000000000001
+      },
+      {
+        "generation": 5,
+        "best_storage_ratio": 1.7818979885490491,
+        "best_error_surrogate_mm": 0.16040000000000001
+      },
+      {
+        "generation": 6,
+        "best_storage_ratio": 1.7818899290539985,
+        "best_error_surrogate_mm": 0.16040000000000001
+      },
+      {
+        "generation": 7,
+        "best_storage_ratio": 1.7818889272977778,
+        "best_error_surrogate_mm": 0.16040000000000001
+      },
+      {
+        "generation": 8,
+        "best_storage_ratio": 1.7818889272977778,
+        "best_error_surrogate_mm": 0.16040000000000001
+      },
+      {
+        "generation": 9,
+        "best_storage_ratio": 1.781888315061082,
+        "best_error_surrogate_mm": 0.16040000000000001
+      },
+      {
+        "generation": 10,
+        "best_storage_ratio": 1.7818882966815999,
+        "best_error_surrogate_mm": 0.16040000000000001
+      },
+      {
+        "generation": 11,
+        "best_storage_ratio": 1.7818882582943405,
+        "best_error_surrogate_mm": 0.16040000000000001
+      },
+      {
+        "generation": 12,
+        "best_storage_ratio": 1.7818882530628743,
+        "best_error_surrogate_mm": 0.16040000000000001
+      },
+      {
+        "generation": 13,
+        "best_storage_ratio": 1.781888239808023,
+        "best_error_surrogate_mm": 0.16040000000000001
+      },
+      {
+        "generation": 14,
+        "best_storage_ratio": 1.78188823567966,
+        "best_error_surrogate_mm": 0.16040000000000001
+      },
+      {
+        "generation": 15,
+        "best_storage_ratio": 1.7818882349484289,
+        "best_error_surrogate_mm": 0.16040000000000001
+      },
+      {
+        "generation": 16,
+        "best_storage_ratio": 1.7818882345662506,
+        "best_error_surrogate_mm": 0.16040000000000001
+      },
+      {
+        "generation": 17,
+        "best_storage_ratio": 1.781888234557088,
+        "best_error_surrogate_mm": 0.16040000000000001
+      },
+      {
+        "generation": 18,
+        "best_storage_ratio": 1.781888234557079,
+        "best_error_surrogate_mm": 0.16040000000000001
+      },
+      {
+        "generation": 19,
+        "best_storage_ratio": 1.781888234557079,
+        "best_error_surrogate_mm": 0.16040000000000001
+      },
+      {
+        "generation": 20,
+        "best_storage_ratio": 1.781888234557079,
+        "best_error_surrogate_mm": 0.16040000000000001
+      }
+    ]
+  },
+  {
+    "id": "F07",
+    "algorithm": "NSGA-II",
+    "seed": 20261119,
+    "pop_size": 32,
+    "generations": 20,
+    "solutions": [
+      {
+        "parameters": {
+          "lift_mm": 80.00000002034773,
+          "shift_x_mm": -0.3386066237334484
+        },
+        "objectives": [
+          0.49271580787544317,
+          0.5179036790187178,
+          0.3192892857142857,
+          0.32013544265966726
+        ],
+        "constraints": [
+          -1e-06,
+          -0.3072841921245569,
+          0.0,
+          -418.7732,
+          0.0
+        ],
+        "metrics": {
+          "id": "F07",
+          "simulation_level": "L2_reduced_order_statics_stiffness",
+          "peak_torque_Nmm": 4061.3400000000015,
+          "peak_drive_force_N": 81.22680000000003,
+          "drive_model": "gravity torque / declared 50 mm drive arm",
+          "beam_stiffness_N_mm": 32.6728745128241,
+          "lock_stiffness_N_mm": 756.1436672967864,
+          "equivalent_stiffness_N_mm": 31.31956018389056,
+          "tip_deflection_mm": 0.3192892857142857,
+          "estimated_incremental_cost_CNY": 320.13544265966726,
+          "reliability_proxy_score": 77.0,
+          "manufacturing_complexity_score": 2.0,
+          "storage_ratio": 0.49271580787544317,
+          "max_intersection_mm2": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "lift_mm": 80.00000002034773,
+            "shift_x_mm": -0.3386066237334484,
+            "fold_angle_deg": 90.0
+          }
+        }
+      },
+      {
+        "parameters": {
+          "lift_mm": 80.00000033223446,
+          "shift_x_mm": -0.004161806762664205
+        },
+        "objectives": [
+          0.49271580927245706,
+          0.5179036790187178,
+          0.3192892857142857,
+          0.3200016648888223
+        ],
+        "constraints": [
+          -1e-06,
+          -0.307284190727543,
+          0.0,
+          -418.7732,
+          0.0
+        ],
+        "metrics": {
+          "id": "F07",
+          "simulation_level": "L2_reduced_order_statics_stiffness",
+          "peak_torque_Nmm": 4061.34,
+          "peak_drive_force_N": 81.2268,
+          "drive_model": "gravity torque / declared 50 mm drive arm",
+          "beam_stiffness_N_mm": 32.6728745128241,
+          "lock_stiffness_N_mm": 756.1436672967864,
+          "equivalent_stiffness_N_mm": 31.31956018389056,
+          "tip_deflection_mm": 0.3192892857142857,
+          "estimated_incremental_cost_CNY": 320.0016648888223,
+          "reliability_proxy_score": 77.0,
+          "manufacturing_complexity_score": 2.0,
+          "storage_ratio": 0.49271580927245706,
+          "max_intersection_mm2": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "lift_mm": 80.00000033223446,
+            "shift_x_mm": -0.004161806762664205,
+            "fold_angle_deg": 90.0
+          }
+        }
+      },
+      {
+        "parameters": {
+          "lift_mm": 80.00004520634599,
+          "shift_x_mm": -0.0004690842754385277
+        },
+        "objectives": [
+          0.49271601027413076,
+          0.5179036790187178,
+          0.3192892857142857,
+          0.3200002102368832
+        ],
+        "constraints": [
+          -1e-06,
+          -0.3072839897258693,
+          0.0,
+          -418.7732,
+          0.0
+        ],
+        "metrics": {
+          "id": "F07",
+          "simulation_level": "L2_reduced_order_statics_stiffness",
+          "peak_torque_Nmm": 4061.34,
+          "peak_drive_force_N": 81.2268,
+          "drive_model": "gravity torque / declared 50 mm drive arm",
+          "beam_stiffness_N_mm": 32.6728745128241,
+          "lock_stiffness_N_mm": 756.1436672967864,
+          "equivalent_stiffness_N_mm": 31.31956018389056,
+          "tip_deflection_mm": 0.3192892857142857,
+          "estimated_incremental_cost_CNY": 320.00021023688316,
+          "reliability_proxy_score": 77.0,
+          "manufacturing_complexity_score": 2.0,
+          "storage_ratio": 0.49271601027413076,
+          "max_intersection_mm2": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "lift_mm": 80.00004520634599,
+            "shift_x_mm": -0.0004690842754385277,
+            "fold_angle_deg": 90.0
+          }
+        }
+      },
+      {
+        "parameters": {
+          "lift_mm": 80.00000006393786,
+          "shift_x_mm": -0.09064101386285506
+        },
+        "objectives": [
+          0.49271580807069365,
+          0.5179036790187178,
+          0.3192892857142857,
+          0.32003625643751404
+        ],
+        "constraints": [
+          -1e-06,
+          -0.3072841919293064,
+          0.0,
+          -418.7732,
+          0.0
+        ],
+        "metrics": {
+          "id": "F07",
+          "simulation_level": "L2_reduced_order_statics_stiffness",
+          "peak_torque_Nmm": 4061.34,
+          "peak_drive_force_N": 81.2268,
+          "drive_model": "gravity torque / declared 50 mm drive arm",
+          "beam_stiffness_N_mm": 32.6728745128241,
+          "lock_stiffness_N_mm": 756.1436672967864,
+          "equivalent_stiffness_N_mm": 31.31956018389056,
+          "tip_deflection_mm": 0.3192892857142857,
+          "estimated_incremental_cost_CNY": 320.03625643751406,
+          "reliability_proxy_score": 77.0,
+          "manufacturing_complexity_score": 2.0,
+          "storage_ratio": 0.49271580807069365,
+          "max_intersection_mm2": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "lift_mm": 80.00000006393786,
+            "shift_x_mm": -0.09064101386285506,
+            "fold_angle_deg": 90.0
+          }
+        }
+      }
+    ],
+    "least_infeasible": {
+      "parameters": {
+        "lift_mm": 80.00000002034773,
+        "shift_x_mm": -0.3386066237334484
+      },
+      "objectives": [
+        0.49271580787544317,
+        0.5179036790187178,
+        0.3192892857142857,
+        0.32013544265966726
+      ],
+      "constraints": [
+        -1e-06,
+        -0.3072841921245569,
+        0.0,
+        -418.7732,
+        0.0
+      ],
+      "max_constraint_violation": 0.0,
+      "population_size": 32,
+      "worst_constraint_violation": 0.0
+    },
+    "history": [
+      {
+        "generation": 1,
+        "best_storage_ratio": 0.503600363034058,
+        "best_error_surrogate_mm": 0.5179036790187178
+      },
+      {
+        "generation": 2,
+        "best_storage_ratio": 0.49423072469212165,
+        "best_error_surrogate_mm": 0.5179036790187178
+      },
+      {
+        "generation": 3,
+        "best_storage_ratio": 0.4933658954710443,
+        "best_error_surrogate_mm": 0.5179036790187178
+      },
+      {
+        "generation": 4,
+        "best_storage_ratio": 0.493245032489102,
+        "best_error_surrogate_mm": 0.5179036790187178
+      },
+      {
+        "generation": 5,
+        "best_storage_ratio": 0.4930992204202928,
+        "best_error_surrogate_mm": 0.5179036790187178
+      },
+      {
+        "generation": 6,
+        "best_storage_ratio": 0.4927269339688304,
+        "best_error_surrogate_mm": 0.5179036790187178
+      },
+      {
+        "generation": 7,
+        "best_storage_ratio": 0.4927222307147954,
+        "best_error_surrogate_mm": 0.5179036790187178
+      },
+      {
+        "generation": 8,
+        "best_storage_ratio": 0.4927196998852336,
+        "best_error_surrogate_mm": 0.5179036790187178
+      },
+      {
+        "generation": 9,
+        "best_storage_ratio": 0.49271773560830096,
+        "best_error_surrogate_mm": 0.5179036790187178
+      },
+      {
+        "generation": 10,
+        "best_storage_ratio": 0.4927163144532087,
+        "best_error_surrogate_mm": 0.5179036790187178
+      },
+      {
+        "generation": 11,
+        "best_storage_ratio": 0.49271612490341143,
+        "best_error_surrogate_mm": 0.5179036790187178
+      },
+      {
+        "generation": 12,
+        "best_storage_ratio": 0.4927159848148294,
+        "best_error_surrogate_mm": 0.5179036790187178
+      },
+      {
+        "generation": 13,
+        "best_storage_ratio": 0.4927159420492601,
+        "best_error_surrogate_mm": 0.5179036790187178
+      },
+      {
+        "generation": 14,
+        "best_storage_ratio": 0.4927158830555567,
+        "best_error_surrogate_mm": 0.5179036790187178
+      },
+      {
+        "generation": 15,
+        "best_storage_ratio": 0.4927158133398698,
+        "best_error_surrogate_mm": 0.5179036790187178
+      },
+      {
+        "generation": 16,
+        "best_storage_ratio": 0.4927158133398698,
+        "best_error_surrogate_mm": 0.5179036790187178
+      },
+      {
+        "generation": 17,
+        "best_storage_ratio": 0.49271580787544317,
+        "best_error_surrogate_mm": 0.5179036790187178
+      },
+      {
+        "generation": 18,
+        "best_storage_ratio": 0.49271580787544317,
+        "best_error_surrogate_mm": 0.5179036790187178
+      },
+      {
+        "generation": 19,
+        "best_storage_ratio": 0.49271580787544317,
+        "best_error_surrogate_mm": 0.5179036790187178
+      },
+      {
+        "generation": 20,
+        "best_storage_ratio": 0.49271580787544317,
+        "best_error_surrogate_mm": 0.5179036790187178
+      }
+    ]
+  },
+  {
+    "id": "F08",
+    "algorithm": "NSGA-II",
+    "seed": 20261120,
+    "pop_size": 32,
+    "generations": 20,
+    "solutions": [
+      {
+        "parameters": {
+          "lift_mm": 10.009029985423286,
+          "shift_x_mm": -30.0000004635216
+        },
+        "objectives": [
+          0.5175038054572431,
+          0.6092209588551709,
+          0.3192892857142857,
+          0.3370045151781203
+        ],
+        "constraints": [
+          -1e-06,
+          -0.282496194542757,
+          0.0,
+          -415.38875,
+          0.0
+        ],
+        "metrics": {
+          "id": "F08",
+          "simulation_level": "L2_reduced_order_statics_stiffness",
+          "peak_torque_Nmm": 4230.562499999999,
+          "peak_drive_force_N": 84.61124999999998,
+          "drive_model": "gravity torque / declared 50 mm drive arm",
+          "beam_stiffness_N_mm": 32.6728745128241,
+          "lock_stiffness_N_mm": 756.1436672967864,
+          "equivalent_stiffness_N_mm": 31.31956018389056,
+          "tip_deflection_mm": 0.3192892857142857,
+          "estimated_incremental_cost_CNY": 337.0045151781203,
+          "reliability_proxy_score": 74.3,
+          "manufacturing_complexity_score": 2.4,
+          "storage_ratio": 0.5175038054572431,
+          "max_intersection_mm2": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "lift_mm": 10.009029985423286,
+            "shift_x_mm": -30.0000004635216,
+            "fold_angle_deg": 90.0
+          }
+        }
+      },
+      {
+        "parameters": {
+          "lift_mm": 10.000019767593255,
+          "shift_x_mm": -30.000001769341992
+        },
+        "objectives": [
+          0.517503806252263,
+          0.6092209588551709,
+          0.3192892857142857,
+          0.3370000105915334
+        ],
+        "constraints": [
+          -1e-06,
+          -0.28249619374773705,
+          0.0,
+          -415.38874999999996,
+          0.0
+        ],
+        "metrics": {
+          "id": "F08",
+          "simulation_level": "L2_reduced_order_statics_stiffness",
+          "peak_torque_Nmm": 4230.562500000001,
+          "peak_drive_force_N": 84.61125000000001,
+          "drive_model": "gravity torque / declared 50 mm drive arm",
+          "beam_stiffness_N_mm": 32.6728745128241,
+          "lock_stiffness_N_mm": 756.1436672967864,
+          "equivalent_stiffness_N_mm": 31.31956018389056,
+          "tip_deflection_mm": 0.3192892857142857,
+          "estimated_incremental_cost_CNY": 337.0000105915334,
+          "reliability_proxy_score": 74.3,
+          "manufacturing_complexity_score": 2.4,
+          "storage_ratio": 0.517503806252263,
+          "max_intersection_mm2": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "lift_mm": 10.000019767593255,
+            "shift_x_mm": -30.000001769341992,
+            "fold_angle_deg": 90.0
+          }
+        }
+      }
+    ],
+    "least_infeasible": {
+      "parameters": {
+        "lift_mm": 10.009029985423286,
+        "shift_x_mm": -30.0000004635216
+      },
+      "objectives": [
+        0.5175038054572431,
+        0.6092209588551709,
+        0.3192892857142857,
+        0.3370045151781203
+      ],
+      "constraints": [
+        -1e-06,
+        -0.282496194542757,
+        0.0,
+        -415.38875,
+        0.0
+      ],
+      "max_constraint_violation": 0.0,
+      "population_size": 32,
+      "worst_constraint_violation": 0.0
+    },
+    "history": [
+      {
+        "generation": 1,
+        "best_storage_ratio": 0.5209938455713288,
+        "best_error_surrogate_mm": 0.6092209588551709
+      },
+      {
+        "generation": 2,
+        "best_storage_ratio": 0.5209938455713288,
+        "best_error_surrogate_mm": 0.6092209588551709
+      },
+      {
+        "generation": 3,
+        "best_storage_ratio": 0.5191520424748578,
+        "best_error_surrogate_mm": 0.6092209588551709
+      },
+      {
+        "generation": 4,
+        "best_storage_ratio": 0.5189452988660993,
+        "best_error_surrogate_mm": 0.6092209588551709
+      },
+      {
+        "generation": 5,
+        "best_storage_ratio": 0.5175433906322413,
+        "best_error_surrogate_mm": 0.6092209588551709
+      },
+      {
+        "generation": 6,
+        "best_storage_ratio": 0.5175433906322413,
+        "best_error_surrogate_mm": 0.6092209588551709
+      },
+      {
+        "generation": 7,
+        "best_storage_ratio": 0.5175266965320117,
+        "best_error_surrogate_mm": 0.6092209588551709
+      },
+      {
+        "generation": 8,
+        "best_storage_ratio": 0.5175266965320117,
+        "best_error_surrogate_mm": 0.6092209588551709
+      },
+      {
+        "generation": 9,
+        "best_storage_ratio": 0.5175141363893189,
+        "best_error_surrogate_mm": 0.6092209588551709
+      },
+      {
+        "generation": 10,
+        "best_storage_ratio": 0.5175050633949657,
+        "best_error_surrogate_mm": 0.6092209588551709
+      },
+      {
+        "generation": 11,
+        "best_storage_ratio": 0.5175047694897452,
+        "best_error_surrogate_mm": 0.6092209588551709
+      },
+      {
+        "generation": 12,
+        "best_storage_ratio": 0.517504735977862,
+        "best_error_surrogate_mm": 0.6092209588551709
+      },
+      {
+        "generation": 13,
+        "best_storage_ratio": 0.517503956027567,
+        "best_error_surrogate_mm": 0.6092209588551709
+      },
+      {
+        "generation": 14,
+        "best_storage_ratio": 0.5175038667373518,
+        "best_error_surrogate_mm": 0.6092209588551709
+      },
+      {
+        "generation": 15,
+        "best_storage_ratio": 0.5175038339662331,
+        "best_error_surrogate_mm": 0.6092209588551709
+      },
+      {
+        "generation": 16,
+        "best_storage_ratio": 0.5175038100258637,
+        "best_error_surrogate_mm": 0.6092209588551709
+      },
+      {
+        "generation": 17,
+        "best_storage_ratio": 0.5175038100258637,
+        "best_error_surrogate_mm": 0.6092209588551709
+      },
+      {
+        "generation": 18,
+        "best_storage_ratio": 0.5175038075355097,
+        "best_error_surrogate_mm": 0.6092209588551709
+      },
+      {
+        "generation": 19,
+        "best_storage_ratio": 0.517503806252263,
+        "best_error_surrogate_mm": 0.6092209588551709
+      },
+      {
+        "generation": 20,
+        "best_storage_ratio": 0.5175038054572431,
+        "best_error_surrogate_mm": 0.6092209588551709
+      }
+    ]
+  },
+  {
+    "id": "F09",
+    "algorithm": "NSGA-II",
+    "seed": 20261121,
+    "pop_size": 32,
+    "generations": 20,
+    "solutions": [],
+    "least_infeasible": {
+      "parameters": {
+        "lift_mm": 100.00001952826062,
+        "shift_x_mm": 29.999991585201116
+      },
+      "objectives": [
+        1.1869971732985432,
+        0.21073072246036076,
+        0.16476444189920864,
+        0.44200000639821074
+      ],
+      "constraints": [
+        508.15923868579284,
+        0.3869971732985431,
+        0.0,
+        -289.34664157572905,
+        0.0
+      ],
+      "max_constraint_violation": 508.15923868579284,
+      "population_size": 32,
+      "worst_constraint_violation": 508.2181773104164
+    },
+    "history": [
+      {
+        "generation": 1,
+        "best_storage_ratio": 1.1869971732985432,
+        "best_error_surrogate_mm": 0.21073072246036076
+      },
+      {
+        "generation": 2,
+        "best_storage_ratio": 1.1869971732985432,
+        "best_error_surrogate_mm": 0.21073072246036076
+      },
+      {
+        "generation": 3,
+        "best_storage_ratio": 1.1869971732985432,
+        "best_error_surrogate_mm": 0.21073072246036076
+      },
+      {
+        "generation": 4,
+        "best_storage_ratio": 1.1869971732985432,
+        "best_error_surrogate_mm": 0.21073072246036076
+      },
+      {
+        "generation": 5,
+        "best_storage_ratio": 1.1869971732985432,
+        "best_error_surrogate_mm": 0.21073072246036076
+      },
+      {
+        "generation": 6,
+        "best_storage_ratio": 1.1869971732985432,
+        "best_error_surrogate_mm": 0.21073072246036076
+      },
+      {
+        "generation": 7,
+        "best_storage_ratio": 1.1869971732985432,
+        "best_error_surrogate_mm": 0.21073072246036076
+      },
+      {
+        "generation": 8,
+        "best_storage_ratio": 1.1869971732985432,
+        "best_error_surrogate_mm": 0.21073072246036076
+      },
+      {
+        "generation": 9,
+        "best_storage_ratio": 1.1869971732985432,
+        "best_error_surrogate_mm": 0.21073072246036076
+      },
+      {
+        "generation": 10,
+        "best_storage_ratio": 1.1869971732985432,
+        "best_error_surrogate_mm": 0.21073072246036076
+      },
+      {
+        "generation": 11,
+        "best_storage_ratio": 1.1869971732985432,
+        "best_error_surrogate_mm": 0.21073072246036076
+      },
+      {
+        "generation": 12,
+        "best_storage_ratio": 1.1869971732985432,
+        "best_error_surrogate_mm": 0.21073072246036076
+      },
+      {
+        "generation": 13,
+        "best_storage_ratio": 1.1869971732985432,
+        "best_error_surrogate_mm": 0.21073072246036076
+      },
+      {
+        "generation": 14,
+        "best_storage_ratio": 1.1869971732985432,
+        "best_error_surrogate_mm": 0.21073072246036076
+      },
+      {
+        "generation": 15,
+        "best_storage_ratio": 1.1869971732985432,
+        "best_error_surrogate_mm": 0.21073072246036076
+      },
+      {
+        "generation": 16,
+        "best_storage_ratio": 1.1869971732985432,
+        "best_error_surrogate_mm": 0.21073072246036076
+      },
+      {
+        "generation": 17,
+        "best_storage_ratio": 1.1869971732985432,
+        "best_error_surrogate_mm": 0.21073072246036076
+      },
+      {
+        "generation": 18,
+        "best_storage_ratio": 1.1869971732985432,
+        "best_error_surrogate_mm": 0.21073072246036076
+      },
+      {
+        "generation": 19,
+        "best_storage_ratio": 1.1869971732985432,
+        "best_error_surrogate_mm": 0.21073072246036076
+      },
+      {
+        "generation": 20,
+        "best_storage_ratio": 1.1869971732985432,
+        "best_error_surrogate_mm": 0.21073072246036076
+      }
+    ]
+  },
+  {
+    "id": "F10",
+    "algorithm": "NSGA-II",
+    "seed": 20261122,
+    "pop_size": 32,
+    "generations": 20,
+    "solutions": [],
+    "least_infeasible": {
+      "parameters": {
+        "lift_mm": 131.05891850137118,
+        "shift_x_mm": 88.7855311901538,
+        "slot_width_mm": 9.103784455331946
+      },
+      "objectives": [
+        1.1869971732985432,
+        0.35076509042899956,
+        0.1874358704706372,
+        0.6610436717267472
+      ],
+      "constraints": [
+        30.06622720613156,
+        0.3869971732985431,
+        0.0,
+        -0.3018922276659728,
+        0.0
+      ],
+      "max_constraint_violation": 30.06622720613156,
+      "population_size": 32,
+      "worst_constraint_violation": 32.605645605374285
+    },
+    "history": [
+      {
+        "generation": 1,
+        "best_storage_ratio": 1.1869971732985432,
+        "best_error_surrogate_mm": 0.4121532772579904
+      },
+      {
+        "generation": 2,
+        "best_storage_ratio": 1.1869971732985432,
+        "best_error_surrogate_mm": 0.3927636509801945
+      },
+      {
+        "generation": 3,
+        "best_storage_ratio": 1.1869971732985432,
+        "best_error_surrogate_mm": 0.4121532772579904
+      },
+      {
+        "generation": 4,
+        "best_storage_ratio": 1.1869971732985432,
+        "best_error_surrogate_mm": 0.4121532772579904
+      },
+      {
+        "generation": 5,
+        "best_storage_ratio": 1.1869971732985432,
+        "best_error_surrogate_mm": 0.411612548738787
+      },
+      {
+        "generation": 6,
+        "best_storage_ratio": 1.1869971732985432,
+        "best_error_surrogate_mm": 0.39081050371876697
+      },
+      {
+        "generation": 7,
+        "best_storage_ratio": 1.1869971732985432,
+        "best_error_surrogate_mm": 0.39081050371876697
+      },
+      {
+        "generation": 8,
+        "best_storage_ratio": 1.1869971732985432,
+        "best_error_surrogate_mm": 0.39081050371876697
+      },
+      {
+        "generation": 9,
+        "best_storage_ratio": 1.1869971732985432,
+        "best_error_surrogate_mm": 0.39081050371876697
+      },
+      {
+        "generation": 10,
+        "best_storage_ratio": 1.1869971732985432,
+        "best_error_surrogate_mm": 0.38498690998580154
+      },
+      {
+        "generation": 11,
+        "best_storage_ratio": 1.1869971732985432,
+        "best_error_surrogate_mm": 0.38498690998580154
+      },
+      {
+        "generation": 12,
+        "best_storage_ratio": 1.1869971732985432,
+        "best_error_surrogate_mm": 0.38498690998580154
+      },
+      {
+        "generation": 13,
+        "best_storage_ratio": 1.1869971732985432,
+        "best_error_surrogate_mm": 0.36753716944555476
+      },
+      {
+        "generation": 14,
+        "best_storage_ratio": 1.1869971732985432,
+        "best_error_surrogate_mm": 0.37361504665948864
+      },
+      {
+        "generation": 15,
+        "best_storage_ratio": 1.1869971732985432,
+        "best_error_surrogate_mm": 0.363776264979092
+      },
+      {
+        "generation": 16,
+        "best_storage_ratio": 1.1869971732985432,
+        "best_error_surrogate_mm": 0.363776264979092
+      },
+      {
+        "generation": 17,
+        "best_storage_ratio": 1.1869971732985432,
+        "best_error_surrogate_mm": 0.3611077014905858
+      },
+      {
+        "generation": 18,
+        "best_storage_ratio": 1.1869971732985432,
+        "best_error_surrogate_mm": 0.3528688023037359
+      },
+      {
+        "generation": 19,
+        "best_storage_ratio": 1.1869971732985432,
+        "best_error_surrogate_mm": 0.3528688023037359
+      },
+      {
+        "generation": 20,
+        "best_storage_ratio": 1.1869971732985432,
+        "best_error_surrogate_mm": 0.35076509042899956
+      }
+    ]
+  },
+  {
+    "id": "F11",
+    "algorithm": "NSGA-II",
+    "seed": 20261123,
+    "pop_size": 32,
+    "generations": 20,
+    "solutions": [],
+    "least_infeasible": {
+      "parameters": {
+        "lift_mm": 84.94515758018974,
+        "case_wall_mm": 8.000000000114161
+      },
+      "objectives": [
+        0.7901295310811761,
+        0.937142857142857,
+        0.356265306122449,
+        0.7624725787900949
+      ],
+      "constraints": [
+        6.27516950255136,
+        -0.009870468918823927,
+        0.0,
+        -467.97704327455233,
+        0.0
+      ],
+      "max_constraint_violation": 6.27516950255136,
+      "population_size": 32,
+      "worst_constraint_violation": 6.275169502556379
+    },
+    "history": [
+      {
+        "generation": 1,
+        "best_storage_ratio": 0.796899956569571,
+        "best_error_surrogate_mm": 0.937142857142857
+      },
+      {
+        "generation": 2,
+        "best_storage_ratio": 0.7966054267538598,
+        "best_error_surrogate_mm": 0.937142857142857
+      },
+      {
+        "generation": 3,
+        "best_storage_ratio": 0.7966054267538598,
+        "best_error_surrogate_mm": 0.937142857142857
+      },
+      {
+        "generation": 4,
+        "best_storage_ratio": 0.7966054267538598,
+        "best_error_surrogate_mm": 0.937142857142857
+      },
+      {
+        "generation": 5,
+        "best_storage_ratio": 0.7916474395206134,
+        "best_error_surrogate_mm": 0.937142857142857
+      },
+      {
+        "generation": 6,
+        "best_storage_ratio": 0.775337474156785,
+        "best_error_surrogate_mm": 0.937142857142857
+      },
+      {
+        "generation": 7,
+        "best_storage_ratio": 0.791438050954663,
+        "best_error_surrogate_mm": 0.937142857142857
+      },
+      {
+        "generation": 8,
+        "best_storage_ratio": 0.791438050954663,
+        "best_error_surrogate_mm": 0.937142857142857
+      },
+      {
+        "generation": 9,
+        "best_storage_ratio": 0.771060219948554,
+        "best_error_surrogate_mm": 0.937142857142857
+      },
+      {
+        "generation": 10,
+        "best_storage_ratio": 0.771060219948554,
+        "best_error_surrogate_mm": 0.937142857142857
+      },
+      {
+        "generation": 11,
+        "best_storage_ratio": 0.7696718661894865,
+        "best_error_surrogate_mm": 0.937142857142857
+      },
+      {
+        "generation": 12,
+        "best_storage_ratio": 0.7696718661894865,
+        "best_error_surrogate_mm": 0.937142857142857
+      },
+      {
+        "generation": 13,
+        "best_storage_ratio": 0.7720629949984495,
+        "best_error_surrogate_mm": 0.937142857142857
+      },
+      {
+        "generation": 14,
+        "best_storage_ratio": 0.7653565445469301,
+        "best_error_surrogate_mm": 0.937142857142857
+      },
+      {
+        "generation": 15,
+        "best_storage_ratio": 0.7640649361186063,
+        "best_error_surrogate_mm": 0.937142857142857
+      },
+      {
+        "generation": 16,
+        "best_storage_ratio": 0.7741009328616786,
+        "best_error_surrogate_mm": 0.937142857142857
+      },
+      {
+        "generation": 17,
+        "best_storage_ratio": 0.7625350345843508,
+        "best_error_surrogate_mm": 0.937142857142857
+      },
+      {
+        "generation": 18,
+        "best_storage_ratio": 0.7625350345843508,
+        "best_error_surrogate_mm": 0.937142857142857
+      },
+      {
+        "generation": 19,
+        "best_storage_ratio": 0.7625350345843508,
+        "best_error_surrogate_mm": 0.937142857142857
+      },
+      {
+        "generation": 20,
+        "best_storage_ratio": 0.7901295310811761,
+        "best_error_surrogate_mm": 0.937142857142857
+      }
+    ]
+  },
+  {
+    "id": "F12",
+    "algorithm": "NSGA-II",
+    "seed": 20261124,
+    "pop_size": 32,
+    "generations": 20,
+    "solutions": [
+      {
+        "parameters": {
+          "overlap_mm": 65.34050206952026
+        },
+        "objectives": [
+          0.7998136323305236,
+          0.6265585158746263,
+          0.1707546876171722,
+          0.61
+        ],
+        "constraints": [
+          -1e-06,
+          -0.00018636766947643935,
+          0.0,
+          -0.16208605032137063,
+          0.0
+        ],
+        "metrics": {
+          "id": "F12",
+          "simulation_level": "L2_reduced_order_statics_stiffness",
+          "peak_torque_Nmm": 0.0,
+          "peak_drive_force_N": 39.7305,
+          "drive_model": "vertical telescope gravity and 0.08 friction / 0.8 efficiency",
+          "beam_stiffness_N_mm": 59.600946134095025,
+          "lock_stiffness_N_mm": 3364.605976049314,
+          "equivalent_stiffness_N_mm": 58.56354598252526,
+          "tip_deflection_mm": 0.1707546876171722,
+          "estimated_incremental_cost_CNY": 610.0,
+          "reliability_proxy_score": 64.7,
+          "manufacturing_complexity_score": 4.1,
+          "storage_ratio": 0.7998136323305236,
+          "max_intersection_mm2": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "overlap_mm": 65.34050206952026
+          }
+        }
+      },
+      {
+        "parameters": {
+          "overlap_mm": 35.00300907340884
+        },
+        "objectives": [
+          0.7092211331321624,
+          0.8620003863590364,
+          0.2091774038292811,
+          0.61
+        ],
+        "constraints": [
+          -1e-06,
+          -0.09077886686783765,
+          0.0,
+          -0.003030131199391939,
+          0.0
+        ],
+        "metrics": {
+          "id": "F12",
+          "simulation_level": "L2_reduced_order_statics_stiffness",
+          "peak_torque_Nmm": 0.0,
+          "peak_drive_force_N": 39.7305,
+          "drive_model": "vertical telescope gravity and 0.08 friction / 0.8 efficiency",
+          "beam_stiffness_N_mm": 49.20731796210641,
+          "lock_stiffness_N_mm": 1679.0924176976096,
+          "equivalent_stiffness_N_mm": 47.806310896570075,
+          "tip_deflection_mm": 0.2091774038292811,
+          "estimated_incremental_cost_CNY": 610.0,
+          "reliability_proxy_score": 64.7,
+          "manufacturing_complexity_score": 4.1,
+          "storage_ratio": 0.7092211331321624,
+          "max_intersection_mm2": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "overlap_mm": 35.00300907340884
+          }
+        }
+      },
+      {
+        "parameters": {
+          "overlap_mm": 56.76746104358473
+        },
+        "objectives": [
+          0.7742131909107552,
+          0.677811650090731,
+          0.17914948722705948,
+          0.61
+        ],
+        "constraints": [
+          -1e-06,
+          -0.0257868090892448,
+          0.0,
+          -0.12140548064598444,
+          0.0
+        ],
+        "metrics": {
+          "id": "F12",
+          "simulation_level": "L2_reduced_order_statics_stiffness",
+          "peak_torque_Nmm": 2.0911272713419748e-13,
+          "peak_drive_force_N": 39.7305,
+          "drive_model": "vertical telescope gravity and 0.08 friction / 0.8 efficiency",
+          "beam_stiffness_N_mm": 56.94264383786685,
+          "lock_stiffness_N_mm": 2829.5121841989126,
+          "equivalent_stiffness_N_mm": 55.81930573614033,
+          "tip_deflection_mm": 0.17914948722705948,
+          "estimated_incremental_cost_CNY": 610.0,
+          "reliability_proxy_score": 64.7,
+          "manufacturing_complexity_score": 4.1,
+          "storage_ratio": 0.7742131909107552,
+          "max_intersection_mm2": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "overlap_mm": 56.76746104358473
+          }
+        }
+      },
+      {
+        "parameters": {
+          "overlap_mm": 62.54680380748742
+        },
+        "objectives": [
+          0.7914712123554745,
+          0.6423003742052933,
+          0.17333500097968976,
+          0.61
+        ],
+        "constraints": [
+          -1e-06,
+          -0.008528787644525582,
+          0.0,
+          -0.1491554200757121,
+          0.0
+        ],
+        "metrics": {
+          "id": "F12",
+          "simulation_level": "L2_reduced_order_statics_stiffness",
+          "peak_torque_Nmm": 2.0911272713419748e-13,
+          "peak_drive_force_N": 39.7305,
+          "drive_model": "vertical telescope gravity and 0.08 friction / 0.8 efficiency",
+          "beam_stiffness_N_mm": 58.755984415318764,
+          "lock_stiffness_N_mm": 3185.1480012291645,
+          "equivalent_stiffness_N_mm": 57.691752637839905,
+          "tip_deflection_mm": 0.17333500097968976,
+          "estimated_incremental_cost_CNY": 610.0,
+          "reliability_proxy_score": 64.7,
+          "manufacturing_complexity_score": 4.1,
+          "storage_ratio": 0.7914712123554745,
+          "max_intersection_mm2": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "overlap_mm": 62.54680380748742
+          }
+        }
+      },
+      {
+        "parameters": {
+          "overlap_mm": 45.90695343332808
+        },
+        "objectives": [
+          0.7417820164856938,
+          0.7577781826957684,
+          0.19221214957108584,
+          0.61
+        ],
+        "constraints": [
+          -1e-06,
+          -0.05821798351430629,
+          0.0,
+          -0.06528497178095921,
+          0.0
+        ],
+        "metrics": {
+          "id": "F12",
+          "simulation_level": "L2_reduced_order_statics_stiffness",
+          "peak_torque_Nmm": 2.0911272713419748e-13,
+          "peak_drive_force_N": 39.7305,
+          "drive_model": "vertical telescope gravity and 0.08 friction / 0.8 efficiency",
+          "beam_stiffness_N_mm": 53.27540715038125,
+          "lock_stiffness_N_mm": 2218.140149484149,
+          "equivalent_stiffness_N_mm": 52.0258475976395,
+          "tip_deflection_mm": 0.19221214957108584,
+          "estimated_incremental_cost_CNY": 610.0,
+          "reliability_proxy_score": 64.7,
+          "manufacturing_complexity_score": 4.1,
+          "storage_ratio": 0.7417820164856938,
+          "max_intersection_mm2": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "overlap_mm": 45.90695343332808
+          }
+        }
+      },
+      {
+        "parameters": {
+          "overlap_mm": 49.63043227836771
+        },
+        "objectives": [
+          0.752900906709339,
+          0.7281290957947186,
+          0.18737376022229063,
+          0.61
+        ],
+        "constraints": [
+          -1e-06,
+          -0.04709909329066109,
+          0.0,
+          -0.08514385063753138,
+          0.0
+        ],
+        "metrics": {
+          "id": "F12",
+          "simulation_level": "L2_reduced_order_statics_stiffness",
+          "peak_torque_Nmm": 2.0911272713419748e-13,
+          "peak_drive_force_N": 39.7305,
+          "drive_model": "vertical telescope gravity and 0.08 friction / 0.8 efficiency",
+          "beam_stiffness_N_mm": 54.573100464073555,
+          "lock_stiffness_N_mm": 2419.373869342656,
+          "equivalent_stiffness_N_mm": 53.36926572929162,
+          "tip_deflection_mm": 0.18737376022229063,
+          "estimated_incremental_cost_CNY": 610.0,
+          "reliability_proxy_score": 64.7,
+          "manufacturing_complexity_score": 4.1,
+          "storage_ratio": 0.752900906709339,
+          "max_intersection_mm2": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "overlap_mm": 49.63043227836771
+          }
+        }
+      },
+      {
+        "parameters": {
+          "overlap_mm": 60.38781593542875
+        },
+        "objectives": [
+          0.7850241368804569,
+          0.6550781702550557,
+          0.17542818951937555,
+          0.61
+        ],
+        "constraints": [
+          -1e-06,
+          -0.014975863119543131,
+          0.0,
+          -0.13895003390069194,
+          0.0
+        ],
+        "metrics": {
+          "id": "F12",
+          "simulation_level": "L2_reduced_order_statics_stiffness",
+          "peak_torque_Nmm": 4.1822545426839497e-13,
+          "peak_drive_force_N": 39.7305,
+          "drive_model": "vertical telescope gravity and 0.08 friction / 0.8 efficiency",
+          "beam_stiffness_N_mm": 58.089105811616086,
+          "lock_stiffness_N_mm": 3049.8306000453085,
+          "equivalent_stiffness_N_mm": 57.00338142574018,
+          "tip_deflection_mm": 0.17542818951937555,
+          "estimated_incremental_cost_CNY": 610.0,
+          "reliability_proxy_score": 64.7,
+          "manufacturing_complexity_score": 4.1,
+          "storage_ratio": 0.7850241368804569,
+          "max_intersection_mm2": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "overlap_mm": 60.38781593542875
+          }
+        }
+      },
+      {
+        "parameters": {
+          "overlap_mm": 46.91903827500032
+        },
+        "objectives": [
+          0.744804260123941,
+          0.7494619000823337,
+          0.190855590150893,
+          0.61
+        ],
+        "constraints": [
+          -1e-06,
+          -0.05519573987605908,
+          0.0,
+          -0.0707495482880307,
+          0.0
+        ],
+        "metrics": {
+          "id": "F12",
+          "simulation_level": "L2_reduced_order_statics_stiffness",
+          "peak_torque_Nmm": 2.0911272713419748e-13,
+          "peak_drive_force_N": 39.7305,
+          "drive_model": "vertical telescope gravity and 0.08 friction / 0.8 efficiency",
+          "beam_stiffness_N_mm": 53.63249399534379,
+          "lock_stiffness_N_mm": 2271.9732393040226,
+          "equivalent_stiffness_N_mm": 52.39563584222953,
+          "tip_deflection_mm": 0.190855590150893,
+          "estimated_incremental_cost_CNY": 610.0,
+          "reliability_proxy_score": 64.7,
+          "manufacturing_complexity_score": 4.1,
+          "storage_ratio": 0.744804260123941,
+          "max_intersection_mm2": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "overlap_mm": 46.91903827500032
+          }
+        }
+      },
+      {
+        "parameters": {
+          "overlap_mm": 36.73894291512892
+        },
+        "objectives": [
+          0.7144049031023637,
+          0.8433726193951099,
+          0.2061498661946887,
+          0.61
+        ],
+        "constraints": [
+          -1e-06,
+          -0.08559509689763634,
+          0.0,
+          -0.013375515116449188,
+          0.0
+        ],
+        "metrics": {
+          "id": "F12",
+          "simulation_level": "L2_reduced_order_statics_stiffness",
+          "peak_torque_Nmm": 2.0911272713419748e-13,
+          "peak_drive_force_N": 39.7305,
+          "drive_model": "vertical telescope gravity and 0.08 friction / 0.8 efficiency",
+          "beam_stiffness_N_mm": 49.88334482312441,
+          "lock_stiffness_N_mm": 1759.8959004634214,
+          "equivalent_stiffness_N_mm": 48.50839917866337,
+          "tip_deflection_mm": 0.2061498661946887,
+          "estimated_incremental_cost_CNY": 610.0,
+          "reliability_proxy_score": 64.7,
+          "manufacturing_complexity_score": 4.1,
+          "storage_ratio": 0.7144049031023637,
+          "max_intersection_mm2": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "overlap_mm": 36.73894291512892
+          }
+        }
+      },
+      {
+        "parameters": {
+          "overlap_mm": 54.86732818862289
+        },
+        "objectives": [
+          0.7685390970045128,
+          0.6904525243078854,
+          0.181217186997953,
+          0.61
+        ],
+        "constraints": [
+          -1e-06,
+          -0.031460902995487205,
+          0.0,
+          -0.11197369665468304,
+          0.0
+        ],
+        "metrics": {
+          "id": "F12",
+          "simulation_level": "L2_reduced_order_statics_stiffness",
+          "peak_torque_Nmm": 2.0911272713419748e-13,
+          "peak_drive_force_N": 39.7305,
+          "drive_model": "vertical telescope gravity and 0.08 friction / 0.8 efficiency",
+          "beam_stiffness_N_mm": 56.32631684830714,
+          "lock_stiffness_N_mm": 2717.1835680193426,
+          "equivalent_stiffness_N_mm": 55.18240386389486,
+          "tip_deflection_mm": 0.181217186997953,
+          "estimated_incremental_cost_CNY": 610.0,
+          "reliability_proxy_score": 64.7,
+          "manufacturing_complexity_score": 4.1,
+          "storage_ratio": 0.7685390970045128,
+          "max_intersection_mm2": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "overlap_mm": 54.86732818862289
+          }
+        }
+      },
+      {
+        "parameters": {
+          "overlap_mm": 38.12145771935178
+        },
+        "objectives": [
+          0.718533308548039,
+          0.8291450378959546,
+          0.20383614300761005,
+          0.61
+        ],
+        "constraints": [
+          -1e-06,
+          -0.08146669145196106,
+          0.0,
+          -0.02149269214166022,
+          0.0
+        ],
+        "metrics": {
+          "id": "F12",
+          "simulation_level": "L2_reduced_order_statics_stiffness",
+          "peak_torque_Nmm": 2.0911272713419748e-13,
+          "peak_drive_force_N": 39.7305,
+          "drive_model": "vertical telescope gravity and 0.08 friction / 0.8 efficiency",
+          "beam_stiffness_N_mm": 50.41376783581061,
+          "lock_stiffness_N_mm": 1825.6069077879838,
+          "equivalent_stiffness_N_mm": 49.05901305062792,
+          "tip_deflection_mm": 0.20383614300761005,
+          "estimated_incremental_cost_CNY": 610.0,
+          "reliability_proxy_score": 64.7,
+          "manufacturing_complexity_score": 4.1,
+          "storage_ratio": 0.718533308548039,
+          "max_intersection_mm2": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "overlap_mm": 38.12145771935178
+          }
+        }
+      },
+      {
+        "parameters": {
+          "overlap_mm": 62.87201811861074
+        },
+        "objectives": [
+          0.7924423531555238,
+          0.6404230209154904,
+          0.17302736754080525,
+          0.61
+        ],
+        "constraints": [
+          -1e-06,
+          -0.00755764684447624,
+          0.0,
+          -0.15067646074390872,
+          0.0
+        ],
+        "metrics": {
+          "id": "F12",
+          "simulation_level": "L2_reduced_order_statics_stiffness",
+          "peak_torque_Nmm": 2.0911272713419748e-13,
+          "peak_drive_force_N": 39.7305,
+          "drive_model": "vertical telescope gravity and 0.08 friction / 0.8 efficiency",
+          "beam_stiffness_N_mm": 58.85537795708055,
+          "lock_stiffness_N_mm": 3205.78577168284,
+          "equivalent_stiffness_N_mm": 57.79432549964495,
+          "tip_deflection_mm": 0.17302736754080525,
+          "estimated_incremental_cost_CNY": 610.0,
+          "reliability_proxy_score": 64.7,
+          "manufacturing_complexity_score": 4.1,
+          "storage_ratio": 0.7924423531555238,
+          "max_intersection_mm2": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "overlap_mm": 62.87201811861074
+          }
+        }
+      },
+      {
+        "parameters": {
+          "overlap_mm": 42.8715218671185
+        },
+        "objectives": [
+          0.73271774305467,
+          0.7839685878355074,
+          0.1964815401044785,
+          0.61
+        ],
+        "constraints": [
+          -1e-06,
+          -0.06728225694533008,
+          0.0,
+          -0.04858767883134768,
+          0.0
+        ],
+        "metrics": {
+          "id": "F12",
+          "simulation_level": "L2_reduced_order_statics_stiffness",
+          "peak_torque_Nmm": 2.0911272713419748e-13,
+          "peak_drive_force_N": 39.7305,
+          "drive_model": "vertical telescope gravity and 0.08 friction / 0.8 efficiency",
+          "beam_stiffness_N_mm": 52.184310035888196,
+          "lock_stiffness_N_mm": 2060.5554660062467,
+          "equivalent_stiffness_N_mm": 50.89536653001869,
+          "tip_deflection_mm": 0.1964815401044785,
+          "estimated_incremental_cost_CNY": 610.0,
+          "reliability_proxy_score": 64.7,
+          "manufacturing_complexity_score": 4.1,
+          "storage_ratio": 0.73271774305467,
+          "max_intersection_mm2": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "overlap_mm": 42.8715218671185
+          }
+        }
+      },
+      {
+        "parameters": {
+          "overlap_mm": 51.79015740310628
+        },
+        "objectives": [
+          0.7593501837361729,
+          0.7120585682837957,
+          0.18474887919281274,
+          0.61
+        ],
+        "constraints": [
+          -1e-06,
+          -0.04064981626382713,
+          0.0,
+          -0.0963604333071083,
+          0.0
+        ],
+        "metrics": {
+          "id": "F12",
+          "simulation_level": "L2_reduced_order_statics_stiffness",
+          "peak_torque_Nmm": 2.0911272713419748e-13,
+          "peak_drive_force_N": 39.7305,
+          "drive_model": "vertical telescope gravity and 0.08 friction / 0.8 efficiency",
+          "beam_stiffness_N_mm": 55.30605646012517,
+          "lock_stiffness_N_mm": 2540.098414138186,
+          "equivalent_stiffness_N_mm": 54.12752728834432,
+          "tip_deflection_mm": 0.18474887919281274,
+          "estimated_incremental_cost_CNY": 610.0,
+          "reliability_proxy_score": 64.7,
+          "manufacturing_complexity_score": 4.1,
+          "storage_ratio": 0.7593501837361729,
+          "max_intersection_mm2": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "overlap_mm": 51.79015740310628
+          }
+        }
+      },
+      {
+        "parameters": {
+          "overlap_mm": 41.206636793497715
+        },
+        "objectives": [
+          0.7277461358188089,
+          0.7991860562756847,
+          0.1989602649095829,
+          0.61
+        ],
+        "constraints": [
+          -1e-06,
+          -0.07225386418119117,
+          0.0,
+          -0.03922805635640053,
+          0.0
+        ],
+        "metrics": {
+          "id": "F12",
+          "simulation_level": "L2_reduced_order_statics_stiffness",
+          "peak_torque_Nmm": 0.0,
+          "peak_drive_force_N": 39.7305,
+          "drive_model": "vertical telescope gravity and 0.08 friction / 0.8 efficiency",
+          "beam_stiffness_N_mm": 51.572698494665495,
+          "lock_stiffness_N_mm": 1976.5883151030457,
+          "equivalent_stiffness_N_mm": 50.26129214566778,
+          "tip_deflection_mm": 0.1989602649095829,
+          "estimated_incremental_cost_CNY": 610.0,
+          "reliability_proxy_score": 64.7,
+          "manufacturing_complexity_score": 4.1,
+          "storage_ratio": 0.7277461358188089,
+          "max_intersection_mm2": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "overlap_mm": 41.206636793497715
+          }
+        }
+      },
+      {
+        "parameters": {
+          "overlap_mm": 42.25237508712566
+        },
+        "objectives": [
+          0.7308688739283595,
+          0.7895540028402059,
+          0.19739149342756251,
+          0.61
+        ],
+        "constraints": [
+          -1e-06,
+          -0.06913112607164051,
+          0.0,
+          -0.04512391937446847,
+          0.0
+        ],
+        "metrics": {
+          "id": "F12",
+          "simulation_level": "L2_reduced_order_statics_stiffness",
+          "peak_torque_Nmm": 2.0911272713419748e-13,
+          "peak_drive_force_N": 39.7305,
+          "drive_model": "vertical telescope gravity and 0.08 friction / 0.8 efficiency",
+          "beam_stiffness_N_mm": 51.95796807973376,
+          "lock_stiffness_N_mm": 2029.1253015515774,
+          "equivalent_stiffness_N_mm": 50.66074442397254,
+          "tip_deflection_mm": 0.19739149342756251,
+          "estimated_incremental_cost_CNY": 610.0,
+          "reliability_proxy_score": 64.7,
+          "manufacturing_complexity_score": 4.1,
+          "storage_ratio": 0.7308688739283595,
+          "max_intersection_mm2": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "overlap_mm": 42.25237508712566
+          }
+        }
+      },
+      {
+        "parameters": {
+          "overlap_mm": 64.29678980448891
+        },
+        "objectives": [
+          0.7966969442592551,
+          0.6323389912248933,
+          0.17170239188206585,
+          0.61
+        ],
+        "constraints": [
+          -1e-06,
+          -0.0033030557407449646,
+          0.0,
+          -0.15729092985746662,
+          0.0
+        ],
+        "metrics": {
+          "id": "F12",
+          "simulation_level": "L2_reduced_order_statics_stiffness",
+          "peak_torque_Nmm": 0.0,
+          "peak_drive_force_N": 39.7305,
+          "drive_model": "vertical telescope gravity and 0.08 friction / 0.8 efficiency",
+          "beam_stiffness_N_mm": 59.287605395713,
+          "lock_stiffness_N_mm": 3296.9858866741606,
+          "equivalent_stiffness_N_mm": 58.24030690771344,
+          "tip_deflection_mm": 0.17170239188206585,
+          "estimated_incremental_cost_CNY": 610.0,
+          "reliability_proxy_score": 64.7,
+          "manufacturing_complexity_score": 4.1,
+          "storage_ratio": 0.7966969442592551,
+          "max_intersection_mm2": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "overlap_mm": 64.29678980448891
+          }
+        }
+      },
+      {
+        "parameters": {
+          "overlap_mm": 50.62130376903142
+        },
+        "objectives": [
+          0.7558598039634772,
+          0.7206587693049242,
+          0.18615380226681238,
+          0.61
+        ],
+        "constraints": [
+          -1e-06,
+          -0.04414019603652286,
+          0.0,
+          -0.09031692344425185,
+          0.0
+        ],
+        "metrics": {
+          "id": "F12",
+          "simulation_level": "L2_reduced_order_statics_stiffness",
+          "peak_torque_Nmm": 0.0,
+          "peak_drive_force_N": 39.7305,
+          "drive_model": "vertical telescope gravity and 0.08 friction / 0.8 efficiency",
+          "beam_stiffness_N_mm": 54.91113878139292,
+          "lock_stiffness_N_mm": 2474.3968121370326,
+          "equivalent_stiffness_N_mm": 53.71902092908691,
+          "tip_deflection_mm": 0.18615380226681238,
+          "estimated_incremental_cost_CNY": 610.0,
+          "reliability_proxy_score": 64.7,
+          "manufacturing_complexity_score": 4.1,
+          "storage_ratio": 0.7558598039634772,
+          "max_intersection_mm2": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "overlap_mm": 50.62130376903142
+          }
+        }
+      },
+      {
+        "parameters": {
+          "overlap_mm": 35.3682397104628
+        },
+        "objectives": [
+          0.7103117689404267,
+          0.8580079897418711,
+          0.2085286925515213,
+          0.61
+        ],
+        "constraints": [
+          -1e-06,
+          -0.08968823105957335,
+          0.0,
+          -0.005221094091094447,
+          0.0
+        ],
+        "metrics": {
+          "id": "F12",
+          "simulation_level": "L2_reduced_order_statics_stiffness",
+          "peak_torque_Nmm": 0.0,
+          "peak_drive_force_N": 39.7305,
+          "drive_model": "vertical telescope gravity and 0.08 friction / 0.8 efficiency",
+          "beam_stiffness_N_mm": 49.350488073352096,
+          "lock_stiffness_N_mm": 1695.9352861411253,
+          "equivalent_stiffness_N_mm": 47.95503140427208,
+          "tip_deflection_mm": 0.2085286925515213,
+          "estimated_incremental_cost_CNY": 610.0,
+          "reliability_proxy_score": 64.7,
+          "manufacturing_complexity_score": 4.1,
+          "storage_ratio": 0.7103117689404267,
+          "max_intersection_mm2": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "overlap_mm": 35.3682397104628
+          }
+        }
+      },
+      {
+        "parameters": {
+          "overlap_mm": 38.88311215187335
+        },
+        "objectives": [
+          0.7208077278145382,
+          0.8215253837096335,
+          0.20259653285687543,
+          0.61
+        ],
+        "constraints": [
+          -1e-06,
+          -0.07919227218546188,
+          0.0,
+          -0.025919242715592317,
+          0.0
+        ],
+        "metrics": {
+          "id": "F12",
+          "simulation_level": "L2_reduced_order_statics_stiffness",
+          "peak_torque_Nmm": 2.0911272713419748e-13,
+          "peak_drive_force_N": 39.7305,
+          "drive_model": "vertical telescope gravity and 0.08 friction / 0.8 efficiency",
+          "beam_stiffness_N_mm": 50.7030240986641,
+          "lock_stiffness_N_mm": 1862.32291561359,
+          "equivalent_stiffness_N_mm": 49.35918625549487,
+          "tip_deflection_mm": 0.20259653285687543,
+          "estimated_incremental_cost_CNY": 610.0,
+          "reliability_proxy_score": 64.7,
+          "manufacturing_complexity_score": 4.1,
+          "storage_ratio": 0.7208077278145382,
+          "max_intersection_mm2": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "overlap_mm": 38.88311215187335
+          }
+        }
+      },
+      {
+        "parameters": {
+          "overlap_mm": 44.94224694318661
+        },
+        "objectives": [
+          0.7389012520156041,
+          0.765894084619511,
+          0.19353560535113332,
+          0.61
+        ],
+        "constraints": [
+          -1e-06,
+          -0.06109874798439596,
+          0.0,
+          -0.06002885300570732,
+          0.0
+        ],
+        "metrics": {
+          "id": "F12",
+          "simulation_level": "L2_reduced_order_statics_stiffness",
+          "peak_torque_Nmm": 0.0,
+          "peak_drive_force_N": 39.7305,
+          "drive_model": "vertical telescope gravity and 0.08 friction / 0.8 efficiency",
+          "beam_stiffness_N_mm": 52.93194213204464,
+          "lock_stiffness_N_mm": 2167.4279546265116,
+          "equivalent_stiffness_N_mm": 51.670078907996874,
+          "tip_deflection_mm": 0.19353560535113332,
+          "estimated_incremental_cost_CNY": 610.0,
+          "reliability_proxy_score": 64.7,
+          "manufacturing_complexity_score": 4.1,
+          "storage_ratio": 0.7389012520156041,
+          "max_intersection_mm2": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "overlap_mm": 44.94224694318661
+          }
+        }
+      },
+      {
+        "parameters": {
+          "overlap_mm": 53.617493657713695
+        },
+        "objectives": [
+          0.7648068956075816,
+          0.699053079764278,
+          0.18262339100822797,
+          0.61
+        ],
+        "constraints": [
+          -1e-06,
+          -0.035193104392418406,
+          0.0,
+          -0.10568340682351673,
+          0.0
+        ],
+        "metrics": {
+          "id": "F12",
+          "simulation_level": "L2_reduced_order_statics_stiffness",
+          "peak_torque_Nmm": 0.0,
+          "peak_drive_force_N": 39.7305,
+          "drive_model": "vertical telescope gravity and 0.08 friction / 0.8 efficiency",
+          "beam_stiffness_N_mm": 55.91527314770116,
+          "lock_stiffness_N_mm": 2644.5384827098956,
+          "equivalent_stiffness_N_mm": 54.7574981758468,
+          "tip_deflection_mm": 0.18262339100822797,
+          "estimated_incremental_cost_CNY": 610.0,
+          "reliability_proxy_score": 64.7,
+          "manufacturing_complexity_score": 4.1,
+          "storage_ratio": 0.7648068956075816,
+          "max_intersection_mm2": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "overlap_mm": 53.617493657713695
+          }
+        }
+      },
+      {
+        "parameters": {
+          "overlap_mm": 52.378512804790056
+        },
+        "objectives": [
+          0.7611071049907481,
+          0.7078137298929206,
+          0.18405526715571052,
+          0.61
+        ],
+        "constraints": [
+          -1e-06,
+          -0.03889289500925197,
+          0.0,
+          -0.09937872999625924,
+          0.0
+        ],
+        "metrics": {
+          "id": "F12",
+          "simulation_level": "L2_reduced_order_statics_stiffness",
+          "peak_torque_Nmm": 2.0911272713419748e-13,
+          "peak_drive_force_N": 39.7305,
+          "drive_model": "vertical telescope gravity and 0.08 friction / 0.8 efficiency",
+          "beam_stiffness_N_mm": 55.503289318059366,
+          "lock_stiffness_N_mm": 2573.495770890233,
+          "equivalent_stiffness_N_mm": 54.33150680518158,
+          "tip_deflection_mm": 0.18405526715571052,
+          "estimated_incremental_cost_CNY": 610.0,
+          "reliability_proxy_score": 64.7,
+          "manufacturing_complexity_score": 4.1,
+          "storage_ratio": 0.7611071049907481,
+          "max_intersection_mm2": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "overlap_mm": 52.378512804790056
+          }
+        }
+      },
+      {
+        "parameters": {
+          "overlap_mm": 50.90497232807932
+        },
+        "objectives": [
+          0.7567068826496244,
+          0.7185508093539386,
+          0.18580949188732793,
+          0.61
+        ],
+        "constraints": [
+          -1e-06,
+          -0.043293117350375665,
+          0.0,
+          -0.09178943152610292,
+          0.0
+        ],
+        "metrics": {
+          "id": "F12",
+          "simulation_level": "L2_reduced_order_statics_stiffness",
+          "peak_torque_Nmm": 0.0,
+          "peak_drive_force_N": 39.7305,
+          "drive_model": "vertical telescope gravity and 0.08 friction / 0.8 efficiency",
+          "beam_stiffness_N_mm": 55.0073609249478,
+          "lock_stiffness_N_mm": 2490.2627928974634,
+          "equivalent_stiffness_N_mm": 53.818563833455016,
+          "tip_deflection_mm": 0.18580949188732793,
+          "estimated_incremental_cost_CNY": 610.0,
+          "reliability_proxy_score": 64.7,
+          "manufacturing_complexity_score": 4.1,
+          "storage_ratio": 0.7567068826496244,
+          "max_intersection_mm2": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "overlap_mm": 50.90497232807932
+          }
+        }
+      },
+      {
+        "parameters": {
+          "overlap_mm": 40.219764984509496
+        },
+        "objectives": [
+          0.7247991822397472,
+          0.8085121119175054,
+          0.20047866752103968,
+          0.61
+        ],
+        "constraints": [
+          -1e-06,
+          -0.07520081776025289,
+          0.0,
+          -0.03361091636763286,
+          0.0
+        ],
+        "metrics": {
+          "id": "F12",
+          "simulation_level": "L2_reduced_order_statics_stiffness",
+          "peak_torque_Nmm": 2.0911272713419748e-13,
+          "peak_drive_force_N": 39.7305,
+          "drive_model": "vertical telescope gravity and 0.08 friction / 0.8 efficiency",
+          "beam_stiffness_N_mm": 51.20564227471754,
+          "lock_stiffness_N_mm": 1927.6407165191868,
+          "equivalent_stiffness_N_mm": 49.88061883916166,
+          "tip_deflection_mm": 0.20047866752103968,
+          "estimated_incremental_cost_CNY": 610.0,
+          "reliability_proxy_score": 64.7,
+          "manufacturing_complexity_score": 4.1,
+          "storage_ratio": 0.7247991822397472,
+          "max_intersection_mm2": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "overlap_mm": 40.219764984509496
+          }
+        }
+      },
+      {
+        "parameters": {
+          "overlap_mm": 43.80238329518835
+        },
+        "objectives": [
+          0.7354974408756803,
+          0.7757302651069578,
+          0.19513903815222125,
+          0.61
+        ],
+        "constraints": [
+          -1e-06,
+          -0.06450255912431979,
+          0.0,
+          -0.053757979647948206,
+          0.0
+        ],
+        "metrics": {
+          "id": "F12",
+          "simulation_level": "L2_reduced_order_statics_stiffness",
+          "peak_torque_Nmm": 0.0,
+          "peak_drive_force_N": 39.7305,
+          "drive_model": "vertical telescope gravity and 0.08 friction / 0.8 efficiency",
+          "beam_stiffness_N_mm": 52.52216721543688,
+          "lock_stiffness_N_mm": 2108.263992682076,
+          "equivalent_stiffness_N_mm": 51.24551240331186,
+          "tip_deflection_mm": 0.19513903815222125,
+          "estimated_incremental_cost_CNY": 610.0,
+          "reliability_proxy_score": 64.7,
+          "manufacturing_complexity_score": 4.1,
+          "storage_ratio": 0.7354974408756803,
+          "max_intersection_mm2": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "overlap_mm": 43.80238329518835
+          }
+        }
+      },
+      {
+        "parameters": {
+          "overlap_mm": 48.64898524147745
+        },
+        "objectives": [
+          0.7499701523482547,
+          0.7356967934371141,
+          0.18860925307149118,
+          0.61
+        ],
+        "constraints": [
+          -1e-06,
+          -0.05002984765174534,
+          0.0,
+          -0.07997428309487753,
+          0.0
+        ],
+        "metrics": {
+          "id": "F12",
+          "simulation_level": "L2_reduced_order_statics_stiffness",
+          "peak_torque_Nmm": 2.0911272713419748e-13,
+          "peak_drive_force_N": 39.7305,
+          "drive_model": "vertical telescope gravity and 0.08 friction / 0.8 efficiency",
+          "beam_stiffness_N_mm": 54.23529120086016,
+          "lock_stiffness_N_mm": 2365.4841346495828,
+          "equivalent_stiffness_N_mm": 53.019668108274416,
+          "tip_deflection_mm": 0.18860925307149118,
+          "estimated_incremental_cost_CNY": 610.0,
+          "reliability_proxy_score": 64.7,
+          "manufacturing_complexity_score": 4.1,
+          "storage_ratio": 0.7499701523482547,
+          "max_intersection_mm2": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "overlap_mm": 48.64898524147745
+          }
+        }
+      },
+      {
+        "parameters": {
+          "overlap_mm": 54.68684772351377
+        },
+        "objectives": [
+          0.7680001541066005,
+          0.6916801457839734,
+          0.18141793511309737,
+          0.61
+        ],
+        "constraints": [
+          -1e-06,
+          -0.03199984589339955,
+          0.0,
+          -0.11106963236314382,
+          0.0
+        ],
+        "metrics": {
+          "id": "F12",
+          "simulation_level": "L2_reduced_order_statics_stiffness",
+          "peak_torque_Nmm": 0.0,
+          "peak_drive_force_N": 39.7305,
+          "drive_model": "vertical telescope gravity and 0.08 friction / 0.8 efficiency",
+          "beam_stiffness_N_mm": 56.26724009000917,
+          "lock_stiffness_N_mm": 2706.6325585765057,
+          "equivalent_stiffness_N_mm": 55.12134174477249,
+          "tip_deflection_mm": 0.18141793511309737,
+          "estimated_incremental_cost_CNY": 610.0,
+          "reliability_proxy_score": 64.7,
+          "manufacturing_complexity_score": 4.1,
+          "storage_ratio": 0.7680001541066005,
+          "max_intersection_mm2": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "overlap_mm": 54.68684772351377
+          }
+        }
+      },
+      {
+        "parameters": {
+          "overlap_mm": 57.79474701876587
+        },
+        "objectives": [
+          0.7772808275112817,
+          0.6711863468962103,
+          0.17806533927320534,
+          0.61
+        ],
+        "constraints": [
+          -1e-06,
+          -0.022719172488718353,
+          0.0,
+          -0.12643985219117732,
+          0.0
+        ],
+        "metrics": {
+          "id": "F12",
+          "simulation_level": "L2_reduced_order_statics_stiffness",
+          "peak_torque_Nmm": 2.0911272713419748e-13,
+          "peak_drive_force_N": 39.7305,
+          "drive_model": "vertical telescope gravity and 0.08 friction / 0.8 efficiency",
+          "beam_stiffness_N_mm": 57.271618617360886,
+          "lock_stiffness_N_mm": 2891.1888961529153,
+          "equivalent_stiffness_N_mm": 56.159160681220605,
+          "tip_deflection_mm": 0.17806533927320534,
+          "estimated_incremental_cost_CNY": 610.0,
+          "reliability_proxy_score": 64.7,
+          "manufacturing_complexity_score": 4.1,
+          "storage_ratio": 0.7772808275112817,
+          "max_intersection_mm2": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "overlap_mm": 57.79474701876587
+          }
+        }
+      },
+      {
+        "parameters": {
+          "overlap_mm": 53.677067736960964
+        },
+        "objectives": [
+          0.7649847931262443,
+          0.6986378068966255,
+          0.18255550454433425,
+          0.61
+        ],
+        "constraints": [
+          -1e-06,
+          -0.0350152068737557,
+          0.0,
+          -0.10598481495515427,
+          0.0
+        ],
+        "metrics": {
+          "id": "F12",
+          "simulation_level": "L2_reduced_order_statics_stiffness",
+          "peak_torque_Nmm": 2.0911272713419748e-13,
+          "peak_drive_force_N": 39.7305,
+          "drive_model": "vertical telescope gravity and 0.08 friction / 0.8 efficiency",
+          "beam_stiffness_N_mm": 55.93496888782543,
+          "lock_stiffness_N_mm": 2647.9788118611623,
+          "equivalent_stiffness_N_mm": 54.777860711241736,
+          "tip_deflection_mm": 0.18255550454433425,
+          "estimated_incremental_cost_CNY": 610.0,
+          "reliability_proxy_score": 64.7,
+          "manufacturing_complexity_score": 4.1,
+          "storage_ratio": 0.7649847931262443,
+          "max_intersection_mm2": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "overlap_mm": 53.677067736960964
+          }
+        }
+      },
+      {
+        "parameters": {
+          "overlap_mm": 44.637184514114196
+        },
+        "objectives": [
+          0.7379902878873309,
+          0.7684999546692717,
+          0.19396045628931619,
+          0.61
+        ],
+        "constraints": [
+          -1e-06,
+          -0.062009712112669146,
+          0.0,
+          -0.05835702747549937,
+          0.0
+        ],
+        "metrics": {
+          "id": "F12",
+          "simulation_level": "L2_reduced_order_statics_stiffness",
+          "peak_torque_Nmm": 2.0911272713419748e-13,
+          "peak_drive_force_N": 39.7305,
+          "drive_model": "vertical telescope gravity and 0.08 friction / 0.8 efficiency",
+          "beam_stiffness_N_mm": 52.822695440533,
+          "lock_stiffness_N_mm": 2151.5136308820906,
+          "equivalent_stiffness_N_mm": 51.55690077921736,
+          "tip_deflection_mm": 0.19396045628931619,
+          "estimated_incremental_cost_CNY": 610.0,
+          "reliability_proxy_score": 64.7,
+          "manufacturing_complexity_score": 4.1,
+          "storage_ratio": 0.7379902878873309,
+          "max_intersection_mm2": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "overlap_mm": 44.637184514114196
+          }
+        }
+      },
+      {
+        "parameters": {
+          "overlap_mm": 40.93037488958461
+        },
+        "objectives": [
+          0.7269211745633751,
+          0.801773259840072,
+          0.19938154730053492,
+          0.61
+        ],
+        "constraints": [
+          -1e-06,
+          -0.07307882543662492,
+          0.0,
+          -0.037660846616322075,
+          0.0
+        ],
+        "metrics": {
+          "id": "F12",
+          "simulation_level": "L2_reduced_order_statics_stiffness",
+          "peak_torque_Nmm": 0.0,
+          "peak_drive_force_N": 39.7305,
+          "drive_model": "vertical telescope gravity and 0.08 friction / 0.8 efficiency",
+          "beam_stiffness_N_mm": 51.47028800031976,
+          "lock_stiffness_N_mm": 1962.8242218684213,
+          "equivalent_stiffness_N_mm": 50.15509276255462,
+          "tip_deflection_mm": 0.19938154730053492,
+          "estimated_incremental_cost_CNY": 610.0,
+          "reliability_proxy_score": 64.7,
+          "manufacturing_complexity_score": 4.1,
+          "storage_ratio": 0.7269211745633751,
+          "max_intersection_mm2": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "overlap_mm": 40.93037488958461
+          }
+        }
+      }
+    ],
+    "least_infeasible": {
+      "parameters": {
+        "overlap_mm": 65.34050206952026
+      },
+      "objectives": [
+        0.7998136323305236,
+        0.6265585158746263,
+        0.1707546876171722,
+        0.61
+      ],
+      "constraints": [
+        -1e-06,
+        -0.00018636766947643935,
+        0.0,
+        -0.16208605032137063,
+        0.0
+      ],
+      "max_constraint_violation": 0.0,
+      "population_size": 32,
+      "worst_constraint_violation": 0.0
+    },
+    "history": [
+      {
+        "generation": 1,
+        "best_storage_ratio": 0.7116151929911247,
+        "best_error_surrogate_mm": 0.6291092395994311
+      },
+      {
+        "generation": 2,
+        "best_storage_ratio": 0.7114964408849812,
+        "best_error_surrogate_mm": 0.6291092395994311
+      },
+      {
+        "generation": 3,
+        "best_storage_ratio": 0.7114964408849812,
+        "best_error_surrogate_mm": 0.6270340182973275
+      },
+      {
+        "generation": 4,
+        "best_storage_ratio": 0.7093839939410077,
+        "best_error_surrogate_mm": 0.6270340182973275
+      },
+      {
+        "generation": 5,
+        "best_storage_ratio": 0.7092554905994937,
+        "best_error_surrogate_mm": 0.6270340182973275
+      },
+      {
+        "generation": 6,
+        "best_storage_ratio": 0.7092287567354267,
+        "best_error_surrogate_mm": 0.6270340182973275
+      },
+      {
+        "generation": 7,
+        "best_storage_ratio": 0.7092287567354267,
+        "best_error_surrogate_mm": 0.6270340182973275
+      },
+      {
+        "generation": 8,
+        "best_storage_ratio": 0.7092287567354267,
+        "best_error_surrogate_mm": 0.6270340182973275
+      },
+      {
+        "generation": 9,
+        "best_storage_ratio": 0.7092249974649691,
+        "best_error_surrogate_mm": 0.6270340182973275
+      },
+      {
+        "generation": 10,
+        "best_storage_ratio": 0.7092249974649691,
+        "best_error_surrogate_mm": 0.6270340182973275
+      },
+      {
+        "generation": 11,
+        "best_storage_ratio": 0.7092249974649691,
+        "best_error_surrogate_mm": 0.6267988167269642
+      },
+      {
+        "generation": 12,
+        "best_storage_ratio": 0.7092249974649691,
+        "best_error_surrogate_mm": 0.6267988167269642
+      },
+      {
+        "generation": 13,
+        "best_storage_ratio": 0.7092249974649691,
+        "best_error_surrogate_mm": 0.6267988167269642
+      },
+      {
+        "generation": 14,
+        "best_storage_ratio": 0.7092249974649691,
+        "best_error_surrogate_mm": 0.6267988167269642
+      },
+      {
+        "generation": 15,
+        "best_storage_ratio": 0.7092236332009515,
+        "best_error_surrogate_mm": 0.6267988167269642
+      },
+      {
+        "generation": 16,
+        "best_storage_ratio": 0.7092236332009515,
+        "best_error_surrogate_mm": 0.6267988167269642
+      },
+      {
+        "generation": 17,
+        "best_storage_ratio": 0.7092236332009515,
+        "best_error_surrogate_mm": 0.6267988167269642
+      },
+      {
+        "generation": 18,
+        "best_storage_ratio": 0.7092211331321624,
+        "best_error_surrogate_mm": 0.6267988167269642
+      },
+      {
+        "generation": 19,
+        "best_storage_ratio": 0.7092211331321624,
+        "best_error_surrogate_mm": 0.6267988167269642
+      },
+      {
+        "generation": 20,
+        "best_storage_ratio": 0.7092211331321624,
+        "best_error_surrogate_mm": 0.6265585158746263
+      }
+    ]
+  },
+  {
+    "id": "F13",
+    "algorithm": "NSGA-II",
+    "seed": 20261125,
+    "pop_size": 32,
+    "generations": 20,
+    "solutions": [],
+    "least_infeasible": {
+      "parameters": {
+        "drawer_stroke_mm": 179.99999999940187,
+        "cable_bend_radius_mm": 42.14138235910612
+      },
+      "objectives": [
+        1.1444444444459656,
+        0.13,
+        0.040501572204968944,
+        0.48
+      ],
+      "constraints": [
+        -1e-06,
+        0.34444444444596556,
+        0.0,
+        -7.141382359106117,
+        0.0
+      ],
+      "max_constraint_violation": 0.34444444444596556,
+      "population_size": 32,
+      "worst_constraint_violation": 0.3444444445437822
+    },
+    "history": [
+      {
+        "generation": 1,
+        "best_storage_ratio": 1.1473016844939423,
+        "best_error_surrogate_mm": 0.13
+      },
+      {
+        "generation": 2,
+        "best_storage_ratio": 1.1460835651487378,
+        "best_error_surrogate_mm": 0.13
+      },
+      {
+        "generation": 3,
+        "best_storage_ratio": 1.1450705398396088,
+        "best_error_surrogate_mm": 0.13
+      },
+      {
+        "generation": 4,
+        "best_storage_ratio": 1.1446608887865424,
+        "best_error_surrogate_mm": 0.13
+      },
+      {
+        "generation": 5,
+        "best_storage_ratio": 1.1445234953171306,
+        "best_error_surrogate_mm": 0.13
+      },
+      {
+        "generation": 6,
+        "best_storage_ratio": 1.1444512614634745,
+        "best_error_surrogate_mm": 0.13
+      },
+      {
+        "generation": 7,
+        "best_storage_ratio": 1.1444476598149043,
+        "best_error_surrogate_mm": 0.13
+      },
+      {
+        "generation": 8,
+        "best_storage_ratio": 1.144444751773033,
+        "best_error_surrogate_mm": 0.13
+      },
+      {
+        "generation": 9,
+        "best_storage_ratio": 1.144444751773033,
+        "best_error_surrogate_mm": 0.13
+      },
+      {
+        "generation": 10,
+        "best_storage_ratio": 1.144444751773033,
+        "best_error_surrogate_mm": 0.13
+      },
+      {
+        "generation": 11,
+        "best_storage_ratio": 1.1444444676831094,
+        "best_error_surrogate_mm": 0.13
+      },
+      {
+        "generation": 12,
+        "best_storage_ratio": 1.1444444604941044,
+        "best_error_surrogate_mm": 0.13
+      },
+      {
+        "generation": 13,
+        "best_storage_ratio": 1.1444444459772887,
+        "best_error_surrogate_mm": 0.13
+      },
+      {
+        "generation": 14,
+        "best_storage_ratio": 1.1444444458757677,
+        "best_error_surrogate_mm": 0.13
+      },
+      {
+        "generation": 15,
+        "best_storage_ratio": 1.1444444446606712,
+        "best_error_surrogate_mm": 0.13
+      },
+      {
+        "generation": 16,
+        "best_storage_ratio": 1.1444444446216646,
+        "best_error_surrogate_mm": 0.13
+      },
+      {
+        "generation": 17,
+        "best_storage_ratio": 1.1444444445427384,
+        "best_error_surrogate_mm": 0.13
+      },
+      {
+        "generation": 18,
+        "best_storage_ratio": 1.1444444444469624,
+        "best_error_surrogate_mm": 0.13
+      },
+      {
+        "generation": 19,
+        "best_storage_ratio": 1.1444444444469624,
+        "best_error_surrogate_mm": 0.13
+      },
+      {
+        "generation": 20,
+        "best_storage_ratio": 1.1444444444459656,
+        "best_error_surrogate_mm": 0.13
+      }
+    ]
+  },
+  {
+    "id": "F14",
+    "algorithm": "NSGA-II",
+    "seed": 20261126,
+    "pop_size": 32,
+    "generations": 20,
+    "solutions": [],
+    "least_infeasible": {
+      "parameters": {
+        "lift_mm": 80.03587984655198,
+        "shift_x_mm": -0.04072620444230993,
+        "cabinet_clearance_mm": 20.027837456941977,
+        "stow_angle_deg": 44.82868425070587
+      },
+      "objectives": [
+        4.08869308338185,
+        0.44333333333333336,
+        0.3521418650793651,
+        0.9001455802328208
+      ],
+      "constraints": [
+        550.2960910775423,
+        3.28869308338185,
+        0.0,
+        -84.77909589903288,
+        0.0
+      ],
+      "max_constraint_violation": 550.2960910775423,
+      "population_size": 32,
+      "worst_constraint_violation": 551.7888784872878
+    },
+    "history": [
+      {
+        "generation": 1,
+        "best_storage_ratio": 3.9353631578990407,
+        "best_error_surrogate_mm": 0.44333333333333336
+      },
+      {
+        "generation": 2,
+        "best_storage_ratio": 3.932387136590325,
+        "best_error_surrogate_mm": 0.44333333333333336
+      },
+      {
+        "generation": 3,
+        "best_storage_ratio": 3.8723112282357954,
+        "best_error_surrogate_mm": 0.44333333333333336
+      },
+      {
+        "generation": 4,
+        "best_storage_ratio": 3.8723112282357954,
+        "best_error_surrogate_mm": 0.44333333333333336
+      },
+      {
+        "generation": 5,
+        "best_storage_ratio": 4.085290481593724,
+        "best_error_surrogate_mm": 0.44333333333333336
+      },
+      {
+        "generation": 6,
+        "best_storage_ratio": 3.910277678266059,
+        "best_error_surrogate_mm": 0.44333333333333336
+      },
+      {
+        "generation": 7,
+        "best_storage_ratio": 3.8330439118104946,
+        "best_error_surrogate_mm": 0.44333333333333336
+      },
+      {
+        "generation": 8,
+        "best_storage_ratio": 3.879492780901695,
+        "best_error_surrogate_mm": 0.44333333333333336
+      },
+      {
+        "generation": 9,
+        "best_storage_ratio": 3.8824033417657016,
+        "best_error_surrogate_mm": 0.44333333333333336
+      },
+      {
+        "generation": 10,
+        "best_storage_ratio": 3.8824033417657016,
+        "best_error_surrogate_mm": 0.44333333333333336
+      },
+      {
+        "generation": 11,
+        "best_storage_ratio": 3.9411852754324155,
+        "best_error_surrogate_mm": 0.44333333333333336
+      },
+      {
+        "generation": 12,
+        "best_storage_ratio": 3.837787319553458,
+        "best_error_surrogate_mm": 0.44333333333333336
+      },
+      {
+        "generation": 13,
+        "best_storage_ratio": 3.9352871071255007,
+        "best_error_surrogate_mm": 0.44333333333333336
+      },
+      {
+        "generation": 14,
+        "best_storage_ratio": 3.9352871071255007,
+        "best_error_surrogate_mm": 0.44333333333333336
+      },
+      {
+        "generation": 15,
+        "best_storage_ratio": 3.9311745829154727,
+        "best_error_surrogate_mm": 0.44333333333333336
+      },
+      {
+        "generation": 16,
+        "best_storage_ratio": 3.94914175695645,
+        "best_error_surrogate_mm": 0.44333333333333336
+      },
+      {
+        "generation": 17,
+        "best_storage_ratio": 3.94914175695645,
+        "best_error_surrogate_mm": 0.44333333333333336
+      },
+      {
+        "generation": 18,
+        "best_storage_ratio": 4.168763670616496,
+        "best_error_surrogate_mm": 0.44333333333333336
+      },
+      {
+        "generation": 19,
+        "best_storage_ratio": 3.7949707267429615,
+        "best_error_surrogate_mm": 0.44333333333333336
+      },
+      {
+        "generation": 20,
+        "best_storage_ratio": 3.7661203449659104,
+        "best_error_surrogate_mm": 0.44333333333333336
+      }
+    ]
+  },
+  {
+    "id": "SCZ",
+    "algorithm": "NSGA-II",
+    "seed": 20261127,
+    "pop_size": 32,
+    "generations": 20,
+    "solutions": [
+      {
+        "parameters": {
+          "arm_length_mm": 152.51079231337002,
+          "height_fold_mm": 45.00000118070613
+        },
+        "objectives": [
+          0.4703196399918561,
+          1.0372391476404512,
+          0.30711475086266393,
+          0.85
+        ],
+        "constraints": [
+          -1e-06,
+          -0.32968036000814394,
+          0.0,
+          -394.25696218279995,
+          0.0
+        ],
+        "metrics": {
+          "id": "SCZ",
+          "simulation_level": "L2_reduced_order_statics_stiffness",
+          "peak_torque_Nmm": 1.0595044841466006e-12,
+          "peak_drive_force_N": 105.74303781720005,
+          "drive_model": "scissor vertical load times working-range geometric gain / 0.8 efficiency",
+          "beam_stiffness_N_mm": 32.7374063501757,
+          "lock_stiffness_N_mm": 6046.761623219565,
+          "equivalent_stiffness_N_mm": 32.56111916445139,
+          "tip_deflection_mm": 0.30711475086266393,
+          "estimated_incremental_cost_CNY": 850.0,
+          "reliability_proxy_score": 24.6,
+          "manufacturing_complexity_score": 4.8,
+          "storage_ratio": 0.4703196399918561,
+          "max_intersection_mm2": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "arm_length_mm": 152.51079231337002,
+            "height_work_max_mm": 305.0,
+            "height_fold_mm": 45.00000118070613,
+            "frame_offset_mm": 40.0
+          }
+        }
+      },
+      {
+        "parameters": {
+          "arm_length_mm": 152.50215350614536,
+          "height_fold_mm": 45.07516842786751
+        },
+        "objectives": [
+          0.47065633172734755,
+          1.037220964007782,
+          0.30711475086266393,
+          0.85
+        ],
+        "constraints": [
+          -1e-06,
+          -0.3293436682726525,
+          0.0,
+          -394.31811065212156,
+          0.0
+        ],
+        "metrics": {
+          "id": "SCZ",
+          "simulation_level": "L2_reduced_order_statics_stiffness",
+          "peak_torque_Nmm": 2.119008968293201e-12,
+          "peak_drive_force_N": 105.68188934787845,
+          "drive_model": "scissor vertical load times working-range geometric gain / 0.8 efficiency",
+          "beam_stiffness_N_mm": 32.7374063501757,
+          "lock_stiffness_N_mm": 6046.761623219565,
+          "equivalent_stiffness_N_mm": 32.56111916445139,
+          "tip_deflection_mm": 0.30711475086266393,
+          "estimated_incremental_cost_CNY": 850.0,
+          "reliability_proxy_score": 24.6,
+          "manufacturing_complexity_score": 4.8,
+          "storage_ratio": 0.47065633172734755,
+          "max_intersection_mm2": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "arm_length_mm": 152.50215350614536,
+            "height_work_max_mm": 305.0,
+            "height_fold_mm": 45.07516842786751,
+            "frame_offset_mm": 40.0
+          }
+        }
+      },
+      {
+        "parameters": {
+          "arm_length_mm": 155.5834884055311,
+          "height_fold_mm": 45.00000040959698
+        },
+        "objectives": [
+          0.47031963653787723,
+          1.043693920360443,
+          0.30711475086266393,
+          0.85
+        ],
+        "constraints": [
+          -1e-06,
+          -0.3296803634621228,
+          0.0,
+          -391.7176676262955,
+          0.0
+        ],
+        "metrics": {
+          "id": "SCZ",
+          "simulation_level": "L2_reduced_order_statics_stiffness",
+          "peak_torque_Nmm": 2.119008968293201e-12,
+          "peak_drive_force_N": 108.28233237370448,
+          "drive_model": "scissor vertical load times working-range geometric gain / 0.8 efficiency",
+          "beam_stiffness_N_mm": 32.7374063501757,
+          "lock_stiffness_N_mm": 6046.761623219565,
+          "equivalent_stiffness_N_mm": 32.56111916445139,
+          "tip_deflection_mm": 0.30711475086266393,
+          "estimated_incremental_cost_CNY": 850.0,
+          "reliability_proxy_score": 24.6,
+          "manufacturing_complexity_score": 4.8,
+          "storage_ratio": 0.47031963653787723,
+          "max_intersection_mm2": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "arm_length_mm": 155.5834884055311,
+            "height_work_max_mm": 305.0,
+            "height_fold_mm": 45.00000040959698,
+            "frame_offset_mm": 40.0
+          }
+        }
+      },
+      {
+        "parameters": {
+          "arm_length_mm": 155.58228028387018,
+          "height_fold_mm": 45.00000052694595
+        },
+        "objectives": [
+          0.4703196370635108,
+          1.0436913874023126,
+          0.30711475086266393,
+          0.85
+        ],
+        "constraints": [
+          -1e-06,
+          -0.3296803629364892,
+          0.0,
+          -391.7186642454652,
+          0.0
+        ],
+        "metrics": {
+          "id": "SCZ",
+          "simulation_level": "L2_reduced_order_statics_stiffness",
+          "peak_torque_Nmm": 1.0595044841466006e-12,
+          "peak_drive_force_N": 108.28133575453481,
+          "drive_model": "scissor vertical load times working-range geometric gain / 0.8 efficiency",
+          "beam_stiffness_N_mm": 32.7374063501757,
+          "lock_stiffness_N_mm": 6046.761623219565,
+          "equivalent_stiffness_N_mm": 32.56111916445139,
+          "tip_deflection_mm": 0.30711475086266393,
+          "estimated_incremental_cost_CNY": 850.0,
+          "reliability_proxy_score": 24.6,
+          "manufacturing_complexity_score": 4.8,
+          "storage_ratio": 0.4703196370635108,
+          "max_intersection_mm2": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "arm_length_mm": 155.58228028387018,
+            "height_work_max_mm": 305.0,
+            "height_fold_mm": 45.00000052694595,
+            "frame_offset_mm": 40.0
+          }
+        }
+      },
+      {
+        "parameters": {
+          "arm_length_mm": 153.11014624060115,
+          "height_fold_mm": 45.0000006115751
+        },
+        "objectives": [
+          0.47031963744258476,
+          1.0385002091542894,
+          0.30711475086266393,
+          0.85
+        ],
+        "constraints": [
+          -1e-06,
+          -0.3296803625574153,
+          0.0,
+          -393.7608926731199,
+          0.0
+        ],
+        "metrics": {
+          "id": "SCZ",
+          "simulation_level": "L2_reduced_order_statics_stiffness",
+          "peak_torque_Nmm": 1.0595044841466006e-12,
+          "peak_drive_force_N": 106.23910732688014,
+          "drive_model": "scissor vertical load times working-range geometric gain / 0.8 efficiency",
+          "beam_stiffness_N_mm": 32.7374063501757,
+          "lock_stiffness_N_mm": 6046.761623219565,
+          "equivalent_stiffness_N_mm": 32.56111916445139,
+          "tip_deflection_mm": 0.30711475086266393,
+          "estimated_incremental_cost_CNY": 850.0,
+          "reliability_proxy_score": 24.6,
+          "manufacturing_complexity_score": 4.8,
+          "storage_ratio": 0.47031963744258476,
+          "max_intersection_mm2": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "arm_length_mm": 153.11014624060115,
+            "height_work_max_mm": 305.0,
+            "height_fold_mm": 45.0000006115751,
+            "frame_offset_mm": 40.0
+          }
+        }
+      },
+      {
+        "parameters": {
+          "arm_length_mm": 152.50555313625247,
+          "height_fold_mm": 45.000040083134806
+        },
+        "objectives": [
+          0.4703198142449614,
+          1.0372281198381885,
+          0.30711475086266393,
+          0.85
+        ],
+        "constraints": [
+          -1e-06,
+          -0.32968018575503866,
+          0.0,
+          -394.26132812698296,
+          0.0
+        ],
+        "metrics": {
+          "id": "SCZ",
+          "simulation_level": "L2_reduced_order_statics_stiffness",
+          "peak_torque_Nmm": 1.0595044841466006e-12,
+          "peak_drive_force_N": 105.73867187301705,
+          "drive_model": "scissor vertical load times working-range geometric gain / 0.8 efficiency",
+          "beam_stiffness_N_mm": 32.7374063501757,
+          "lock_stiffness_N_mm": 6046.761623219565,
+          "equivalent_stiffness_N_mm": 32.56111916445139,
+          "tip_deflection_mm": 0.30711475086266393,
+          "estimated_incremental_cost_CNY": 850.0,
+          "reliability_proxy_score": 24.6,
+          "manufacturing_complexity_score": 4.8,
+          "storage_ratio": 0.4703198142449614,
+          "max_intersection_mm2": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "arm_length_mm": 152.50555313625247,
+            "height_work_max_mm": 305.0,
+            "height_fold_mm": 45.000040083134806,
+            "frame_offset_mm": 40.0
+          }
+        }
+      }
+    ],
+    "least_infeasible": {
+      "parameters": {
+        "arm_length_mm": 152.51079231337002,
+        "height_fold_mm": 45.00000118070613
+      },
+      "objectives": [
+        0.4703196399918561,
+        1.0372391476404512,
+        0.30711475086266393,
+        0.85
+      ],
+      "constraints": [
+        -1e-06,
+        -0.32968036000814394,
+        0.0,
+        -394.25696218279995,
+        0.0
+      ],
+      "max_constraint_violation": 0.0,
+      "population_size": 32,
+      "worst_constraint_violation": 0.0
+    },
+    "history": [
+      {
+        "generation": 1,
+        "best_storage_ratio": 0.48882164365513453,
+        "best_error_surrogate_mm": 1.037954668086982
+      },
+      {
+        "generation": 2,
+        "best_storage_ratio": 0.4868662579530158,
+        "best_error_surrogate_mm": 1.037954668086982
+      },
+      {
+        "generation": 3,
+        "best_storage_ratio": 0.47233686476291425,
+        "best_error_surrogate_mm": 1.037954668086982
+      },
+      {
+        "generation": 4,
+        "best_storage_ratio": 0.47233686476291425,
+        "best_error_surrogate_mm": 1.037954668086982
+      },
+      {
+        "generation": 5,
+        "best_storage_ratio": 0.47233686476291425,
+        "best_error_surrogate_mm": 1.0372391476404512
+      },
+      {
+        "generation": 6,
+        "best_storage_ratio": 0.4707511811579095,
+        "best_error_surrogate_mm": 1.0372391476404512
+      },
+      {
+        "generation": 7,
+        "best_storage_ratio": 0.4707511811579095,
+        "best_error_surrogate_mm": 1.0372391476404512
+      },
+      {
+        "generation": 8,
+        "best_storage_ratio": 0.4707511811579095,
+        "best_error_surrogate_mm": 1.0372391476404512
+      },
+      {
+        "generation": 9,
+        "best_storage_ratio": 0.47043885851100575,
+        "best_error_surrogate_mm": 1.0372391476404512
+      },
+      {
+        "generation": 10,
+        "best_storage_ratio": 0.4703460002731344,
+        "best_error_surrogate_mm": 1.0372391476404512
+      },
+      {
+        "generation": 11,
+        "best_storage_ratio": 0.4703424329821362,
+        "best_error_surrogate_mm": 1.037235026261269
+      },
+      {
+        "generation": 12,
+        "best_storage_ratio": 0.47033987705185476,
+        "best_error_surrogate_mm": 1.037235026261269
+      },
+      {
+        "generation": 13,
+        "best_storage_ratio": 0.4703212118903618,
+        "best_error_surrogate_mm": 1.0372291019078648
+      },
+      {
+        "generation": 14,
+        "best_storage_ratio": 0.47032033217510716,
+        "best_error_surrogate_mm": 1.0372291019078648
+      },
+      {
+        "generation": 15,
+        "best_storage_ratio": 0.47032010969077315,
+        "best_error_surrogate_mm": 1.037228905826275
+      },
+      {
+        "generation": 16,
+        "best_storage_ratio": 0.4703196422410164,
+        "best_error_surrogate_mm": 1.037228905826275
+      },
+      {
+        "generation": 17,
+        "best_storage_ratio": 0.4703196422410164,
+        "best_error_surrogate_mm": 1.037228905826275
+      },
+      {
+        "generation": 18,
+        "best_storage_ratio": 0.4703196422410164,
+        "best_error_surrogate_mm": 1.0372281198381885
+      },
+      {
+        "generation": 19,
+        "best_storage_ratio": 0.4703196399918561,
+        "best_error_surrogate_mm": 1.037220964007782
+      },
+      {
+        "generation": 20,
+        "best_storage_ratio": 0.47031963653787723,
+        "best_error_surrogate_mm": 1.037220964007782
+      }
+    ]
+  }
+]

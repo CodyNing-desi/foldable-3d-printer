@@ -1,0 +1,19 @@
+{
+  "scissor_height_expression": "sqrt(4*arm**2 - span**2)",
+  "scissor_dH_dS_expression": "-span/sqrt(4*arm**2 - span**2)",
+  "numeric_crosscheck": {
+    "height_mm": 264.5751311064591,
+    "dH_dS": -0.6803360514166089
+  },
+  "torque_Nmm": 1962.0,
+  "beam_stiffness_N_mm": 35.28670447385003,
+  "uncertainty_inputs": "arm=160±0.03 mm and span=180±0.03 mm standard uncertainty; rectangular Monte Carlo bounds use sqrt(3)",
+  "gum_height_mm": 264.5751311064591,
+  "gum_standard_uncertainty_mm": 0.07538472751729718,
+  "monte_carlo_standard_uncertainty_mm": 0.07540286122556596,
+  "monte_carlo_p95_mm": 264.69359282982214,
+  "monte_carlo_seed": 20261113,
+  "uncertainties_version": "3.2.3",
+  "pint_version": "0.26.2",
+  "sympy_version": "1.14.0"
+}

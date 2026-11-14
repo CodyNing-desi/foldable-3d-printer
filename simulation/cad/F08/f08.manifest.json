@@ -1,0 +1,26 @@
+{
+  "id": "F08",
+  "role": "third_fallback",
+  "parameters": {
+    "lift_mm": 10.000019767593255,
+    "shift_x_mm": -30.000001769341992
+  },
+  "source_sha256": "769f4538b5815f9d6603e5c77cae3b20297667440fb44cf9a7a0034a250f670e",
+  "is_valid": true,
+  "solid_count": 3,
+  "volume_mm3": 3110100.0,
+  "bbox_mm": [
+    -335.0,
+    -347.0,
+    0.0,
+    315.0,
+    0.0,
+    60.0
+  ],
+  "interfaces": "all custom and unchecked; no vendor or measured interface claimed",
+  "files": [
+    "f08.step",
+    "f08.stl",
+    "f08_model.py"
+  ]
+}

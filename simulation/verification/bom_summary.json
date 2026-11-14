@@ -1,0 +1,24 @@
+{
+  "currency": "CNY",
+  "price_basis": "Concept-stage Mainland China retail estimate, roughly +/-40%; not a quotation or purchase commitment.",
+  "assembly_subtotals": {
+    "SCZ_exploratory": {"low": 1538.0, "high": 3020.0},
+    "F08_fallback": {"low": 870.0, "high": 1650.0}
+  },
+  "shared_test_equipment_subtotals": {
+    "metrology": {"low": 1350.0, "high": 3610.0},
+    "consumables": {"low": 260.0, "high": 690.0},
+    "safety": {"low": 160.0, "high": 400.0},
+    "total": {"low": 1770.0, "high": 4700.0}
+  },
+  "reuse_exclusions": [
+    "host printer toolhead, heatbed, controller and power supply",
+    "Klipper host or laptop",
+    "workshop tools and calibrated masses already owned"
+  ],
+  "decision_rules": [
+    "Do not buy the F08 fallback hinge pair until the SCZ gate review says stop or delay.",
+    "Do not order custom parts before measuring the host printer interfaces.",
+    "All prices require three supplier quotes and a tolerance/fit check before purchase."
+  ]
+}
