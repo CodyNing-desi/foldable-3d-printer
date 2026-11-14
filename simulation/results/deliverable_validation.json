@@ -1,6 +1,6 @@
 {
   "passed": true,
-  "check_count": 136,
+  "check_count": 138,
   "checks": [
     {
       "name": "15 candidates",
@@ -377,21 +377,6 @@
       "evidence": "svg"
     },
     {
-      "name": "F08 valid STEP with at least two solids",
-      "passed": true,
-      "evidence": 3
-    },
-    {
-      "name": "F08 STEP and STL exist",
-      "passed": true,
-      "evidence": true
-    },
-    {
-      "name": "F08 snapshot exists",
-      "passed": true,
-      "evidence": true
-    },
-    {
       "name": "SCZ valid STEP with at least two solids",
       "passed": true,
       "evidence": 2
@@ -433,6 +418,21 @@
     },
     {
       "name": "F07 snapshot exists",
+      "passed": true,
+      "evidence": true
+    },
+    {
+      "name": "F08 valid STEP with at least two solids",
+      "passed": true,
+      "evidence": 3
+    },
+    {
+      "name": "F08 STEP and STL exist",
+      "passed": true,
+      "evidence": true
+    },
+    {
+      "name": "F08 snapshot exists",
       "passed": true,
       "evidence": true
     },
@@ -633,6 +633,16 @@
     },
     {
       "name": "report includes material BOM",
+      "passed": true,
+      "evidence": true
+    },
+    {
+      "name": "process review records the F04 reversal",
+      "passed": true,
+      "evidence": true
+    },
+    {
+      "name": "process review records final recommendation and validation",
       "passed": true,
       "evidence": true
     },

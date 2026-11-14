@@ -21,6 +21,7 @@
 - [x] Phase 15: 完成 F01–F14 与剪刀式 Z 轴统一初筛、L2 深化、NSGA-II、敏感性分析、CAD、动画与报告
 - [x] Phase 16: 全流程复现复核并提交 Git
 - [x] Phase 17: 补齐高密度收敛与局部有限元验证，确定第三项并编制实物材料清单
+- [x] Phase 18: 编写全实验过程复盘、更新 README 并同步 GitHub 主分支
 
 ## Key Questions
 1. 哪些真实产品或研究原型可以折叠，折叠的是整机、龙门、Z 轴还是其他部件？
@@ -84,8 +85,8 @@
 - 局部 L3 验证：I=7000 mm⁴ 等效悬臂梁 20/40/80/160 单元网格收敛，最细 12075 DOF 与 Euler–Bernoulli 差 2.4%；不宣称整机或铰链 FEA。
 - 第三项决策：探索型 SCZ（独立机构证据）优先，F08 为工程备选；两者 STEP 均通过独立 2/2 几何量规。F08 折叠包络 650×347×60 mm，SCZ 315×347×105 mm，均为概念装配。
 - 实物材料清单 48 项：SCZ 样机 1538–3020 CNY，F08 备选 870–1650 CNY，共用测试装备 1770–4700 CNY；价格均标注为 ±40% 概念估算。
-- 最终 `bash simulation/run_all.sh` 完整成功，27 项测试和 136/136 交付检查通过；`external/` 与基线一致。
+- 最终 `bash simulation/run_all.sh` 完整成功，30 项测试和 138/138 交付检查通过；`external/` 与基线一致。
 - 已提交 `6142192 feat(simulation): add full foldable printer screening` 到 `feature/full-mechanism-simulation`。
 
 ## Status
-**Completed** - 首轮全方案与补充验证、第三项决策、实物验证材料和 GitHub 同步已完成。
+**Completed** - 全实验过程复盘、README 更新、30 项测试、138/138 交付检查和 GitHub 主分支同步已完成。

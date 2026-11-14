@@ -2,7 +2,7 @@
 
 本目录包含 F01–F14 与剪刀式 Z 轴（SCZ）的可执行概念模型、真实批量仿真结果、多目标优化、概念 CAD、折叠动画和筛选报告。
 
-**先读 [`REPORT.md`](REPORT.md)。所有输出均为 L1/L2 虚拟推演，不是实机验证。**
+**先读 [`REPORT.md`](REPORT.md)，过程与推荐变化见 [`PROCESS_REVIEW.md`](PROCESS_REVIEW.md)。所有输出均为 L1/L2 虚拟推演和局部等效梁 L3，不是实机验证。**
 
 ## 一键复现
 

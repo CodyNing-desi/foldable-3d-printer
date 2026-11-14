@@ -130,6 +130,7 @@ F07 与 F12 已覆盖根部翻折和伸缩两类。第三项不按单纯通过�
 ## 9. 交付文件与复现
 
 - 参数：`config/candidates.json`；代码：`src/foldsim/` 与 `scripts/`；测试：`tests/`。
+- 过程与推荐变化：`PROCESS_REVIEW.md`；独立审阅原文与处置：`reviews/independent_review_round1.md`。
 - 初筛：`results/screening_summary.*`、`results/traces/`；深化：`deep_summary.*` 与 `repeatability_samples/*.npz`。
 - 扫描/优化：`sensitivity_*`、`optimization_*`、`weight_sensitivity.csv`、`selection.json`。
 - 补充验证：`results/convergence_validation.json`、`results/beam_fea.json`、`results/third_option_analysis.json`。

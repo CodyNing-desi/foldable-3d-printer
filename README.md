@@ -8,6 +8,27 @@
 
 **先读：`docs/planning/现有准备工作总结.md`。**
 
+## 全方案仿真当前结论（2026-11-14）
+
+已完成 F01–F14 与剪刀式 Z 轴 SCZ 的统一参数化初筛、优化和可行性筛选：
+
+- **稳健推荐：F07 单立柱抬升根部翻折、F12 三级伸缩立柱**。
+- **探索型第三项：SCZ 剪刀式 Z 轴**；**工程备选：F08 后移低枢轴翻折**。
+- 推荐不再包含 F04：新槽轨模型加入槽轨、滚轮和导向约束后，F04 优化无可行解。
+- 名义方案完成 201/501/1001 姿态稳定性检查；优化候选最高完成 5001 姿态复验，F07/F08/F12/SCZ 均无穿透。
+- 证据等级为 L1/L2 加局部等效梁 L3 有限元；**没有整机/铰链 FEA、多体动力学或实机验证**。
+- 30 项测试、138/138 交付检查通过；完整一键复现：`bash simulation/run_all.sh`。
+
+关键入口：
+
+- [仿真与筛选总报告](simulation/REPORT.md)
+- [全实验过程复盘与推荐变化](simulation/PROCESS_REVIEW.md)
+- [第三项选择理由](simulation/verification/THIRD_OPTION_DECISION.md)
+- [实物验证计划](simulation/verification/PHYSICAL_VALIDATION_PLAN.md)
+- [实物材料清单](simulation/verification/third_option_bom.csv)（48 项，概念估算，不是报价）
+
+当前成果同步在 `feature/full-mechanism-simulation` 分支；尚未把仿真候选当作实机可行产品。
+
 ## 文件导航
 
 ### 研究资料 `docs/research/`
@@ -40,7 +61,7 @@
 - `evidence/进度对比_01.md`：对照图的文字说明、来源与生成记录。
 - `external/`：26 个上游项目的快照、导读、commit 与许可证记录。
 - `scripts/virtual_fold_checks.py`：铰链扫掠、剪刀映射和翻转力矩的方法自检。
-- `simulation/`：F01–F14 与剪刀式 Z 轴的全方案 L1/L2 仿真、局部梁 L3 有限元、NSGA-II、原始数据、动画、概念 CAD、第三项决策与实物材料清单；先读 `simulation/REPORT.md`。
+- `simulation/`：F01–F14 与剪刀式 Z 轴的全方案 L1/L2 仿真、局部梁 L3 有限元、NSGA-II、原始数据、动画、概念 CAD、过程复盘、第三项决策与实物材料清单；先读 `simulation/REPORT.md`，再看 `simulation/PROCESS_REVIEW.md`。
 - `deliverables/折叠收纳方案_完善版.pptx`：保留队友原 34 页，追加证据边界、同尺度示意和根部关节验证 3 页。
 - `deliverables/折叠收纳与模块化_完善版.pptx`：保留新版 47 页，追加主线分层、M01 同尺度示意和四方向共同验证 3 页。
 - `task_plan.md`：工作过程、错误和验证记录。

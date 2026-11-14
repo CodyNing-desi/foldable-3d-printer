@@ -81,6 +81,9 @@ def main():
     check("report has CAD visual limitations", "没有销轴孔、轴承座、锁点或线缆细节" in report, True)
     check("report includes third option and physical plan", "探索型 SCZ" in report and "PHYSICAL_VALIDATION_PLAN.md" in report, True)
     check("report includes material BOM", "third_option_bom.csv" in report, True)
+    process_review = (SIMULATION_DIR / "PROCESS_REVIEW.md").read_text(encoding="utf-8")
+    check("process review records the F04 reversal", "F07 + F04" in process_review and "撤回推荐" in process_review, True)
+    check("process review records final recommendation and validation", "F07 和 F12" in process_review and "138/138" in process_review, True)
     external_diff = subprocess.run(["git", "diff", "--name-only", "--", "external"], cwd=SIMULATION_DIR.parent, text=True, capture_output=True)
     check("external unchanged", external_diff.returncode == 0 and not external_diff.stdout.strip(), external_diff.stdout.strip())
     for name in ("hinge-inner", "hinge-outer"):
