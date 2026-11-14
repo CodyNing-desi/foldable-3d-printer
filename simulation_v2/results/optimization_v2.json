@@ -1,0 +1,3696 @@
+[
+  {
+    "id": "F02",
+    "algorithm": "NSGA-II (pure-NumPy seeded)",
+    "seed": 20261114,
+    "pop_size": 20,
+    "generations": 12,
+    "solutions": [],
+    "least_infeasible": {
+      "parameters": {
+        "arm_length_mm": 220.0
+      },
+      "objectives": [
+        1.673015873015873,
+        0.6906555501270348,
+        0.28339285714285717,
+        0.22
+      ],
+      "constraints": [
+        45.9999,
+        0.873015873015873,
+        0.0,
+        -328.418,
+        0.0
+      ],
+      "max_constraint_violation": 45.9999
+    },
+    "history": [
+      {
+        "generation": 1,
+        "feasible_count": 0,
+        "min_cv": 46.87291587301587
+      },
+      {
+        "generation": 2,
+        "feasible_count": 0,
+        "min_cv": 46.87291587301587
+      },
+      {
+        "generation": 3,
+        "feasible_count": 0,
+        "min_cv": 46.87291587301587
+      },
+      {
+        "generation": 4,
+        "feasible_count": 0,
+        "min_cv": 46.87291587301587
+      },
+      {
+        "generation": 5,
+        "feasible_count": 0,
+        "min_cv": 46.87291587301587
+      },
+      {
+        "generation": 6,
+        "feasible_count": 0,
+        "min_cv": 46.87291587301587
+      },
+      {
+        "generation": 7,
+        "feasible_count": 0,
+        "min_cv": 46.87291587301587
+      },
+      {
+        "generation": 8,
+        "feasible_count": 0,
+        "min_cv": 46.87291587301587
+      },
+      {
+        "generation": 9,
+        "feasible_count": 0,
+        "min_cv": 46.87291587301587
+      },
+      {
+        "generation": 10,
+        "feasible_count": 0,
+        "min_cv": 46.87291587301587
+      },
+      {
+        "generation": 11,
+        "feasible_count": 0,
+        "min_cv": 46.87291587301587
+      },
+      {
+        "generation": 12,
+        "feasible_count": 0,
+        "min_cv": 46.87291587301587
+      }
+    ]
+  },
+  {
+    "id": "F04",
+    "algorithm": "NSGA-II (pure-NumPy seeded)",
+    "seed": 20261116,
+    "pop_size": 20,
+    "generations": 12,
+    "solutions": [],
+    "least_infeasible": {
+      "parameters": {
+        "lift_mm": 79.50856473872909,
+        "shift_x_mm": 23.985491236926176,
+        "slot_width_mm": 13.548568798653713,
+        "roller_spacing_mm": 45.22017269847723
+      },
+      "objectives": [
+        0.5517380603402499,
+        0.939263570387273,
+        0.28339285714285717,
+        0.459348478864135
+      ],
+      "constraints": [
+        3.9999,
+        -0.24826193965975019,
+        0.0,
+        -2.5242843993268567,
+        0.0
+      ],
+      "max_constraint_violation": 3.9999
+    },
+    "history": [
+      {
+        "generation": 1,
+        "feasible_count": 0,
+        "min_cv": 3.9999
+      },
+      {
+        "generation": 2,
+        "feasible_count": 0,
+        "min_cv": 3.9999
+      },
+      {
+        "generation": 3,
+        "feasible_count": 0,
+        "min_cv": 3.9999
+      },
+      {
+        "generation": 4,
+        "feasible_count": 0,
+        "min_cv": 3.9999
+      },
+      {
+        "generation": 5,
+        "feasible_count": 0,
+        "min_cv": 3.9999
+      },
+      {
+        "generation": 6,
+        "feasible_count": 0,
+        "min_cv": 3.9999
+      },
+      {
+        "generation": 7,
+        "feasible_count": 0,
+        "min_cv": 3.9999
+      },
+      {
+        "generation": 8,
+        "feasible_count": 0,
+        "min_cv": 3.9999
+      },
+      {
+        "generation": 9,
+        "feasible_count": 0,
+        "min_cv": 3.9999
+      },
+      {
+        "generation": 10,
+        "feasible_count": 0,
+        "min_cv": 3.9999
+      },
+      {
+        "generation": 11,
+        "feasible_count": 0,
+        "min_cv": 3.9999
+      },
+      {
+        "generation": 12,
+        "feasible_count": 0,
+        "min_cv": 3.9999
+      }
+    ]
+  },
+  {
+    "id": "F05",
+    "algorithm": "NSGA-II (pure-NumPy seeded)",
+    "seed": 20261117,
+    "pop_size": 20,
+    "generations": 12,
+    "solutions": [],
+    "least_infeasible": {
+      "parameters": {
+        "overlap_mm": 40.0
+      },
+      "objectives": [
+        1.0100449536539762,
+        1.548111186020943,
+        0.28339285714285717,
+        0.42
+      ],
+      "constraints": [
+        -9.999999998578915e-05,
+        0.21004495365397613,
+        0.0,
+        -0.032352941176470584,
+        0.0
+      ],
+      "max_constraint_violation": 0.21004495365397613
+    },
+    "history": [
+      {
+        "generation": 1,
+        "feasible_count": 0,
+        "min_cv": 0.21682848821530842
+      },
+      {
+        "generation": 2,
+        "feasible_count": 0,
+        "min_cv": 0.21634812213298527
+      },
+      {
+        "generation": 3,
+        "feasible_count": 0,
+        "min_cv": 0.21004495365397613
+      },
+      {
+        "generation": 4,
+        "feasible_count": 0,
+        "min_cv": 0.21004495365397613
+      },
+      {
+        "generation": 5,
+        "feasible_count": 0,
+        "min_cv": 0.21004495365397613
+      },
+      {
+        "generation": 6,
+        "feasible_count": 0,
+        "min_cv": 0.21004495365397613
+      },
+      {
+        "generation": 7,
+        "feasible_count": 0,
+        "min_cv": 0.21004495365397613
+      },
+      {
+        "generation": 8,
+        "feasible_count": 0,
+        "min_cv": 0.21004495365397613
+      },
+      {
+        "generation": 9,
+        "feasible_count": 0,
+        "min_cv": 0.21004495365397613
+      },
+      {
+        "generation": 10,
+        "feasible_count": 0,
+        "min_cv": 0.21004495365397613
+      },
+      {
+        "generation": 11,
+        "feasible_count": 0,
+        "min_cv": 0.21004495365397613
+      },
+      {
+        "generation": 12,
+        "feasible_count": 0,
+        "min_cv": 0.21004495365397613
+      }
+    ]
+  },
+  {
+    "id": "F06",
+    "algorithm": "NSGA-II (pure-NumPy seeded)",
+    "seed": 20261118,
+    "pop_size": 20,
+    "generations": 12,
+    "solutions": [],
+    "least_infeasible": {
+      "parameters": {
+        "cabinet_clearance_mm": 10.0
+      },
+      "objectives": [
+        1.9462121212121213,
+        0.42952279885549116,
+        0.28339285714285717,
+        0.56
+      ],
+      "constraints": [
+        -0.0001,
+        1.1462121212121212,
+        0.0,
+        -98.86399999999998,
+        0.0
+      ],
+      "max_constraint_violation": 1.1462121212121212
+    },
+    "history": [
+      {
+        "generation": 1,
+        "feasible_count": 0,
+        "min_cv": 1.15855654057456
+      },
+      {
+        "generation": 2,
+        "feasible_count": 0,
+        "min_cv": 1.1462121212121212
+      },
+      {
+        "generation": 3,
+        "feasible_count": 0,
+        "min_cv": 1.1462121212121212
+      },
+      {
+        "generation": 4,
+        "feasible_count": 0,
+        "min_cv": 1.1462121212121212
+      },
+      {
+        "generation": 5,
+        "feasible_count": 0,
+        "min_cv": 1.1462121212121212
+      },
+      {
+        "generation": 6,
+        "feasible_count": 0,
+        "min_cv": 1.1462121212121212
+      },
+      {
+        "generation": 7,
+        "feasible_count": 0,
+        "min_cv": 1.1462121212121212
+      },
+      {
+        "generation": 8,
+        "feasible_count": 0,
+        "min_cv": 1.1462121212121212
+      },
+      {
+        "generation": 9,
+        "feasible_count": 0,
+        "min_cv": 1.1462121212121212
+      },
+      {
+        "generation": 10,
+        "feasible_count": 0,
+        "min_cv": 1.1462121212121212
+      },
+      {
+        "generation": 11,
+        "feasible_count": 0,
+        "min_cv": 1.1462121212121212
+      },
+      {
+        "generation": 12,
+        "feasible_count": 0,
+        "min_cv": 1.1462121212121212
+      }
+    ]
+  },
+  {
+    "id": "F07",
+    "algorithm": "NSGA-II (pure-NumPy seeded)",
+    "seed": 20261119,
+    "pop_size": 20,
+    "generations": 12,
+    "solutions": [
+      {
+        "parameters": {
+          "lift_mm": 75.0,
+          "shift_x_mm": -0.4455832433034403
+        },
+        "objectives": [
+          0.5665161405616324,
+          0.631288391716274,
+          0.7459153689766059,
+          0.37267823329732136
+        ],
+        "constraints": [
+          -0.0001,
+          -0.2334838594383677,
+          0.0,
+          -264.21155,
+          0.0
+        ],
+        "metrics": {
+          "id": "F07",
+          "simulation_level": "L3_3D_OBB_and_space_frame_FEA",
+          "tip_deflection_mm": 0.7459153689766059,
+          "estimated_incremental_cost_CNY": 372.67823329732136,
+          "reliability_proxy_score": 72.8,
+          "manufacturing_complexity_score": 2.4,
+          "storage_ratio": 0.5665161405616324,
+          "core_storage_ratio": 0.5665161405616324,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 2,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "lift_mm": 75.0,
+            "shift_x_mm": -0.4455832433034403,
+            "fold_angle_deg": 90.0,
+            "guide_rod_dia_mm": 8.0,
+            "pin_dia_mm": 6.0,
+            "arm_fold_enabled": 1
+          },
+          "lift_drive_force_N": 51.047672727272726,
+          "peak_torque_Nmm": 4289.422500000001,
+          "peak_drive_force_N": 85.78845000000001,
+          "hinge_shear_MPa": 0.3580638068129631,
+          "lock_pin_shear_MPa": 1.768388256576615,
+          "drive_model": "F07 lift leadscrew (eta=0.55) & 50mm fold arm"
+        }
+      },
+      {
+        "parameters": {
+          "lift_mm": 75.00000000000001,
+          "shift_x_mm": -4.817024841930219
+        },
+        "objectives": [
+          0.5618395820347256,
+          0.631288391716274,
+          0.7459153689766059,
+          0.3744268099367721
+        ],
+        "constraints": [
+          -0.0001,
+          -0.23816041796527443,
+          0.0,
+          -264.21155,
+          0.0
+        ],
+        "metrics": {
+          "id": "F07",
+          "simulation_level": "L3_3D_OBB_and_space_frame_FEA",
+          "tip_deflection_mm": 0.7459153689766059,
+          "estimated_incremental_cost_CNY": 374.4268099367721,
+          "reliability_proxy_score": 72.8,
+          "manufacturing_complexity_score": 2.4,
+          "storage_ratio": 0.5618395820347256,
+          "core_storage_ratio": 0.5618395820347256,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 2,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "lift_mm": 75.00000000000001,
+            "shift_x_mm": -4.817024841930219,
+            "fold_angle_deg": 90.0,
+            "guide_rod_dia_mm": 8.0,
+            "pin_dia_mm": 6.0,
+            "arm_fold_enabled": 1
+          },
+          "lift_drive_force_N": 51.047672727272726,
+          "peak_torque_Nmm": 4289.422500000001,
+          "peak_drive_force_N": 85.78845000000001,
+          "hinge_shear_MPa": 0.3580638068129631,
+          "lock_pin_shear_MPa": 1.768388256576615,
+          "drive_model": "F07 lift leadscrew (eta=0.55) & 50mm fold arm"
+        }
+      },
+      {
+        "parameters": {
+          "lift_mm": 75.0,
+          "shift_x_mm": -0.94821133024272
+        },
+        "objectives": [
+          0.5659784301489902,
+          0.631288391716274,
+          0.7459153689766059,
+          0.37287928453209707
+        ],
+        "constraints": [
+          -0.0001,
+          -0.23402156985100986,
+          0.0,
+          -264.21155,
+          0.0
+        ],
+        "metrics": {
+          "id": "F07",
+          "simulation_level": "L3_3D_OBB_and_space_frame_FEA",
+          "tip_deflection_mm": 0.7459153689766059,
+          "estimated_incremental_cost_CNY": 372.8792845320971,
+          "reliability_proxy_score": 72.8,
+          "manufacturing_complexity_score": 2.4,
+          "storage_ratio": 0.5659784301489902,
+          "core_storage_ratio": 0.5659784301489902,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 2,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "lift_mm": 75.0,
+            "shift_x_mm": -0.94821133024272,
+            "fold_angle_deg": 90.0,
+            "guide_rod_dia_mm": 8.0,
+            "pin_dia_mm": 6.0,
+            "arm_fold_enabled": 1
+          },
+          "lift_drive_force_N": 51.047672727272726,
+          "peak_torque_Nmm": 4289.422500000001,
+          "peak_drive_force_N": 85.78845000000001,
+          "hinge_shear_MPa": 0.3580638068129631,
+          "lock_pin_shear_MPa": 1.768388256576615,
+          "drive_model": "F07 lift leadscrew (eta=0.55) & 50mm fold arm"
+        }
+      },
+      {
+        "parameters": {
+          "lift_mm": 75.0,
+          "shift_x_mm": 0.010692502303460933
+        },
+        "objectives": [
+          0.5670042633423208,
+          0.631288391716274,
+          0.7459153689766059,
+          0.37250427700092137
+        ],
+        "constraints": [
+          -0.0001,
+          -0.23299573665767925,
+          0.0,
+          -264.21155,
+          0.0
+        ],
+        "metrics": {
+          "id": "F07",
+          "simulation_level": "L3_3D_OBB_and_space_frame_FEA",
+          "tip_deflection_mm": 0.7459153689766059,
+          "estimated_incremental_cost_CNY": 372.5042770009214,
+          "reliability_proxy_score": 72.8,
+          "manufacturing_complexity_score": 2.4,
+          "storage_ratio": 0.5670042633423208,
+          "core_storage_ratio": 0.5670042633423208,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 2,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "lift_mm": 75.0,
+            "shift_x_mm": 0.010692502303460933,
+            "fold_angle_deg": 90.0,
+            "guide_rod_dia_mm": 8.0,
+            "pin_dia_mm": 6.0,
+            "arm_fold_enabled": 1
+          },
+          "lift_drive_force_N": 51.047672727272726,
+          "peak_torque_Nmm": 4289.422500000001,
+          "peak_drive_force_N": 85.78845000000001,
+          "hinge_shear_MPa": 0.3580638068129631,
+          "lock_pin_shear_MPa": 1.768388256576615,
+          "drive_model": "F07 lift leadscrew (eta=0.55) & 50mm fold arm"
+        }
+      },
+      {
+        "parameters": {
+          "lift_mm": 75.00000000000003,
+          "shift_x_mm": -2.481991338334299
+        },
+        "objectives": [
+          0.5643375956980639,
+          0.631288391716274,
+          0.7459153689766059,
+          0.3734927965353337
+        ],
+        "constraints": [
+          -0.0001,
+          -0.2356624043019362,
+          0.0,
+          -264.21155,
+          0.0
+        ],
+        "metrics": {
+          "id": "F07",
+          "simulation_level": "L3_3D_OBB_and_space_frame_FEA",
+          "tip_deflection_mm": 0.7459153689766059,
+          "estimated_incremental_cost_CNY": 373.4927965353337,
+          "reliability_proxy_score": 72.8,
+          "manufacturing_complexity_score": 2.4,
+          "storage_ratio": 0.5643375956980639,
+          "core_storage_ratio": 0.5643375956980639,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 2,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "lift_mm": 75.00000000000003,
+            "shift_x_mm": -2.481991338334299,
+            "fold_angle_deg": 90.0,
+            "guide_rod_dia_mm": 8.0,
+            "pin_dia_mm": 6.0,
+            "arm_fold_enabled": 1
+          },
+          "lift_drive_force_N": 51.047672727272726,
+          "peak_torque_Nmm": 4289.422500000001,
+          "peak_drive_force_N": 85.78845000000001,
+          "hinge_shear_MPa": 0.3580638068129631,
+          "lock_pin_shear_MPa": 1.768388256576615,
+          "drive_model": "F07 lift leadscrew (eta=0.55) & 50mm fold arm"
+        }
+      },
+      {
+        "parameters": {
+          "lift_mm": 75.0,
+          "shift_x_mm": -1.2083207078955043
+        },
+        "objectives": [
+          0.565700165713667,
+          0.631288391716274,
+          0.7459153689766059,
+          0.37298332828315817
+        ],
+        "constraints": [
+          -0.0001,
+          -0.23429983428633305,
+          0.0,
+          -264.21155,
+          0.0
+        ],
+        "metrics": {
+          "id": "F07",
+          "simulation_level": "L3_3D_OBB_and_space_frame_FEA",
+          "tip_deflection_mm": 0.7459153689766059,
+          "estimated_incremental_cost_CNY": 372.9833282831582,
+          "reliability_proxy_score": 72.8,
+          "manufacturing_complexity_score": 2.4,
+          "storage_ratio": 0.565700165713667,
+          "core_storage_ratio": 0.565700165713667,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 2,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "lift_mm": 75.0,
+            "shift_x_mm": -1.2083207078955043,
+            "fold_angle_deg": 90.0,
+            "guide_rod_dia_mm": 8.0,
+            "pin_dia_mm": 6.0,
+            "arm_fold_enabled": 1
+          },
+          "lift_drive_force_N": 51.047672727272726,
+          "peak_torque_Nmm": 4289.422500000001,
+          "peak_drive_force_N": 85.78845000000001,
+          "hinge_shear_MPa": 0.3580638068129631,
+          "lock_pin_shear_MPa": 1.768388256576615,
+          "drive_model": "F07 lift leadscrew (eta=0.55) & 50mm fold arm"
+        }
+      },
+      {
+        "parameters": {
+          "lift_mm": 75.0,
+          "shift_x_mm": -1.6725335451565098
+        },
+        "objectives": [
+          0.5652035518499303,
+          0.631288391716274,
+          0.7459153689766059,
+          0.3731690134180626
+        ],
+        "constraints": [
+          -0.0001,
+          -0.23479644815006973,
+          0.0,
+          -264.21155,
+          0.0
+        ],
+        "metrics": {
+          "id": "F07",
+          "simulation_level": "L3_3D_OBB_and_space_frame_FEA",
+          "tip_deflection_mm": 0.7459153689766059,
+          "estimated_incremental_cost_CNY": 373.1690134180626,
+          "reliability_proxy_score": 72.8,
+          "manufacturing_complexity_score": 2.4,
+          "storage_ratio": 0.5652035518499303,
+          "core_storage_ratio": 0.5652035518499303,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 2,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "lift_mm": 75.0,
+            "shift_x_mm": -1.6725335451565098,
+            "fold_angle_deg": 90.0,
+            "guide_rod_dia_mm": 8.0,
+            "pin_dia_mm": 6.0,
+            "arm_fold_enabled": 1
+          },
+          "lift_drive_force_N": 51.047672727272726,
+          "peak_torque_Nmm": 4289.422500000001,
+          "peak_drive_force_N": 85.78845000000001,
+          "hinge_shear_MPa": 0.3580638068129631,
+          "lock_pin_shear_MPa": 1.768388256576615,
+          "drive_model": "F07 lift leadscrew (eta=0.55) & 50mm fold arm"
+        }
+      },
+      {
+        "parameters": {
+          "lift_mm": 75.0,
+          "shift_x_mm": -2.1990127492935234
+        },
+        "objectives": [
+          0.5646403255650089,
+          0.631288391716274,
+          0.7459153689766059,
+          0.3733796050997174
+        ],
+        "constraints": [
+          -0.0001,
+          -0.23535967443499117,
+          0.0,
+          -264.21155,
+          0.0
+        ],
+        "metrics": {
+          "id": "F07",
+          "simulation_level": "L3_3D_OBB_and_space_frame_FEA",
+          "tip_deflection_mm": 0.7459153689766059,
+          "estimated_incremental_cost_CNY": 373.3796050997174,
+          "reliability_proxy_score": 72.8,
+          "manufacturing_complexity_score": 2.4,
+          "storage_ratio": 0.5646403255650089,
+          "core_storage_ratio": 0.5646403255650089,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 2,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "lift_mm": 75.0,
+            "shift_x_mm": -2.1990127492935234,
+            "fold_angle_deg": 90.0,
+            "guide_rod_dia_mm": 8.0,
+            "pin_dia_mm": 6.0,
+            "arm_fold_enabled": 1
+          },
+          "lift_drive_force_N": 51.047672727272726,
+          "peak_torque_Nmm": 4289.422500000001,
+          "peak_drive_force_N": 85.78845000000001,
+          "hinge_shear_MPa": 0.3580638068129631,
+          "lock_pin_shear_MPa": 1.768388256576615,
+          "drive_model": "F07 lift leadscrew (eta=0.55) & 50mm fold arm"
+        }
+      },
+      {
+        "parameters": {
+          "lift_mm": 75.0,
+          "shift_x_mm": -0.19354769847744827
+        },
+        "objectives": [
+          0.5667857676285042,
+          0.631288391716274,
+          0.7459153689766059,
+          0.372577419079391
+        ],
+        "constraints": [
+          -0.0001,
+          -0.23321423237149586,
+          0.0,
+          -264.21155,
+          0.0
+        ],
+        "metrics": {
+          "id": "F07",
+          "simulation_level": "L3_3D_OBB_and_space_frame_FEA",
+          "tip_deflection_mm": 0.7459153689766059,
+          "estimated_incremental_cost_CNY": 372.577419079391,
+          "reliability_proxy_score": 72.8,
+          "manufacturing_complexity_score": 2.4,
+          "storage_ratio": 0.5667857676285042,
+          "core_storage_ratio": 0.5667857676285042,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 2,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "lift_mm": 75.0,
+            "shift_x_mm": -0.19354769847744827,
+            "fold_angle_deg": 90.0,
+            "guide_rod_dia_mm": 8.0,
+            "pin_dia_mm": 6.0,
+            "arm_fold_enabled": 1
+          },
+          "lift_drive_force_N": 51.047672727272726,
+          "peak_torque_Nmm": 4289.422500000001,
+          "peak_drive_force_N": 85.78845000000001,
+          "hinge_shear_MPa": 0.3580638068129631,
+          "lock_pin_shear_MPa": 1.768388256576615,
+          "drive_model": "F07 lift leadscrew (eta=0.55) & 50mm fold arm"
+        }
+      },
+      {
+        "parameters": {
+          "lift_mm": 75.0,
+          "shift_x_mm": -1.7577693485535706
+        },
+        "objectives": [
+          0.5651123667764985,
+          0.631288391716274,
+          0.7459153689766059,
+          0.37320310773942145
+        ],
+        "constraints": [
+          -0.0001,
+          -0.2348876332235016,
+          0.0,
+          -264.21155,
+          0.0
+        ],
+        "metrics": {
+          "id": "F07",
+          "simulation_level": "L3_3D_OBB_and_space_frame_FEA",
+          "tip_deflection_mm": 0.7459153689766059,
+          "estimated_incremental_cost_CNY": 373.20310773942145,
+          "reliability_proxy_score": 72.8,
+          "manufacturing_complexity_score": 2.4,
+          "storage_ratio": 0.5651123667764985,
+          "core_storage_ratio": 0.5651123667764985,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 2,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "lift_mm": 75.0,
+            "shift_x_mm": -1.7577693485535706,
+            "fold_angle_deg": 90.0,
+            "guide_rod_dia_mm": 8.0,
+            "pin_dia_mm": 6.0,
+            "arm_fold_enabled": 1
+          },
+          "lift_drive_force_N": 51.047672727272726,
+          "peak_torque_Nmm": 4289.422500000001,
+          "peak_drive_force_N": 85.78845000000001,
+          "hinge_shear_MPa": 0.3580638068129631,
+          "lock_pin_shear_MPa": 1.768388256576615,
+          "drive_model": "F07 lift leadscrew (eta=0.55) & 50mm fold arm"
+        }
+      },
+      {
+        "parameters": {
+          "lift_mm": 75.0,
+          "shift_x_mm": -2.4423359829241598
+        },
+        "objectives": [
+          0.5643800189093311,
+          0.631288391716274,
+          0.7459153689766059,
+          0.37347693439316965
+        ],
+        "constraints": [
+          -0.0001,
+          -0.23561998109066895,
+          0.0,
+          -264.21155,
+          0.0
+        ],
+        "metrics": {
+          "id": "F07",
+          "simulation_level": "L3_3D_OBB_and_space_frame_FEA",
+          "tip_deflection_mm": 0.7459153689766059,
+          "estimated_incremental_cost_CNY": 373.47693439316964,
+          "reliability_proxy_score": 72.8,
+          "manufacturing_complexity_score": 2.4,
+          "storage_ratio": 0.5643800189093311,
+          "core_storage_ratio": 0.5643800189093311,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 2,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "lift_mm": 75.0,
+            "shift_x_mm": -2.4423359829241598,
+            "fold_angle_deg": 90.0,
+            "guide_rod_dia_mm": 8.0,
+            "pin_dia_mm": 6.0,
+            "arm_fold_enabled": 1
+          },
+          "lift_drive_force_N": 51.047672727272726,
+          "peak_torque_Nmm": 4289.422500000001,
+          "peak_drive_force_N": 85.78845000000001,
+          "hinge_shear_MPa": 0.3580638068129631,
+          "lock_pin_shear_MPa": 1.768388256576615,
+          "drive_model": "F07 lift leadscrew (eta=0.55) & 50mm fold arm"
+        }
+      },
+      {
+        "parameters": {
+          "lift_mm": 75.0,
+          "shift_x_mm": -1.9947725485126144
+        },
+        "objectives": [
+          0.5648588212788254,
+          0.631288391716274,
+          0.7459153689766059,
+          0.373297909019405
+        ],
+        "constraints": [
+          -0.0001,
+          -0.23514117872117468,
+          0.0,
+          -264.21155,
+          0.0
+        ],
+        "metrics": {
+          "id": "F07",
+          "simulation_level": "L3_3D_OBB_and_space_frame_FEA",
+          "tip_deflection_mm": 0.7459153689766059,
+          "estimated_incremental_cost_CNY": 373.29790901940504,
+          "reliability_proxy_score": 72.8,
+          "manufacturing_complexity_score": 2.4,
+          "storage_ratio": 0.5648588212788254,
+          "core_storage_ratio": 0.5648588212788254,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 2,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "lift_mm": 75.0,
+            "shift_x_mm": -1.9947725485126144,
+            "fold_angle_deg": 90.0,
+            "guide_rod_dia_mm": 8.0,
+            "pin_dia_mm": 6.0,
+            "arm_fold_enabled": 1
+          },
+          "lift_drive_force_N": 51.047672727272726,
+          "peak_torque_Nmm": 4289.422500000001,
+          "peak_drive_force_N": 85.78845000000001,
+          "hinge_shear_MPa": 0.3580638068129631,
+          "lock_pin_shear_MPa": 1.768388256576615,
+          "drive_model": "F07 lift leadscrew (eta=0.55) & 50mm fold arm"
+        }
+      },
+      {
+        "parameters": {
+          "lift_mm": 75.0,
+          "shift_x_mm": -1.0530608526528222
+        },
+        "objectives": [
+          0.5658662623624587,
+          0.631288391716274,
+          0.7459153689766059,
+          0.3729212243410611
+        ],
+        "constraints": [
+          -0.0001,
+          -0.2341337376375413,
+          0.0,
+          -264.21155,
+          0.0
+        ],
+        "metrics": {
+          "id": "F07",
+          "simulation_level": "L3_3D_OBB_and_space_frame_FEA",
+          "tip_deflection_mm": 0.7459153689766059,
+          "estimated_incremental_cost_CNY": 372.92122434106113,
+          "reliability_proxy_score": 72.8,
+          "manufacturing_complexity_score": 2.4,
+          "storage_ratio": 0.5658662623624587,
+          "core_storage_ratio": 0.5658662623624587,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 2,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "lift_mm": 75.0,
+            "shift_x_mm": -1.0530608526528222,
+            "fold_angle_deg": 90.0,
+            "guide_rod_dia_mm": 8.0,
+            "pin_dia_mm": 6.0,
+            "arm_fold_enabled": 1
+          },
+          "lift_drive_force_N": 51.047672727272726,
+          "peak_torque_Nmm": 4289.422500000001,
+          "peak_drive_force_N": 85.78845000000001,
+          "hinge_shear_MPa": 0.3580638068129631,
+          "lock_pin_shear_MPa": 1.768388256576615,
+          "drive_model": "F07 lift leadscrew (eta=0.55) & 50mm fold arm"
+        }
+      },
+      {
+        "parameters": {
+          "lift_mm": 75.0,
+          "shift_x_mm": -0.8877347380935016
+        },
+        "objectives": [
+          0.5660431278731419,
+          0.631288391716274,
+          0.7459153689766059,
+          0.3728550938952374
+        ],
+        "constraints": [
+          -0.0001,
+          -0.23395687212685812,
+          0.0,
+          -264.21155,
+          0.0
+        ],
+        "metrics": {
+          "id": "F07",
+          "simulation_level": "L3_3D_OBB_and_space_frame_FEA",
+          "tip_deflection_mm": 0.7459153689766059,
+          "estimated_incremental_cost_CNY": 372.8550938952374,
+          "reliability_proxy_score": 72.8,
+          "manufacturing_complexity_score": 2.4,
+          "storage_ratio": 0.5660431278731419,
+          "core_storage_ratio": 0.5660431278731419,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 2,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "lift_mm": 75.0,
+            "shift_x_mm": -0.8877347380935016,
+            "fold_angle_deg": 90.0,
+            "guide_rod_dia_mm": 8.0,
+            "pin_dia_mm": 6.0,
+            "arm_fold_enabled": 1
+          },
+          "lift_drive_force_N": 51.047672727272726,
+          "peak_torque_Nmm": 4289.422500000001,
+          "peak_drive_force_N": 85.78845000000001,
+          "hinge_shear_MPa": 0.3580638068129631,
+          "lock_pin_shear_MPa": 1.768388256576615,
+          "drive_model": "F07 lift leadscrew (eta=0.55) & 50mm fold arm"
+        }
+      },
+      {
+        "parameters": {
+          "lift_mm": 75.0,
+          "shift_x_mm": -1.1816805100635852
+        },
+        "objectives": [
+          0.5657286653382229,
+          0.631288391716274,
+          0.7459153689766059,
+          0.37297267220402547
+        ],
+        "constraints": [
+          -0.0001,
+          -0.2342713346617772,
+          0.0,
+          -264.21155,
+          0.0
+        ],
+        "metrics": {
+          "id": "F07",
+          "simulation_level": "L3_3D_OBB_and_space_frame_FEA",
+          "tip_deflection_mm": 0.7459153689766059,
+          "estimated_incremental_cost_CNY": 372.97267220402546,
+          "reliability_proxy_score": 72.8,
+          "manufacturing_complexity_score": 2.4,
+          "storage_ratio": 0.5657286653382229,
+          "core_storage_ratio": 0.5657286653382229,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 2,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "lift_mm": 75.0,
+            "shift_x_mm": -1.1816805100635852,
+            "fold_angle_deg": 90.0,
+            "guide_rod_dia_mm": 8.0,
+            "pin_dia_mm": 6.0,
+            "arm_fold_enabled": 1
+          },
+          "lift_drive_force_N": 51.047672727272726,
+          "peak_torque_Nmm": 4289.422500000001,
+          "peak_drive_force_N": 85.78845000000001,
+          "hinge_shear_MPa": 0.3580638068129631,
+          "lock_pin_shear_MPa": 1.768388256576615,
+          "drive_model": "F07 lift leadscrew (eta=0.55) & 50mm fold arm"
+        }
+      },
+      {
+        "parameters": {
+          "lift_mm": 75.0,
+          "shift_x_mm": -0.12736020732243805
+        },
+        "objectives": [
+          0.5668565748597464,
+          0.631288391716274,
+          0.7459153689766059,
+          0.372550944082929
+        ],
+        "constraints": [
+          -0.0001,
+          -0.23314342514025366,
+          0.0,
+          -264.21155,
+          0.0
+        ],
+        "metrics": {
+          "id": "F07",
+          "simulation_level": "L3_3D_OBB_and_space_frame_FEA",
+          "tip_deflection_mm": 0.7459153689766059,
+          "estimated_incremental_cost_CNY": 372.550944082929,
+          "reliability_proxy_score": 72.8,
+          "manufacturing_complexity_score": 2.4,
+          "storage_ratio": 0.5668565748597464,
+          "core_storage_ratio": 0.5668565748597464,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 2,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "lift_mm": 75.0,
+            "shift_x_mm": -0.12736020732243805,
+            "fold_angle_deg": 90.0,
+            "guide_rod_dia_mm": 8.0,
+            "pin_dia_mm": 6.0,
+            "arm_fold_enabled": 1
+          },
+          "lift_drive_force_N": 51.047672727272726,
+          "peak_torque_Nmm": 4289.422500000001,
+          "peak_drive_force_N": 85.78845000000001,
+          "hinge_shear_MPa": 0.3580638068129631,
+          "lock_pin_shear_MPa": 1.768388256576615,
+          "drive_model": "F07 lift leadscrew (eta=0.55) & 50mm fold arm"
+        }
+      },
+      {
+        "parameters": {
+          "lift_mm": 75.0,
+          "shift_x_mm": -0.7235484315661709
+        },
+        "objectives": [
+          0.5662187740197205,
+          0.631288391716274,
+          0.7459153689766059,
+          0.3727894193726265
+        ],
+        "constraints": [
+          -0.0001,
+          -0.2337812259802795,
+          0.0,
+          -264.21155,
+          0.0
+        ],
+        "metrics": {
+          "id": "F07",
+          "simulation_level": "L3_3D_OBB_and_space_frame_FEA",
+          "tip_deflection_mm": 0.7459153689766059,
+          "estimated_incremental_cost_CNY": 372.78941937262647,
+          "reliability_proxy_score": 72.8,
+          "manufacturing_complexity_score": 2.4,
+          "storage_ratio": 0.5662187740197205,
+          "core_storage_ratio": 0.5662187740197205,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 2,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "lift_mm": 75.0,
+            "shift_x_mm": -0.7235484315661709,
+            "fold_angle_deg": 90.0,
+            "guide_rod_dia_mm": 8.0,
+            "pin_dia_mm": 6.0,
+            "arm_fold_enabled": 1
+          },
+          "lift_drive_force_N": 51.047672727272726,
+          "peak_torque_Nmm": 4289.422500000001,
+          "peak_drive_force_N": 85.78845000000001,
+          "hinge_shear_MPa": 0.3580638068129631,
+          "lock_pin_shear_MPa": 1.768388256576615,
+          "drive_model": "F07 lift leadscrew (eta=0.55) & 50mm fold arm"
+        }
+      },
+      {
+        "parameters": {
+          "lift_mm": 75.0,
+          "shift_x_mm": -2.091127670923164
+        },
+        "objectives": [
+          0.564755740782574,
+          0.631288391716274,
+          0.7459153689766059,
+          0.37333645106836927
+        ],
+        "constraints": [
+          -0.0001,
+          -0.2352442592174261,
+          0.0,
+          -264.21155,
+          0.0
+        ],
+        "metrics": {
+          "id": "F07",
+          "simulation_level": "L3_3D_OBB_and_space_frame_FEA",
+          "tip_deflection_mm": 0.7459153689766059,
+          "estimated_incremental_cost_CNY": 373.3364510683693,
+          "reliability_proxy_score": 72.8,
+          "manufacturing_complexity_score": 2.4,
+          "storage_ratio": 0.564755740782574,
+          "core_storage_ratio": 0.564755740782574,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 2,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "lift_mm": 75.0,
+            "shift_x_mm": -2.091127670923164,
+            "fold_angle_deg": 90.0,
+            "guide_rod_dia_mm": 8.0,
+            "pin_dia_mm": 6.0,
+            "arm_fold_enabled": 1
+          },
+          "lift_drive_force_N": 51.047672727272726,
+          "peak_torque_Nmm": 4289.422500000001,
+          "peak_drive_force_N": 85.78845000000001,
+          "hinge_shear_MPa": 0.3580638068129631,
+          "lock_pin_shear_MPa": 1.768388256576615,
+          "drive_model": "F07 lift leadscrew (eta=0.55) & 50mm fold arm"
+        }
+      },
+      {
+        "parameters": {
+          "lift_mm": 75.0,
+          "shift_x_mm": -0.03850900558624801
+        },
+        "objectives": [
+          0.566951627678303,
+          0.631288391716274,
+          0.7459153689766059,
+          0.37251540360223445
+        ],
+        "constraints": [
+          -0.0001,
+          -0.23304837232169706,
+          0.0,
+          -264.21155,
+          0.0
+        ],
+        "metrics": {
+          "id": "F07",
+          "simulation_level": "L3_3D_OBB_and_space_frame_FEA",
+          "tip_deflection_mm": 0.7459153689766059,
+          "estimated_incremental_cost_CNY": 372.51540360223447,
+          "reliability_proxy_score": 72.8,
+          "manufacturing_complexity_score": 2.4,
+          "storage_ratio": 0.566951627678303,
+          "core_storage_ratio": 0.566951627678303,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 2,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "lift_mm": 75.0,
+            "shift_x_mm": -0.03850900558624801,
+            "fold_angle_deg": 90.0,
+            "guide_rod_dia_mm": 8.0,
+            "pin_dia_mm": 6.0,
+            "arm_fold_enabled": 1
+          },
+          "lift_drive_force_N": 51.047672727272726,
+          "peak_torque_Nmm": 4289.422500000001,
+          "peak_drive_force_N": 85.78845000000001,
+          "hinge_shear_MPa": 0.3580638068129631,
+          "lock_pin_shear_MPa": 1.768388256576615,
+          "drive_model": "F07 lift leadscrew (eta=0.55) & 50mm fold arm"
+        }
+      },
+      {
+        "parameters": {
+          "lift_mm": 75.0,
+          "shift_x_mm": -0.5499228601050342
+        },
+        "objectives": [
+          0.56640451827099,
+          0.631288391716274,
+          0.7459153689766059,
+          0.372719969144042
+        ],
+        "constraints": [
+          -0.0001,
+          -0.23359548172901,
+          0.0,
+          -264.21155,
+          0.0
+        ],
+        "metrics": {
+          "id": "F07",
+          "simulation_level": "L3_3D_OBB_and_space_frame_FEA",
+          "tip_deflection_mm": 0.7459153689766059,
+          "estimated_incremental_cost_CNY": 372.719969144042,
+          "reliability_proxy_score": 72.8,
+          "manufacturing_complexity_score": 2.4,
+          "storage_ratio": 0.56640451827099,
+          "core_storage_ratio": 0.56640451827099,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 2,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "lift_mm": 75.0,
+            "shift_x_mm": -0.5499228601050342,
+            "fold_angle_deg": 90.0,
+            "guide_rod_dia_mm": 8.0,
+            "pin_dia_mm": 6.0,
+            "arm_fold_enabled": 1
+          },
+          "lift_drive_force_N": 51.047672727272726,
+          "peak_torque_Nmm": 4289.422500000001,
+          "peak_drive_force_N": 85.78845000000001,
+          "hinge_shear_MPa": 0.3580638068129631,
+          "lock_pin_shear_MPa": 1.768388256576615,
+          "drive_model": "F07 lift leadscrew (eta=0.55) & 50mm fold arm"
+        }
+      }
+    ],
+    "least_infeasible": {
+      "parameters": {
+        "lift_mm": 75.0,
+        "shift_x_mm": -0.4455832433034403
+      },
+      "objectives": [
+        0.5665161405616324,
+        0.631288391716274,
+        0.7459153689766059,
+        0.37267823329732136
+      ],
+      "constraints": [
+        -0.0001,
+        -0.2334838594383677,
+        0.0,
+        -264.21155,
+        0.0
+      ],
+      "max_constraint_violation": 0.0
+    },
+    "history": [
+      {
+        "generation": 1,
+        "feasible_count": 20,
+        "best_storage_ratio": 0.577333133169754,
+        "best_p95_mm": 0.631288391716274
+      },
+      {
+        "generation": 2,
+        "feasible_count": 20,
+        "best_storage_ratio": 0.577333133169754,
+        "best_p95_mm": 0.631288391716274
+      },
+      {
+        "generation": 3,
+        "feasible_count": 20,
+        "best_storage_ratio": 0.577333133169754,
+        "best_p95_mm": 0.631288391716274
+      },
+      {
+        "generation": 4,
+        "feasible_count": 20,
+        "best_storage_ratio": 0.5665161405616324,
+        "best_p95_mm": 0.631288391716274
+      },
+      {
+        "generation": 5,
+        "feasible_count": 20,
+        "best_storage_ratio": 0.5664944276367997,
+        "best_p95_mm": 0.631288391716274
+      },
+      {
+        "generation": 6,
+        "feasible_count": 20,
+        "best_storage_ratio": 0.5664668123065926,
+        "best_p95_mm": 0.631288391716274
+      },
+      {
+        "generation": 7,
+        "feasible_count": 20,
+        "best_storage_ratio": 0.5663111543298396,
+        "best_p95_mm": 0.631288391716274
+      },
+      {
+        "generation": 8,
+        "feasible_count": 20,
+        "best_storage_ratio": 0.5643800189093311,
+        "best_p95_mm": 0.631288391716274
+      },
+      {
+        "generation": 9,
+        "feasible_count": 20,
+        "best_storage_ratio": 0.5643462566580456,
+        "best_p95_mm": 0.631288391716274
+      },
+      {
+        "generation": 10,
+        "feasible_count": 20,
+        "best_storage_ratio": 0.5643462566580456,
+        "best_p95_mm": 0.631288391716274
+      },
+      {
+        "generation": 11,
+        "feasible_count": 20,
+        "best_storage_ratio": 0.5618395820347256,
+        "best_p95_mm": 0.631288391716274
+      },
+      {
+        "generation": 12,
+        "feasible_count": 20,
+        "best_storage_ratio": 0.5618395820347256,
+        "best_p95_mm": 0.631288391716274
+      }
+    ]
+  },
+  {
+    "id": "F08",
+    "algorithm": "NSGA-II (pure-NumPy seeded)",
+    "seed": 20261120,
+    "pop_size": 20,
+    "generations": 12,
+    "solutions": [
+      {
+        "parameters": {
+          "lift_mm": 15.0,
+          "shift_x_mm": -70.25454220972293
+        },
+        "objectives": [
+          0.6921785159295815,
+          0.713651995542996,
+          0.7459153689766059,
+          0.4006018168838892
+        ],
+        "constraints": [
+          -0.0001,
+          -0.10782148407041858,
+          0.0,
+          -262.5929,
+          0.0
+        ],
+        "metrics": {
+          "id": "F08",
+          "simulation_level": "L3_3D_OBB_and_space_frame_FEA",
+          "tip_deflection_mm": 0.7459153689766059,
+          "estimated_incremental_cost_CNY": 400.60181688388917,
+          "reliability_proxy_score": 72.2,
+          "manufacturing_complexity_score": 2.6,
+          "storage_ratio": 0.6921785159295815,
+          "core_storage_ratio": 0.5584571000443355,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "lift_mm": 15.0,
+            "shift_x_mm": -70.25454220972293,
+            "fold_angle_deg": 90.0,
+            "bracket_thick_mm": 10.0,
+            "arm_fold_enabled": 1
+          },
+          "peak_torque_Nmm": 4370.3550000000005,
+          "peak_drive_force_N": 87.40710000000001,
+          "rear_tipping_safety_factor": 1.5958214174735235,
+          "drive_model": "F08 rear-offset pivot / 50mm drive arm"
+        }
+      },
+      {
+        "parameters": {
+          "lift_mm": 15.000000000000002,
+          "shift_x_mm": -86.61258686130772
+        },
+        "objectives": [
+          0.6773626589816782,
+          0.713651995542996,
+          0.7459153689766059,
+          0.40714503474452307
+        ],
+        "constraints": [
+          -0.0001,
+          -0.1226373410183218,
+          0.0,
+          -262.5929,
+          0.0
+        ],
+        "metrics": {
+          "id": "F08",
+          "simulation_level": "L3_3D_OBB_and_space_frame_FEA",
+          "tip_deflection_mm": 0.7459153689766059,
+          "estimated_incremental_cost_CNY": 407.14503474452306,
+          "reliability_proxy_score": 72.2,
+          "manufacturing_complexity_score": 2.6,
+          "storage_ratio": 0.6773626589816782,
+          "core_storage_ratio": 0.5485390470461525,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "lift_mm": 15.000000000000002,
+            "shift_x_mm": -86.61258686130772,
+            "fold_angle_deg": 90.0,
+            "bracket_thick_mm": 10.0,
+            "arm_fold_enabled": 1
+          },
+          "peak_torque_Nmm": 4370.3550000000005,
+          "peak_drive_force_N": 87.40710000000001,
+          "rear_tipping_safety_factor": 1.6004272671415007,
+          "drive_model": "F08 rear-offset pivot / 50mm drive arm"
+        }
+      },
+      {
+        "parameters": {
+          "lift_mm": 15.0,
+          "shift_x_mm": -46.104152551472545
+        },
+        "objectives": [
+          0.7162339422135784,
+          0.713651995542996,
+          0.7459153689766059,
+          0.390941661020589
+        ],
+        "constraints": [
+          -0.0001,
+          -0.08376605778642165,
+          0.0,
+          -262.5929,
+          0.0
+        ],
+        "metrics": {
+          "id": "F08",
+          "simulation_level": "L3_3D_OBB_and_space_frame_FEA",
+          "tip_deflection_mm": 0.7459153689766059,
+          "estimated_incremental_cost_CNY": 390.94166102058904,
+          "reliability_proxy_score": 72.2,
+          "manufacturing_complexity_score": 2.6,
+          "storage_ratio": 0.7162339422135784,
+          "core_storage_ratio": 0.5745603192923003,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "lift_mm": 15.0,
+            "shift_x_mm": -46.104152551472545,
+            "fold_angle_deg": 90.0,
+            "bracket_thick_mm": 10.0,
+            "arm_fold_enabled": 1
+          },
+          "peak_torque_Nmm": 4370.3550000000005,
+          "peak_drive_force_N": 87.40710000000001,
+          "rear_tipping_safety_factor": 1.5877166959283937,
+          "drive_model": "F08 rear-offset pivot / 50mm drive arm"
+        }
+      },
+      {
+        "parameters": {
+          "lift_mm": 15.01254645053993,
+          "shift_x_mm": -70.14597986286427
+        },
+        "objectives": [
+          0.6923633280700485,
+          0.713651995542996,
+          0.7459153689766059,
+          0.4005646651704157
+        ],
+        "constraints": [
+          -0.0001,
+          -0.10763667192995152,
+          0.0,
+          -262.5929,
+          0.0
+        ],
+        "metrics": {
+          "id": "F08",
+          "simulation_level": "L3_3D_OBB_and_space_frame_FEA",
+          "tip_deflection_mm": 0.7459153689766059,
+          "estimated_incremental_cost_CNY": 400.5646651704157,
+          "reliability_proxy_score": 72.2,
+          "manufacturing_complexity_score": 2.6,
+          "storage_ratio": 0.6923633280700485,
+          "core_storage_ratio": 0.5585921805142666,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "lift_mm": 15.01254645053993,
+            "shift_x_mm": -70.14597986286427,
+            "fold_angle_deg": 90.0,
+            "bracket_thick_mm": 10.0,
+            "arm_fold_enabled": 1
+          },
+          "peak_torque_Nmm": 4370.3550000000005,
+          "peak_drive_force_N": 87.40710000000001,
+          "rear_tipping_safety_factor": 1.59578870959342,
+          "drive_model": "F08 rear-offset pivot / 50mm drive arm"
+        }
+      },
+      {
+        "parameters": {
+          "lift_mm": 15.0,
+          "shift_x_mm": -79.43650583473321
+        },
+        "objectives": [
+          0.6837263934733738,
+          0.713651995542996,
+          0.7459153689766059,
+          0.40427460233389334
+        ],
+        "constraints": [
+          -0.0001,
+          -0.11627360652662622,
+          0.0,
+          -262.5929,
+          0.0
+        ],
+        "metrics": {
+          "id": "F08",
+          "simulation_level": "L3_3D_OBB_and_space_frame_FEA",
+          "tip_deflection_mm": 0.7459153689766059,
+          "estimated_incremental_cost_CNY": 404.2746023338933,
+          "reliability_proxy_score": 72.2,
+          "manufacturing_complexity_score": 2.6,
+          "storage_ratio": 0.6837263934733738,
+          "core_storage_ratio": 0.5527990676562956,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "lift_mm": 15.0,
+            "shift_x_mm": -79.43650583473321,
+            "fold_angle_deg": 90.0,
+            "bracket_thick_mm": 10.0,
+            "arm_fold_enabled": 1
+          },
+          "peak_torque_Nmm": 4370.3550000000005,
+          "peak_drive_force_N": 87.40710000000001,
+          "rear_tipping_safety_factor": 1.5984826341313005,
+          "drive_model": "F08 rear-offset pivot / 50mm drive arm"
+        }
+      },
+      {
+        "parameters": {
+          "lift_mm": 15.06684892277493,
+          "shift_x_mm": -83.81923047206023
+        },
+        "objectives": [
+          0.6802481488659982,
+          0.713651995542996,
+          0.7459153689766059,
+          0.4060611166502116
+        ],
+        "constraints": [
+          -0.0001,
+          -0.11975185113400189,
+          0.0,
+          -262.5929,
+          0.0
+        ],
+        "metrics": {
+          "id": "F08",
+          "simulation_level": "L3_3D_OBB_and_space_frame_FEA",
+          "tip_deflection_mm": 0.7459153689766059,
+          "estimated_incremental_cost_CNY": 406.0611166502116,
+          "reliability_proxy_score": 72.2,
+          "manufacturing_complexity_score": 2.6,
+          "storage_ratio": 0.6802481488659982,
+          "core_storage_ratio": 0.5505312006823103,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "lift_mm": 15.06684892277493,
+            "shift_x_mm": -83.81923047206023,
+            "fold_angle_deg": 90.0,
+            "bracket_thick_mm": 10.0,
+            "arm_fold_enabled": 1
+          },
+          "peak_torque_Nmm": 4370.3550000000005,
+          "peak_drive_force_N": 87.40710000000001,
+          "rear_tipping_safety_factor": 1.5996836339040998,
+          "drive_model": "F08 rear-offset pivot / 50mm drive arm"
+        }
+      },
+      {
+        "parameters": {
+          "lift_mm": 15.0,
+          "shift_x_mm": -59.972515735050465
+        },
+        "objectives": [
+          0.7020819130275271,
+          0.713651995542996,
+          0.7459153689766059,
+          0.39648900629402023
+        ],
+        "constraints": [
+          -0.0001,
+          -0.09791808697247295,
+          0.0,
+          -262.5929,
+          0.0
+        ],
+        "metrics": {
+          "id": "F08",
+          "simulation_level": "L3_3D_OBB_and_space_frame_FEA",
+          "tip_deflection_mm": 0.7459153689766059,
+          "estimated_incremental_cost_CNY": 396.4890062940202,
+          "reliability_proxy_score": 72.2,
+          "manufacturing_complexity_score": 2.6,
+          "storage_ratio": 0.7020819130275271,
+          "core_storage_ratio": 0.5650866468619685,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "lift_mm": 15.0,
+            "shift_x_mm": -59.972515735050465,
+            "fold_angle_deg": 90.0,
+            "bracket_thick_mm": 10.0,
+            "arm_fold_enabled": 1
+          },
+          "peak_torque_Nmm": 4370.3550000000005,
+          "peak_drive_force_N": 87.40710000000001,
+          "rear_tipping_safety_factor": 1.5925835431695061,
+          "drive_model": "F08 rear-offset pivot / 50mm drive arm"
+        }
+      },
+      {
+        "parameters": {
+          "lift_mm": 15.0,
+          "shift_x_mm": -57.36799360324747
+        },
+        "objectives": [
+          0.7046679804899363,
+          0.713651995542996,
+          0.7459153689766059,
+          0.395447197441299
+        ],
+        "constraints": [
+          -0.0001,
+          -0.09533201951006376,
+          0.0,
+          -262.5929,
+          0.0
+        ],
+        "metrics": {
+          "id": "F08",
+          "simulation_level": "L3_3D_OBB_and_space_frame_FEA",
+          "tip_deflection_mm": 0.7459153689766059,
+          "estimated_incremental_cost_CNY": 395.447197441299,
+          "reliability_proxy_score": 72.2,
+          "manufacturing_complexity_score": 2.6,
+          "storage_ratio": 0.7046679804899363,
+          "core_storage_ratio": 0.5668178159896969,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "lift_mm": 15.0,
+            "shift_x_mm": -57.36799360324747,
+            "fold_angle_deg": 90.0,
+            "bracket_thick_mm": 10.0,
+            "arm_fold_enabled": 1
+          },
+          "peak_torque_Nmm": 4370.3550000000005,
+          "peak_drive_force_N": 87.40710000000001,
+          "rear_tipping_safety_factor": 1.5917158322565508,
+          "drive_model": "F08 rear-offset pivot / 50mm drive arm"
+        }
+      },
+      {
+        "parameters": {
+          "lift_mm": 15.0,
+          "shift_x_mm": -76.973769136319
+        },
+        "objectives": [
+          0.6859585173386702,
+          0.713651995542996,
+          0.7459153689766059,
+          0.4032895076545276
+        ],
+        "constraints": [
+          -0.0001,
+          -0.11404148266132985,
+          0.0,
+          -262.5929,
+          0.0
+        ],
+        "metrics": {
+          "id": "F08",
+          "simulation_level": "L3_3D_OBB_and_space_frame_FEA",
+          "tip_deflection_mm": 0.7459153689766059,
+          "estimated_incremental_cost_CNY": 403.2895076545276,
+          "reliability_proxy_score": 72.2,
+          "manufacturing_complexity_score": 2.6,
+          "storage_ratio": 0.6859585173386702,
+          "core_storage_ratio": 0.5542932993347173,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "lift_mm": 15.0,
+            "shift_x_mm": -76.973769136319,
+            "fold_angle_deg": 90.0,
+            "bracket_thick_mm": 10.0,
+            "arm_fold_enabled": 1
+          },
+          "peak_torque_Nmm": 4370.3550000000005,
+          "peak_drive_force_N": 87.40710000000001,
+          "rear_tipping_safety_factor": 1.5977886774277699,
+          "drive_model": "F08 rear-offset pivot / 50mm drive arm"
+        }
+      },
+      {
+        "parameters": {
+          "lift_mm": 15.030971498521797,
+          "shift_x_mm": -49.02236259292705
+        },
+        "objectives": [
+          0.7133866828892755,
+          0.713651995542996,
+          0.7459153689766059,
+          0.3921244307864317
+        ],
+        "constraints": [
+          -0.0001,
+          -0.08661331711072451,
+          0.0,
+          -262.5929,
+          0.0
+        ],
+        "metrics": {
+          "id": "F08",
+          "simulation_level": "L3_3D_OBB_and_space_frame_FEA",
+          "tip_deflection_mm": 0.7459153689766059,
+          "estimated_incremental_cost_CNY": 392.12443078643173,
+          "reliability_proxy_score": 72.2,
+          "manufacturing_complexity_score": 2.6,
+          "storage_ratio": 0.7133866828892755,
+          "core_storage_ratio": 0.5726823534373894,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "lift_mm": 15.030971498521797,
+            "shift_x_mm": -49.02236259292705,
+            "fold_angle_deg": 90.0,
+            "bracket_thick_mm": 10.0,
+            "arm_fold_enabled": 1
+          },
+          "peak_torque_Nmm": 4370.3550000000005,
+          "peak_drive_force_N": 87.40710000000001,
+          "rear_tipping_safety_factor": 1.5887931843597412,
+          "drive_model": "F08 rear-offset pivot / 50mm drive arm"
+        }
+      },
+      {
+        "parameters": {
+          "lift_mm": 15.0,
+          "shift_x_mm": -68.14001817735362
+        },
+        "objectives": [
+          0.6941763211684494,
+          0.713651995542996,
+          0.7459153689766059,
+          0.39975600727094146
+        ],
+        "constraints": [
+          -0.0001,
+          -0.10582367883155064,
+          0.0,
+          -262.5929,
+          0.0
+        ],
+        "metrics": {
+          "id": "F08",
+          "simulation_level": "L3_3D_OBB_and_space_frame_FEA",
+          "tip_deflection_mm": 0.7459153689766059,
+          "estimated_incremental_cost_CNY": 399.75600727094144,
+          "reliability_proxy_score": 72.2,
+          "manufacturing_complexity_score": 2.6,
+          "storage_ratio": 0.6941763211684494,
+          "core_storage_ratio": 0.5597944737992802,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "lift_mm": 15.0,
+            "shift_x_mm": -68.14001817735362,
+            "fold_angle_deg": 90.0,
+            "bracket_thick_mm": 10.0,
+            "arm_fold_enabled": 1
+          },
+          "peak_torque_Nmm": 4370.3550000000005,
+          "peak_drive_force_N": 87.40710000000001,
+          "rear_tipping_safety_factor": 1.595178868059788,
+          "drive_model": "F08 rear-offset pivot / 50mm drive arm"
+        }
+      },
+      {
+        "parameters": {
+          "lift_mm": 15.0,
+          "shift_x_mm": -66.72676694445845
+        },
+        "objectives": [
+          0.6955226014154563,
+          0.713651995542996,
+          0.7459153689766059,
+          0.39919070677778334
+        ],
+        "constraints": [
+          -0.0001,
+          -0.10447739858454375,
+          0.0,
+          -262.5929,
+          0.0
+        ],
+        "metrics": {
+          "id": "F08",
+          "simulation_level": "L3_3D_OBB_and_space_frame_FEA",
+          "tip_deflection_mm": 0.7459153689766059,
+          "estimated_incremental_cost_CNY": 399.19070677778336,
+          "reliability_proxy_score": 72.2,
+          "manufacturing_complexity_score": 2.6,
+          "storage_ratio": 0.6955226014154563,
+          "core_storage_ratio": 0.5606957027249624,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "lift_mm": 15.0,
+            "shift_x_mm": -66.72676694445845,
+            "fold_angle_deg": 90.0,
+            "bracket_thick_mm": 10.0,
+            "arm_fold_enabled": 1
+          },
+          "peak_torque_Nmm": 4370.3550000000005,
+          "peak_drive_force_N": 87.40710000000001,
+          "rear_tipping_safety_factor": 1.5947428794994234,
+          "drive_model": "F08 rear-offset pivot / 50mm drive arm"
+        }
+      },
+      {
+        "parameters": {
+          "lift_mm": 15.05655750495703,
+          "shift_x_mm": -48.19819512277443
+        },
+        "objectives": [
+          0.714420040509303,
+          0.713651995542996,
+          0.7459153689766059,
+          0.3918075568015883
+        ],
+        "constraints": [
+          -0.0001,
+          -0.08557995949069708,
+          0.0,
+          -262.5929,
+          0.0
+        ],
+        "metrics": {
+          "id": "F08",
+          "simulation_level": "L3_3D_OBB_and_space_frame_FEA",
+          "tip_deflection_mm": 0.7459153689766059,
+          "estimated_incremental_cost_CNY": 391.8075568015883,
+          "reliability_proxy_score": 72.2,
+          "manufacturing_complexity_score": 2.6,
+          "storage_ratio": 0.714420040509303,
+          "core_storage_ratio": 0.5733972783393144,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "lift_mm": 15.05655750495703,
+            "shift_x_mm": -48.19819512277443,
+            "fold_angle_deg": 90.0,
+            "bracket_thick_mm": 10.0,
+            "arm_fold_enabled": 1
+          },
+          "peak_torque_Nmm": 4370.3550000000005,
+          "peak_drive_force_N": 87.40710000000001,
+          "rear_tipping_safety_factor": 1.588492146206637,
+          "drive_model": "F08 rear-offset pivot / 50mm drive arm"
+        }
+      },
+      {
+        "parameters": {
+          "lift_mm": 15.0,
+          "shift_x_mm": -62.435252433464655
+        },
+        "objectives": [
+          0.699665958430123,
+          0.713651995542996,
+          0.7459153689766059,
+          0.39747410097338587
+        ],
+        "constraints": [
+          -0.0001,
+          -0.10033404156987702,
+          0.0,
+          -262.5929,
+          0.0
+        ],
+        "metrics": {
+          "id": "F08",
+          "simulation_level": "L3_3D_OBB_and_space_frame_FEA",
+          "tip_deflection_mm": 0.7459153689766059,
+          "estimated_incremental_cost_CNY": 397.4741009733859,
+          "reliability_proxy_score": 72.2,
+          "manufacturing_complexity_score": 2.6,
+          "storage_ratio": 0.699665958430123,
+          "core_storage_ratio": 0.5634693549413923,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "lift_mm": 15.0,
+            "shift_x_mm": -62.435252433464655,
+            "fold_angle_deg": 90.0,
+            "bracket_thick_mm": 10.0,
+            "arm_fold_enabled": 1
+          },
+          "peak_torque_Nmm": 4370.3550000000005,
+          "peak_drive_force_N": 87.40710000000001,
+          "rear_tipping_safety_factor": 1.5933857373105524,
+          "drive_model": "F08 rear-offset pivot / 50mm drive arm"
+        }
+      },
+      {
+        "parameters": {
+          "lift_mm": 15.061407467523363,
+          "shift_x_mm": -55.56553487879732
+        },
+        "objectives": [
+          0.7068898177778772,
+          0.713651995542996,
+          0.7459153689766059,
+          0.39475691768528065
+        ],
+        "constraints": [
+          -0.0001,
+          -0.09311018222212286,
+          0.0,
+          -262.5929,
+          0.0
+        ],
+        "metrics": {
+          "id": "F08",
+          "simulation_level": "L3_3D_OBB_and_space_frame_FEA",
+          "tip_deflection_mm": 0.7459153689766059,
+          "estimated_incremental_cost_CNY": 394.75691768528065,
+          "reliability_proxy_score": 72.2,
+          "manufacturing_complexity_score": 2.6,
+          "storage_ratio": 0.7068898177778772,
+          "core_storage_ratio": 0.568360778021145,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "lift_mm": 15.061407467523363,
+            "shift_x_mm": -55.56553487879732,
+            "fold_angle_deg": 90.0,
+            "bracket_thick_mm": 10.0,
+            "arm_fold_enabled": 1
+          },
+          "peak_torque_Nmm": 4370.3550000000005,
+          "peak_drive_force_N": 87.40710000000001,
+          "rear_tipping_safety_factor": 1.5911033349982575,
+          "drive_model": "F08 rear-offset pivot / 50mm drive arm"
+        }
+      },
+      {
+        "parameters": {
+          "lift_mm": 15.053533700239203,
+          "shift_x_mm": -73.67282219102223
+        },
+        "objectives": [
+          0.6893414014960579,
+          0.713651995542996,
+          0.7459153689766059,
+          0.4019958957265285
+        ],
+        "constraints": [
+          -0.0001,
+          -0.11065859850394211,
+          0.0,
+          -262.5929,
+          0.0
+        ],
+        "metrics": {
+          "id": "F08",
+          "simulation_level": "L3_3D_OBB_and_space_frame_FEA",
+          "tip_deflection_mm": 0.7459153689766059,
+          "estimated_incremental_cost_CNY": 401.9958957265285,
+          "reliability_proxy_score": 72.2,
+          "manufacturing_complexity_score": 2.6,
+          "storage_ratio": 0.6893414014960579,
+          "core_storage_ratio": 0.5566063598605349,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "lift_mm": 15.053533700239203,
+            "shift_x_mm": -73.67282219102223,
+            "fold_angle_deg": 90.0,
+            "bracket_thick_mm": 10.0,
+            "arm_fold_enabled": 1
+          },
+          "peak_torque_Nmm": 4370.3550000000005,
+          "peak_drive_force_N": 87.40710000000001,
+          "rear_tipping_safety_factor": 1.596836065454236,
+          "drive_model": "F08 rear-offset pivot / 50mm drive arm"
+        }
+      },
+      {
+        "parameters": {
+          "lift_mm": 15.01134614855751,
+          "shift_x_mm": -54.70398147328151
+        },
+        "objectives": [
+          0.7074231559603688,
+          0.713651995542996,
+          0.7459153689766059,
+          0.3943872656635914
+        ],
+        "constraints": [
+          -0.0001,
+          -0.09257684403963129,
+          0.0,
+          -262.5929,
+          0.0
+        ],
+        "metrics": {
+          "id": "F08",
+          "simulation_level": "L3_3D_OBB_and_space_frame_FEA",
+          "tip_deflection_mm": 0.7459153689766059,
+          "estimated_incremental_cost_CNY": 394.3872656635914,
+          "reliability_proxy_score": 72.2,
+          "manufacturing_complexity_score": 2.6,
+          "storage_ratio": 0.7074231559603688,
+          "core_storage_ratio": 0.5686724657966853,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "lift_mm": 15.01134614855751,
+            "shift_x_mm": -54.70398147328151,
+            "fold_angle_deg": 90.0,
+            "bracket_thick_mm": 10.0,
+            "arm_fold_enabled": 1
+          },
+          "peak_torque_Nmm": 4370.3550000000005,
+          "peak_drive_force_N": 87.40710000000001,
+          "rear_tipping_safety_factor": 1.5908070188127494,
+          "drive_model": "F08 rear-offset pivot / 50mm drive arm"
+        }
+      },
+      {
+        "parameters": {
+          "lift_mm": 15.0,
+          "shift_x_mm": -52.451926374071775
+        },
+        "objectives": [
+          0.7096382180243707,
+          0.713651995542996,
+          0.7459153689766059,
+          0.3934807705496287
+        ],
+        "constraints": [
+          -0.0001,
+          -0.09036178197562938,
+          0.0,
+          -262.5929,
+          0.0
+        ],
+        "metrics": {
+          "id": "F08",
+          "simulation_level": "L3_3D_OBB_and_space_frame_FEA",
+          "tip_deflection_mm": 0.7459153689766059,
+          "estimated_incremental_cost_CNY": 393.4807705496287,
+          "reliability_proxy_score": 72.2,
+          "manufacturing_complexity_score": 2.6,
+          "storage_ratio": 0.7096382180243707,
+          "core_storage_ratio": 0.5701449997937398,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "lift_mm": 15.0,
+            "shift_x_mm": -52.451926374071775,
+            "fold_angle_deg": 90.0,
+            "bracket_thick_mm": 10.0,
+            "arm_fold_enabled": 1
+          },
+          "peak_torque_Nmm": 4370.3550000000005,
+          "peak_drive_force_N": 87.40710000000001,
+          "rear_tipping_safety_factor": 1.5900213734077058,
+          "drive_model": "F08 rear-offset pivot / 50mm drive arm"
+        }
+      },
+      {
+        "parameters": {
+          "lift_mm": 15.022882406818473,
+          "shift_x_mm": -51.03587498674317
+        },
+        "objectives": [
+          0.7112468945753962,
+          0.713651995542996,
+          0.7459153689766059,
+          0.3929257911981065
+        ],
+        "constraints": [
+          -0.0001,
+          -0.0887531054246038,
+          0.0,
+          -262.5929,
+          0.0
+        ],
+        "metrics": {
+          "id": "F08",
+          "simulation_level": "L3_3D_OBB_and_space_frame_FEA",
+          "tip_deflection_mm": 0.7459153689766059,
+          "estimated_incremental_cost_CNY": 392.9257911981065,
+          "reliability_proxy_score": 72.2,
+          "manufacturing_complexity_score": 2.6,
+          "storage_ratio": 0.7112468945753962,
+          "core_storage_ratio": 0.5712426069148495,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "lift_mm": 15.022882406818473,
+            "shift_x_mm": -51.03587498674317,
+            "fold_angle_deg": 90.0,
+            "bracket_thick_mm": 10.0,
+            "arm_fold_enabled": 1
+          },
+          "peak_torque_Nmm": 4370.3550000000005,
+          "peak_drive_force_N": 87.40710000000001,
+          "rear_tipping_safety_factor": 1.589518986135878,
+          "drive_model": "F08 rear-offset pivot / 50mm drive arm"
+        }
+      },
+      {
+        "parameters": {
+          "lift_mm": 15.0,
+          "shift_x_mm": -65.1652211212622
+        },
+        "objectives": [
+          0.6970205569616483,
+          0.713651995542996,
+          0.7459153689766059,
+          0.3985660884485049
+        ],
+        "constraints": [
+          -0.0001,
+          -0.10297944303835171,
+          0.0,
+          -262.5929,
+          0.0
+        ],
+        "metrics": {
+          "id": "F08",
+          "simulation_level": "L3_3D_OBB_and_space_frame_FEA",
+          "tip_deflection_mm": 0.7459153689766059,
+          "estimated_incremental_cost_CNY": 398.5660884485049,
+          "reliability_proxy_score": 72.2,
+          "manufacturing_complexity_score": 2.6,
+          "storage_ratio": 0.6970205569616483,
+          "core_storage_ratio": 0.5616984663550579,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "lift_mm": 15.0,
+            "shift_x_mm": -65.1652211212622,
+            "fold_angle_deg": 90.0,
+            "bracket_thick_mm": 10.0,
+            "arm_fold_enabled": 1
+          },
+          "peak_torque_Nmm": 4370.3550000000005,
+          "peak_drive_force_N": 87.40710000000001,
+          "rear_tipping_safety_factor": 1.594254915727606,
+          "drive_model": "F08 rear-offset pivot / 50mm drive arm"
+        }
+      }
+    ],
+    "least_infeasible": {
+      "parameters": {
+        "lift_mm": 15.0,
+        "shift_x_mm": -70.25454220972293
+      },
+      "objectives": [
+        0.6921785159295815,
+        0.713651995542996,
+        0.7459153689766059,
+        0.4006018168838892
+      ],
+      "constraints": [
+        -0.0001,
+        -0.10782148407041858,
+        0.0,
+        -262.5929,
+        0.0
+      ],
+      "max_constraint_violation": 0.0
+    },
+    "history": [
+      {
+        "generation": 1,
+        "feasible_count": 10,
+        "best_storage_ratio": 0.708400074884241,
+        "best_p95_mm": 0.713651995542996
+      },
+      {
+        "generation": 2,
+        "feasible_count": 20,
+        "best_storage_ratio": 0.708400074884241,
+        "best_p95_mm": 0.713651995542996
+      },
+      {
+        "generation": 3,
+        "feasible_count": 20,
+        "best_storage_ratio": 0.708400074884241,
+        "best_p95_mm": 0.713651995542996
+      },
+      {
+        "generation": 4,
+        "feasible_count": 20,
+        "best_storage_ratio": 0.7027603839342014,
+        "best_p95_mm": 0.713651995542996
+      },
+      {
+        "generation": 5,
+        "feasible_count": 20,
+        "best_storage_ratio": 0.6921785159295815,
+        "best_p95_mm": 0.713651995542996
+      },
+      {
+        "generation": 6,
+        "feasible_count": 20,
+        "best_storage_ratio": 0.6921785159295815,
+        "best_p95_mm": 0.713651995542996
+      },
+      {
+        "generation": 7,
+        "feasible_count": 20,
+        "best_storage_ratio": 0.6921785159295815,
+        "best_p95_mm": 0.713651995542996
+      },
+      {
+        "generation": 8,
+        "feasible_count": 20,
+        "best_storage_ratio": 0.6911544065068967,
+        "best_p95_mm": 0.713651995542996
+      },
+      {
+        "generation": 9,
+        "feasible_count": 20,
+        "best_storage_ratio": 0.6837263934733738,
+        "best_p95_mm": 0.713651995542996
+      },
+      {
+        "generation": 10,
+        "feasible_count": 20,
+        "best_storage_ratio": 0.6786610718622526,
+        "best_p95_mm": 0.713651995542996
+      },
+      {
+        "generation": 11,
+        "feasible_count": 20,
+        "best_storage_ratio": 0.6786610718622526,
+        "best_p95_mm": 0.713651995542996
+      },
+      {
+        "generation": 12,
+        "feasible_count": 20,
+        "best_storage_ratio": 0.6773626589816782,
+        "best_p95_mm": 0.713651995542996
+      }
+    ]
+  },
+  {
+    "id": "F09",
+    "algorithm": "NSGA-II (pure-NumPy seeded)",
+    "seed": 20261121,
+    "pop_size": 20,
+    "generations": 12,
+    "solutions": [
+      {
+        "parameters": {
+          "lift_mm": 100.0,
+          "shift_x_mm": 0.05993862537292619
+        },
+        "objectives": [
+          0.604696673189824,
+          0.4726040297410621,
+          0.14169642857142858,
+          0.4300239754501492
+        ],
+        "constraints": [
+          -0.0001,
+          -0.19530332681017604,
+          0.0,
+          -215.0144,
+          0.0
+        ],
+        "metrics": {
+          "id": "F09",
+          "simulation_level": "L3_3D_OBB_and_space_frame_FEA",
+          "tip_deflection_mm": 0.14169642857142858,
+          "estimated_incremental_cost_CNY": 430.0239754501492,
+          "reliability_proxy_score": 60.5,
+          "manufacturing_complexity_score": 2.5,
+          "storage_ratio": 0.604696673189824,
+          "core_storage_ratio": 0.452125172554254,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "lift_mm": 100.0,
+            "shift_x_mm": 0.05993862537292619,
+            "fold_angle_deg": 90.0
+          },
+          "peak_torque_Nmm": 6749.28,
+          "peak_drive_force_N": 134.9856,
+          "drive_model": "generic 50mm arm / gravity torque"
+        }
+      }
+    ],
+    "least_infeasible": {
+      "parameters": {
+        "lift_mm": 100.0,
+        "shift_x_mm": 0.05993862537292619
+      },
+      "objectives": [
+        0.604696673189824,
+        0.4726040297410621,
+        0.14169642857142858,
+        0.4300239754501492
+      ],
+      "constraints": [
+        -0.0001,
+        -0.19530332681017604,
+        0.0,
+        -215.0144,
+        0.0
+      ],
+      "max_constraint_violation": 0.0
+    },
+    "history": [
+      {
+        "generation": 1,
+        "feasible_count": 20,
+        "best_storage_ratio": 0.6378819620032861,
+        "best_p95_mm": 0.4726040297410621
+      },
+      {
+        "generation": 2,
+        "feasible_count": 20,
+        "best_storage_ratio": 0.604696673189824,
+        "best_p95_mm": 0.4726040297410621
+      },
+      {
+        "generation": 3,
+        "feasible_count": 20,
+        "best_storage_ratio": 0.604696673189824,
+        "best_p95_mm": 0.4726040297410621
+      },
+      {
+        "generation": 4,
+        "feasible_count": 20,
+        "best_storage_ratio": 0.604696673189824,
+        "best_p95_mm": 0.4726040297410621
+      },
+      {
+        "generation": 5,
+        "feasible_count": 20,
+        "best_storage_ratio": 0.604696673189824,
+        "best_p95_mm": 0.4726040297410621
+      },
+      {
+        "generation": 6,
+        "feasible_count": 20,
+        "best_storage_ratio": 0.604696673189824,
+        "best_p95_mm": 0.4726040297410621
+      },
+      {
+        "generation": 7,
+        "feasible_count": 20,
+        "best_storage_ratio": 0.604696673189824,
+        "best_p95_mm": 0.4726040297410621
+      },
+      {
+        "generation": 8,
+        "feasible_count": 20,
+        "best_storage_ratio": 0.604696673189824,
+        "best_p95_mm": 0.4726040297410621
+      },
+      {
+        "generation": 9,
+        "feasible_count": 20,
+        "best_storage_ratio": 0.604696673189824,
+        "best_p95_mm": 0.4726040297410621
+      },
+      {
+        "generation": 10,
+        "feasible_count": 20,
+        "best_storage_ratio": 0.604696673189824,
+        "best_p95_mm": 0.4726040297410621
+      },
+      {
+        "generation": 11,
+        "feasible_count": 20,
+        "best_storage_ratio": 0.604696673189824,
+        "best_p95_mm": 0.4726040297410621
+      },
+      {
+        "generation": 12,
+        "feasible_count": 20,
+        "best_storage_ratio": 0.604696673189824,
+        "best_p95_mm": 0.4726040297410621
+      }
+    ]
+  },
+  {
+    "id": "F10",
+    "algorithm": "NSGA-II (pure-NumPy seeded)",
+    "seed": 20261122,
+    "pop_size": 20,
+    "generations": 12,
+    "solutions": [],
+    "least_infeasible": {
+      "parameters": {
+        "lift_mm": 131.9591717787779,
+        "shift_x_mm": 40.01114569850506,
+        "slot_width_mm": 9.066735208121692
+      },
+      "objectives": [
+        0.7478493017270765,
+        0.5447947563759022,
+        0.14169642857142858,
+        0.641984044168791
+      ],
+      "constraints": [
+        14.544413302565903,
+        -0.05215069827292351,
+        0.0,
+        -0.28336760406084593,
+        0.0
+      ],
+      "max_constraint_violation": 14.544413302565903
+    },
+    "history": [
+      {
+        "generation": 1,
+        "feasible_count": 0,
+        "min_cv": 19.938553359550188
+      },
+      {
+        "generation": 2,
+        "feasible_count": 0,
+        "min_cv": 18.617081961713826
+      },
+      {
+        "generation": 3,
+        "feasible_count": 0,
+        "min_cv": 16.21823490972007
+      },
+      {
+        "generation": 4,
+        "feasible_count": 0,
+        "min_cv": 15.53576560108785
+      },
+      {
+        "generation": 5,
+        "feasible_count": 0,
+        "min_cv": 15.501774646573853
+      },
+      {
+        "generation": 6,
+        "feasible_count": 0,
+        "min_cv": 15.501774646573853
+      },
+      {
+        "generation": 7,
+        "feasible_count": 0,
+        "min_cv": 15.501774646573853
+      },
+      {
+        "generation": 8,
+        "feasible_count": 0,
+        "min_cv": 15.274083779426977
+      },
+      {
+        "generation": 9,
+        "feasible_count": 0,
+        "min_cv": 15.202069209225929
+      },
+      {
+        "generation": 10,
+        "feasible_count": 0,
+        "min_cv": 15.005906295427668
+      },
+      {
+        "generation": 11,
+        "feasible_count": 0,
+        "min_cv": 15.005906295427668
+      },
+      {
+        "generation": 12,
+        "feasible_count": 0,
+        "min_cv": 14.544413302565903
+      }
+    ]
+  },
+  {
+    "id": "F11",
+    "algorithm": "NSGA-II (pure-NumPy seeded)",
+    "seed": 20261123,
+    "pop_size": 20,
+    "generations": 12,
+    "solutions": [],
+    "least_infeasible": {
+      "parameters": {
+        "lift_mm": 160.0,
+        "case_wall_mm": 20.0
+      },
+      "objectives": [
+        1.2253521126760563,
+        1.0821226975816312,
+        0.28339285714285717,
+        0.8
+      ],
+      "constraints": [
+        11.9999,
+        0.4253521126760562,
+        0.0,
+        -249.54559999999998,
+        0.0
+      ],
+      "max_constraint_violation": 11.9999
+    },
+    "history": [
+      {
+        "generation": 1,
+        "feasible_count": 0,
+        "min_cv": 12.45766941098237
+      },
+      {
+        "generation": 2,
+        "feasible_count": 0,
+        "min_cv": 12.452085064389477
+      },
+      {
+        "generation": 3,
+        "feasible_count": 0,
+        "min_cv": 12.44374896453078
+      },
+      {
+        "generation": 4,
+        "feasible_count": 0,
+        "min_cv": 12.438342874431658
+      },
+      {
+        "generation": 5,
+        "feasible_count": 0,
+        "min_cv": 12.430345261178466
+      },
+      {
+        "generation": 6,
+        "feasible_count": 0,
+        "min_cv": 12.429872979917308
+      },
+      {
+        "generation": 7,
+        "feasible_count": 0,
+        "min_cv": 12.425827914897425
+      },
+      {
+        "generation": 8,
+        "feasible_count": 0,
+        "min_cv": 12.425252112676056
+      },
+      {
+        "generation": 9,
+        "feasible_count": 0,
+        "min_cv": 12.425252112676056
+      },
+      {
+        "generation": 10,
+        "feasible_count": 0,
+        "min_cv": 12.425252112676056
+      },
+      {
+        "generation": 11,
+        "feasible_count": 0,
+        "min_cv": 12.425252112676056
+      },
+      {
+        "generation": 12,
+        "feasible_count": 0,
+        "min_cv": 12.425252112676056
+      }
+    ]
+  },
+  {
+    "id": "F12",
+    "algorithm": "NSGA-II (pure-NumPy seeded)",
+    "seed": 20261124,
+    "pop_size": 20,
+    "generations": 12,
+    "solutions": [],
+    "least_infeasible": {
+      "parameters": {
+        "overlap_mm": 52.60267534445977,
+        "outer_size_mm": 64.84099676361586
+      },
+      "objectives": [
+        0.8361797499165734,
+        2.2342044519633597,
+        1.2594007394718987,
+        0.64
+      ],
+      "constraints": [
+        -0.0001,
+        0.036179749916573356,
+        0.0,
+        -0.10052454572540304,
+        0.0
+      ],
+      "max_constraint_violation": 0.036179749916573356
+    },
+    "history": [
+      {
+        "generation": 1,
+        "feasible_count": 0,
+        "min_cv": 0.0368841043438749
+      },
+      {
+        "generation": 2,
+        "feasible_count": 0,
+        "min_cv": 0.03684961159948208
+      },
+      {
+        "generation": 3,
+        "feasible_count": 0,
+        "min_cv": 0.03683462338911159
+      },
+      {
+        "generation": 4,
+        "feasible_count": 0,
+        "min_cv": 0.03683462338911159
+      },
+      {
+        "generation": 5,
+        "feasible_count": 0,
+        "min_cv": 0.036824327292195425
+      },
+      {
+        "generation": 6,
+        "feasible_count": 0,
+        "min_cv": 0.03682427517535125
+      },
+      {
+        "generation": 7,
+        "feasible_count": 0,
+        "min_cv": 0.03682427517535125
+      },
+      {
+        "generation": 8,
+        "feasible_count": 0,
+        "min_cv": 0.036179749916573356
+      },
+      {
+        "generation": 9,
+        "feasible_count": 0,
+        "min_cv": 0.036179749916573356
+      },
+      {
+        "generation": 10,
+        "feasible_count": 0,
+        "min_cv": 0.036179749916573356
+      },
+      {
+        "generation": 11,
+        "feasible_count": 0,
+        "min_cv": 0.036179749916573356
+      },
+      {
+        "generation": 12,
+        "feasible_count": 0,
+        "min_cv": 0.036179749916573356
+      }
+    ]
+  },
+  {
+    "id": "F13",
+    "algorithm": "NSGA-II (pure-NumPy seeded)",
+    "seed": 20261125,
+    "pop_size": 20,
+    "generations": 12,
+    "solutions": [],
+    "least_infeasible": {
+      "parameters": {
+        "drawer_stroke_mm": 180.0,
+        "cable_bend_radius_mm": 45.12699997645407
+      },
+      "objectives": [
+        1.1444444444444444,
+        0.46700929203219793,
+        0.28339285714285717,
+        0.48
+      ],
+      "constraints": [
+        -0.0001,
+        0.34444444444444433,
+        0.0,
+        -10.126999976454073,
+        0.0
+      ],
+      "max_constraint_violation": 0.34444444444444433
+    },
+    "history": [
+      {
+        "generation": 1,
+        "feasible_count": 0,
+        "min_cv": 0.34723290823807473
+      },
+      {
+        "generation": 2,
+        "feasible_count": 0,
+        "min_cv": 0.34723290823807473
+      },
+      {
+        "generation": 3,
+        "feasible_count": 0,
+        "min_cv": 0.34444444444444433
+      },
+      {
+        "generation": 4,
+        "feasible_count": 0,
+        "min_cv": 0.34444444444444433
+      },
+      {
+        "generation": 5,
+        "feasible_count": 0,
+        "min_cv": 0.34444444444444433
+      },
+      {
+        "generation": 6,
+        "feasible_count": 0,
+        "min_cv": 0.34444444444444433
+      },
+      {
+        "generation": 7,
+        "feasible_count": 0,
+        "min_cv": 0.34444444444444433
+      },
+      {
+        "generation": 8,
+        "feasible_count": 0,
+        "min_cv": 0.34444444444444433
+      },
+      {
+        "generation": 9,
+        "feasible_count": 0,
+        "min_cv": 0.34444444444444433
+      },
+      {
+        "generation": 10,
+        "feasible_count": 0,
+        "min_cv": 0.34444444444444433
+      },
+      {
+        "generation": 11,
+        "feasible_count": 0,
+        "min_cv": 0.34444444444444433
+      },
+      {
+        "generation": 12,
+        "feasible_count": 0,
+        "min_cv": 0.34444444444444433
+      }
+    ]
+  },
+  {
+    "id": "F14",
+    "algorithm": "NSGA-II (pure-NumPy seeded)",
+    "seed": 20261126,
+    "pop_size": 20,
+    "generations": 12,
+    "solutions": [],
+    "least_infeasible": {
+      "parameters": {
+        "lift_mm": 143.63636839057412,
+        "shift_x_mm": -45.99519619489976,
+        "cabinet_clearance_mm": 10.0,
+        "stow_angle_deg": 24.720071293698815
+      },
+      "objectives": [
+        1.904160345595741,
+        0.610550315203567,
+        0.28339285714285717,
+        0.9102162626732468
+      ],
+      "constraints": [
+        -0.0001,
+        1.104160345595741,
+        0.0,
+        -83.168,
+        0.0
+      ],
+      "max_constraint_violation": 1.104160345595741
+    },
+    "history": [
+      {
+        "generation": 1,
+        "feasible_count": 0,
+        "min_cv": 1.1278974261788222
+      },
+      {
+        "generation": 2,
+        "feasible_count": 0,
+        "min_cv": 1.1278974261788222
+      },
+      {
+        "generation": 3,
+        "feasible_count": 0,
+        "min_cv": 1.1278974261788222
+      },
+      {
+        "generation": 4,
+        "feasible_count": 0,
+        "min_cv": 1.104160345595741
+      },
+      {
+        "generation": 5,
+        "feasible_count": 0,
+        "min_cv": 1.104160345595741
+      },
+      {
+        "generation": 6,
+        "feasible_count": 0,
+        "min_cv": 1.104160345595741
+      },
+      {
+        "generation": 7,
+        "feasible_count": 0,
+        "min_cv": 1.104160345595741
+      },
+      {
+        "generation": 8,
+        "feasible_count": 0,
+        "min_cv": 1.104160345595741
+      },
+      {
+        "generation": 9,
+        "feasible_count": 0,
+        "min_cv": 1.104160345595741
+      },
+      {
+        "generation": 10,
+        "feasible_count": 0,
+        "min_cv": 1.104160345595741
+      },
+      {
+        "generation": 11,
+        "feasible_count": 0,
+        "min_cv": 1.104160345595741
+      },
+      {
+        "generation": 12,
+        "feasible_count": 0,
+        "min_cv": 1.104160345595741
+      }
+    ]
+  },
+  {
+    "id": "SCZ",
+    "algorithm": "NSGA-II (pure-NumPy seeded)",
+    "seed": 20261127,
+    "pop_size": 20,
+    "generations": 12,
+    "solutions": [
+      {
+        "parameters": {
+          "arm_length_mm": 153.9757693797975,
+          "height_fold_mm": 51.714479672934985
+        },
+        "objectives": [
+          0.5003953644841186,
+          0.5017165094657831,
+          0.5646881267406542,
+          0.88
+        ],
+        "constraints": [
+          -0.0001,
+          -0.29960463551588146,
+          0.0,
+          -189.8910159871362,
+          0.0
+        ],
+        "metrics": {
+          "id": "SCZ",
+          "simulation_level": "L3_3D_OBB_and_space_frame_FEA",
+          "tip_deflection_mm": 0.5646881267406542,
+          "estimated_incremental_cost_CNY": 880.0,
+          "reliability_proxy_score": 24.6,
+          "manufacturing_complexity_score": 4.8,
+          "storage_ratio": 0.5003953644841186,
+          "core_storage_ratio": 0.3060670675970822,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "arm_length_mm": 153.9757693797975,
+            "height_work_max_mm": 305.0,
+            "height_fold_mm": 51.714479672934985,
+            "frame_offset_mm": 40.0,
+            "arm_width_mm": 20.0,
+            "arm_thick_mm": 6.0,
+            "sync_error_mm": 0.08,
+            "screw_backlash_mm": 0.04
+          },
+          "min_work_angle_deg": 23.948040999637758,
+          "peak_drive_gain": 2.2515296165855223,
+          "peak_drive_force_N": 160.1089840128638,
+          "peak_torque_Nmm": 0.0,
+          "backlash_z_mm": 0.38569466187263207,
+          "sync_tilt_deg": 0.03969326887417321,
+          "buckling_safety_factor": 450.38258896340767,
+          "drive_model": "SCZ horizontal T8 screw (eta=0.55) + 8-pin Coulomb + rail friction"
+        }
+      },
+      {
+        "parameters": {
+          "arm_length_mm": 155.0086714446758,
+          "height_fold_mm": 45.0
+        },
+        "objectives": [
+          0.4703196347031963,
+          0.5017187906113703,
+          0.5710448098038718,
+          0.88
+        ],
+        "constraints": [
+          -0.0001,
+          -0.3296803652968037,
+          0.0,
+          -188.66617815279915,
+          0.0
+        ],
+        "metrics": {
+          "id": "SCZ",
+          "simulation_level": "L3_3D_OBB_and_space_frame_FEA",
+          "tip_deflection_mm": 0.5710448098038718,
+          "estimated_incremental_cost_CNY": 880.0,
+          "reliability_proxy_score": 24.6,
+          "manufacturing_complexity_score": 4.8,
+          "storage_ratio": 0.4703196347031963,
+          "core_storage_ratio": 0.2876712328767123,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "arm_length_mm": 155.0086714446758,
+            "height_work_max_mm": 305.0,
+            "height_fold_mm": 45.0,
+            "frame_offset_mm": 40.0,
+            "arm_width_mm": 20.0,
+            "arm_thick_mm": 6.0,
+            "sync_error_mm": 0.08,
+            "screw_backlash_mm": 0.04
+          },
+          "min_work_angle_deg": 23.778582404424863,
+          "peak_drive_gain": 2.2696008867417907,
+          "peak_drive_force_N": 161.33382184720085,
+          "peak_torque_Nmm": 0.0,
+          "backlash_z_mm": 0.3884006846434491,
+          "sync_tilt_deg": 0.040011855646314924,
+          "buckling_safety_factor": 441.43906120633085,
+          "drive_model": "SCZ horizontal T8 screw (eta=0.55) + 8-pin Coulomb + rail friction"
+        }
+      },
+      {
+        "parameters": {
+          "arm_length_mm": 153.9063762873204,
+          "height_fold_mm": 52.98646576636449
+        },
+        "objectives": [
+          0.5060928886251594,
+          0.5017163563232553,
+          0.5642634016191228,
+          0.88
+        ],
+        "constraints": [
+          -0.0001,
+          -0.2939071113748406,
+          0.0,
+          -189.9733615410728,
+          0.0
+        ],
+        "metrics": {
+          "id": "SCZ",
+          "simulation_level": "L3_3D_OBB_and_space_frame_FEA",
+          "tip_deflection_mm": 0.5642634016191228,
+          "estimated_incremental_cost_CNY": 880.0,
+          "reliability_proxy_score": 24.6,
+          "manufacturing_complexity_score": 4.8,
+          "storage_ratio": 0.5060928886251594,
+          "core_storage_ratio": 0.30955196100373833,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "arm_length_mm": 153.9063762873204,
+            "height_work_max_mm": 305.0,
+            "height_fold_mm": 52.98646576636449,
+            "frame_offset_mm": 40.0,
+            "arm_width_mm": 20.0,
+            "arm_thick_mm": 6.0,
+            "sync_error_mm": 0.08,
+            "screw_backlash_mm": 0.04
+          },
+          "min_work_angle_deg": 23.9595152392586,
+          "peak_drive_gain": 2.250314689425666,
+          "peak_drive_force_N": 160.0266384589272,
+          "peak_torque_Nmm": 0.0,
+          "backlash_z_mm": 0.38551283004868175,
+          "sync_tilt_deg": 0.039671850361777894,
+          "buckling_safety_factor": 450.9920673039267,
+          "drive_model": "SCZ horizontal T8 screw (eta=0.55) + 8-pin Coulomb + rail friction"
+        }
+      },
+      {
+        "parameters": {
+          "arm_length_mm": 153.00790262461,
+          "height_fold_mm": 65.97806214432666
+        },
+        "objectives": [
+          0.5642852968412979,
+          0.5017143747434366,
+          0.5587906875588287,
+          0.88
+        ],
+        "constraints": [
+          -0.0001,
+          -0.23571470315870213,
+          0.0,
+          -191.0402047826417,
+          0.0
+        ],
+        "metrics": {
+          "id": "SCZ",
+          "simulation_level": "L3_3D_OBB_and_space_frame_FEA",
+          "tip_deflection_mm": 0.5587906875588287,
+          "estimated_incremental_cost_CNY": 880.0,
+          "reliability_proxy_score": 24.6,
+          "manufacturing_complexity_score": 4.8,
+          "storage_ratio": 0.5642852968412979,
+          "core_storage_ratio": 0.34514537573788123,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "arm_length_mm": 153.00790262461,
+            "height_work_max_mm": 305.0,
+            "height_fold_mm": 65.97806214432666,
+            "frame_offset_mm": 40.0,
+            "arm_width_mm": 20.0,
+            "arm_thick_mm": 6.0,
+            "sync_error_mm": 0.08,
+            "screw_backlash_mm": 0.04
+          },
+          "min_work_angle_deg": 24.109112410490834,
+          "peak_drive_gain": 2.2345744731355515,
+          "peak_drive_force_N": 158.9597952173583,
+          "peak_torque_Nmm": 0.0,
+          "backlash_z_mm": 0.3831581519646733,
+          "sync_tilt_deg": 0.0393943588132559,
+          "buckling_safety_factor": 458.98358673851965,
+          "drive_model": "SCZ horizontal T8 screw (eta=0.55) + 8-pin Coulomb + rail friction"
+        }
+      },
+      {
+        "parameters": {
+          "arm_length_mm": 153.8612708995439,
+          "height_fold_mm": 54.09350251695959
+        },
+        "objectives": [
+          0.5110515659598537,
+          0.5017162567883242,
+          0.5639874883426158,
+          0.88
+        ],
+        "constraints": [
+          -0.0001,
+          -0.28894843404014636,
+          0.0,
+          -190.02688993708387,
+          0.0
+        ],
+        "metrics": {
+          "id": "SCZ",
+          "simulation_level": "L3_3D_OBB_and_space_frame_FEA",
+          "tip_deflection_mm": 0.5639874883426158,
+          "estimated_incremental_cost_CNY": 880.0,
+          "reliability_proxy_score": 24.6,
+          "manufacturing_complexity_score": 4.8,
+          "storage_ratio": 0.5110515659598537,
+          "core_storage_ratio": 0.31258493840262896,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "arm_length_mm": 153.8612708995439,
+            "height_work_max_mm": 305.0,
+            "height_fold_mm": 54.09350251695959,
+            "frame_offset_mm": 40.0,
+            "arm_width_mm": 20.0,
+            "arm_thick_mm": 6.0,
+            "sync_error_mm": 0.08,
+            "screw_backlash_mm": 0.04
+          },
+          "min_work_angle_deg": 23.966979573108006,
+          "peak_drive_gain": 2.24952493091378,
+          "peak_drive_force_N": 159.97311006291613,
+          "peak_torque_Nmm": 0.0,
+          "backlash_z_mm": 0.3853946373636755,
+          "sync_tilt_deg": 0.039657927343968856,
+          "buckling_safety_factor": 451.38881697285535,
+          "drive_model": "SCZ horizontal T8 screw (eta=0.55) + 8-pin Coulomb + rail friction"
+        }
+      },
+      {
+        "parameters": {
+          "arm_length_mm": 153.88648823802922,
+          "height_fold_mm": 53.219074350301696
+        },
+        "objectives": [
+          0.5071347970463611,
+          0.5017163124351901,
+          0.564141729552184,
+          0.88
+        ],
+        "constraints": [
+          -0.0001,
+          -0.29286520295363894,
+          0.0,
+          -189.99696311507222,
+          0.0
+        ],
+        "metrics": {
+          "id": "SCZ",
+          "simulation_level": "L3_3D_OBB_and_space_frame_FEA",
+          "tip_deflection_mm": 0.564141729552184,
+          "estimated_incremental_cost_CNY": 880.0,
+          "reliability_proxy_score": 24.6,
+          "manufacturing_complexity_score": 4.8,
+          "storage_ratio": 0.5071347970463611,
+          "core_storage_ratio": 0.3101892447953471,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "arm_length_mm": 153.88648823802922,
+            "height_work_max_mm": 305.0,
+            "height_fold_mm": 53.219074350301696,
+            "frame_offset_mm": 40.0,
+            "arm_width_mm": 20.0,
+            "arm_thick_mm": 6.0,
+            "sync_error_mm": 0.08,
+            "screw_backlash_mm": 0.04
+          },
+          "min_work_angle_deg": 23.96280585081231,
+          "peak_drive_gain": 2.2499664715572263,
+          "peak_drive_force_N": 160.00303688492778,
+          "peak_torque_Nmm": 0.0,
+          "backlash_z_mm": 0.3854607162793051,
+          "sync_tilt_deg": 0.03966571146803976,
+          "buckling_safety_factor": 451.1669464333854,
+          "drive_model": "SCZ horizontal T8 screw (eta=0.55) + 8-pin Coulomb + rail friction"
+        }
+      },
+      {
+        "parameters": {
+          "arm_length_mm": 153.77039006539408,
+          "height_fold_mm": 54.82914524546591
+        },
+        "objectives": [
+          0.5143466823345505,
+          0.5017160562576212,
+          0.5634319393017833,
+          0.88
+        ],
+        "constraints": [
+          -0.0001,
+          -0.28565331766544955,
+          0.0,
+          -190.1347513370028,
+          0.0
+        ],
+        "metrics": {
+          "id": "SCZ",
+          "simulation_level": "L3_3D_OBB_and_space_frame_FEA",
+          "tip_deflection_mm": 0.5634319393017833,
+          "estimated_incremental_cost_CNY": 880.0,
+          "reliability_proxy_score": 24.6,
+          "manufacturing_complexity_score": 4.8,
+          "storage_ratio": 0.5143466823345505,
+          "core_storage_ratio": 0.31460039793278327,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "arm_length_mm": 153.77039006539408,
+            "height_work_max_mm": 305.0,
+            "height_fold_mm": 54.82914524546591,
+            "frame_offset_mm": 40.0,
+            "arm_width_mm": 20.0,
+            "arm_thick_mm": 6.0,
+            "sync_error_mm": 0.08,
+            "screw_backlash_mm": 0.04
+          },
+          "min_work_angle_deg": 23.98203374181778,
+          "peak_drive_gain": 2.2479335426967237,
+          "peak_drive_force_N": 159.8652486629972,
+          "peak_torque_Nmm": 0.0,
+          "backlash_z_mm": 0.3851564906334256,
+          "sync_tilt_deg": 0.039629872025583636,
+          "buckling_safety_factor": 452.1896247616485,
+          "drive_model": "SCZ horizontal T8 screw (eta=0.55) + 8-pin Coulomb + rail friction"
+        }
+      },
+      {
+        "parameters": {
+          "arm_length_mm": 153.32633838287808,
+          "height_fold_mm": 58.46338543243389
+        },
+        "objectives": [
+          0.5306252967836786,
+          0.5017150767880343,
+          0.5607247052323188,
+          0.88
+        ],
+        "constraints": [
+          -0.0001,
+          -0.2693747032163214,
+          0.0,
+          -190.66195346466216,
+          0.0
+        ],
+        "metrics": {
+          "id": "SCZ",
+          "simulation_level": "L3_3D_OBB_and_space_frame_FEA",
+          "tip_deflection_mm": 0.5607247052323188,
+          "estimated_incremental_cost_CNY": 880.0,
+          "reliability_proxy_score": 24.6,
+          "manufacturing_complexity_score": 4.8,
+          "storage_ratio": 0.5306252967836786,
+          "core_storage_ratio": 0.3245572203628326,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "arm_length_mm": 153.32633838287808,
+            "height_work_max_mm": 305.0,
+            "height_fold_mm": 58.46338543243389,
+            "frame_offset_mm": 40.0,
+            "arm_width_mm": 20.0,
+            "arm_thick_mm": 6.0,
+            "sync_error_mm": 0.08,
+            "screw_backlash_mm": 0.04
+          },
+          "min_work_angle_deg": 24.055871847571396,
+          "peak_drive_gain": 2.2401551970179683,
+          "peak_drive_force_N": 159.33804653533784,
+          "peak_torque_Nmm": 0.0,
+          "backlash_z_mm": 0.3839927775758446,
+          "sync_tilt_deg": 0.039492743974349084,
+          "buckling_safety_factor": 456.1298020761398,
+          "drive_model": "SCZ horizontal T8 screw (eta=0.55) + 8-pin Coulomb + rail friction"
+        }
+      },
+      {
+        "parameters": {
+          "arm_length_mm": 154.09183301093748,
+          "height_fold_mm": 51.02023469445455
+        },
+        "objectives": [
+          0.4972856783443714,
+          0.5017167656358453,
+          0.5653991578864086,
+          0.88
+        ],
+        "constraints": [
+          -0.0001,
+          -0.30271432165562867,
+          0.0,
+          -189.75330503149345,
+          0.0
+        ],
+        "metrics": {
+          "id": "SCZ",
+          "simulation_level": "L3_3D_OBB_and_space_frame_FEA",
+          "tip_deflection_mm": 0.5653991578864086,
+          "estimated_incremental_cost_CNY": 880.0,
+          "reliability_proxy_score": 24.6,
+          "manufacturing_complexity_score": 4.8,
+          "storage_ratio": 0.4972856783443714,
+          "core_storage_ratio": 0.3041650265601495,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "arm_length_mm": 154.09183301093748,
+            "height_work_max_mm": 305.0,
+            "height_fold_mm": 51.02023469445455,
+            "frame_offset_mm": 40.0,
+            "arm_width_mm": 20.0,
+            "arm_thick_mm": 6.0,
+            "sync_error_mm": 0.08,
+            "screw_backlash_mm": 0.04
+          },
+          "min_work_angle_deg": 23.928875098282045,
+          "peak_drive_gain": 2.25356140545841,
+          "peak_drive_force_N": 160.24669496850655,
+          "peak_torque_Nmm": 0.0,
+          "backlash_z_mm": 0.3859987755993363,
+          "sync_tilt_deg": 0.039729088219205906,
+          "buckling_safety_factor": 449.3656562371511,
+          "drive_model": "SCZ horizontal T8 screw (eta=0.55) + 8-pin Coulomb + rail friction"
+        }
+      }
+    ],
+    "least_infeasible": {
+      "parameters": {
+        "arm_length_mm": 153.9757693797975,
+        "height_fold_mm": 51.714479672934985
+      },
+      "objectives": [
+        0.5003953644841186,
+        0.5017165094657831,
+        0.5646881267406542,
+        0.88
+      ],
+      "constraints": [
+        -0.0001,
+        -0.29960463551588146,
+        0.0,
+        -189.8910159871362,
+        0.0
+      ],
+      "max_constraint_violation": 0.0
+    },
+    "history": [
+      {
+        "generation": 1,
+        "feasible_count": 20,
+        "best_storage_ratio": 0.4944714271699017,
+        "best_p95_mm": 0.5017161271375931
+      },
+      {
+        "generation": 2,
+        "feasible_count": 20,
+        "best_storage_ratio": 0.48723427209710957,
+        "best_p95_mm": 0.5017161271375931
+      },
+      {
+        "generation": 3,
+        "feasible_count": 20,
+        "best_storage_ratio": 0.48723427209710957,
+        "best_p95_mm": 0.5017161271375931
+      },
+      {
+        "generation": 4,
+        "feasible_count": 20,
+        "best_storage_ratio": 0.4764166963541933,
+        "best_p95_mm": 0.5017159755268181
+      },
+      {
+        "generation": 5,
+        "feasible_count": 20,
+        "best_storage_ratio": 0.474388999099524,
+        "best_p95_mm": 0.5017159755268181
+      },
+      {
+        "generation": 6,
+        "feasible_count": 20,
+        "best_storage_ratio": 0.4703196347031963,
+        "best_p95_mm": 0.5017159755268181
+      },
+      {
+        "generation": 7,
+        "feasible_count": 20,
+        "best_storage_ratio": 0.4703196347031963,
+        "best_p95_mm": 0.5017159755268181
+      },
+      {
+        "generation": 8,
+        "feasible_count": 20,
+        "best_storage_ratio": 0.4703196347031963,
+        "best_p95_mm": 0.5017159755268181
+      },
+      {
+        "generation": 9,
+        "feasible_count": 20,
+        "best_storage_ratio": 0.4703196347031963,
+        "best_p95_mm": 0.5017159755268181
+      },
+      {
+        "generation": 10,
+        "feasible_count": 20,
+        "best_storage_ratio": 0.4703196347031963,
+        "best_p95_mm": 0.501715471439004
+      },
+      {
+        "generation": 11,
+        "feasible_count": 20,
+        "best_storage_ratio": 0.4703196347031963,
+        "best_p95_mm": 0.5017143747434366
+      },
+      {
+        "generation": 12,
+        "feasible_count": 20,
+        "best_storage_ratio": 0.4703196347031963,
+        "best_p95_mm": 0.5017143747434366
+      }
+    ]
+  }
+]

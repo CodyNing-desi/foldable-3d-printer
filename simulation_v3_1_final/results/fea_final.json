@@ -1,0 +1,111 @@
+{
+  "F09": {
+    "compliant_32": {
+      "id": "F09",
+      "fea_level": "L3_3D_space_frame_FEA_v3_1",
+      "dofs": 870,
+      "ideal_rigid_joints": false,
+      "tip_x_deflection_mm": 0.10228998450361754,
+      "tip_y_deflection_mm": 0.12518518144696994,
+      "tip_z_deflection_mm": 0.21290696652439714,
+      "tip_lateral_deflection_mm": 0.12518518144696994,
+      "torsion_rot_rad": 0.0003484590668637101
+    },
+    "ideal_32": {
+      "id": "F09",
+      "fea_level": "L3_3D_space_frame_FEA_v3_1",
+      "dofs": 870,
+      "ideal_rigid_joints": true,
+      "tip_x_deflection_mm": 0.0773295389430774,
+      "tip_y_deflection_mm": 0.10037572318367301,
+      "tip_z_deflection_mm": 0.1830046506717114,
+      "tip_lateral_deflection_mm": 0.10037572318367301,
+      "torsion_rot_rad": 0.00027122249625563234
+    }
+  },
+  "F07": {
+    "compliant_32": {
+      "id": "F07",
+      "fea_level": "L3_3D_space_frame_FEA_v3_1",
+      "dofs": 294,
+      "ideal_rigid_joints": false,
+      "tip_x_deflection_mm": 0.20117296170770768,
+      "tip_y_deflection_mm": 0.8166367275055623,
+      "tip_z_deflection_mm": 0.33073390607596614,
+      "tip_lateral_deflection_mm": 0.8166367275055623,
+      "torsion_rot_rad": 0.003070283577001378
+    },
+    "ideal_32": {
+      "id": "F07",
+      "fea_level": "L3_3D_space_frame_FEA_v3_1",
+      "dofs": 294,
+      "ideal_rigid_joints": true,
+      "tip_x_deflection_mm": 0.15215032479520696,
+      "tip_y_deflection_mm": 0.7116392776443357,
+      "tip_z_deflection_mm": 0.29696564308408313,
+      "tip_lateral_deflection_mm": 0.7116392776443357,
+      "torsion_rot_rad": 0.0027270220590422
+    }
+  },
+  "F08": {
+    "compliant_32": {
+      "id": "F08",
+      "fea_level": "L3_3D_space_frame_FEA_v3_1",
+      "dofs": 294,
+      "ideal_rigid_joints": false,
+      "tip_x_deflection_mm": 0.20117296170770768,
+      "tip_y_deflection_mm": 0.8166367275055623,
+      "tip_z_deflection_mm": 0.33073390607596614,
+      "tip_lateral_deflection_mm": 0.8166367275055623,
+      "torsion_rot_rad": 0.003070283577001378
+    },
+    "ideal_32": {
+      "id": "F08",
+      "fea_level": "L3_3D_space_frame_FEA_v3_1",
+      "dofs": 294,
+      "ideal_rigid_joints": true,
+      "tip_x_deflection_mm": 0.15215032479520696,
+      "tip_y_deflection_mm": 0.7116392776443357,
+      "tip_z_deflection_mm": 0.29696564308408313,
+      "tip_lateral_deflection_mm": 0.7116392776443357,
+      "torsion_rot_rad": 0.0027270220590422
+    }
+  },
+  "F12": {
+    "compliant_32": {
+      "id": "F12",
+      "fea_level": "L3_3D_space_frame_FEA_v3_1",
+      "dofs": 486,
+      "ideal_rigid_joints": false,
+      "tip_x_deflection_mm": 0.006448317131883615,
+      "tip_y_deflection_mm": 0.061154926031527286,
+      "tip_z_deflection_mm": 0.043435538852363065,
+      "tip_lateral_deflection_mm": 0.061154926031527286,
+      "torsion_rot_rad": 0.00012210562254789636
+    },
+    "ideal_32": {
+      "id": "F12",
+      "fea_level": "L3_3D_space_frame_FEA_v3_1",
+      "dofs": 486,
+      "ideal_rigid_joints": true,
+      "tip_x_deflection_mm": 0.006448317131883615,
+      "tip_y_deflection_mm": 0.061154926031527286,
+      "tip_z_deflection_mm": 0.043435538852363065,
+      "tip_lateral_deflection_mm": 0.061154926031527286,
+      "torsion_rot_rad": 0.00012210562254789636
+    }
+  },
+  "SCZ": {
+    "compliant_8": {
+      "id": "SCZ",
+      "fea_level": "L3_3D_space_frame_FEA_v3_1",
+      "dofs": 564,
+      "ideal_rigid_joints": false,
+      "tip_x_deflection_mm": 0.015988628263867835,
+      "tip_y_deflection_mm": 0.6026879412899449,
+      "tip_z_deflection_mm": 0.019345390249830702,
+      "tip_lateral_deflection_mm": 0.6026879412899449,
+      "torsion_rot_rad": 0.0
+    }
+  }
+}

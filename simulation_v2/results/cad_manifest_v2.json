@@ -1,0 +1,85 @@
+{
+  "F07": {
+    "parameters": {
+      "lift_mm": 75.00000000000001,
+      "shift_x_mm": -4.817024841930219
+    },
+    "work_stl": {
+      "path": "/working_dir/c_06ecc9fd0365be4d/simulation_v2/cad/F07/f07_work.stl",
+      "triangle_count": 108,
+      "solid_count": 9
+    },
+    "folded_stl": {
+      "path": "/working_dir/c_06ecc9fd0365be4d/simulation_v2/cad/F07/f07_folded.stl",
+      "triangle_count": 120,
+      "solid_count": 10
+    },
+    "folded_obj": {
+      "path": "/working_dir/c_06ecc9fd0365be4d/simulation_v2/cad/F07/f07_folded.obj",
+      "object_count": 10
+    }
+  },
+  "F12": {
+    "parameters": {
+      "overlap_mm": 60.0,
+      "outer_size_mm": 60.0,
+      "wall_mm": 3.0,
+      "radial_clearance_mm": 0.08,
+      "pad_thickness_mm": 2.92
+    },
+    "work_stl": {
+      "path": "/working_dir/c_06ecc9fd0365be4d/simulation_v2/cad/F12/f12_work.stl",
+      "triangle_count": 204,
+      "solid_count": 8
+    },
+    "folded_stl": {
+      "path": "/working_dir/c_06ecc9fd0365be4d/simulation_v2/cad/F12/f12_folded.stl",
+      "triangle_count": 216,
+      "solid_count": 9
+    },
+    "folded_obj": {
+      "path": "/working_dir/c_06ecc9fd0365be4d/simulation_v2/cad/F12/f12_folded.obj",
+      "object_count": 9
+    }
+  },
+  "SCZ": {
+    "parameters": {
+      "arm_length_mm": 155.0086714446758,
+      "height_fold_mm": 45.0
+    },
+    "work_stl": {
+      "path": "/working_dir/c_06ecc9fd0365be4d/simulation_v2/cad/SCZ/scz_work.stl",
+      "triangle_count": 132,
+      "solid_count": 11
+    },
+    "folded_stl": {
+      "path": "/working_dir/c_06ecc9fd0365be4d/simulation_v2/cad/SCZ/scz_folded.stl",
+      "triangle_count": 144,
+      "solid_count": 12
+    },
+    "folded_obj": {
+      "path": "/working_dir/c_06ecc9fd0365be4d/simulation_v2/cad/SCZ/scz_folded.obj",
+      "object_count": 12
+    }
+  },
+  "F08": {
+    "parameters": {
+      "lift_mm": 15.000000000000002,
+      "shift_x_mm": -86.61258686130772
+    },
+    "work_stl": {
+      "path": "/working_dir/c_06ecc9fd0365be4d/simulation_v2/cad/F08/f08_work.stl",
+      "triangle_count": 84,
+      "solid_count": 7
+    },
+    "folded_stl": {
+      "path": "/working_dir/c_06ecc9fd0365be4d/simulation_v2/cad/F08/f08_folded.stl",
+      "triangle_count": 96,
+      "solid_count": 8
+    },
+    "folded_obj": {
+      "path": "/working_dir/c_06ecc9fd0365be4d/simulation_v2/cad/F08/f08_folded.obj",
+      "object_count": 8
+    }
+  }
+}

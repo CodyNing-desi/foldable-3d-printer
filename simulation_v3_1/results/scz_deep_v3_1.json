@@ -1,0 +1,90 @@
+[
+  {
+    "height_case": "H_work_min_125",
+    "H_mm": 125.0,
+    "screw": "T8_lead2_trapezoid",
+    "pin_clearance_mm": 0.06,
+    "mu_pin": 0.12,
+    "F_drive_N": 160.13773563746793,
+    "motor_torque_Nm": 0.05097342440449238,
+    "nema17_055Nm_safety_factor": 10.789936254538308,
+    "backlash_z_mm": 0.38575815273416747
+  },
+  {
+    "height_case": "H_work_min_125",
+    "H_mm": 125.0,
+    "screw": "T8_lead2_trapezoid",
+    "pin_clearance_mm": 0.015,
+    "mu_pin": 0.06,
+    "F_drive_N": 159.09666276474067,
+    "motor_torque_Nm": 0.05064204061686554,
+    "nema17_055Nm_safety_factor": 10.86054182060016,
+    "backlash_z_mm": 0.16399815273416746
+  },
+  {
+    "height_case": "H_work_min_125",
+    "H_mm": 125.0,
+    "screw": "SFU1204_preload_ball",
+    "pin_clearance_mm": 0.06,
+    "mu_pin": 0.12,
+    "F_drive_N": 103.61853482424397,
+    "motor_torque_Nm": 0.0659656080528725,
+    "nema17_055Nm_safety_factor": 8.33767801487051,
+    "backlash_z_mm": 0.31819953818354185
+  },
+  {
+    "height_case": "H_work_min_125",
+    "H_mm": 125.0,
+    "screw": "SFU1204_preload_ball",
+    "pin_clearance_mm": 0.015,
+    "mu_pin": 0.06,
+    "F_drive_N": 102.94489943600867,
+    "motor_torque_Nm": 0.06553675844535539,
+    "nema17_055Nm_safety_factor": 8.39223686137285,
+    "backlash_z_mm": 0.09643953818354187
+  },
+  {
+    "height_case": "H_fold_45",
+    "H_mm": 45.0,
+    "screw": "T8_lead2_trapezoid",
+    "pin_clearance_mm": 0.06,
+    "mu_pin": 0.12,
+    "F_drive_N": 470.1319554766268,
+    "motor_torque_Nm": 0.14964764923912802,
+    "nema17_055Nm_safety_factor": 3.675299964927166,
+    "backlash_z_mm": 1.0921732705747567
+  },
+  {
+    "height_case": "H_fold_45",
+    "H_mm": 45.0,
+    "screw": "T8_lead2_trapezoid",
+    "pin_clearance_mm": 0.015,
+    "mu_pin": 0.06,
+    "F_drive_N": 467.24008638571763,
+    "motor_torque_Nm": 0.1487271387179423,
+    "nema17_055Nm_safety_factor": 3.698047341871229,
+    "backlash_z_mm": 0.4761732705747569
+  },
+  {
+    "height_case": "H_fold_45",
+    "H_mm": 45.0,
+    "screw": "SFU1204_preload_ball",
+    "pin_clearance_mm": 0.06,
+    "mu_pin": 0.12,
+    "F_drive_N": 304.20303001428795,
+    "motor_torque_Nm": 0.1936616637212245,
+    "nema17_055Nm_safety_factor": 2.84000451835281,
+    "backlash_z_mm": 0.889043317643689
+  },
+  {
+    "height_case": "H_fold_45",
+    "H_mm": 45.0,
+    "screw": "SFU1204_preload_ball",
+    "pin_clearance_mm": 0.015,
+    "mu_pin": 0.06,
+    "F_drive_N": 302.33182060252324,
+    "motor_torque_Nm": 0.19247041481145477,
+    "nema17_055Nm_safety_factor": 2.8575820369004945,
+    "backlash_z_mm": 0.27304331764368917
+  }
+]

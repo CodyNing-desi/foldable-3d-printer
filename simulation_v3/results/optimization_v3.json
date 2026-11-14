@@ -1,0 +1,4855 @@
+[
+  {
+    "id": "F02",
+    "algorithm": "NSGA-II (pure-NumPy seeded)",
+    "seed": 20261114,
+    "solutions": [],
+    "least_infeasible": {
+      "parameters": {
+        "arm_length_mm": 220.0
+      },
+      "constraints": [
+        39.266292693289515,
+        0.23809523809523814,
+        0.0,
+        -317.627,
+        0.0
+      ],
+      "max_constraint_violation": 39.266292693289515
+    }
+  },
+  {
+    "id": "F04",
+    "algorithm": "NSGA-II (pure-NumPy seeded)",
+    "seed": 20261116,
+    "solutions": [],
+    "least_infeasible": {
+      "parameters": {
+        "lift_mm": 76.92171211631313,
+        "shift_x_mm": 21.67888558159369,
+        "slot_width_mm": 9.256934423035151,
+        "roller_spacing_mm": 29.254063793006218
+      },
+      "constraints": [
+        3.9999,
+        -0.06633588814779867,
+        0.0,
+        -0.37846721151757556,
+        0.0
+      ],
+      "max_constraint_violation": 3.9999
+    }
+  },
+  {
+    "id": "F05",
+    "algorithm": "NSGA-II (pure-NumPy seeded)",
+    "seed": 20261117,
+    "solutions": [
+      {
+        "parameters": {
+          "overlap_mm": 60.0
+        },
+        "objectives": [
+          0.6095890410958904,
+          1.1377515022313291,
+          1.7433928571428572,
+          0.42
+        ],
+        "constraints": [
+          -0.0001,
+          -0.19041095890410964,
+          0.0,
+          -0.04629629629629628,
+          0.0
+        ],
+        "metrics": {
+          "id": "F05",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.28339285714285717,
+          "torsion_induced_mm": 0.0,
+          "clearance_play_mm": 1.46,
+          "backlash_z_mm": 0.05,
+          "sync_tilt_deg": 0.0,
+          "buckling_safety_factor": null,
+          "tipping_safety_factor": null,
+          "peak_torque_Nmm": 3450.0,
+          "peak_drive_force_N": 50.0845090909091,
+          "drive_model": "Vertical telescoping leadscrew (eta=0.55, mu=0.08)",
+          "estimated_incremental_cost_CNY": 420.0,
+          "storage_ratio": 0.6095890410958904,
+          "core_storage_ratio": 0.6095890410958904,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "overlap_mm": 60.0,
+            "wall_mm": 3.0,
+            "radial_clearance_mm": 0.08,
+            "motor_side_mounted": 1,
+            "preload_rail": 0
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      },
+      {
+        "parameters": {
+          "overlap_mm": 59.77121687223785
+        },
+        "objectives": [
+          0.6092756395510107,
+          1.1410554889117772,
+          1.7486750102063733,
+          0.42
+        ],
+        "constraints": [
+          -0.0001,
+          -0.19072436044898933,
+          0.0,
+          -0.04533333587355376,
+          0.0
+        ],
+        "metrics": {
+          "id": "F05",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.28339285714285717,
+          "torsion_induced_mm": 0.0,
+          "clearance_play_mm": 1.465282153063516,
+          "backlash_z_mm": 0.05,
+          "sync_tilt_deg": 0.0,
+          "buckling_safety_factor": null,
+          "tipping_safety_factor": null,
+          "peak_torque_Nmm": 3450.0,
+          "peak_drive_force_N": 50.0845090909091,
+          "drive_model": "Vertical telescoping leadscrew (eta=0.55, mu=0.08)",
+          "estimated_incremental_cost_CNY": 420.0,
+          "storage_ratio": 0.6092756395510107,
+          "core_storage_ratio": 0.6092756395510107,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "overlap_mm": 59.77121687223785,
+            "wall_mm": 3.0,
+            "radial_clearance_mm": 0.08,
+            "motor_side_mounted": 1,
+            "preload_rail": 0
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      },
+      {
+        "parameters": {
+          "overlap_mm": 68.82724731396041
+        },
+        "objectives": [
+          0.6216811607040554,
+          1.0287801188777992,
+          1.5664047925512556,
+          0.42
+        ],
+        "constraints": [
+          -0.0001,
+          -0.1783188392959446,
+          0.0,
+          -0.08263758131297189,
+          0.0
+        ],
+        "metrics": {
+          "id": "F05",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.28339285714285717,
+          "torsion_induced_mm": 0.0,
+          "clearance_play_mm": 1.2830119354083984,
+          "backlash_z_mm": 0.05,
+          "sync_tilt_deg": 0.0,
+          "buckling_safety_factor": null,
+          "tipping_safety_factor": null,
+          "peak_torque_Nmm": 3450.0,
+          "peak_drive_force_N": 50.0845090909091,
+          "drive_model": "Vertical telescoping leadscrew (eta=0.55, mu=0.08)",
+          "estimated_incremental_cost_CNY": 420.0,
+          "storage_ratio": 0.6216811607040554,
+          "core_storage_ratio": 0.6216811607040554,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "overlap_mm": 68.82724731396041,
+            "wall_mm": 3.0,
+            "radial_clearance_mm": 0.08,
+            "motor_side_mounted": 1,
+            "preload_rail": 0
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      },
+      {
+        "parameters": {
+          "overlap_mm": 85.31313252317017
+        },
+        "objectives": [
+          0.6442645651002331,
+          0.8970105007151674,
+          1.3339351119066518,
+          0.42
+        ],
+        "constraints": [
+          -0.0001,
+          -0.15573543489976693,
+          0.0,
+          -0.14651651820585088,
+          0.0
+        ],
+        "metrics": {
+          "id": "F05",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.28339285714285717,
+          "torsion_induced_mm": 0.0,
+          "clearance_play_mm": 1.0505422547637946,
+          "backlash_z_mm": 0.05,
+          "sync_tilt_deg": 0.0,
+          "buckling_safety_factor": null,
+          "tipping_safety_factor": null,
+          "peak_torque_Nmm": 3450.0,
+          "peak_drive_force_N": 50.0845090909091,
+          "drive_model": "Vertical telescoping leadscrew (eta=0.55, mu=0.08)",
+          "estimated_incremental_cost_CNY": 420.0,
+          "storage_ratio": 0.6442645651002331,
+          "core_storage_ratio": 0.6442645651002331,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "overlap_mm": 85.31313252317017,
+            "wall_mm": 3.0,
+            "radial_clearance_mm": 0.08,
+            "motor_side_mounted": 1,
+            "preload_rail": 0
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      },
+      {
+        "parameters": {
+          "overlap_mm": 81.74775754081854
+        },
+        "objectives": [
+          0.6393804897819432,
+          0.9224449698646445,
+          1.3762646776164165,
+          0.42
+        ],
+        "constraints": [
+          -0.0001,
+          -0.16061951021805687,
+          0.0,
+          -0.13311979897398452,
+          0.0
+        ],
+        "metrics": {
+          "id": "F05",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.28339285714285717,
+          "torsion_induced_mm": 0.0,
+          "clearance_play_mm": 1.0928718204735592,
+          "backlash_z_mm": 0.05,
+          "sync_tilt_deg": 0.0,
+          "buckling_safety_factor": null,
+          "tipping_safety_factor": null,
+          "peak_torque_Nmm": 3450.0,
+          "peak_drive_force_N": 50.0845090909091,
+          "drive_model": "Vertical telescoping leadscrew (eta=0.55, mu=0.08)",
+          "estimated_incremental_cost_CNY": 420.0,
+          "storage_ratio": 0.6393804897819432,
+          "core_storage_ratio": 0.6393804897819432,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "overlap_mm": 81.74775754081854,
+            "wall_mm": 3.0,
+            "radial_clearance_mm": 0.08,
+            "motor_side_mounted": 1,
+            "preload_rail": 0
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      },
+      {
+        "parameters": {
+          "overlap_mm": 66.12540337087867
+        },
+        "objectives": [
+          0.617980004617642,
+          1.0590517719601038,
+          1.6155591318133986,
+          0.42
+        ],
+        "constraints": [
+          -0.0001,
+          -0.18201999538235802,
+          0.0,
+          -0.07167996834399726,
+          0.0
+        ],
+        "metrics": {
+          "id": "F05",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.28339285714285717,
+          "torsion_induced_mm": 0.0,
+          "clearance_play_mm": 1.3321662746705414,
+          "backlash_z_mm": 0.05,
+          "sync_tilt_deg": 0.0,
+          "buckling_safety_factor": null,
+          "tipping_safety_factor": null,
+          "peak_torque_Nmm": 3450.0,
+          "peak_drive_force_N": 50.0845090909091,
+          "drive_model": "Vertical telescoping leadscrew (eta=0.55, mu=0.08)",
+          "estimated_incremental_cost_CNY": 420.0,
+          "storage_ratio": 0.617980004617642,
+          "core_storage_ratio": 0.617980004617642,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "overlap_mm": 66.12540337087867,
+            "wall_mm": 3.0,
+            "radial_clearance_mm": 0.08,
+            "motor_side_mounted": 1,
+            "preload_rail": 0
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      },
+      {
+        "parameters": {
+          "overlap_mm": 61.565778226745216
+        },
+        "objectives": [
+          0.6117339427763633,
+          1.1161108212749324,
+          1.7082958598312938,
+          0.42
+        ],
+        "constraints": [
+          -0.0001,
+          -0.18826605722363676,
+          0.0,
+          -0.0528576507116123,
+          0.0
+        ],
+        "metrics": {
+          "id": "F05",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.28339285714285717,
+          "torsion_induced_mm": 0.0,
+          "clearance_play_mm": 1.4249030026884366,
+          "backlash_z_mm": 0.05,
+          "sync_tilt_deg": 0.0,
+          "buckling_safety_factor": null,
+          "tipping_safety_factor": null,
+          "peak_torque_Nmm": 3450.0,
+          "peak_drive_force_N": 50.0845090909091,
+          "drive_model": "Vertical telescoping leadscrew (eta=0.55, mu=0.08)",
+          "estimated_incremental_cost_CNY": 420.0,
+          "storage_ratio": 0.6117339427763633,
+          "core_storage_ratio": 0.6117339427763633,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "overlap_mm": 61.565778226745216,
+            "wall_mm": 3.0,
+            "radial_clearance_mm": 0.08,
+            "motor_side_mounted": 1,
+            "preload_rail": 0
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      },
+      {
+        "parameters": {
+          "overlap_mm": 63.60172748574286
+        },
+        "objectives": [
+          0.6145229143640313,
+          1.089642110524483,
+          1.6652442890644301,
+          0.42
+        ],
+        "constraints": [
+          -0.0001,
+          -0.18547708563596876,
+          0.0,
+          -0.06131404106930549,
+          0.0
+        ],
+        "metrics": {
+          "id": "F05",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.28339285714285717,
+          "torsion_induced_mm": 0.0,
+          "clearance_play_mm": 1.381851431921573,
+          "backlash_z_mm": 0.05,
+          "sync_tilt_deg": 0.0,
+          "buckling_safety_factor": null,
+          "tipping_safety_factor": null,
+          "peak_torque_Nmm": 3450.0,
+          "peak_drive_force_N": 50.0845090909091,
+          "drive_model": "Vertical telescoping leadscrew (eta=0.55, mu=0.08)",
+          "estimated_incremental_cost_CNY": 420.0,
+          "storage_ratio": 0.6145229143640313,
+          "core_storage_ratio": 0.6145229143640313,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "overlap_mm": 63.60172748574286,
+            "wall_mm": 3.0,
+            "radial_clearance_mm": 0.08,
+            "motor_side_mounted": 1,
+            "preload_rail": 0
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      },
+      {
+        "parameters": {
+          "overlap_mm": 68.71476233927771
+        },
+        "objectives": [
+          0.6215270716976408,
+          1.0299950300292413,
+          1.5683741039843544,
+          0.42
+        ],
+        "constraints": [
+          -0.0001,
+          -0.17847292830235928,
+          0.0,
+          -0.08218424187110035,
+          0.0
+        ],
+        "metrics": {
+          "id": "F05",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.28339285714285717,
+          "torsion_induced_mm": 0.0,
+          "clearance_play_mm": 1.2849812468414972,
+          "backlash_z_mm": 0.05,
+          "sync_tilt_deg": 0.0,
+          "buckling_safety_factor": null,
+          "tipping_safety_factor": null,
+          "peak_torque_Nmm": 3450.0,
+          "peak_drive_force_N": 50.0845090909091,
+          "drive_model": "Vertical telescoping leadscrew (eta=0.55, mu=0.08)",
+          "estimated_incremental_cost_CNY": 420.0,
+          "storage_ratio": 0.6215270716976408,
+          "core_storage_ratio": 0.6215270716976408,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "overlap_mm": 68.71476233927771,
+            "wall_mm": 3.0,
+            "radial_clearance_mm": 0.08,
+            "motor_side_mounted": 1,
+            "preload_rail": 0
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      },
+      {
+        "parameters": {
+          "overlap_mm": 64.3234718741785
+        },
+        "objectives": [
+          0.6155116053070939,
+          1.0818787708529798,
+          1.650636806940265,
+          0.42
+        ],
+        "constraints": [
+          -0.0001,
+          -0.18448839469290612,
+          0.0,
+          -0.06429163629273044,
+          0.0
+        ],
+        "metrics": {
+          "id": "F05",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.28339285714285717,
+          "torsion_induced_mm": 0.0,
+          "clearance_play_mm": 1.3672439497974078,
+          "backlash_z_mm": 0.05,
+          "sync_tilt_deg": 0.0,
+          "buckling_safety_factor": null,
+          "tipping_safety_factor": null,
+          "peak_torque_Nmm": 3450.0,
+          "peak_drive_force_N": 50.0845090909091,
+          "drive_model": "Vertical telescoping leadscrew (eta=0.55, mu=0.08)",
+          "estimated_incremental_cost_CNY": 420.0,
+          "storage_ratio": 0.6155116053070939,
+          "core_storage_ratio": 0.6155116053070939,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "overlap_mm": 64.3234718741785,
+            "wall_mm": 3.0,
+            "radial_clearance_mm": 0.08,
+            "motor_side_mounted": 1,
+            "preload_rail": 0
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      },
+      {
+        "parameters": {
+          "overlap_mm": 79.2451937172179
+        },
+        "objectives": [
+          0.6359523201605725,
+          0.9413489849253581,
+          1.408251177452695,
+          0.42
+        ],
+        "constraints": [
+          -0.0001,
+          -0.16404767983942758,
+          0.0,
+          -0.12358204590545846,
+          0.0
+        ],
+        "metrics": {
+          "id": "F05",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.28339285714285717,
+          "torsion_induced_mm": 0.0,
+          "clearance_play_mm": 1.1248583203098377,
+          "backlash_z_mm": 0.05,
+          "sync_tilt_deg": 0.0,
+          "buckling_safety_factor": null,
+          "tipping_safety_factor": null,
+          "peak_torque_Nmm": 3450.0,
+          "peak_drive_force_N": 50.0845090909091,
+          "drive_model": "Vertical telescoping leadscrew (eta=0.55, mu=0.08)",
+          "estimated_incremental_cost_CNY": 420.0,
+          "storage_ratio": 0.6359523201605725,
+          "core_storage_ratio": 0.6359523201605725,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "overlap_mm": 79.2451937172179,
+            "wall_mm": 3.0,
+            "radial_clearance_mm": 0.08,
+            "motor_side_mounted": 1,
+            "preload_rail": 0
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      },
+      {
+        "parameters": {
+          "overlap_mm": 77.69836933143998
+        },
+        "objectives": [
+          0.6338333826458081,
+          0.9534714656140777,
+          1.4290522874817086,
+          0.42
+        ],
+        "constraints": [
+          -0.0001,
+          -0.16616661735419191,
+          0.0,
+          -0.11763032445254734,
+          0.0
+        ],
+        "metrics": {
+          "id": "F05",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.28339285714285717,
+          "torsion_induced_mm": 0.0,
+          "clearance_play_mm": 1.1456594303388514,
+          "backlash_z_mm": 0.05,
+          "sync_tilt_deg": 0.0,
+          "buckling_safety_factor": null,
+          "tipping_safety_factor": null,
+          "peak_torque_Nmm": 3450.0,
+          "peak_drive_force_N": 50.0845090909091,
+          "drive_model": "Vertical telescoping leadscrew (eta=0.55, mu=0.08)",
+          "estimated_incremental_cost_CNY": 420.0,
+          "storage_ratio": 0.6338333826458081,
+          "core_storage_ratio": 0.6338333826458081,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "overlap_mm": 77.69836933143998,
+            "wall_mm": 3.0,
+            "radial_clearance_mm": 0.08,
+            "motor_side_mounted": 1,
+            "preload_rail": 0
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      },
+      {
+        "parameters": {
+          "overlap_mm": 76.18280500488984
+        },
+        "objectives": [
+          0.631757267129986,
+          0.9658265077266194,
+          1.4502522868354948,
+          0.42
+        ],
+        "constraints": [
+          -0.0001,
+          -0.168242732870014,
+          0.0,
+          -0.11175648245661585,
+          0.0
+        ],
+        "metrics": {
+          "id": "F05",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.28339285714285717,
+          "torsion_induced_mm": 0.0,
+          "clearance_play_mm": 1.1668594296926376,
+          "backlash_z_mm": 0.05,
+          "sync_tilt_deg": 0.0,
+          "buckling_safety_factor": null,
+          "tipping_safety_factor": null,
+          "peak_torque_Nmm": 3450.0,
+          "peak_drive_force_N": 50.0845090909091,
+          "drive_model": "Vertical telescoping leadscrew (eta=0.55, mu=0.08)",
+          "estimated_incremental_cost_CNY": 420.0,
+          "storage_ratio": 0.631757267129986,
+          "core_storage_ratio": 0.631757267129986,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "overlap_mm": 76.18280500488984,
+            "wall_mm": 3.0,
+            "radial_clearance_mm": 0.08,
+            "motor_side_mounted": 1,
+            "preload_rail": 0
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      },
+      {
+        "parameters": {
+          "overlap_mm": 60.0
+        },
+        "objectives": [
+          0.6095890410958904,
+          1.1377515022313291,
+          1.7433928571428572,
+          0.42
+        ],
+        "constraints": [
+          -0.0001,
+          -0.19041095890410964,
+          0.0,
+          -0.04629629629629628,
+          0.0
+        ],
+        "metrics": {
+          "id": "F05",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.28339285714285717,
+          "torsion_induced_mm": 0.0,
+          "clearance_play_mm": 1.46,
+          "backlash_z_mm": 0.05,
+          "sync_tilt_deg": 0.0,
+          "buckling_safety_factor": null,
+          "tipping_safety_factor": null,
+          "peak_torque_Nmm": 3450.0,
+          "peak_drive_force_N": 50.0845090909091,
+          "drive_model": "Vertical telescoping leadscrew (eta=0.55, mu=0.08)",
+          "estimated_incremental_cost_CNY": 420.0,
+          "storage_ratio": 0.6095890410958904,
+          "core_storage_ratio": 0.6095890410958904,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "overlap_mm": 60.0,
+            "wall_mm": 3.0,
+            "radial_clearance_mm": 0.08,
+            "motor_side_mounted": 1,
+            "preload_rail": 0
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      },
+      {
+        "parameters": {
+          "overlap_mm": 68.9825906755065
+        },
+        "objectives": [
+          0.6218939598294609,
+          1.027108826338138,
+          1.5636957044147215,
+          0.42
+        ],
+        "constraints": [
+          -0.0001,
+          -0.1781060401705391,
+          0.0,
+          -0.08326324453859646,
+          0.0
+        ],
+        "metrics": {
+          "id": "F05",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.28339285714285717,
+          "torsion_induced_mm": 0.0,
+          "clearance_play_mm": 1.2803028472718643,
+          "backlash_z_mm": 0.05,
+          "sync_tilt_deg": 0.0,
+          "buckling_safety_factor": null,
+          "tipping_safety_factor": null,
+          "peak_torque_Nmm": 3450.0,
+          "peak_drive_force_N": 50.0845090909091,
+          "drive_model": "Vertical telescoping leadscrew (eta=0.55, mu=0.08)",
+          "estimated_incremental_cost_CNY": 420.0,
+          "storage_ratio": 0.6218939598294609,
+          "core_storage_ratio": 0.6218939598294609,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "overlap_mm": 68.9825906755065,
+            "wall_mm": 3.0,
+            "radial_clearance_mm": 0.08,
+            "motor_side_mounted": 1,
+            "preload_rail": 0
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      },
+      {
+        "parameters": {
+          "overlap_mm": 70.62504087732191
+        },
+        "objectives": [
+          0.6241438916127697,
+          1.0126260445616813,
+          1.5357815591023565,
+          0.42
+        ],
+        "constraints": [
+          -0.0001,
+          -0.17585610838723031,
+          0.0,
+          -0.08984978733833299,
+          0.0
+        ],
+        "metrics": {
+          "id": "F05",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.28339285714285717,
+          "torsion_induced_mm": 0.0,
+          "clearance_play_mm": 1.2523887019594993,
+          "backlash_z_mm": 0.05,
+          "sync_tilt_deg": 0.0,
+          "buckling_safety_factor": null,
+          "tipping_safety_factor": null,
+          "peak_torque_Nmm": 3450.0,
+          "peak_drive_force_N": 50.0845090909091,
+          "drive_model": "Vertical telescoping leadscrew (eta=0.55, mu=0.08)",
+          "estimated_incremental_cost_CNY": 420.0,
+          "storage_ratio": 0.6241438916127697,
+          "core_storage_ratio": 0.6241438916127697,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "overlap_mm": 70.62504087732191,
+            "wall_mm": 3.0,
+            "radial_clearance_mm": 0.08,
+            "motor_side_mounted": 1,
+            "preload_rail": 0
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      }
+    ],
+    "least_infeasible": {
+      "parameters": {
+        "overlap_mm": 60.0
+      },
+      "constraints": [
+        -0.0001,
+        -0.19041095890410964,
+        0.0,
+        -0.04629629629629628,
+        0.0
+      ],
+      "max_constraint_violation": 0.0
+    }
+  },
+  {
+    "id": "F06",
+    "algorithm": "NSGA-II (pure-NumPy seeded)",
+    "seed": 20261118,
+    "solutions": [],
+    "least_infeasible": {
+      "parameters": {
+        "cabinet_clearance_mm": 10.0
+      },
+      "constraints": [
+        -0.0001,
+        1.1462121212121212,
+        0.0,
+        -114.56,
+        0.0
+      ],
+      "max_constraint_violation": 1.1462121212121212
+    }
+  },
+  {
+    "id": "F07",
+    "algorithm": "NSGA-II (pure-NumPy seeded)",
+    "seed": 20261119,
+    "solutions": [
+      {
+        "parameters": {
+          "lift_mm": 75.0,
+          "shift_x_mm": -1.0908645379550417
+        },
+        "objectives": [
+          0.7819249720533292,
+          0.631288391716274,
+          0.7822001762180792,
+          0.372936345815182
+        ],
+        "constraints": [
+          -0.0001,
+          -0.01807502794667082,
+          0.0,
+          -264.21155,
+          0.0
+        ],
+        "metrics": {
+          "id": "F07",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.7822001762180792,
+          "torsion_induced_mm": 0.6236641224994264,
+          "clearance_play_mm": 0.0,
+          "backlash_z_mm": 0.0,
+          "sync_tilt_deg": 0.0,
+          "buckling_safety_factor": null,
+          "tipping_safety_factor": null,
+          "peak_torque_Nmm": 4289.422500000001,
+          "peak_drive_force_N": 85.78845000000001,
+          "drive_model": "Twin-rod lift leadscrew (eta=0.55) + 50mm fold arm",
+          "estimated_incremental_cost_CNY": 372.936345815182,
+          "storage_ratio": 0.7819249720533292,
+          "core_storage_ratio": 0.5658258200637664,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 2,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "lift_mm": 75.0,
+            "shift_x_mm": -1.0908645379550417,
+            "fold_angle_deg": 90.0,
+            "guide_rod_dia_mm": 8.0,
+            "pin_dia_mm": 6.0,
+            "arm_fold_enabled": 1
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      },
+      {
+        "parameters": {
+          "lift_mm": 75.0,
+          "shift_x_mm": -5.040273081680479
+        },
+        "objectives": [
+          0.7776999035525402,
+          0.631288391716274,
+          0.7822001762180792,
+          0.3745161092326722
+        ],
+        "constraints": [
+          -0.0001,
+          -0.022300096447459894,
+          0.0,
+          -264.21155,
+          0.0
+        ],
+        "metrics": {
+          "id": "F07",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.7822001762180792,
+          "torsion_induced_mm": 0.6236641224994264,
+          "clearance_play_mm": 0.0,
+          "backlash_z_mm": 0.0,
+          "sync_tilt_deg": 0.0,
+          "buckling_safety_factor": null,
+          "tipping_safety_factor": null,
+          "peak_torque_Nmm": 4289.422500000001,
+          "peak_drive_force_N": 85.78845000000001,
+          "drive_model": "Twin-rod lift leadscrew (eta=0.55) + 50mm fold arm",
+          "estimated_incremental_cost_CNY": 374.5161092326722,
+          "storage_ratio": 0.7776999035525402,
+          "core_storage_ratio": 0.5616007515629773,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 2,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "lift_mm": 75.0,
+            "shift_x_mm": -5.040273081680479,
+            "fold_angle_deg": 90.0,
+            "guide_rod_dia_mm": 8.0,
+            "pin_dia_mm": 6.0,
+            "arm_fold_enabled": 1
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      },
+      {
+        "parameters": {
+          "lift_mm": 75.0,
+          "shift_x_mm": -0.3154185729076754
+        },
+        "objectives": [
+          0.7827545424268959,
+          0.631288391716274,
+          0.7822001762180792,
+          0.37262616742916305
+        ],
+        "constraints": [
+          -0.0001,
+          -0.01724545757310414,
+          0.0,
+          -264.21155,
+          0.0
+        ],
+        "metrics": {
+          "id": "F07",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.7822001762180792,
+          "torsion_induced_mm": 0.6236641224994264,
+          "clearance_play_mm": 0.0,
+          "backlash_z_mm": 0.0,
+          "sync_tilt_deg": 0.0,
+          "buckling_safety_factor": null,
+          "tipping_safety_factor": null,
+          "peak_torque_Nmm": 4289.422500000001,
+          "peak_drive_force_N": 85.78845000000001,
+          "drive_model": "Twin-rod lift leadscrew (eta=0.55) + 50mm fold arm",
+          "estimated_incremental_cost_CNY": 372.62616742916305,
+          "storage_ratio": 0.7827545424268959,
+          "core_storage_ratio": 0.5666553904373329,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 2,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "lift_mm": 75.0,
+            "shift_x_mm": -0.3154185729076754,
+            "fold_angle_deg": 90.0,
+            "guide_rod_dia_mm": 8.0,
+            "pin_dia_mm": 6.0,
+            "arm_fold_enabled": 1
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      },
+      {
+        "parameters": {
+          "lift_mm": 75.0,
+          "shift_x_mm": 0.002386839317231104
+        },
+        "objectives": [
+          0.7830945299520421,
+          0.631288391716274,
+          0.7822001762180792,
+          0.3725009547357269
+        ],
+        "constraints": [
+          -0.0001,
+          -0.01690547004795795,
+          0.0,
+          -264.21155,
+          0.0
+        ],
+        "metrics": {
+          "id": "F07",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.7822001762180792,
+          "torsion_induced_mm": 0.6236641224994264,
+          "clearance_play_mm": 0.0,
+          "backlash_z_mm": 0.0,
+          "sync_tilt_deg": 0.0,
+          "buckling_safety_factor": null,
+          "tipping_safety_factor": null,
+          "peak_torque_Nmm": 4289.422500000001,
+          "peak_drive_force_N": 85.78845000000001,
+          "drive_model": "Twin-rod lift leadscrew (eta=0.55) + 50mm fold arm",
+          "estimated_incremental_cost_CNY": 372.5009547357269,
+          "storage_ratio": 0.7830945299520421,
+          "core_storage_ratio": 0.5669953779624791,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 2,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "lift_mm": 75.0,
+            "shift_x_mm": 0.002386839317231104,
+            "fold_angle_deg": 90.0,
+            "guide_rod_dia_mm": 8.0,
+            "pin_dia_mm": 6.0,
+            "arm_fold_enabled": 1
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      },
+      {
+        "parameters": {
+          "lift_mm": 75.0,
+          "shift_x_mm": -3.3187267608440467
+        },
+        "objectives": [
+          0.779541609988399,
+          0.631288391716274,
+          0.7822001762180792,
+          0.37382749070433763
+        ],
+        "constraints": [
+          -0.0001,
+          -0.02045839001160099,
+          0.0,
+          -264.21155,
+          0.0
+        ],
+        "metrics": {
+          "id": "F07",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.7822001762180792,
+          "torsion_induced_mm": 0.6236641224994264,
+          "clearance_play_mm": 0.0,
+          "backlash_z_mm": 0.0,
+          "sync_tilt_deg": 0.0,
+          "buckling_safety_factor": null,
+          "tipping_safety_factor": null,
+          "peak_torque_Nmm": 4289.422500000001,
+          "peak_drive_force_N": 85.78845000000001,
+          "drive_model": "Twin-rod lift leadscrew (eta=0.55) + 50mm fold arm",
+          "estimated_incremental_cost_CNY": 373.8274907043376,
+          "storage_ratio": 0.779541609988399,
+          "core_storage_ratio": 0.5634424579988361,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 2,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "lift_mm": 75.0,
+            "shift_x_mm": -3.3187267608440467,
+            "fold_angle_deg": 90.0,
+            "guide_rod_dia_mm": 8.0,
+            "pin_dia_mm": 6.0,
+            "arm_fold_enabled": 1
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      },
+      {
+        "parameters": {
+          "lift_mm": 75.0,
+          "shift_x_mm": -2.444696720712372
+        },
+        "objectives": [
+          0.7804766453868439,
+          0.631288391716274,
+          0.7822001762180792,
+          0.3734778786882849
+        ],
+        "constraints": [
+          -0.0001,
+          -0.01952335461315613,
+          0.0,
+          -264.21155,
+          0.0
+        ],
+        "metrics": {
+          "id": "F07",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.7822001762180792,
+          "torsion_induced_mm": 0.6236641224994264,
+          "clearance_play_mm": 0.0,
+          "backlash_z_mm": 0.0,
+          "sync_tilt_deg": 0.0,
+          "buckling_safety_factor": null,
+          "tipping_safety_factor": null,
+          "peak_torque_Nmm": 4289.422500000001,
+          "peak_drive_force_N": 85.78845000000001,
+          "drive_model": "Twin-rod lift leadscrew (eta=0.55) + 50mm fold arm",
+          "estimated_incremental_cost_CNY": 373.47787868828493,
+          "storage_ratio": 0.7804766453868439,
+          "core_storage_ratio": 0.564377493397281,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 2,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "lift_mm": 75.0,
+            "shift_x_mm": -2.444696720712372,
+            "fold_angle_deg": 90.0,
+            "guide_rod_dia_mm": 8.0,
+            "pin_dia_mm": 6.0,
+            "arm_fold_enabled": 1
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      },
+      {
+        "parameters": {
+          "lift_mm": 75.0,
+          "shift_x_mm": -1.0910541300051086
+        },
+        "objectives": [
+          0.7819247692281746,
+          0.631288391716274,
+          0.7822001762180792,
+          0.372936421652002
+        ],
+        "constraints": [
+          -0.0001,
+          -0.01807523077182549,
+          0.0,
+          -264.21155,
+          0.0
+        ],
+        "metrics": {
+          "id": "F07",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.7822001762180792,
+          "torsion_induced_mm": 0.6236641224994264,
+          "clearance_play_mm": 0.0,
+          "backlash_z_mm": 0.0,
+          "sync_tilt_deg": 0.0,
+          "buckling_safety_factor": null,
+          "tipping_safety_factor": null,
+          "peak_torque_Nmm": 4289.422500000001,
+          "peak_drive_force_N": 85.78845000000001,
+          "drive_model": "Twin-rod lift leadscrew (eta=0.55) + 50mm fold arm",
+          "estimated_incremental_cost_CNY": 372.936421652002,
+          "storage_ratio": 0.7819247692281746,
+          "core_storage_ratio": 0.5658256172386117,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 2,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "lift_mm": 75.0,
+            "shift_x_mm": -1.0910541300051086,
+            "fold_angle_deg": 90.0,
+            "guide_rod_dia_mm": 8.0,
+            "pin_dia_mm": 6.0,
+            "arm_fold_enabled": 1
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      },
+      {
+        "parameters": {
+          "lift_mm": 75.0,
+          "shift_x_mm": -2.8110148982766785
+        },
+        "objectives": [
+          0.780084759012933,
+          0.631288391716274,
+          0.7822001762180792,
+          0.3736244059593106
+        ],
+        "constraints": [
+          -0.0001,
+          -0.019915240987067095,
+          0.0,
+          -264.21155,
+          0.0
+        ],
+        "metrics": {
+          "id": "F07",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.7822001762180792,
+          "torsion_induced_mm": 0.6236641224994264,
+          "clearance_play_mm": 0.0,
+          "backlash_z_mm": 0.0,
+          "sync_tilt_deg": 0.0,
+          "buckling_safety_factor": null,
+          "tipping_safety_factor": null,
+          "peak_torque_Nmm": 4289.422500000001,
+          "peak_drive_force_N": 85.78845000000001,
+          "drive_model": "Twin-rod lift leadscrew (eta=0.55) + 50mm fold arm",
+          "estimated_incremental_cost_CNY": 373.62440595931065,
+          "storage_ratio": 0.780084759012933,
+          "core_storage_ratio": 0.56398560702337,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 2,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "lift_mm": 75.0,
+            "shift_x_mm": -2.8110148982766785,
+            "fold_angle_deg": 90.0,
+            "guide_rod_dia_mm": 8.0,
+            "pin_dia_mm": 6.0,
+            "arm_fold_enabled": 1
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      },
+      {
+        "parameters": {
+          "lift_mm": 75.0,
+          "shift_x_mm": -2.9524190479579318
+        },
+        "objectives": [
+          0.7799334851672204,
+          0.631288391716274,
+          0.7822001762180792,
+          0.3736809676191831
+        ],
+        "constraints": [
+          -0.0001,
+          -0.02006651483277966,
+          0.0,
+          -264.21155,
+          0.0
+        ],
+        "metrics": {
+          "id": "F07",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.7822001762180792,
+          "torsion_induced_mm": 0.6236641224994264,
+          "clearance_play_mm": 0.0,
+          "backlash_z_mm": 0.0,
+          "sync_tilt_deg": 0.0,
+          "buckling_safety_factor": null,
+          "tipping_safety_factor": null,
+          "peak_torque_Nmm": 4289.422500000001,
+          "peak_drive_force_N": 85.78845000000001,
+          "drive_model": "Twin-rod lift leadscrew (eta=0.55) + 50mm fold arm",
+          "estimated_incremental_cost_CNY": 373.68096761918315,
+          "storage_ratio": 0.7799334851672204,
+          "core_storage_ratio": 0.5638343331776574,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 2,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "lift_mm": 75.0,
+            "shift_x_mm": -2.9524190479579318,
+            "fold_angle_deg": 90.0,
+            "guide_rod_dia_mm": 8.0,
+            "pin_dia_mm": 6.0,
+            "arm_fold_enabled": 1
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      },
+      {
+        "parameters": {
+          "lift_mm": 75.0,
+          "shift_x_mm": -3.1613416531901732
+        },
+        "objectives": [
+          0.7797099802275069,
+          0.631288391716274,
+          0.7822001762180792,
+          0.37376453666127607
+        ],
+        "constraints": [
+          -0.0001,
+          -0.020290019772493118,
+          0.0,
+          -264.21155,
+          0.0
+        ],
+        "metrics": {
+          "id": "F07",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.7822001762180792,
+          "torsion_induced_mm": 0.6236641224994264,
+          "clearance_play_mm": 0.0,
+          "backlash_z_mm": 0.0,
+          "sync_tilt_deg": 0.0,
+          "buckling_safety_factor": null,
+          "tipping_safety_factor": null,
+          "peak_torque_Nmm": 4289.422500000001,
+          "peak_drive_force_N": 85.78845000000001,
+          "drive_model": "Twin-rod lift leadscrew (eta=0.55) + 50mm fold arm",
+          "estimated_incremental_cost_CNY": 373.76453666127605,
+          "storage_ratio": 0.7797099802275069,
+          "core_storage_ratio": 0.563610828237944,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 2,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "lift_mm": 75.0,
+            "shift_x_mm": -3.1613416531901732,
+            "fold_angle_deg": 90.0,
+            "guide_rod_dia_mm": 8.0,
+            "pin_dia_mm": 6.0,
+            "arm_fold_enabled": 1
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      },
+      {
+        "parameters": {
+          "lift_mm": 75.0,
+          "shift_x_mm": -0.5375774347340777
+        },
+        "objectives": [
+          0.7825168773692343,
+          0.631288391716274,
+          0.7822001762180792,
+          0.37271503097389364
+        ],
+        "constraints": [
+          -0.0001,
+          -0.01748312263076579,
+          0.0,
+          -264.21155,
+          0.0
+        ],
+        "metrics": {
+          "id": "F07",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.7822001762180792,
+          "torsion_induced_mm": 0.6236641224994264,
+          "clearance_play_mm": 0.0,
+          "backlash_z_mm": 0.0,
+          "sync_tilt_deg": 0.0,
+          "buckling_safety_factor": null,
+          "tipping_safety_factor": null,
+          "peak_torque_Nmm": 4289.422500000001,
+          "peak_drive_force_N": 85.78845000000001,
+          "drive_model": "Twin-rod lift leadscrew (eta=0.55) + 50mm fold arm",
+          "estimated_incremental_cost_CNY": 372.71503097389365,
+          "storage_ratio": 0.7825168773692343,
+          "core_storage_ratio": 0.5664177253796714,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 2,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "lift_mm": 75.0,
+            "shift_x_mm": -0.5375774347340777,
+            "fold_angle_deg": 90.0,
+            "guide_rod_dia_mm": 8.0,
+            "pin_dia_mm": 6.0,
+            "arm_fold_enabled": 1
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      },
+      {
+        "parameters": {
+          "lift_mm": 75.0,
+          "shift_x_mm": -3.2702244601828387
+        },
+        "objectives": [
+          0.7795934976420744,
+          0.631288391716274,
+          0.7822001762180792,
+          0.37380808978407315
+        ],
+        "constraints": [
+          -0.0001,
+          -0.020406502357925627,
+          0.0,
+          -264.21155,
+          0.0
+        ],
+        "metrics": {
+          "id": "F07",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.7822001762180792,
+          "torsion_induced_mm": 0.6236641224994264,
+          "clearance_play_mm": 0.0,
+          "backlash_z_mm": 0.0,
+          "sync_tilt_deg": 0.0,
+          "buckling_safety_factor": null,
+          "tipping_safety_factor": null,
+          "peak_torque_Nmm": 4289.422500000001,
+          "peak_drive_force_N": 85.78845000000001,
+          "drive_model": "Twin-rod lift leadscrew (eta=0.55) + 50mm fold arm",
+          "estimated_incremental_cost_CNY": 373.80808978407316,
+          "storage_ratio": 0.7795934976420744,
+          "core_storage_ratio": 0.5634943456525116,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 2,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "lift_mm": 75.0,
+            "shift_x_mm": -3.2702244601828387,
+            "fold_angle_deg": 90.0,
+            "guide_rod_dia_mm": 8.0,
+            "pin_dia_mm": 6.0,
+            "arm_fold_enabled": 1
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      },
+      {
+        "parameters": {
+          "lift_mm": 75.0,
+          "shift_x_mm": -0.9902348484492165
+        },
+        "objectives": [
+          0.7820326254719786,
+          0.631288391716274,
+          0.7822001762180792,
+          0.37289609393937967
+        ],
+        "constraints": [
+          -0.0001,
+          -0.01796737452802144,
+          0.0,
+          -264.21155,
+          0.0
+        ],
+        "metrics": {
+          "id": "F07",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.7822001762180792,
+          "torsion_induced_mm": 0.6236641224994264,
+          "clearance_play_mm": 0.0,
+          "backlash_z_mm": 0.0,
+          "sync_tilt_deg": 0.0,
+          "buckling_safety_factor": null,
+          "tipping_safety_factor": null,
+          "peak_torque_Nmm": 4289.422500000001,
+          "peak_drive_force_N": 85.78845000000001,
+          "drive_model": "Twin-rod lift leadscrew (eta=0.55) + 50mm fold arm",
+          "estimated_incremental_cost_CNY": 372.8960939393797,
+          "storage_ratio": 0.7820326254719786,
+          "core_storage_ratio": 0.5659334734824156,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 2,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "lift_mm": 75.0,
+            "shift_x_mm": -0.9902348484492165,
+            "fold_angle_deg": 90.0,
+            "guide_rod_dia_mm": 8.0,
+            "pin_dia_mm": 6.0,
+            "arm_fold_enabled": 1
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      },
+      {
+        "parameters": {
+          "lift_mm": 75.0,
+          "shift_x_mm": -0.7623322880442758
+        },
+        "objectives": [
+          0.7822764351256408,
+          0.631288391716274,
+          0.7822001762180792,
+          0.3728049329152177
+        ],
+        "constraints": [
+          -0.0001,
+          -0.01772356487435922,
+          0.0,
+          -264.21155,
+          0.0
+        ],
+        "metrics": {
+          "id": "F07",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.7822001762180792,
+          "torsion_induced_mm": 0.6236641224994264,
+          "clearance_play_mm": 0.0,
+          "backlash_z_mm": 0.0,
+          "sync_tilt_deg": 0.0,
+          "buckling_safety_factor": null,
+          "tipping_safety_factor": null,
+          "peak_torque_Nmm": 4289.422500000001,
+          "peak_drive_force_N": 85.78845000000001,
+          "drive_model": "Twin-rod lift leadscrew (eta=0.55) + 50mm fold arm",
+          "estimated_incremental_cost_CNY": 372.8049329152177,
+          "storage_ratio": 0.7822764351256408,
+          "core_storage_ratio": 0.566177283136078,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 2,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "lift_mm": 75.0,
+            "shift_x_mm": -0.7623322880442758,
+            "fold_angle_deg": 90.0,
+            "guide_rod_dia_mm": 8.0,
+            "pin_dia_mm": 6.0,
+            "arm_fold_enabled": 1
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      },
+      {
+        "parameters": {
+          "lift_mm": 75.0,
+          "shift_x_mm": -0.8227739350553483
+        },
+        "objectives": [
+          0.7822117747857202,
+          0.631288391716274,
+          0.7822001762180792,
+          0.37282910957402216
+        ],
+        "constraints": [
+          -0.0001,
+          -0.017788225214279807,
+          0.0,
+          -264.21155,
+          0.0
+        ],
+        "metrics": {
+          "id": "F07",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.7822001762180792,
+          "torsion_induced_mm": 0.6236641224994264,
+          "clearance_play_mm": 0.0,
+          "backlash_z_mm": 0.0,
+          "sync_tilt_deg": 0.0,
+          "buckling_safety_factor": null,
+          "tipping_safety_factor": null,
+          "peak_torque_Nmm": 4289.422500000001,
+          "peak_drive_force_N": 85.78845000000001,
+          "drive_model": "Twin-rod lift leadscrew (eta=0.55) + 50mm fold arm",
+          "estimated_incremental_cost_CNY": 372.82910957402214,
+          "storage_ratio": 0.7822117747857202,
+          "core_storage_ratio": 0.5661126227961573,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 2,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "lift_mm": 75.0,
+            "shift_x_mm": -0.8227739350553483,
+            "fold_angle_deg": 90.0,
+            "guide_rod_dia_mm": 8.0,
+            "pin_dia_mm": 6.0,
+            "arm_fold_enabled": 1
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      },
+      {
+        "parameters": {
+          "lift_mm": 75.0,
+          "shift_x_mm": -0.9491965428604496
+        },
+        "objectives": [
+          0.7820765281602797,
+          0.631288391716274,
+          0.7822001762180792,
+          0.37287967861714416
+        ],
+        "constraints": [
+          -0.0001,
+          -0.017923471839720317,
+          0.0,
+          -264.21155,
+          0.0
+        ],
+        "metrics": {
+          "id": "F07",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.7822001762180792,
+          "torsion_induced_mm": 0.6236641224994264,
+          "clearance_play_mm": 0.0,
+          "backlash_z_mm": 0.0,
+          "sync_tilt_deg": 0.0,
+          "buckling_safety_factor": null,
+          "tipping_safety_factor": null,
+          "peak_torque_Nmm": 4289.422500000001,
+          "peak_drive_force_N": 85.78845000000001,
+          "drive_model": "Twin-rod lift leadscrew (eta=0.55) + 50mm fold arm",
+          "estimated_incremental_cost_CNY": 372.8796786171442,
+          "storage_ratio": 0.7820765281602797,
+          "core_storage_ratio": 0.5659773761707168,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 2,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "lift_mm": 75.0,
+            "shift_x_mm": -0.9491965428604496,
+            "fold_angle_deg": 90.0,
+            "guide_rod_dia_mm": 8.0,
+            "pin_dia_mm": 6.0,
+            "arm_fold_enabled": 1
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      }
+    ],
+    "least_infeasible": {
+      "parameters": {
+        "lift_mm": 75.0,
+        "shift_x_mm": -1.0908645379550417
+      },
+      "constraints": [
+        -0.0001,
+        -0.01807502794667082,
+        0.0,
+        -264.21155,
+        0.0
+      ],
+      "max_constraint_violation": 0.0
+    }
+  },
+  {
+    "id": "F08",
+    "algorithm": "NSGA-II (pure-NumPy seeded)",
+    "seed": 20261120,
+    "solutions": [
+      {
+        "parameters": {
+          "lift_mm": 16.906271520082196,
+          "shift_x_mm": -35.0
+        },
+        "objectives": [
+          0.7324432113750651,
+          0.713651995542996,
+          0.7822001762180792,
+          0.3874531357600411
+        ],
+        "constraints": [
+          -0.0001,
+          -0.06755678862493497,
+          0.0,
+          -262.5929,
+          0.0
+        ],
+        "metrics": {
+          "id": "F08",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.7822001762180792,
+          "torsion_induced_mm": 0.6236641224994264,
+          "clearance_play_mm": 0.0,
+          "backlash_z_mm": 0.0,
+          "sync_tilt_deg": 0.0,
+          "buckling_safety_factor": null,
+          "tipping_safety_factor": 1.5833333333333335,
+          "peak_torque_Nmm": 4370.3550000000005,
+          "peak_drive_force_N": 87.40710000000001,
+          "drive_model": "Rear-offset pivot / 50mm drive arm",
+          "estimated_incremental_cost_CNY": 387.4531357600411,
+          "storage_ratio": 0.7324432113750651,
+          "core_storage_ratio": 0.593202824456846,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "lift_mm": 16.906271520082196,
+            "shift_x_mm": -35.0,
+            "fold_angle_deg": 90.0,
+            "bracket_thick_mm": 10.0,
+            "arm_fold_enabled": 1
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      },
+      {
+        "parameters": {
+          "lift_mm": 15.0,
+          "shift_x_mm": -83.38525285280048
+        },
+        "objectives": [
+          0.6814967767635666,
+          0.713651995542996,
+          0.7822001762180792,
+          0.4058541011411202
+        ],
+        "constraints": [
+          -0.0001,
+          -0.11850322323643347,
+          0.0,
+          -262.5929,
+          0.0
+        ],
+        "metrics": {
+          "id": "F08",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.7822001762180792,
+          "torsion_induced_mm": 0.6236641224994264,
+          "clearance_play_mm": 0.0,
+          "backlash_z_mm": 0.0,
+          "sync_tilt_deg": 0.0,
+          "buckling_safety_factor": null,
+          "tipping_safety_factor": 1.599566601444422,
+          "peak_torque_Nmm": 4370.3550000000005,
+          "peak_drive_force_N": 87.40710000000001,
+          "drive_model": "Rear-offset pivot / 50mm drive arm",
+          "estimated_incremental_cost_CNY": 405.85410114112017,
+          "storage_ratio": 0.6814967767635666,
+          "core_storage_ratio": 0.550437864300396,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "lift_mm": 15.0,
+            "shift_x_mm": -83.38525285280048,
+            "fold_angle_deg": 90.0,
+            "bracket_thick_mm": 10.0,
+            "arm_fold_enabled": 1
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      },
+      {
+        "parameters": {
+          "lift_mm": 15.0,
+          "shift_x_mm": -51.4768326136656
+        },
+        "objectives": [
+          0.7120364085465448,
+          0.713651995542996,
+          0.7822001762180792,
+          0.39309073304546627
+        ],
+        "constraints": [
+          -0.0001,
+          -0.08796359145345523,
+          0.0,
+          -262.5929,
+          0.0
+        ],
+        "metrics": {
+          "id": "F08",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.7822001762180792,
+          "torsion_induced_mm": 0.6236641224994264,
+          "clearance_play_mm": 0.0,
+          "backlash_z_mm": 0.0,
+          "sync_tilt_deg": 0.0,
+          "buckling_safety_factor": null,
+          "tipping_safety_factor": 1.589676133936493,
+          "peak_torque_Nmm": 4370.3550000000005,
+          "peak_drive_force_N": 87.40710000000001,
+          "drive_model": "Rear-offset pivot / 50mm drive arm",
+          "estimated_incremental_cost_CNY": 393.09073304546627,
+          "storage_ratio": 0.7120364085465448,
+          "core_storage_ratio": 0.5708143896251179,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "lift_mm": 15.0,
+            "shift_x_mm": -51.4768326136656,
+            "fold_angle_deg": 90.0,
+            "bracket_thick_mm": 10.0,
+            "arm_fold_enabled": 1
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      },
+      {
+        "parameters": {
+          "lift_mm": 15.0,
+          "shift_x_mm": -42.31653057361119
+        },
+        "objectives": [
+          0.7216987338277704,
+          0.713651995542996,
+          0.7822001762180792,
+          0.38942661222944447
+        ],
+        "constraints": [
+          -0.0001,
+          -0.07830126617222966,
+          0.0,
+          -262.5929,
+          0.0
+        ],
+        "metrics": {
+          "id": "F08",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.7822001762180792,
+          "torsion_induced_mm": 0.6236641224994264,
+          "clearance_play_mm": 0.0,
+          "backlash_z_mm": 0.0,
+          "sync_tilt_deg": 0.0,
+          "buckling_safety_factor": null,
+          "tipping_safety_factor": 1.5862742993983514,
+          "peak_torque_Nmm": 4370.3550000000005,
+          "peak_drive_force_N": 87.40710000000001,
+          "drive_model": "Rear-offset pivot / 50mm drive arm",
+          "estimated_incremental_cost_CNY": 389.42661222944446,
+          "storage_ratio": 0.7216987338277704,
+          "core_storage_ratio": 0.5772612458671218,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "lift_mm": 15.0,
+            "shift_x_mm": -42.31653057361119,
+            "fold_angle_deg": 90.0,
+            "bracket_thick_mm": 10.0,
+            "arm_fold_enabled": 1
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      },
+      {
+        "parameters": {
+          "lift_mm": 15.0,
+          "shift_x_mm": -48.98984679576874
+        },
+        "objectives": [
+          0.7146168886776987,
+          0.713651995542996,
+          0.7822001762180792,
+          0.3920959387183075
+        ],
+        "constraints": [
+          -0.0001,
+          -0.08538311132230136,
+          0.0,
+          -262.5929,
+          0.0
+        ],
+        "metrics": {
+          "id": "F08",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.7822001762180792,
+          "torsion_induced_mm": 0.6236641224994264,
+          "clearance_play_mm": 0.0,
+          "backlash_z_mm": 0.0,
+          "sync_tilt_deg": 0.0,
+          "buckling_safety_factor": null,
+          "tipping_safety_factor": 1.588781351469571,
+          "peak_torque_Nmm": 4370.3550000000005,
+          "peak_drive_force_N": 87.40710000000001,
+          "drive_model": "Rear-offset pivot / 50mm drive arm",
+          "estimated_incremental_cost_CNY": 392.0959387183075,
+          "storage_ratio": 0.7146168886776987,
+          "core_storage_ratio": 0.5725361267801712,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "lift_mm": 15.0,
+            "shift_x_mm": -48.98984679576874,
+            "fold_angle_deg": 90.0,
+            "bracket_thick_mm": 10.0,
+            "arm_fold_enabled": 1
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      },
+      {
+        "parameters": {
+          "lift_mm": 15.0,
+          "shift_x_mm": -39.7444770837926
+        },
+        "objectives": [
+          0.7244913726570605,
+          0.713651995542996,
+          0.7822001762180792,
+          0.38839779083351705
+        ],
+        "constraints": [
+          -0.0001,
+          -0.0755086273429395,
+          0.0,
+          -262.5929,
+          0.0
+        ],
+        "metrics": {
+          "id": "F08",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.7822001762180792,
+          "torsion_induced_mm": 0.6236641224994264,
+          "clearance_play_mm": 0.0,
+          "backlash_z_mm": 0.0,
+          "sync_tilt_deg": 0.0,
+          "buckling_safety_factor": null,
+          "tipping_safety_factor": 1.5852643895256537,
+          "peak_torque_Nmm": 4370.3550000000005,
+          "peak_drive_force_N": 87.40710000000001,
+          "drive_model": "Rear-offset pivot / 50mm drive arm",
+          "estimated_incremental_cost_CNY": 388.39779083351704,
+          "storage_ratio": 0.7244913726570605,
+          "core_storage_ratio": 0.5791245386609645,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "lift_mm": 15.0,
+            "shift_x_mm": -39.7444770837926,
+            "fold_angle_deg": 90.0,
+            "bracket_thick_mm": 10.0,
+            "arm_fold_enabled": 1
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      },
+      {
+        "parameters": {
+          "lift_mm": 15.0,
+          "shift_x_mm": -77.37749505967557
+        },
+        "objectives": [
+          0.6869063108780163,
+          0.713651995542996,
+          0.7822001762180792,
+          0.40345099802387024
+        ],
+        "constraints": [
+          -0.0001,
+          -0.1130936891219837,
+          0.0,
+          -262.5929,
+          0.0
+        ],
+        "metrics": {
+          "id": "F08",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.7822001762180792,
+          "torsion_induced_mm": 0.6236641224994264,
+          "clearance_play_mm": 0.0,
+          "backlash_z_mm": 0.0,
+          "sync_tilt_deg": 0.0,
+          "buckling_safety_factor": null,
+          "tipping_safety_factor": 1.5979034068493179,
+          "peak_torque_Nmm": 4370.3550000000005,
+          "peak_drive_force_N": 87.40710000000001,
+          "drive_model": "Rear-offset pivot / 50mm drive arm",
+          "estimated_incremental_cost_CNY": 403.4509980238702,
+          "storage_ratio": 0.6869063108780163,
+          "core_storage_ratio": 0.5540471910159679,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "lift_mm": 15.0,
+            "shift_x_mm": -77.37749505967557,
+            "fold_angle_deg": 90.0,
+            "bracket_thick_mm": 10.0,
+            "arm_fold_enabled": 1
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      },
+      {
+        "parameters": {
+          "lift_mm": 15.0,
+          "shift_x_mm": -80.39801568476496
+        },
+        "objectives": [
+          0.684168111012408,
+          0.713651995542996,
+          0.7822001762180792,
+          0.40465920627390595
+        ],
+        "constraints": [
+          -0.0001,
+          -0.115831888987592,
+          0.0,
+          -262.5929,
+          0.0
+        ],
+        "metrics": {
+          "id": "F08",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.7822001762180792,
+          "torsion_induced_mm": 0.6236641224994264,
+          "clearance_play_mm": 0.0,
+          "backlash_z_mm": 0.0,
+          "sync_tilt_deg": 0.0,
+          "buckling_safety_factor": null,
+          "tipping_safety_factor": 1.5987497904027752,
+          "peak_torque_Nmm": 4370.3550000000005,
+          "peak_drive_force_N": 87.40710000000001,
+          "drive_model": "Rear-offset pivot / 50mm drive arm",
+          "estimated_incremental_cost_CNY": 404.65920627390597,
+          "storage_ratio": 0.684168111012408,
+          "core_storage_ratio": 0.5522202207596724,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "lift_mm": 15.0,
+            "shift_x_mm": -80.39801568476496,
+            "fold_angle_deg": 90.0,
+            "bracket_thick_mm": 10.0,
+            "arm_fold_enabled": 1
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      },
+      {
+        "parameters": {
+          "lift_mm": 15.023253866298562,
+          "shift_x_mm": -72.83488855428331
+        },
+        "objectives": [
+          0.6912493409450045,
+          0.713651995542996,
+          0.7822001762180792,
+          0.4016455823548626
+        ],
+        "constraints": [
+          -0.0001,
+          -0.10875065905499559,
+          0.0,
+          -262.5929,
+          0.0
+        ],
+        "metrics": {
+          "id": "F08",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.7822001762180792,
+          "torsion_induced_mm": 0.6236641224994264,
+          "clearance_play_mm": 0.0,
+          "backlash_z_mm": 0.0,
+          "sync_tilt_deg": 0.0,
+          "buckling_safety_factor": null,
+          "tipping_safety_factor": 1.596590040112936,
+          "peak_torque_Nmm": 4370.3550000000005,
+          "peak_drive_force_N": 87.40710000000001,
+          "drive_model": "Rear-offset pivot / 50mm drive arm",
+          "estimated_incremental_cost_CNY": 401.6455823548626,
+          "storage_ratio": 0.6912493409450045,
+          "core_storage_ratio": 0.5569661307855278,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "lift_mm": 15.023253866298562,
+            "shift_x_mm": -72.83488855428331,
+            "fold_angle_deg": 90.0,
+            "bracket_thick_mm": 10.0,
+            "arm_fold_enabled": 1
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      },
+      {
+        "parameters": {
+          "lift_mm": 15.0,
+          "shift_x_mm": -54.221645341932316
+        },
+        "objectives": [
+          0.7092243803758532,
+          0.713651995542996,
+          0.7822001762180792,
+          0.3941886581367729
+        ],
+        "constraints": [
+          -0.0001,
+          -0.09077561962414682,
+          0.0,
+          -262.5929,
+          0.0
+        ],
+        "metrics": {
+          "id": "F08",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.7822001762180792,
+          "torsion_induced_mm": 0.6236641224994264,
+          "clearance_play_mm": 0.0,
+          "backlash_z_mm": 0.0,
+          "sync_tilt_deg": 0.0,
+          "buckling_safety_factor": null,
+          "tipping_safety_factor": 1.590640110800476,
+          "peak_torque_Nmm": 4370.3550000000005,
+          "peak_drive_force_N": 87.40710000000001,
+          "drive_model": "Rear-offset pivot / 50mm drive arm",
+          "estimated_incremental_cost_CNY": 394.1886581367729,
+          "storage_ratio": 0.7092243803758532,
+          "core_storage_ratio": 0.5689381599560402,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "lift_mm": 15.0,
+            "shift_x_mm": -54.221645341932316,
+            "fold_angle_deg": 90.0,
+            "bracket_thick_mm": 10.0,
+            "arm_fold_enabled": 1
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      },
+      {
+        "parameters": {
+          "lift_mm": 15.358934709279161,
+          "shift_x_mm": -63.72878624555335
+        },
+        "objectives": [
+          0.7021581522957814,
+          0.713651995542996,
+          0.7822001762180792,
+          0.398170981852861
+        ],
+        "constraints": [
+          -0.0001,
+          -0.09784184770421867,
+          0.0,
+          -262.5929,
+          0.0
+        ],
+        "metrics": {
+          "id": "F08",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.7822001762180792,
+          "torsion_induced_mm": 0.6236641224994264,
+          "clearance_play_mm": 0.0,
+          "backlash_z_mm": 0.0,
+          "sync_tilt_deg": 0.0,
+          "buckling_safety_factor": null,
+          "tipping_safety_factor": 1.5938001642021538,
+          "peak_torque_Nmm": 4370.3550000000005,
+          "peak_drive_force_N": 87.40710000000001,
+          "drive_model": "Rear-offset pivot / 50mm drive arm",
+          "estimated_incremental_cost_CNY": 398.17098185286096,
+          "storage_ratio": 0.7021581522957814,
+          "core_storage_ratio": 0.5645507150567503,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "lift_mm": 15.358934709279161,
+            "shift_x_mm": -63.72878624555335,
+            "fold_angle_deg": 90.0,
+            "bracket_thick_mm": 10.0,
+            "arm_fold_enabled": 1
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      },
+      {
+        "parameters": {
+          "lift_mm": 15.0,
+          "shift_x_mm": -59.879608011066836
+        },
+        "objectives": [
+          0.7035438664235221,
+          0.713651995542996,
+          0.7822001762180792,
+          0.3964518432044267
+        ],
+        "constraints": [
+          -0.0001,
+          -0.09645613357647798,
+          0.0,
+          -262.5929,
+          0.0
+        ],
+        "metrics": {
+          "id": "F08",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.7822001762180792,
+          "torsion_induced_mm": 0.6236641224994264,
+          "clearance_play_mm": 0.0,
+          "backlash_z_mm": 0.0,
+          "sync_tilt_deg": 0.0,
+          "buckling_safety_factor": null,
+          "tipping_safety_factor": 1.5925529361507078,
+          "peak_torque_Nmm": 4370.3550000000005,
+          "peak_drive_force_N": 87.40710000000001,
+          "drive_model": "Rear-offset pivot / 50mm drive arm",
+          "estimated_incremental_cost_CNY": 396.4518432044267,
+          "storage_ratio": 0.7035438664235221,
+          "core_storage_ratio": 0.565148031206956,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "lift_mm": 15.0,
+            "shift_x_mm": -59.879608011066836,
+            "fold_angle_deg": 90.0,
+            "bracket_thick_mm": 10.0,
+            "arm_fold_enabled": 1
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      },
+      {
+        "parameters": {
+          "lift_mm": 15.0,
+          "shift_x_mm": -64.37106716925416
+        },
+        "objectives": [
+          0.6991423530002745,
+          0.713651995542996,
+          0.7822001762180792,
+          0.3982484268677017
+        ],
+        "constraints": [
+          -0.0001,
+          -0.10085764699972555,
+          0.0,
+          -262.5929,
+          0.0
+        ],
+        "metrics": {
+          "id": "F08",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.7822001762180792,
+          "torsion_induced_mm": 0.6236641224994264,
+          "clearance_play_mm": 0.0,
+          "backlash_z_mm": 0.0,
+          "sync_tilt_deg": 0.0,
+          "buckling_safety_factor": null,
+          "tipping_safety_factor": 1.5940042037311464,
+          "peak_torque_Nmm": 4370.3550000000005,
+          "peak_drive_force_N": 87.40710000000001,
+          "drive_model": "Rear-offset pivot / 50mm drive arm",
+          "estimated_incremental_cost_CNY": 398.24842686770165,
+          "storage_ratio": 0.6991423530002745,
+          "core_storage_ratio": 0.5622112718388913,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "lift_mm": 15.0,
+            "shift_x_mm": -64.37106716925416,
+            "fold_angle_deg": 90.0,
+            "bracket_thick_mm": 10.0,
+            "arm_fold_enabled": 1
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      },
+      {
+        "parameters": {
+          "lift_mm": 15.0,
+          "shift_x_mm": -83.04577812073258
+        },
+        "objectives": [
+          0.6817985375016093,
+          0.713651995542996,
+          0.7822001762180792,
+          0.40571831124829305
+        ],
+        "constraints": [
+          -0.0001,
+          -0.1182014624983907,
+          0.0,
+          -262.5929,
+          0.0
+        ],
+        "metrics": {
+          "id": "F08",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.7822001762180792,
+          "torsion_induced_mm": 0.6236641224994264,
+          "clearance_play_mm": 0.0,
+          "backlash_z_mm": 0.0,
+          "sync_tilt_deg": 0.0,
+          "buckling_safety_factor": null,
+          "tipping_safety_factor": 1.5994747684898938,
+          "peak_torque_Nmm": 4370.3550000000005,
+          "peak_drive_force_N": 87.40710000000001,
+          "drive_model": "Rear-offset pivot / 50mm drive arm",
+          "estimated_incremental_cost_CNY": 405.71831124829305,
+          "storage_ratio": 0.6817985375016093,
+          "core_storage_ratio": 0.5506392038373109,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "lift_mm": 15.0,
+            "shift_x_mm": -83.04577812073258,
+            "fold_angle_deg": 90.0,
+            "bracket_thick_mm": 10.0,
+            "arm_fold_enabled": 1
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      },
+      {
+        "parameters": {
+          "lift_mm": 15.0,
+          "shift_x_mm": -69.84971497796364
+        },
+        "objectives": [
+          0.6938979494981627,
+          0.713651995542996,
+          0.7822001762180792,
+          0.40043988599118546
+        ],
+        "constraints": [
+          -0.0001,
+          -0.1061020505018373,
+          0.0,
+          -262.5929,
+          0.0
+        ],
+        "metrics": {
+          "id": "F08",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.7822001762180792,
+          "torsion_induced_mm": 0.6236641224994264,
+          "clearance_play_mm": 0.0,
+          "backlash_z_mm": 0.0,
+          "sync_tilt_deg": 0.0,
+          "buckling_safety_factor": null,
+          "tipping_safety_factor": 1.5956992964561874,
+          "peak_torque_Nmm": 4370.3550000000005,
+          "peak_drive_force_N": 87.40710000000001,
+          "drive_model": "Rear-offset pivot / 50mm drive arm",
+          "estimated_incremental_cost_CNY": 400.43988599118546,
+          "storage_ratio": 0.6938979494981627,
+          "core_storage_ratio": 0.5587121228794922,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "lift_mm": 15.0,
+            "shift_x_mm": -69.84971497796364,
+            "fold_angle_deg": 90.0,
+            "bracket_thick_mm": 10.0,
+            "arm_fold_enabled": 1
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      },
+      {
+        "parameters": {
+          "lift_mm": 15.0,
+          "shift_x_mm": -71.19224120396748
+        },
+        "objectives": [
+          0.6926331539646324,
+          0.713651995542996,
+          0.7822001762180792,
+          0.400976896481587
+        ],
+        "constraints": [
+          -0.0001,
+          -0.10736684603536761,
+          0.0,
+          -262.5929,
+          0.0
+        ],
+        "metrics": {
+          "id": "F08",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.7822001762180792,
+          "torsion_induced_mm": 0.6236641224994264,
+          "clearance_play_mm": 0.0,
+          "backlash_z_mm": 0.0,
+          "sync_tilt_deg": 0.0,
+          "buckling_safety_factor": null,
+          "tipping_safety_factor": 1.5961026778509888,
+          "peak_torque_Nmm": 4370.3550000000005,
+          "peak_drive_force_N": 87.40710000000001,
+          "drive_model": "Rear-offset pivot / 50mm drive arm",
+          "estimated_incremental_cost_CNY": 400.976896481587,
+          "storage_ratio": 0.6926331539646324,
+          "core_storage_ratio": 0.5578682312961649,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "lift_mm": 15.0,
+            "shift_x_mm": -71.19224120396748,
+            "fold_angle_deg": 90.0,
+            "bracket_thick_mm": 10.0,
+            "arm_fold_enabled": 1
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      }
+    ],
+    "least_infeasible": {
+      "parameters": {
+        "lift_mm": 16.906271520082196,
+        "shift_x_mm": -35.0
+      },
+      "constraints": [
+        -0.0001,
+        -0.06755678862493497,
+        0.0,
+        -262.5929,
+        0.0
+      ],
+      "max_constraint_violation": 0.0
+    }
+  },
+  {
+    "id": "F09",
+    "algorithm": "NSGA-II (pure-NumPy seeded)",
+    "seed": 20261121,
+    "solutions": [
+      {
+        "parameters": {
+          "lift_mm": 85.0,
+          "shift_x_mm": 1.5889153198824513
+        },
+        "objectives": [
+          0.4471957011310665,
+          0.45931482052797123,
+          0.03036501561356036,
+          0.503135566127953
+        ],
+        "constraints": [
+          -0.0001,
+          -0.35280429886893355,
+          0.0,
+          -207.55879999999996,
+          0.0
+        ],
+        "metrics": {
+          "id": "F09",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.03036501561356036,
+          "torsion_induced_mm": 0.0,
+          "clearance_play_mm": 0.0,
+          "backlash_z_mm": 0.06,
+          "sync_tilt_deg": 0.022036837187633423,
+          "buckling_safety_factor": null,
+          "tipping_safety_factor": null,
+          "peak_torque_Nmm": 7122.060000000001,
+          "peak_drive_force_N": 142.44120000000004,
+          "drive_model": "Twin-rod lift leadscrew (eta=0.55) + 50mm fold arm",
+          "estimated_incremental_cost_CNY": 503.135566127953,
+          "storage_ratio": 0.4471957011310665,
+          "core_storage_ratio": 0.4471957011310665,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 2,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "lift_mm": 85.0,
+            "shift_x_mm": 1.5889153198824513,
+            "fold_angle_deg": 90.0,
+            "sync_error_mm": 0.1
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      },
+      {
+        "parameters": {
+          "lift_mm": 85.0,
+          "shift_x_mm": 1.5889153198824513
+        },
+        "objectives": [
+          0.4471957011310665,
+          0.45931482052797123,
+          0.03036501561356036,
+          0.503135566127953
+        ],
+        "constraints": [
+          -0.0001,
+          -0.35280429886893355,
+          0.0,
+          -207.55879999999996,
+          0.0
+        ],
+        "metrics": {
+          "id": "F09",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.03036501561356036,
+          "torsion_induced_mm": 0.0,
+          "clearance_play_mm": 0.0,
+          "backlash_z_mm": 0.06,
+          "sync_tilt_deg": 0.022036837187633423,
+          "buckling_safety_factor": null,
+          "tipping_safety_factor": null,
+          "peak_torque_Nmm": 7122.060000000001,
+          "peak_drive_force_N": 142.44120000000004,
+          "drive_model": "Twin-rod lift leadscrew (eta=0.55) + 50mm fold arm",
+          "estimated_incremental_cost_CNY": 503.135566127953,
+          "storage_ratio": 0.4471957011310665,
+          "core_storage_ratio": 0.4471957011310665,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 2,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "lift_mm": 85.0,
+            "shift_x_mm": 1.5889153198824513,
+            "fold_angle_deg": 90.0,
+            "sync_error_mm": 0.1
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      },
+      {
+        "parameters": {
+          "lift_mm": 85.0,
+          "shift_x_mm": 1.5889153198824513
+        },
+        "objectives": [
+          0.4471957011310665,
+          0.45931482052797123,
+          0.03036501561356036,
+          0.503135566127953
+        ],
+        "constraints": [
+          -0.0001,
+          -0.35280429886893355,
+          0.0,
+          -207.55879999999996,
+          0.0
+        ],
+        "metrics": {
+          "id": "F09",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.03036501561356036,
+          "torsion_induced_mm": 0.0,
+          "clearance_play_mm": 0.0,
+          "backlash_z_mm": 0.06,
+          "sync_tilt_deg": 0.022036837187633423,
+          "buckling_safety_factor": null,
+          "tipping_safety_factor": null,
+          "peak_torque_Nmm": 7122.060000000001,
+          "peak_drive_force_N": 142.44120000000004,
+          "drive_model": "Twin-rod lift leadscrew (eta=0.55) + 50mm fold arm",
+          "estimated_incremental_cost_CNY": 503.135566127953,
+          "storage_ratio": 0.4471957011310665,
+          "core_storage_ratio": 0.4471957011310665,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 2,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "lift_mm": 85.0,
+            "shift_x_mm": 1.5889153198824513,
+            "fold_angle_deg": 90.0,
+            "sync_error_mm": 0.1
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      }
+    ],
+    "least_infeasible": {
+      "parameters": {
+        "lift_mm": 85.0,
+        "shift_x_mm": 1.5889153198824513
+      },
+      "constraints": [
+        -0.0001,
+        -0.35280429886893355,
+        0.0,
+        -207.55879999999996,
+        0.0
+      ],
+      "max_constraint_violation": 0.0
+    }
+  },
+  {
+    "id": "F10",
+    "algorithm": "NSGA-II (pure-NumPy seeded)",
+    "seed": 20261122,
+    "solutions": [],
+    "least_infeasible": {
+      "parameters": {
+        "lift_mm": 138.70912886478467,
+        "shift_x_mm": 40.0427471688535,
+        "slot_width_mm": 10.656385282706688
+      },
+      "constraints": [
+        15.37083981020685,
+        -0.15782730731901318,
+        0.0,
+        -1.0781926413533442,
+        0.0
+      ],
+      "max_constraint_violation": 15.37083981020685
+    }
+  },
+  {
+    "id": "F11",
+    "algorithm": "NSGA-II (pure-NumPy seeded)",
+    "seed": 20261123,
+    "solutions": [],
+    "least_infeasible": {
+      "parameters": {
+        "lift_mm": 160.0,
+        "case_wall_mm": 17.502886452109358
+      },
+      "constraints": [
+        11.9999,
+        0.4434162611583541,
+        0.0,
+        -255.824,
+        0.0
+      ],
+      "max_constraint_violation": 11.9999
+    }
+  },
+  {
+    "id": "F12",
+    "algorithm": "NSGA-II (pure-NumPy seeded)",
+    "seed": 20261124,
+    "solutions": [
+      {
+        "parameters": {
+          "overlap_mm": 52.0,
+          "outer_size_mm": 60.0
+        },
+        "objectives": [
+          0.7354387904149067,
+          0.6785671796142725,
+          0.2879625572425607,
+          0.76
+        ],
+        "constraints": [
+          -0.0001,
+          -0.06456120958509337,
+          0.0,
+          -0.09743875278396441,
+          0.0
+        ],
+        "metrics": {
+          "id": "F12",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.05892409570409918,
+          "torsion_induced_mm": 0.052857343022028706,
+          "clearance_play_mm": 0.22903846153846152,
+          "backlash_z_mm": 0.05,
+          "sync_tilt_deg": 0.0,
+          "buckling_safety_factor": null,
+          "tipping_safety_factor": null,
+          "peak_torque_Nmm": 3450.0,
+          "peak_drive_force_N": 64.53196363636364,
+          "drive_model": "Vertical telescoping leadscrew (eta=0.55, mu=0.08)",
+          "estimated_incremental_cost_CNY": 760.0,
+          "storage_ratio": 0.7354387904149067,
+          "core_storage_ratio": 0.4648401826484018,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "overlap_mm": 52.0,
+            "outer_size_mm": 60.0,
+            "wall_mm": 3.0,
+            "radial_clearance_mm": 0.015,
+            "pad_thickness_mm": 2.985,
+            "motor_side_mounted": 1,
+            "preload_rail": 1
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      },
+      {
+        "parameters": {
+          "overlap_mm": 72.74818958155085,
+          "outer_size_mm": 61.77770090778836
+        },
+        "objectives": [
+          0.7953956605491107,
+          0.5847608681518949,
+          0.22599945790392684,
+          0.76
+        ],
+        "constraints": [
+          -0.0001,
+          -0.004604339450889339,
+          0.0,
+          -0.1949463401076016,
+          0.0
+        ],
+        "metrics": {
+          "id": "F12",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.05372787617064357,
+          "torsion_induced_mm": 0.048382881944075876,
+          "clearance_play_mm": 0.17227158173328327,
+          "backlash_z_mm": 0.05,
+          "sync_tilt_deg": 0.0,
+          "buckling_safety_factor": null,
+          "tipping_safety_factor": null,
+          "peak_torque_Nmm": 3450.0,
+          "peak_drive_force_N": 64.53196363636364,
+          "drive_model": "Vertical telescoping leadscrew (eta=0.55, mu=0.08)",
+          "estimated_incremental_cost_CNY": 760.0,
+          "storage_ratio": 0.7953956605491107,
+          "core_storage_ratio": 0.5027364193270335,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "overlap_mm": 72.74818958155085,
+            "outer_size_mm": 61.77770090778836,
+            "wall_mm": 3.0,
+            "radial_clearance_mm": 0.015,
+            "pad_thickness_mm": 2.985,
+            "motor_side_mounted": 1,
+            "preload_rail": 1
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      },
+      {
+        "parameters": {
+          "overlap_mm": 73.35034409583652,
+          "outer_size_mm": 55.57779973216383
+        },
+        "objectives": [
+          0.797135730441563,
+          0.582537478128283,
+          0.2386821829816473,
+          0.76
+        ],
+        "constraints": [
+          -0.0001,
+          -0.0028642695584369937,
+          0.0,
+          -0.1975304541402838,
+          0.0
+        ],
+        "metrics": {
+          "id": "F12",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.06757855044139474,
+          "torsion_induced_mm": 0.060139750510744286,
+          "clearance_play_mm": 0.17110363254025257,
+          "backlash_z_mm": 0.05,
+          "sync_tilt_deg": 0.0,
+          "buckling_safety_factor": null,
+          "tipping_safety_factor": null,
+          "peak_torque_Nmm": 3450.0,
+          "peak_drive_force_N": 64.53196363636364,
+          "drive_model": "Vertical telescoping leadscrew (eta=0.55, mu=0.08)",
+          "estimated_incremental_cost_CNY": 760.0,
+          "storage_ratio": 0.797135730441563,
+          "core_storage_ratio": 0.5038362449239023,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "overlap_mm": 73.35034409583652,
+            "outer_size_mm": 55.57779973216383,
+            "wall_mm": 3.0,
+            "radial_clearance_mm": 0.015,
+            "pad_thickness_mm": 2.985,
+            "motor_side_mounted": 1,
+            "preload_rail": 1
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      },
+      {
+        "parameters": {
+          "overlap_mm": 38.74437394104747,
+          "outer_size_mm": 65.58235900964786
+        },
+        "objectives": [
+          0.6971334796290977,
+          0.7939481724848735,
+          0.3469195050018126,
+          0.76
+        ],
+        "constraints": [
+          -0.0001,
+          -0.10286652037090238,
+          0.0,
+          -0.025115307581114354,
+          0.0
+        ],
+        "metrics": {
+          "id": "F12",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.049783945765565364,
+          "torsion_induced_mm": 0.045174935515620296,
+          "clearance_play_mm": 0.29713555923624724,
+          "backlash_z_mm": 0.05,
+          "sync_tilt_deg": 0.0,
+          "buckling_safety_factor": null,
+          "tipping_safety_factor": null,
+          "peak_torque_Nmm": 3450.0,
+          "peak_drive_force_N": 64.53196363636364,
+          "drive_model": "Vertical telescoping leadscrew (eta=0.55, mu=0.08)",
+          "estimated_incremental_cost_CNY": 760.0,
+          "storage_ratio": 0.6971334796290977,
+          "core_storage_ratio": 0.44062899349963003,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "overlap_mm": 38.74437394104747,
+            "outer_size_mm": 65.58235900964786,
+            "wall_mm": 3.0,
+            "radial_clearance_mm": 0.015,
+            "pad_thickness_mm": 2.985,
+            "motor_side_mounted": 1,
+            "preload_rail": 1
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      },
+      {
+        "parameters": {
+          "overlap_mm": 44.83156516151522,
+          "outer_size_mm": 58.036756941213696
+        },
+        "objectives": [
+          0.7147238786397265,
+          0.7323899694112335,
+          0.32563974162040393,
+          0.76
+        ],
+        "constraints": [
+          -0.0001,
+          -0.08527612136027352,
+          0.0,
+          -0.05942282908741919,
+          0.0
+        ],
+        "metrics": {
+          "id": "F12",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.06477561803444548,
+          "torsion_induced_mm": 0.05765225560636647,
+          "clearance_play_mm": 0.26086412358595845,
+          "backlash_z_mm": 0.05,
+          "sync_tilt_deg": 0.0,
+          "buckling_safety_factor": null,
+          "tipping_safety_factor": null,
+          "peak_torque_Nmm": 3450.0,
+          "peak_drive_force_N": 64.53196363636364,
+          "drive_model": "Vertical telescoping leadscrew (eta=0.55, mu=0.08)",
+          "estimated_incremental_cost_CNY": 760.0,
+          "storage_ratio": 0.7147238786397265,
+          "core_storage_ratio": 0.45174715097993645,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "overlap_mm": 44.83156516151522,
+            "outer_size_mm": 58.036756941213696,
+            "wall_mm": 3.0,
+            "radial_clearance_mm": 0.015,
+            "pad_thickness_mm": 2.985,
+            "motor_side_mounted": 1,
+            "preload_rail": 1
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      },
+      {
+        "parameters": {
+          "overlap_mm": 41.01984929467943,
+          "outer_size_mm": 56.53386537102601
+        },
+        "objectives": [
+          0.7037090114235732,
+          0.7682900017439495,
+          0.3517738122773524,
+          0.76
+        ],
+        "constraints": [
+          -0.0001,
+          -0.09629098857642682,
+          0.0,
+          -0.03816887116242623,
+          0.0
+        ],
+        "metrics": {
+          "id": "F12",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.06945694183622991,
+          "torsion_induced_mm": 0.0616154744777996,
+          "clearance_play_mm": 0.28231687044112247,
+          "backlash_z_mm": 0.05,
+          "sync_tilt_deg": 0.0,
+          "buckling_safety_factor": null,
+          "tipping_safety_factor": null,
+          "peak_torque_Nmm": 3450.0,
+          "peak_drive_force_N": 64.53196363636364,
+          "drive_model": "Vertical telescoping leadscrew (eta=0.55, mu=0.08)",
+          "estimated_incremental_cost_CNY": 760.0,
+          "storage_ratio": 0.7037090114235732,
+          "core_storage_ratio": 0.44478511286699435,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "overlap_mm": 41.01984929467943,
+            "outer_size_mm": 56.53386537102601,
+            "wall_mm": 3.0,
+            "radial_clearance_mm": 0.015,
+            "pad_thickness_mm": 2.985,
+            "motor_side_mounted": 1,
+            "preload_rail": 1
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      },
+      {
+        "parameters": {
+          "overlap_mm": 66.14316011056037,
+          "outer_size_mm": 55.51273941050424
+        },
+        "objectives": [
+          0.7763088437129613,
+          0.6083482352995699,
+          0.2553709225806939,
+          0.76
+        ],
+        "constraints": [
+          -0.0001,
+          -0.023691156287038773,
+          0.0,
+          -0.16574516579429988,
+          0.0
+        ],
+        "metrics": {
+          "id": "F12",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.06889215769102654,
+          "torsion_induced_mm": 0.06112294815389911,
+          "clearance_play_mm": 0.18647876488966733,
+          "backlash_z_mm": 0.05,
+          "sync_tilt_deg": 0.0,
+          "buckling_safety_factor": null,
+          "tipping_safety_factor": null,
+          "peak_torque_Nmm": 3450.0,
+          "peak_drive_force_N": 64.53196363636364,
+          "drive_model": "Vertical telescoping leadscrew (eta=0.55, mu=0.08)",
+          "estimated_incremental_cost_CNY": 760.0,
+          "storage_ratio": 0.7763088437129613,
+          "core_storage_ratio": 0.4906724385581011,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "overlap_mm": 66.14316011056037,
+            "outer_size_mm": 55.51273941050424,
+            "wall_mm": 3.0,
+            "radial_clearance_mm": 0.015,
+            "pad_thickness_mm": 2.985,
+            "motor_side_mounted": 1,
+            "preload_rail": 1
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      },
+      {
+        "parameters": {
+          "overlap_mm": 59.74822049336175,
+          "outer_size_mm": 60.3007986958772
+        },
+        "objectives": [
+          0.7578291318982306,
+          0.6364458043770975,
+          0.2614842510473424,
+          0.76
+        ],
+        "constraints": [
+          -0.0001,
+          -0.0421708681017694,
+          0.0,
+          -0.1358902795881885,
+          0.0
+        ],
+        "metrics": {
+          "id": "F12",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.058257334587965594,
+          "torsion_induced_mm": 0.05229708277987042,
+          "clearance_play_mm": 0.20322691645937682,
+          "backlash_z_mm": 0.05,
+          "sync_tilt_deg": 0.0,
+          "buckling_safety_factor": null,
+          "tipping_safety_factor": null,
+          "peak_torque_Nmm": 3450.0,
+          "peak_drive_force_N": 64.53196363636364,
+          "drive_model": "Vertical telescoping leadscrew (eta=0.55, mu=0.08)",
+          "estimated_incremental_cost_CNY": 760.0,
+          "storage_ratio": 0.7578291318982306,
+          "core_storage_ratio": 0.4789921835495192,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "overlap_mm": 59.74822049336175,
+            "outer_size_mm": 60.3007986958772,
+            "wall_mm": 3.0,
+            "radial_clearance_mm": 0.015,
+            "pad_thickness_mm": 2.985,
+            "motor_side_mounted": 1,
+            "preload_rail": 1
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      },
+      {
+        "parameters": {
+          "overlap_mm": 55.60244649332314,
+          "outer_size_mm": 60.88250574726486
+        },
+        "objectives": [
+          0.7458489235841954,
+          0.6578386366560824,
+          0.2731678484552483,
+          0.76
+        ],
+        "constraints": [
+          -0.0001,
+          -0.05415107641580463,
+          0.0,
+          -0.11564127663762713,
+          0.0
+        ],
+        "metrics": {
+          "id": "F12",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.05702495991808924,
+          "torsion_induced_mm": 0.051263459333914574,
+          "clearance_play_mm": 0.21614288853715902,
+          "backlash_z_mm": 0.05,
+          "sync_tilt_deg": 0.0,
+          "buckling_safety_factor": null,
+          "tipping_safety_factor": null,
+          "peak_torque_Nmm": 3450.0,
+          "peak_drive_force_N": 64.53196363636364,
+          "drive_model": "Vertical telescoping leadscrew (eta=0.55, mu=0.08)",
+          "estimated_incremental_cost_CNY": 760.0,
+          "storage_ratio": 0.7458489235841954,
+          "core_storage_ratio": 0.4714199935951108,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "overlap_mm": 55.60244649332314,
+            "outer_size_mm": 60.88250574726486,
+            "wall_mm": 3.0,
+            "radial_clearance_mm": 0.015,
+            "pad_thickness_mm": 2.985,
+            "motor_side_mounted": 1,
+            "preload_rail": 1
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      },
+      {
+        "parameters": {
+          "overlap_mm": 68.99236270212604,
+          "outer_size_mm": 61.438449381754836
+        },
+        "objectives": [
+          0.7845422979667454,
+          0.5976578897075471,
+          0.23433908574026277,
+          0.76
+        ],
+        "constraints": [
+          -0.0001,
+          -0.015457702033254694,
+          0.0,
+          -0.17853754419074208,
+          0.0
+        ],
+        "metrics": {
+          "id": "F12",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.054322481080903005,
+          "torsion_induced_mm": 0.04887507702539004,
+          "clearance_play_mm": 0.18001660465935976,
+          "backlash_z_mm": 0.05,
+          "sync_tilt_deg": 0.0,
+          "buckling_safety_factor": null,
+          "tipping_safety_factor": null,
+          "peak_torque_Nmm": 3450.0,
+          "peak_drive_force_N": 64.53196363636364,
+          "drive_model": "Vertical telescoping leadscrew (eta=0.55, mu=0.08)",
+          "estimated_incremental_cost_CNY": 760.0,
+          "storage_ratio": 0.7845422979667454,
+          "core_storage_ratio": 0.4958764615563946,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "overlap_mm": 68.99236270212604,
+            "outer_size_mm": 61.438449381754836,
+            "wall_mm": 3.0,
+            "radial_clearance_mm": 0.015,
+            "pad_thickness_mm": 2.985,
+            "motor_side_mounted": 1,
+            "preload_rail": 1
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      },
+      {
+        "parameters": {
+          "overlap_mm": 57.29734647422322,
+          "outer_size_mm": 55.23024658521478
+        },
+        "objectives": [
+          0.7507467435913758,
+          0.6486924077795201,
+          0.2836820317448687,
+          0.76
+        ],
+        "constraints": [
+          -0.0001,
+          -0.04925325640862421,
+          0.0,
+          -0.12400788577415339,
+          0.0
+        ],
+        "metrics": {
+          "id": "F12",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.07304539432822622,
+          "torsion_induced_mm": 0.06486881906953104,
+          "clearance_play_mm": 0.2106366374166425,
+          "backlash_z_mm": 0.05,
+          "sync_tilt_deg": 0.0,
+          "buckling_safety_factor": null,
+          "tipping_safety_factor": null,
+          "peak_torque_Nmm": 3450.0,
+          "peak_drive_force_N": 64.53196363636364,
+          "drive_model": "Vertical telescoping leadscrew (eta=0.55, mu=0.08)",
+          "estimated_incremental_cost_CNY": 760.0,
+          "storage_ratio": 0.7507467435913758,
+          "core_storage_ratio": 0.47451570132278215,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "overlap_mm": 57.29734647422322,
+            "outer_size_mm": 55.23024658521478,
+            "wall_mm": 3.0,
+            "radial_clearance_mm": 0.015,
+            "pad_thickness_mm": 2.985,
+            "motor_side_mounted": 1,
+            "preload_rail": 1
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      },
+      {
+        "parameters": {
+          "overlap_mm": 52.65420873771515,
+          "outer_size_mm": 60.59478603313222
+        },
+        "objectives": [
+          0.7373292834708756,
+          0.6741355001098088,
+          0.2841908377666706,
+          0.76
+        ],
+        "constraints": [
+          -0.0001,
+          -0.06267071652912448,
+          0.0,
+          -0.1007876381674882,
+          0.0
+        ],
+        "metrics": {
+          "id": "F12",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.05762535424461922,
+          "torsion_induced_mm": 0.051766711771577545,
+          "clearance_play_mm": 0.22656548352205136,
+          "backlash_z_mm": 0.05,
+          "sync_tilt_deg": 0.0,
+          "buckling_safety_factor": null,
+          "tipping_safety_factor": null,
+          "peak_torque_Nmm": 3450.0,
+          "peak_drive_force_N": 64.53196363636364,
+          "drive_model": "Vertical telescoping leadscrew (eta=0.55, mu=0.08)",
+          "estimated_incremental_cost_CNY": 760.0,
+          "storage_ratio": 0.7373292834708756,
+          "core_storage_ratio": 0.46603508445244773,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "overlap_mm": 52.65420873771515,
+            "outer_size_mm": 60.59478603313222,
+            "wall_mm": 3.0,
+            "radial_clearance_mm": 0.015,
+            "pad_thickness_mm": 2.985,
+            "motor_side_mounted": 1,
+            "preload_rail": 1
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      },
+      {
+        "parameters": {
+          "overlap_mm": 71.65544411493644,
+          "outer_size_mm": 61.23005889421392
+        },
+        "objectives": [
+          0.7922379104343827,
+          0.5883900776917607,
+          0.22913874520947639,
+          0.76
+        ],
+        "constraints": [
+          -0.0001,
+          -0.007762089565617303,
+          0.0,
+          -0.19022432742399487,
+          0.0
+        ],
+        "metrics": {
+          "id": "F12",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.05469752196622302,
+          "torsion_induced_mm": 0.04918587874962326,
+          "clearance_play_mm": 0.17444122324325337,
+          "backlash_z_mm": 0.05,
+          "sync_tilt_deg": 0.0,
+          "buckling_safety_factor": null,
+          "tipping_safety_factor": null,
+          "peak_torque_Nmm": 3450.0,
+          "peak_drive_force_N": 64.53196363636364,
+          "drive_model": "Vertical telescoping leadscrew (eta=0.55, mu=0.08)",
+          "estimated_incremental_cost_CNY": 760.0,
+          "storage_ratio": 0.7922379104343827,
+          "core_storage_ratio": 0.500740537196231,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "overlap_mm": 71.65544411493644,
+            "outer_size_mm": 61.23005889421392,
+            "wall_mm": 3.0,
+            "radial_clearance_mm": 0.015,
+            "pad_thickness_mm": 2.985,
+            "motor_side_mounted": 1,
+            "preload_rail": 1
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      },
+      {
+        "parameters": {
+          "overlap_mm": 41.1119940369928,
+          "outer_size_mm": 59.165423977337355
+        },
+        "objectives": [
+          0.7039752857568936,
+          0.7673443046147537,
+          0.3434921055546783,
+          0.76
+        ],
+        "constraints": [
+          -0.0001,
+          -0.09602471424310643,
+          0.0,
+          -0.038691612722877744,
+          0.0
+        ],
+        "metrics": {
+          "id": "F12",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.06174075555479719,
+          "torsion_induced_mm": 0.05509800549885477,
+          "clearance_play_mm": 0.2817513499998811,
+          "backlash_z_mm": 0.05,
+          "sync_tilt_deg": 0.0,
+          "buckling_safety_factor": null,
+          "tipping_safety_factor": null,
+          "peak_torque_Nmm": 3450.0,
+          "peak_drive_force_N": 64.53196363636364,
+          "drive_model": "Vertical telescoping leadscrew (eta=0.55, mu=0.08)",
+          "estimated_incremental_cost_CNY": 760.0,
+          "storage_ratio": 0.7039752857568936,
+          "core_storage_ratio": 0.44495341376619685,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "overlap_mm": 41.1119940369928,
+            "outer_size_mm": 59.165423977337355,
+            "wall_mm": 3.0,
+            "radial_clearance_mm": 0.015,
+            "pad_thickness_mm": 2.985,
+            "motor_side_mounted": 1,
+            "preload_rail": 1
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      },
+      {
+        "parameters": {
+          "overlap_mm": 51.53109227579959,
+          "outer_size_mm": 52.444046465601204
+        },
+        "objectives": [
+          0.7340837690809099,
+          0.6814195613136683,
+          0.3167951513975119,
+          0.76
+        ],
+        "constraints": [
+          -0.0001,
+          -0.06591623091909016,
+          0.0,
+          -0.0950263873129773,
+          0.0
+        ],
+        "metrics": {
+          "id": "F12",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.08594553725376823,
+          "torsion_induced_mm": 0.07603424698243497,
+          "clearance_play_mm": 0.23084961414374366,
+          "backlash_z_mm": 0.05,
+          "sync_tilt_deg": 0.0,
+          "buckling_safety_factor": null,
+          "tipping_safety_factor": null,
+          "peak_torque_Nmm": 3450.0,
+          "peak_drive_force_N": 64.53196363636364,
+          "drive_model": "Vertical telescoping leadscrew (eta=0.55, mu=0.08)",
+          "estimated_incremental_cost_CNY": 760.0,
+          "storage_ratio": 0.7340837690809099,
+          "core_storage_ratio": 0.46398373018410877,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "overlap_mm": 51.53109227579959,
+            "outer_size_mm": 52.444046465601204,
+            "wall_mm": 3.0,
+            "radial_clearance_mm": 0.015,
+            "pad_thickness_mm": 2.985,
+            "motor_side_mounted": 1,
+            "preload_rail": 1
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      },
+      {
+        "parameters": {
+          "overlap_mm": 43.09860417028386,
+          "outer_size_mm": 57.06796001645361
+        },
+        "objectives": [
+          0.7097160722144715,
+          0.747940314123343,
+          0.33784771048283435,
+          0.76
+        ],
+        "constraints": [
+          -0.0001,
+          -0.09028392778552852,
+          0.0,
+          -0.049853083484555694,
+          0.0
+        ],
+        "metrics": {
+          "id": "F12",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.06770072198392973,
+          "torsion_induced_mm": 0.06012551831087933,
+          "clearance_play_mm": 0.2701469884989046,
+          "backlash_z_mm": 0.05,
+          "sync_tilt_deg": 0.0,
+          "buckling_safety_factor": null,
+          "tipping_safety_factor": null,
+          "peak_torque_Nmm": 3450.0,
+          "peak_drive_force_N": 64.53196363636364,
+          "drive_model": "Vertical telescoping leadscrew (eta=0.55, mu=0.08)",
+          "estimated_incremental_cost_CNY": 760.0,
+          "storage_ratio": 0.7097160722144715,
+          "core_storage_ratio": 0.44858192542517594,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "overlap_mm": 43.09860417028386,
+            "outer_size_mm": 57.06796001645361,
+            "wall_mm": 3.0,
+            "radial_clearance_mm": 0.015,
+            "pad_thickness_mm": 2.985,
+            "motor_side_mounted": 1,
+            "preload_rail": 1
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      }
+    ],
+    "least_infeasible": {
+      "parameters": {
+        "overlap_mm": 52.0,
+        "outer_size_mm": 60.0
+      },
+      "constraints": [
+        -0.0001,
+        -0.06456120958509337,
+        0.0,
+        -0.09743875278396441,
+        0.0
+      ],
+      "max_constraint_violation": 0.0
+    }
+  },
+  {
+    "id": "F13",
+    "algorithm": "NSGA-II (pure-NumPy seeded)",
+    "seed": 20261125,
+    "solutions": [
+      {
+        "parameters": {
+          "drawer_stroke_mm": 180.0,
+          "cable_bend_radius_mm": 45.25311109930786
+        },
+        "objectives": [
+          0.7,
+          0.46700929203219793,
+          0.28339285714285717,
+          0.48
+        ],
+        "constraints": [
+          -0.0001,
+          -0.10000000000000009,
+          0.0,
+          -10.253111099307858,
+          0.0
+        ],
+        "metrics": {
+          "id": "F13",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.28339285714285717,
+          "torsion_induced_mm": 0.0,
+          "clearance_play_mm": 0.0,
+          "backlash_z_mm": 0.0,
+          "sync_tilt_deg": 0.0,
+          "buckling_safety_factor": null,
+          "tipping_safety_factor": null,
+          "peak_torque_Nmm": 2943.0,
+          "peak_drive_force_N": 58.86,
+          "drive_model": "Generic 50mm arm / gravity torque",
+          "estimated_incremental_cost_CNY": 480.0,
+          "storage_ratio": 0.7,
+          "core_storage_ratio": 0.7,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "drawer_stroke_mm": 180.0,
+            "cable_bend_radius_mm": 45.25311109930786
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      },
+      {
+        "parameters": {
+          "drawer_stroke_mm": 180.0,
+          "cable_bend_radius_mm": 44.775130160158156
+        },
+        "objectives": [
+          0.7,
+          0.46700929203219793,
+          0.28339285714285717,
+          0.48
+        ],
+        "constraints": [
+          -0.0001,
+          -0.10000000000000009,
+          0.0,
+          -9.775130160158156,
+          0.0
+        ],
+        "metrics": {
+          "id": "F13",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.28339285714285717,
+          "torsion_induced_mm": 0.0,
+          "clearance_play_mm": 0.0,
+          "backlash_z_mm": 0.0,
+          "sync_tilt_deg": 0.0,
+          "buckling_safety_factor": null,
+          "tipping_safety_factor": null,
+          "peak_torque_Nmm": 2943.0,
+          "peak_drive_force_N": 58.86,
+          "drive_model": "Generic 50mm arm / gravity torque",
+          "estimated_incremental_cost_CNY": 480.0,
+          "storage_ratio": 0.7,
+          "core_storage_ratio": 0.7,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "drawer_stroke_mm": 180.0,
+            "cable_bend_radius_mm": 44.775130160158156
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      },
+      {
+        "parameters": {
+          "drawer_stroke_mm": 180.0,
+          "cable_bend_radius_mm": 44.23267994543832
+        },
+        "objectives": [
+          0.7,
+          0.46700929203219793,
+          0.28339285714285717,
+          0.48
+        ],
+        "constraints": [
+          -0.0001,
+          -0.10000000000000009,
+          0.0,
+          -9.23267994543832,
+          0.0
+        ],
+        "metrics": {
+          "id": "F13",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.28339285714285717,
+          "torsion_induced_mm": 0.0,
+          "clearance_play_mm": 0.0,
+          "backlash_z_mm": 0.0,
+          "sync_tilt_deg": 0.0,
+          "buckling_safety_factor": null,
+          "tipping_safety_factor": null,
+          "peak_torque_Nmm": 2943.0,
+          "peak_drive_force_N": 58.86,
+          "drive_model": "Generic 50mm arm / gravity torque",
+          "estimated_incremental_cost_CNY": 480.0,
+          "storage_ratio": 0.7,
+          "core_storage_ratio": 0.7,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "drawer_stroke_mm": 180.0,
+            "cable_bend_radius_mm": 44.23267994543832
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      },
+      {
+        "parameters": {
+          "drawer_stroke_mm": 180.0,
+          "cable_bend_radius_mm": 44.82653605851047
+        },
+        "objectives": [
+          0.7,
+          0.46700929203219793,
+          0.28339285714285717,
+          0.48
+        ],
+        "constraints": [
+          -0.0001,
+          -0.10000000000000009,
+          0.0,
+          -9.82653605851047,
+          0.0
+        ],
+        "metrics": {
+          "id": "F13",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.28339285714285717,
+          "torsion_induced_mm": 0.0,
+          "clearance_play_mm": 0.0,
+          "backlash_z_mm": 0.0,
+          "sync_tilt_deg": 0.0,
+          "buckling_safety_factor": null,
+          "tipping_safety_factor": null,
+          "peak_torque_Nmm": 2943.0,
+          "peak_drive_force_N": 58.86,
+          "drive_model": "Generic 50mm arm / gravity torque",
+          "estimated_incremental_cost_CNY": 480.0,
+          "storage_ratio": 0.7,
+          "core_storage_ratio": 0.7,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "drawer_stroke_mm": 180.0,
+            "cable_bend_radius_mm": 44.82653605851047
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      },
+      {
+        "parameters": {
+          "drawer_stroke_mm": 180.0,
+          "cable_bend_radius_mm": 40.856743127891356
+        },
+        "objectives": [
+          0.7,
+          0.46700929203219793,
+          0.28339285714285717,
+          0.48
+        ],
+        "constraints": [
+          -0.0001,
+          -0.10000000000000009,
+          0.0,
+          -5.856743127891356,
+          0.0
+        ],
+        "metrics": {
+          "id": "F13",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.28339285714285717,
+          "torsion_induced_mm": 0.0,
+          "clearance_play_mm": 0.0,
+          "backlash_z_mm": 0.0,
+          "sync_tilt_deg": 0.0,
+          "buckling_safety_factor": null,
+          "tipping_safety_factor": null,
+          "peak_torque_Nmm": 2943.0,
+          "peak_drive_force_N": 58.86,
+          "drive_model": "Generic 50mm arm / gravity torque",
+          "estimated_incremental_cost_CNY": 480.0,
+          "storage_ratio": 0.7,
+          "core_storage_ratio": 0.7,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "drawer_stroke_mm": 180.0,
+            "cable_bend_radius_mm": 40.856743127891356
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      },
+      {
+        "parameters": {
+          "drawer_stroke_mm": 180.0,
+          "cable_bend_radius_mm": 45.015947734819676
+        },
+        "objectives": [
+          0.7,
+          0.46700929203219793,
+          0.28339285714285717,
+          0.48
+        ],
+        "constraints": [
+          -0.0001,
+          -0.10000000000000009,
+          0.0,
+          -10.015947734819676,
+          0.0
+        ],
+        "metrics": {
+          "id": "F13",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.28339285714285717,
+          "torsion_induced_mm": 0.0,
+          "clearance_play_mm": 0.0,
+          "backlash_z_mm": 0.0,
+          "sync_tilt_deg": 0.0,
+          "buckling_safety_factor": null,
+          "tipping_safety_factor": null,
+          "peak_torque_Nmm": 2943.0,
+          "peak_drive_force_N": 58.86,
+          "drive_model": "Generic 50mm arm / gravity torque",
+          "estimated_incremental_cost_CNY": 480.0,
+          "storage_ratio": 0.7,
+          "core_storage_ratio": 0.7,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "drawer_stroke_mm": 180.0,
+            "cable_bend_radius_mm": 45.015947734819676
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      },
+      {
+        "parameters": {
+          "drawer_stroke_mm": 180.0,
+          "cable_bend_radius_mm": 49.518744849461896
+        },
+        "objectives": [
+          0.7,
+          0.46700929203219793,
+          0.28339285714285717,
+          0.48
+        ],
+        "constraints": [
+          -0.0001,
+          -0.10000000000000009,
+          0.0,
+          -14.518744849461896,
+          0.0
+        ],
+        "metrics": {
+          "id": "F13",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.28339285714285717,
+          "torsion_induced_mm": 0.0,
+          "clearance_play_mm": 0.0,
+          "backlash_z_mm": 0.0,
+          "sync_tilt_deg": 0.0,
+          "buckling_safety_factor": null,
+          "tipping_safety_factor": null,
+          "peak_torque_Nmm": 2943.0,
+          "peak_drive_force_N": 58.86,
+          "drive_model": "Generic 50mm arm / gravity torque",
+          "estimated_incremental_cost_CNY": 480.0,
+          "storage_ratio": 0.7,
+          "core_storage_ratio": 0.7,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "drawer_stroke_mm": 180.0,
+            "cable_bend_radius_mm": 49.518744849461896
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      },
+      {
+        "parameters": {
+          "drawer_stroke_mm": 180.0,
+          "cable_bend_radius_mm": 45.244341496512696
+        },
+        "objectives": [
+          0.7,
+          0.46700929203219793,
+          0.28339285714285717,
+          0.48
+        ],
+        "constraints": [
+          -0.0001,
+          -0.10000000000000009,
+          0.0,
+          -10.244341496512696,
+          0.0
+        ],
+        "metrics": {
+          "id": "F13",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.28339285714285717,
+          "torsion_induced_mm": 0.0,
+          "clearance_play_mm": 0.0,
+          "backlash_z_mm": 0.0,
+          "sync_tilt_deg": 0.0,
+          "buckling_safety_factor": null,
+          "tipping_safety_factor": null,
+          "peak_torque_Nmm": 2943.0,
+          "peak_drive_force_N": 58.86,
+          "drive_model": "Generic 50mm arm / gravity torque",
+          "estimated_incremental_cost_CNY": 480.0,
+          "storage_ratio": 0.7,
+          "core_storage_ratio": 0.7,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "drawer_stroke_mm": 180.0,
+            "cable_bend_radius_mm": 45.244341496512696
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      },
+      {
+        "parameters": {
+          "drawer_stroke_mm": 180.0,
+          "cable_bend_radius_mm": 44.77543741521192
+        },
+        "objectives": [
+          0.7,
+          0.46700929203219793,
+          0.28339285714285717,
+          0.48
+        ],
+        "constraints": [
+          -0.0001,
+          -0.10000000000000009,
+          0.0,
+          -9.775437415211918,
+          0.0
+        ],
+        "metrics": {
+          "id": "F13",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.28339285714285717,
+          "torsion_induced_mm": 0.0,
+          "clearance_play_mm": 0.0,
+          "backlash_z_mm": 0.0,
+          "sync_tilt_deg": 0.0,
+          "buckling_safety_factor": null,
+          "tipping_safety_factor": null,
+          "peak_torque_Nmm": 2943.0,
+          "peak_drive_force_N": 58.86,
+          "drive_model": "Generic 50mm arm / gravity torque",
+          "estimated_incremental_cost_CNY": 480.0,
+          "storage_ratio": 0.7,
+          "core_storage_ratio": 0.7,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "drawer_stroke_mm": 180.0,
+            "cable_bend_radius_mm": 44.77543741521192
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      },
+      {
+        "parameters": {
+          "drawer_stroke_mm": 179.99999999999997,
+          "cable_bend_radius_mm": 44.82622880345671
+        },
+        "objectives": [
+          0.7,
+          0.46700929203219793,
+          0.28339285714285717,
+          0.48
+        ],
+        "constraints": [
+          -0.0001,
+          -0.10000000000000009,
+          0.0,
+          -9.826228803456708,
+          0.0
+        ],
+        "metrics": {
+          "id": "F13",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.28339285714285717,
+          "torsion_induced_mm": 0.0,
+          "clearance_play_mm": 0.0,
+          "backlash_z_mm": 0.0,
+          "sync_tilt_deg": 0.0,
+          "buckling_safety_factor": null,
+          "tipping_safety_factor": null,
+          "peak_torque_Nmm": 2943.0,
+          "peak_drive_force_N": 58.86,
+          "drive_model": "Generic 50mm arm / gravity torque",
+          "estimated_incremental_cost_CNY": 480.0,
+          "storage_ratio": 0.7,
+          "core_storage_ratio": 0.7,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "drawer_stroke_mm": 179.99999999999997,
+            "cable_bend_radius_mm": 44.82622880345671
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      },
+      {
+        "parameters": {
+          "drawer_stroke_mm": 180.0,
+          "cable_bend_radius_mm": 44.53514479066702
+        },
+        "objectives": [
+          0.7,
+          0.46700929203219793,
+          0.28339285714285717,
+          0.48
+        ],
+        "constraints": [
+          -0.0001,
+          -0.10000000000000009,
+          0.0,
+          -9.535144790667019,
+          0.0
+        ],
+        "metrics": {
+          "id": "F13",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.28339285714285717,
+          "torsion_induced_mm": 0.0,
+          "clearance_play_mm": 0.0,
+          "backlash_z_mm": 0.0,
+          "sync_tilt_deg": 0.0,
+          "buckling_safety_factor": null,
+          "tipping_safety_factor": null,
+          "peak_torque_Nmm": 2943.0,
+          "peak_drive_force_N": 58.86,
+          "drive_model": "Generic 50mm arm / gravity torque",
+          "estimated_incremental_cost_CNY": 480.0,
+          "storage_ratio": 0.7,
+          "core_storage_ratio": 0.7,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "drawer_stroke_mm": 180.0,
+            "cable_bend_radius_mm": 44.53514479066702
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      },
+      {
+        "parameters": {
+          "drawer_stroke_mm": 179.99999999999997,
+          "cable_bend_radius_mm": 44.523763958228
+        },
+        "objectives": [
+          0.7,
+          0.46700929203219793,
+          0.28339285714285717,
+          0.48
+        ],
+        "constraints": [
+          -0.0001,
+          -0.10000000000000009,
+          0.0,
+          -9.523763958228002,
+          0.0
+        ],
+        "metrics": {
+          "id": "F13",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.28339285714285717,
+          "torsion_induced_mm": 0.0,
+          "clearance_play_mm": 0.0,
+          "backlash_z_mm": 0.0,
+          "sync_tilt_deg": 0.0,
+          "buckling_safety_factor": null,
+          "tipping_safety_factor": null,
+          "peak_torque_Nmm": 2943.0,
+          "peak_drive_force_N": 58.86,
+          "drive_model": "Generic 50mm arm / gravity torque",
+          "estimated_incremental_cost_CNY": 480.0,
+          "storage_ratio": 0.7,
+          "core_storage_ratio": 0.7,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "drawer_stroke_mm": 179.99999999999997,
+            "cable_bend_radius_mm": 44.523763958228
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      },
+      {
+        "parameters": {
+          "drawer_stroke_mm": 180.0,
+          "cable_bend_radius_mm": 45.25083212414658
+        },
+        "objectives": [
+          0.7,
+          0.46700929203219793,
+          0.28339285714285717,
+          0.48
+        ],
+        "constraints": [
+          -0.0001,
+          -0.10000000000000009,
+          0.0,
+          -10.250832124146577,
+          0.0
+        ],
+        "metrics": {
+          "id": "F13",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.28339285714285717,
+          "torsion_induced_mm": 0.0,
+          "clearance_play_mm": 0.0,
+          "backlash_z_mm": 0.0,
+          "sync_tilt_deg": 0.0,
+          "buckling_safety_factor": null,
+          "tipping_safety_factor": null,
+          "peak_torque_Nmm": 2943.0,
+          "peak_drive_force_N": 58.86,
+          "drive_model": "Generic 50mm arm / gravity torque",
+          "estimated_incremental_cost_CNY": 480.0,
+          "storage_ratio": 0.7,
+          "core_storage_ratio": 0.7,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "drawer_stroke_mm": 180.0,
+            "cable_bend_radius_mm": 45.25083212414658
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      },
+      {
+        "parameters": {
+          "drawer_stroke_mm": 180.0,
+          "cable_bend_radius_mm": 45.24662047167398
+        },
+        "objectives": [
+          0.7,
+          0.46700929203219793,
+          0.28339285714285717,
+          0.48
+        ],
+        "constraints": [
+          -0.0001,
+          -0.10000000000000009,
+          0.0,
+          -10.246620471673978,
+          0.0
+        ],
+        "metrics": {
+          "id": "F13",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.28339285714285717,
+          "torsion_induced_mm": 0.0,
+          "clearance_play_mm": 0.0,
+          "backlash_z_mm": 0.0,
+          "sync_tilt_deg": 0.0,
+          "buckling_safety_factor": null,
+          "tipping_safety_factor": null,
+          "peak_torque_Nmm": 2943.0,
+          "peak_drive_force_N": 58.86,
+          "drive_model": "Generic 50mm arm / gravity torque",
+          "estimated_incremental_cost_CNY": 480.0,
+          "storage_ratio": 0.7,
+          "core_storage_ratio": 0.7,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "drawer_stroke_mm": 180.0,
+            "cable_bend_radius_mm": 45.24662047167398
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      }
+    ],
+    "least_infeasible": {
+      "parameters": {
+        "drawer_stroke_mm": 180.0,
+        "cable_bend_radius_mm": 45.25311109930786
+      },
+      "constraints": [
+        -0.0001,
+        -0.10000000000000009,
+        0.0,
+        -10.253111099307858,
+        0.0
+      ],
+      "max_constraint_violation": 0.0
+    }
+  },
+  {
+    "id": "F14",
+    "algorithm": "NSGA-II (pure-NumPy seeded)",
+    "seed": 20261126,
+    "solutions": [],
+    "least_infeasible": {
+      "parameters": {
+        "lift_mm": 143.2611311042605,
+        "shift_x_mm": -39.92456454235497,
+        "cabinet_clearance_mm": 10.0,
+        "stow_angle_deg": 24.85196786528475
+      },
+      "constraints": [
+        -0.0001,
+        1.104160345595741,
+        0.0,
+        -99.845,
+        0.0
+      ],
+      "max_constraint_violation": 1.104160345595741
+    }
+  },
+  {
+    "id": "SCZ",
+    "algorithm": "NSGA-II (pure-NumPy seeded)",
+    "seed": 20261127,
+    "solutions": [
+      {
+        "parameters": {
+          "arm_length_mm": 153.579931291943,
+          "height_fold_mm": 55.970298001129535
+        },
+        "objectives": [
+          0.5026859863615343,
+          0.5017156360828526,
+          0.5622693071916138,
+          0.88
+        ],
+        "constraints": [
+          -0.0001,
+          -0.29731401363846577,
+          0.0,
+          -190.36083720263372,
+          0.0
+        ],
+        "metrics": {
+          "id": "SCZ",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.5622693071916138,
+          "torsion_induced_mm": 0.0,
+          "clearance_play_mm": 0.0,
+          "backlash_z_mm": 0.3846573828598121,
+          "sync_tilt_deg": 0.039571065900741116,
+          "buckling_safety_factor": 453.8740309636529,
+          "tipping_safety_factor": null,
+          "peak_torque_Nmm": 0.0,
+          "peak_drive_force_N": 159.63916279736628,
+          "drive_model": "SCZ horizontal T8 screw (eta=0.55) + 8-pin Coulomb + rail friction",
+          "estimated_incremental_cost_CNY": 880.0,
+          "storage_ratio": 0.5026859863615343,
+          "core_storage_ratio": 0.3177268438387111,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "arm_length_mm": 153.579931291943,
+            "height_work_max_mm": 305.0,
+            "height_fold_mm": 55.970298001129535,
+            "frame_offset_mm": 40.0,
+            "arm_width_mm": 20.0,
+            "arm_thick_mm": 6.0,
+            "sync_error_mm": 0.08,
+            "screw_backlash_mm": 0.04
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      },
+      {
+        "parameters": {
+          "arm_length_mm": 153.60855785857729,
+          "height_fold_mm": 45.3411910515858
+        },
+        "objectives": [
+          0.4566129555668595,
+          0.5017156992298236,
+          0.562443913591441,
+          0.88
+        ],
+        "constraints": [
+          -0.0001,
+          -0.34338704443314055,
+          0.0,
+          -190.3268522214384,
+          0.0
+        ],
+        "metrics": {
+          "id": "SCZ",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.562443913591441,
+          "torsion_induced_mm": 0.0,
+          "clearance_play_mm": 0.0,
+          "backlash_z_mm": 0.3847324024584012,
+          "sync_tilt_deg": 0.03957990557341402,
+          "buckling_safety_factor": 453.6203256851017,
+          "tipping_safety_factor": null,
+          "peak_torque_Nmm": 0.0,
+          "peak_drive_force_N": 159.6731477785616,
+          "drive_model": "SCZ horizontal T8 screw (eta=0.55) + 8-pin Coulomb + rail friction",
+          "estimated_incremental_cost_CNY": 880.0,
+          "storage_ratio": 0.4566129555668595,
+          "core_storage_ratio": 0.2886060028810569,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "arm_length_mm": 153.60855785857729,
+            "height_work_max_mm": 305.0,
+            "height_fold_mm": 45.3411910515858,
+            "frame_offset_mm": 40.0,
+            "arm_width_mm": 20.0,
+            "arm_thick_mm": 6.0,
+            "sync_error_mm": 0.08,
+            "screw_backlash_mm": 0.04
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      },
+      {
+        "parameters": {
+          "arm_length_mm": 153.58388667643302,
+          "height_fold_mm": 55.692425971039725
+        },
+        "objectives": [
+          0.501481519546017,
+          0.5017156448078439,
+          0.562293429905414,
+          0.88
+        ],
+        "constraints": [
+          -0.0001,
+          -0.298518480453983,
+          0.0,
+          -190.35614136146856,
+          0.0
+        ],
+        "metrics": {
+          "id": "SCZ",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.562293429905414,
+          "torsion_induced_mm": 0.0,
+          "clearance_play_mm": 0.0,
+          "backlash_z_mm": 0.38466774849761004,
+          "sync_tilt_deg": 0.03957228731377028,
+          "buckling_safety_factor": 453.8389647837208,
+          "tipping_safety_factor": null,
+          "peak_torque_Nmm": 0.0,
+          "peak_drive_force_N": 159.64385863853144,
+          "drive_model": "SCZ horizontal T8 screw (eta=0.55) + 8-pin Coulomb + rail friction",
+          "estimated_incremental_cost_CNY": 880.0,
+          "storage_ratio": 0.501481519546017,
+          "core_storage_ratio": 0.31696555060558823,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "arm_length_mm": 153.58388667643302,
+            "height_work_max_mm": 305.0,
+            "height_fold_mm": 55.692425971039725,
+            "frame_offset_mm": 40.0,
+            "arm_width_mm": 20.0,
+            "arm_thick_mm": 6.0,
+            "sync_error_mm": 0.08,
+            "screw_backlash_mm": 0.04
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      },
+      {
+        "parameters": {
+          "arm_length_mm": 153.5954694338909,
+          "height_fold_mm": 45.735471347182006
+        },
+        "objectives": [
+          0.4583220067869639,
+          0.5017156703579462,
+          0.5623640751733991,
+          0.88
+        ],
+        "constraints": [
+          -0.0001,
+          -0.34167799321303616,
+          0.0,
+          -190.3423904243897,
+          0.0
+        ],
+        "metrics": {
+          "id": "SCZ",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.5623640751733991,
+          "torsion_induced_mm": 0.0,
+          "clearance_play_mm": 0.0,
+          "backlash_z_mm": 0.3846981026506806,
+          "sync_tilt_deg": 0.03957586400495714,
+          "buckling_safety_factor": 453.73629944591676,
+          "tipping_safety_factor": null,
+          "peak_torque_Nmm": 0.0,
+          "peak_drive_force_N": 159.6576095756103,
+          "drive_model": "SCZ horizontal T8 screw (eta=0.55) + 8-pin Coulomb + rail friction",
+          "estimated_incremental_cost_CNY": 880.0,
+          "storage_ratio": 0.4583220067869639,
+          "core_storage_ratio": 0.28968622286899176,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "arm_length_mm": 153.5954694338909,
+            "height_work_max_mm": 305.0,
+            "height_fold_mm": 45.735471347182006,
+            "frame_offset_mm": 40.0,
+            "arm_width_mm": 20.0,
+            "arm_thick_mm": 6.0,
+            "sync_error_mm": 0.08,
+            "screw_backlash_mm": 0.04
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      },
+      {
+        "parameters": {
+          "arm_length_mm": 153.73779367608898,
+          "height_fold_mm": 45.0
+        },
+        "objectives": [
+          0.4551340255023489,
+          0.5017159843387086,
+          0.5632328020734179,
+          0.88
+        ],
+        "constraints": [
+          -0.0001,
+          -0.34486597449765116,
+          0.0,
+          -190.17344124844413,
+          0.0
+        ],
+        "metrics": {
+          "id": "SCZ",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.5632328020734179,
+          "torsion_induced_mm": 0.0,
+          "clearance_play_mm": 0.0,
+          "backlash_z_mm": 0.3850710723117158,
+          "sync_tilt_deg": 0.03961980857577586,
+          "buckling_safety_factor": 452.4773134449236,
+          "tipping_safety_factor": null,
+          "peak_torque_Nmm": 0.0,
+          "peak_drive_force_N": 159.82655875155587,
+          "drive_model": "SCZ horizontal T8 screw (eta=0.55) + 8-pin Coulomb + rail friction",
+          "estimated_incremental_cost_CNY": 880.0,
+          "storage_ratio": 0.4551340255023489,
+          "core_storage_ratio": 0.2876712328767123,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "arm_length_mm": 153.73779367608898,
+            "height_work_max_mm": 305.0,
+            "height_fold_mm": 45.0,
+            "frame_offset_mm": 40.0,
+            "arm_width_mm": 20.0,
+            "arm_thick_mm": 6.0,
+            "sync_error_mm": 0.08,
+            "screw_backlash_mm": 0.04
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      },
+      {
+        "parameters": {
+          "arm_length_mm": 153.60412672738397,
+          "height_fold_mm": 45.464085976219685
+        },
+        "objectives": [
+          0.45714565710745414,
+          0.5017156894550953,
+          0.5624168828529673,
+          0.88
+        ],
+        "constraints": [
+          -0.0001,
+          -0.3428543428925459,
+          0.0,
+          -190.33211270407526,
+          0.0
+        ],
+        "metrics": {
+          "id": "SCZ",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.5624168828529673,
+          "torsion_induced_mm": 0.0,
+          "clearance_play_mm": 0.0,
+          "backlash_z_mm": 0.38472079015788696,
+          "sync_tilt_deg": 0.03957853729416325,
+          "buckling_safety_factor": 453.6595845748959,
+          "tipping_safety_factor": null,
+          "peak_torque_Nmm": 0.0,
+          "peak_drive_force_N": 159.66788729592474,
+          "drive_model": "SCZ horizontal T8 screw (eta=0.55) + 8-pin Coulomb + rail friction",
+          "estimated_incremental_cost_CNY": 880.0,
+          "storage_ratio": 0.45714565710745414,
+          "core_storage_ratio": 0.28894270130471145,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "arm_length_mm": 153.60412672738397,
+            "height_work_max_mm": 305.0,
+            "height_fold_mm": 45.464085976219685,
+            "frame_offset_mm": 40.0,
+            "arm_width_mm": 20.0,
+            "arm_thick_mm": 6.0,
+            "sync_error_mm": 0.08,
+            "screw_backlash_mm": 0.04
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      },
+      {
+        "parameters": {
+          "arm_length_mm": 153.5925385212584,
+          "height_fold_mm": 52.216515019114595
+        },
+        "objectives": [
+          0.48641480198566106,
+          0.5017156638926863,
+          0.5623461982519968,
+          0.88
+        ],
+        "constraints": [
+          -0.0001,
+          -0.313585198014339,
+          0.0,
+          -190.34586995593236,
+          0.0
+        ],
+        "metrics": {
+          "id": "SCZ",
+          "simulation_level": "L3_3D_OBB_swept_and_space_frame_FEA",
+          "elastic_deflection_mm": 0.5623461982519968,
+          "torsion_induced_mm": 0.0,
+          "clearance_play_mm": 0.0,
+          "backlash_z_mm": 0.3846904218166423,
+          "sync_tilt_deg": 0.03957495896046953,
+          "buckling_safety_factor": 453.76227505987123,
+          "tipping_safety_factor": null,
+          "peak_torque_Nmm": 0.0,
+          "peak_drive_force_N": 159.65413004406764,
+          "drive_model": "SCZ horizontal T8 screw (eta=0.55) + 8-pin Coulomb + rail friction",
+          "estimated_incremental_cost_CNY": 880.0,
+          "storage_ratio": 0.48641480198566106,
+          "core_storage_ratio": 0.3074425069016838,
+          "max_penetration_mm": 0.0,
+          "workspace_coverage": 1.0,
+          "reachable_fraction": 1.0,
+          "max_pressure_angle_deg": 0.0,
+          "dof": 1,
+          "com_stable": true,
+          "passed_screen": true,
+          "screen_reasons": [],
+          "parameters": {
+            "arm_length_mm": 153.5925385212584,
+            "height_work_max_mm": 305.0,
+            "height_fold_mm": 52.216515019114595,
+            "frame_offset_mm": 40.0,
+            "arm_width_mm": 20.0,
+            "arm_thick_mm": 6.0,
+            "sync_error_mm": 0.08,
+            "screw_backlash_mm": 0.04
+          },
+          "fatigue_and_thermal_drift": "未知（需实体台架与温升实测）"
+        }
+      }
+    ],
+    "least_infeasible": {
+      "parameters": {
+        "arm_length_mm": 153.579931291943,
+        "height_fold_mm": 55.970298001129535
+      },
+      "constraints": [
+        -0.0001,
+        -0.29731401363846577,
+        0.0,
+        -190.36083720263372,
+        0.0
+      ],
+      "max_constraint_violation": 0.0
+    }
+  }
+]
