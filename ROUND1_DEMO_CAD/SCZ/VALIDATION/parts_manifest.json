@@ -1,0 +1,246 @@
+{
+  "cad_version": "R1-V5",
+  "scale": 0.5,
+  "parts": [
+    {
+      "part_id": "SCZ-ARM",
+      "material": "PETG",
+      "cad_version": "R1-V5",
+      "volume_cm3": 4.669,
+      "mass_est_g": 3.6,
+      "bbox_mm": [
+        160.0,
+        3.0,
+        10.0
+      ],
+      "stl": "STL\\SCZ-ARM.stl",
+      "step": "STEP\\SCZ-ARM.step",
+      "qty": 4
+    },
+    {
+      "part_id": "SCZ-POST",
+      "material": "PLA",
+      "cad_version": "R1-V5",
+      "volume_cm3": 0.979,
+      "mass_est_g": 0.7,
+      "bbox_mm": [
+        10.0,
+        12.0,
+        14.0
+      ],
+      "stl": "STL\\SCZ-POST.stl",
+      "step": "STEP\\SCZ-POST.step",
+      "qty": 2
+    },
+    {
+      "part_id": "SCZ-SLB",
+      "material": "PETG",
+      "cad_version": "R1-V5",
+      "volume_cm3": 1.155,
+      "mass_est_g": 0.9,
+      "bbox_mm": [
+        14.0,
+        12.0,
+        22.0
+      ],
+      "stl": "STL\\SCZ-SLB.stl",
+      "step": "STEP\\SCZ-SLB.step",
+      "qty": 2
+    },
+    {
+      "part_id": "SCZ-SLT",
+      "material": "PETG",
+      "cad_version": "R1-V5",
+      "volume_cm3": 1.331,
+      "mass_est_g": 1.0,
+      "bbox_mm": [
+        14.0,
+        12.0,
+        18.0
+      ],
+      "stl": "STL\\SCZ-SLT.stl",
+      "step": "STEP\\SCZ-SLT.step",
+      "qty": 2
+    },
+    {
+      "part_id": "SCZ-SHB",
+      "material": "PETG",
+      "cad_version": "R1-V5",
+      "volume_cm3": 3.114,
+      "mass_est_g": 2.4,
+      "bbox_mm": [
+        14.0,
+        164.0,
+        8.0
+      ],
+      "stl": "STL\\SCZ-SHB.stl",
+      "step": "STEP\\SCZ-SHB.step",
+      "qty": 1
+    },
+    {
+      "part_id": "SCZ-SHT",
+      "material": "PETG",
+      "cad_version": "R1-V5",
+      "volume_cm3": 2.053,
+      "mass_est_g": 1.6,
+      "bbox_mm": [
+        4.0,
+        164.0,
+        4.0
+      ],
+      "stl": "STL\\SCZ-SHT.stl",
+      "step": "STEP\\SCZ-SHT.step",
+      "qty": 1
+    },
+    {
+      "part_id": "SCZ-PLAT",
+      "material": "PLA",
+      "cad_version": "R1-V5",
+      "volume_cm3": 155.985,
+      "mass_est_g": 116.1,
+      "bbox_mm": [
+        165.0,
+        152.0,
+        25.5
+      ],
+      "stl": "STL\\SCZ-PLAT.stl",
+      "step": "STEP\\SCZ-PLAT.step",
+      "qty": 1
+    },
+    {
+      "part_id": "SCZ-BASE",
+      "material": "PLA",
+      "cad_version": "R1-V5",
+      "volume_cm3": 193.489,
+      "mass_est_g": 144.0,
+      "bbox_mm": [
+        157.5,
+        173.5,
+        30.0
+      ],
+      "stl": "STL\\SCZ-BASE.stl",
+      "step": "STEP\\SCZ-BASE.step",
+      "qty": 1
+    },
+    {
+      "part_id": "SCZ-BED",
+      "material": "PLA",
+      "cad_version": "R1-V5",
+      "volume_cm3": 32.4,
+      "mass_est_g": 24.1,
+      "bbox_mm": [
+        90.0,
+        90.0,
+        4.0
+      ],
+      "stl": "STL\\SCZ-BED.stl",
+      "step": "STEP\\SCZ-BED.step",
+      "qty": 1
+    },
+    {
+      "part_id": "SCZ-PIN4-L18",
+      "material": "PETG",
+      "cad_version": "R1-V5",
+      "volume_cm3": 0.269,
+      "mass_est_g": 0.2,
+      "bbox_mm": [
+        7.0,
+        7.0,
+        18.0
+      ],
+      "stl": "STL\\SCZ-PIN4-L18.stl",
+      "step": "STEP\\SCZ-PIN4-L18.step",
+      "qty": 4
+    },
+    {
+      "part_id": "SCZ-PIN4-L16",
+      "material": "PETG",
+      "cad_version": "R1-V5",
+      "volume_cm3": 0.244,
+      "mass_est_g": 0.2,
+      "bbox_mm": [
+        7.0,
+        7.0,
+        16.0
+      ],
+      "stl": "STL\\SCZ-PIN4-L16.stl",
+      "step": "STEP\\SCZ-PIN4-L16.step",
+      "qty": 6
+    },
+    {
+      "part_id": "SCZ-CLIP4",
+      "material": "PETG",
+      "cad_version": "R1-V5",
+      "volume_cm3": 0.058,
+      "mass_est_g": 0.0,
+      "bbox_mm": [
+        7.58,
+        7.9,
+        1.8
+      ],
+      "stl": "STL\\SCZ-CLIP4.stl",
+      "step": "STEP\\SCZ-CLIP4.step",
+      "qty": 14
+    },
+    {
+      "part_id": "SCZ-PIN3-L24",
+      "material": "PETG",
+      "cad_version": "R1-V5",
+      "volume_cm3": 0.193,
+      "mass_est_g": 0.1,
+      "bbox_mm": [
+        5.5,
+        5.5,
+        24.0
+      ],
+      "stl": "STL\\SCZ-PIN3-L24.stl",
+      "step": "STEP\\SCZ-PIN3-L24.step",
+      "qty": 2
+    },
+    {
+      "part_id": "SCZ-PIN3-L13",
+      "material": "PETG",
+      "cad_version": "R1-V5",
+      "volume_cm3": 0.115,
+      "mass_est_g": 0.1,
+      "bbox_mm": [
+        5.5,
+        5.5,
+        13.0
+      ],
+      "stl": "STL\\SCZ-PIN3-L13.stl",
+      "step": "STEP\\SCZ-PIN3-L13.step",
+      "qty": 4
+    },
+    {
+      "part_id": "SCZ-PIN25-L10",
+      "material": "PETG",
+      "cad_version": "R1-V5",
+      "volume_cm3": 0.061,
+      "mass_est_g": 0.0,
+      "bbox_mm": [
+        4.5,
+        4.5,
+        10.0
+      ],
+      "stl": "STL\\SCZ-PIN25-L10.stl",
+      "step": "STEP\\SCZ-PIN25-L10.step",
+      "qty": 4
+    },
+    {
+      "part_id": "SCZ-CLIP3",
+      "material": "PETG",
+      "cad_version": "R1-V5",
+      "volume_cm3": 0.044,
+      "mass_est_g": 0.0,
+      "bbox_mm": [
+        6.81,
+        7.0,
+        1.6
+      ],
+      "stl": "STL\\SCZ-CLIP3.stl",
+      "step": "STEP\\SCZ-CLIP3.step",
+      "qty": 6
+    }
+  ]
+}

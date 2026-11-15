@@ -1,0 +1,272 @@
+[
+  {
+    "part_id": "SCZ-ARM",
+    "watertight": true,
+    "winding_consistent": true,
+    "n_bodies": 1,
+    "volume_mm3": 4669.5,
+    "brep_volume_mm3": 4669.0,
+    "vol_dev_pct": 0.01,
+    "bbox_mm": [
+      160.0,
+      3.0,
+      10.0
+    ],
+    "n_faces": 780
+  },
+  {
+    "part_id": "SCZ-BASE",
+    "watertight": true,
+    "winding_consistent": true,
+    "n_bodies": 1,
+    "volume_mm3": 193489.5,
+    "brep_volume_mm3": 193489.0,
+    "vol_dev_pct": 0.0,
+    "bbox_mm": [
+      157.5,
+      173.5,
+      30.0
+    ],
+    "n_faces": 3820
+  },
+  {
+    "part_id": "SCZ-BED",
+    "watertight": true,
+    "winding_consistent": true,
+    "n_bodies": 1,
+    "volume_mm3": 32400.0,
+    "brep_volume_mm3": 32400.0,
+    "vol_dev_pct": 0.0,
+    "bbox_mm": [
+      90.0,
+      90.0,
+      4.0
+    ],
+    "n_faces": 12
+  },
+  {
+    "part_id": "SCZ-CLIP3",
+    "watertight": true,
+    "winding_consistent": true,
+    "n_bodies": 1,
+    "volume_mm3": 44.2,
+    "brep_volume_mm3": 44.0,
+    "vol_dev_pct": 0.53,
+    "bbox_mm": [
+      6.8,
+      6.99,
+      1.6
+    ],
+    "n_faces": 384
+  },
+  {
+    "part_id": "SCZ-CLIP4",
+    "watertight": true,
+    "winding_consistent": true,
+    "n_bodies": 1,
+    "volume_mm3": 57.4,
+    "brep_volume_mm3": 58.0,
+    "vol_dev_pct": 1.01,
+    "bbox_mm": [
+      7.57,
+      7.9,
+      1.8
+    ],
+    "n_faces": 400
+  },
+  {
+    "part_id": "SCZ-PIN25-L10",
+    "watertight": true,
+    "winding_consistent": true,
+    "n_bodies": 1,
+    "volume_mm3": 60.8,
+    "brep_volume_mm3": 61.0,
+    "vol_dev_pct": 0.38,
+    "bbox_mm": [
+      4.5,
+      4.5,
+      10.0
+    ],
+    "n_faces": 1004
+  },
+  {
+    "part_id": "SCZ-PIN3-L13",
+    "watertight": true,
+    "winding_consistent": true,
+    "n_bodies": 1,
+    "volume_mm3": 114.6,
+    "brep_volume_mm3": 115.0,
+    "vol_dev_pct": 0.37,
+    "bbox_mm": [
+      5.5,
+      5.5,
+      13.0
+    ],
+    "n_faces": 1004
+  },
+  {
+    "part_id": "SCZ-PIN3-L20",
+    "watertight": true,
+    "winding_consistent": true,
+    "n_bodies": 1,
+    "volume_mm3": 164.0,
+    "brep_volume_mm3": 0,
+    "vol_dev_pct": null,
+    "bbox_mm": [
+      5.5,
+      5.5,
+      20.0
+    ],
+    "n_faces": 1004
+  },
+  {
+    "part_id": "SCZ-PIN3-L24",
+    "watertight": true,
+    "winding_consistent": true,
+    "n_bodies": 1,
+    "volume_mm3": 192.2,
+    "brep_volume_mm3": 193.0,
+    "vol_dev_pct": 0.41,
+    "bbox_mm": [
+      5.5,
+      5.5,
+      24.0
+    ],
+    "n_faces": 1004
+  },
+  {
+    "part_id": "SCZ-PIN3-L26",
+    "watertight": true,
+    "winding_consistent": true,
+    "n_bodies": 1,
+    "volume_mm3": 206.3,
+    "brep_volume_mm3": 0,
+    "vol_dev_pct": null,
+    "bbox_mm": [
+      5.5,
+      5.5,
+      26.0
+    ],
+    "n_faces": 1004
+  },
+  {
+    "part_id": "SCZ-PIN4-L16",
+    "watertight": true,
+    "winding_consistent": true,
+    "n_bodies": 1,
+    "volume_mm3": 243.1,
+    "brep_volume_mm3": 244.0,
+    "vol_dev_pct": 0.36,
+    "bbox_mm": [
+      7.0,
+      7.0,
+      16.0
+    ],
+    "n_faces": 1004
+  },
+  {
+    "part_id": "SCZ-PIN4-L18",
+    "watertight": true,
+    "winding_consistent": true,
+    "n_bodies": 1,
+    "volume_mm3": 268.2,
+    "brep_volume_mm3": 269.0,
+    "vol_dev_pct": 0.29,
+    "bbox_mm": [
+      7.0,
+      7.0,
+      18.0
+    ],
+    "n_faces": 1004
+  },
+  {
+    "part_id": "SCZ-PLAT",
+    "watertight": true,
+    "winding_consistent": true,
+    "n_bodies": 1,
+    "volume_mm3": 155985.1,
+    "brep_volume_mm3": 155985.0,
+    "vol_dev_pct": 0.0,
+    "bbox_mm": [
+      165.0,
+      152.0,
+      25.5
+    ],
+    "n_faces": 1148
+  },
+  {
+    "part_id": "SCZ-POST",
+    "watertight": true,
+    "winding_consistent": true,
+    "n_bodies": 1,
+    "volume_mm3": 979.0,
+    "brep_volume_mm3": 979.0,
+    "vol_dev_pct": 0.0,
+    "bbox_mm": [
+      10.0,
+      12.0,
+      14.0
+    ],
+    "n_faces": 1564
+  },
+  {
+    "part_id": "SCZ-SHB",
+    "watertight": true,
+    "winding_consistent": true,
+    "n_bodies": 1,
+    "volume_mm3": 3110.0,
+    "brep_volume_mm3": 3114.0,
+    "vol_dev_pct": 0.13,
+    "bbox_mm": [
+      14.0,
+      164.0,
+      8.0
+    ],
+    "n_faces": 2024
+  },
+  {
+    "part_id": "SCZ-SHT",
+    "watertight": true,
+    "winding_consistent": true,
+    "n_bodies": 1,
+    "volume_mm3": 2049.1,
+    "brep_volume_mm3": 2053.0,
+    "vol_dev_pct": 0.19,
+    "bbox_mm": [
+      4.0,
+      164.0,
+      4.0
+    ],
+    "n_faces": 1256
+  },
+  {
+    "part_id": "SCZ-SLB",
+    "watertight": true,
+    "winding_consistent": true,
+    "n_bodies": 1,
+    "volume_mm3": 1156.1,
+    "brep_volume_mm3": 1155.0,
+    "vol_dev_pct": 0.1,
+    "bbox_mm": [
+      14.0,
+      12.0,
+      22.0
+    ],
+    "n_faces": 2008
+  },
+  {
+    "part_id": "SCZ-SLT",
+    "watertight": true,
+    "winding_consistent": true,
+    "n_bodies": 1,
+    "volume_mm3": 1331.1,
+    "brep_volume_mm3": 1331.0,
+    "vol_dev_pct": 0.01,
+    "bbox_mm": [
+      14.0,
+      12.0,
+      18.0
+    ],
+    "n_faces": 1484
+  }
+]

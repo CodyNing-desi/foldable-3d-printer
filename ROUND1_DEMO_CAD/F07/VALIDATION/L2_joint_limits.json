@@ -1,0 +1,7 @@
+{
+  "range_ok": true,
+  "phase_order_ok": true,
+  "arm_max": 90.0,
+  "lift_max": 37.5,
+  "root_max": 90.0
+}

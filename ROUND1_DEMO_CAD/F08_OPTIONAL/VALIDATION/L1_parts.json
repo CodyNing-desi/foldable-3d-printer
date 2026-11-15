@@ -1,0 +1,137 @@
+[
+  {
+    "part_id": "F08-ARM",
+    "watertight": true,
+    "winding_consistent": true,
+    "n_bodies": 1,
+    "volume_mm3": 4549.2,
+    "brep_volume_mm3": 4549.0,
+    "vol_dev_pct": 0.0,
+    "bbox_mm": [
+      119.5,
+      16.0,
+      3.0
+    ],
+    "n_faces": 556
+  },
+  {
+    "part_id": "F08-CARD",
+    "watertight": true,
+    "winding_consistent": true,
+    "n_bodies": 1,
+    "volume_mm3": 103650.2,
+    "brep_volume_mm3": 103650.0,
+    "vol_dev_pct": 0.0,
+    "bbox_mm": [
+      200.0,
+      175.0,
+      3.0
+    ],
+    "n_faces": 1208
+  },
+  {
+    "part_id": "F08-CLIP3",
+    "watertight": true,
+    "winding_consistent": true,
+    "n_bodies": 1,
+    "volume_mm3": 44.2,
+    "brep_volume_mm3": 44.0,
+    "vol_dev_pct": 0.53,
+    "bbox_mm": [
+      6.8,
+      6.99,
+      1.6
+    ],
+    "n_faces": 384
+  },
+  {
+    "part_id": "F08-COL",
+    "watertight": true,
+    "winding_consistent": true,
+    "n_bodies": 1,
+    "volume_mm3": 5240.1,
+    "brep_volume_mm3": 5240.0,
+    "vol_dev_pct": 0.0,
+    "bbox_mm": [
+      20.03,
+      149.49,
+      3.0
+    ],
+    "n_faces": 1140
+  },
+  {
+    "part_id": "F08-FOOT",
+    "watertight": true,
+    "winding_consistent": true,
+    "n_bodies": 1,
+    "volume_mm3": 964.8,
+    "brep_volume_mm3": 965.0,
+    "vol_dev_pct": 0.02,
+    "bbox_mm": [
+      35.0,
+      10.0,
+      3.0
+    ],
+    "n_faces": 648
+  },
+  {
+    "part_id": "F08-PIN3-L10",
+    "watertight": true,
+    "winding_consistent": true,
+    "n_bodies": 1,
+    "volume_mm3": 93.4,
+    "brep_volume_mm3": 94.0,
+    "vol_dev_pct": 0.63,
+    "bbox_mm": [
+      5.5,
+      5.5,
+      10.0
+    ],
+    "n_faces": 1004
+  },
+  {
+    "part_id": "F08-PIN3-L12",
+    "watertight": true,
+    "winding_consistent": true,
+    "n_bodies": 1,
+    "volume_mm3": 107.5,
+    "brep_volume_mm3": 108.0,
+    "vol_dev_pct": 0.45,
+    "bbox_mm": [
+      5.5,
+      5.5,
+      12.0
+    ],
+    "n_faces": 1004
+  },
+  {
+    "part_id": "F08-PIN3-L14",
+    "watertight": true,
+    "winding_consistent": true,
+    "n_bodies": 1,
+    "volume_mm3": 121.6,
+    "brep_volume_mm3": 122.0,
+    "vol_dev_pct": 0.3,
+    "bbox_mm": [
+      5.5,
+      5.5,
+      14.0
+    ],
+    "n_faces": 1004
+  },
+  {
+    "part_id": "F08-SLIDER",
+    "watertight": true,
+    "winding_consistent": true,
+    "n_bodies": 1,
+    "volume_mm3": 493.4,
+    "brep_volume_mm3": 493.0,
+    "vol_dev_pct": 0.07,
+    "bbox_mm": [
+      12.0,
+      12.0,
+      12.0
+    ],
+    "n_faces": 1020
+  }
+]

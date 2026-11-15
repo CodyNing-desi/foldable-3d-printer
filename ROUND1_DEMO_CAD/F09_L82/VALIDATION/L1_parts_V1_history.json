@@ -1,0 +1,240 @@
+[
+  {
+    "part_id": "F09-ARM",
+    "watertight": true,
+    "winding_consistent": true,
+    "volume_mm3": 41035.3,
+    "brep_volume_mm3": 41035.0,
+    "vol_dev_pct": 0.0,
+    "bbox_mm": [
+      119.5,
+      26.0,
+      39.5
+    ],
+    "n_faces": 812
+  },
+  {
+    "part_id": "F09-BASE",
+    "watertight": true,
+    "winding_consistent": true,
+    "volume_mm3": 268384.3,
+    "brep_volume_mm3": 268382.0,
+    "vol_dev_pct": 0.0,
+    "bbox_mm": [
+      157.5,
+      173.5,
+      24.0
+    ],
+    "n_faces": 6032
+  },
+  {
+    "part_id": "F09-BED",
+    "watertight": true,
+    "winding_consistent": true,
+    "volume_mm3": 32400.0,
+    "brep_volume_mm3": 32400.0,
+    "vol_dev_pct": 0.0,
+    "bbox_mm": [
+      90.0,
+      90.0,
+      4.0
+    ],
+    "n_faces": 12
+  },
+  {
+    "part_id": "F09-BRG",
+    "watertight": true,
+    "winding_consistent": true,
+    "volume_mm3": 24812.2,
+    "brep_volume_mm3": 24812.0,
+    "vol_dev_pct": 0.0,
+    "bbox_mm": [
+      15.0,
+      130.0,
+      15.0
+    ],
+    "n_faces": 564
+  },
+  {
+    "part_id": "F09-CAR",
+    "watertight": true,
+    "winding_consistent": true,
+    "volume_mm3": 6136.8,
+    "brep_volume_mm3": 6136.0,
+    "vol_dev_pct": 0.01,
+    "bbox_mm": [
+      34.0,
+      39.0,
+      14.0
+    ],
+    "n_faces": 5036
+  },
+  {
+    "part_id": "F09-CLIP3",
+    "watertight": true,
+    "winding_consistent": true,
+    "volume_mm3": 44.2,
+    "brep_volume_mm3": 44.0,
+    "vol_dev_pct": 0.53,
+    "bbox_mm": [
+      6.8,
+      6.99,
+      1.6
+    ],
+    "n_faces": 384
+  },
+  {
+    "part_id": "F09-CLIP5",
+    "watertight": true,
+    "winding_consistent": true,
+    "volume_mm3": 73.0,
+    "brep_volume_mm3": 73.0,
+    "vol_dev_pct": 0.05,
+    "bbox_mm": [
+      8.41,
+      8.9,
+      2.0
+    ],
+    "n_faces": 408
+  },
+  {
+    "part_id": "F09-COL",
+    "watertight": true,
+    "winding_consistent": true,
+    "volume_mm3": 31248.4,
+    "brep_volume_mm3": 31249.0,
+    "vol_dev_pct": 0.0,
+    "bbox_mm": [
+      35.5,
+      28.4,
+      175.5
+    ],
+    "n_faces": 2996
+  },
+  {
+    "part_id": "F09-PIN3-L18",
+    "watertight": true,
+    "winding_consistent": true,
+    "volume_mm3": 149.9,
+    "brep_volume_mm3": 150.0,
+    "vol_dev_pct": 0.09,
+    "bbox_mm": [
+      5.5,
+      5.5,
+      18.0
+    ],
+    "n_faces": 1004
+  },
+  {
+    "part_id": "F09-PIN3-L20",
+    "watertight": true,
+    "winding_consistent": true,
+    "volume_mm3": 164.0,
+    "brep_volume_mm3": 164.0,
+    "vol_dev_pct": 0.02,
+    "bbox_mm": [
+      5.5,
+      5.5,
+      20.0
+    ],
+    "n_faces": 1004
+  },
+  {
+    "part_id": "F09-PIN3-L22",
+    "watertight": true,
+    "winding_consistent": true,
+    "volume_mm3": 178.1,
+    "brep_volume_mm3": 178.0,
+    "vol_dev_pct": 0.05,
+    "bbox_mm": [
+      5.5,
+      5.5,
+      22.0
+    ],
+    "n_faces": 1004
+  },
+  {
+    "part_id": "F09-PIN3-L26",
+    "watertight": true,
+    "winding_consistent": true,
+    "volume_mm3": 206.3,
+    "brep_volume_mm3": 207.0,
+    "vol_dev_pct": 0.33,
+    "bbox_mm": [
+      5.5,
+      5.5,
+      26.0
+    ],
+    "n_faces": 1004
+  },
+  {
+    "part_id": "F09-PIN3-L34",
+    "watertight": true,
+    "winding_consistent": true,
+    "volume_mm3": 262.8,
+    "brep_volume_mm3": 263.0,
+    "vol_dev_pct": 0.09,
+    "bbox_mm": [
+      5.5,
+      5.5,
+      34.0
+    ],
+    "n_faces": 1004
+  },
+  {
+    "part_id": "F09-PIN5-L34",
+    "watertight": true,
+    "winding_consistent": true,
+    "volume_mm3": 721.5,
+    "brep_volume_mm3": 723.0,
+    "vol_dev_pct": 0.21,
+    "bbox_mm": [
+      8.0,
+      8.0,
+      34.0
+    ],
+    "n_faces": 1004
+  },
+  {
+    "part_id": "F09-SYNC",
+    "watertight": true,
+    "winding_consistent": true,
+    "volume_mm3": 5366.8,
+    "brep_volume_mm3": 5366.0,
+    "vol_dev_pct": 0.02,
+    "bbox_mm": [
+      6.5,
+      116.0,
+      8.0
+    ],
+    "n_faces": 1244
+  },
+  {
+    "part_id": "F09-TWR",
+    "watertight": true,
+    "winding_consistent": true,
+    "volume_mm3": 6378.2,
+    "brep_volume_mm3": 6380.0,
+    "vol_dev_pct": 0.03,
+    "bbox_mm": [
+      20.0,
+      36.0,
+      59.0
+    ],
+    "n_faces": 2344
+  },
+  {
+    "part_id": "F09-XBAR",
+    "watertight": true,
+    "winding_consistent": true,
+    "volume_mm3": 23272.9,
+    "brep_volume_mm3": 23273.0,
+    "vol_dev_pct": 0.0,
+    "bbox_mm": [
+      15.0,
+      166.0,
+      23.0
+    ],
+    "n_faces": 556
+  }
+]
