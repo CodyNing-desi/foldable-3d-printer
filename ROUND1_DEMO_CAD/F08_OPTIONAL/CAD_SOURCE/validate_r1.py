@@ -17,7 +17,8 @@ import trimesh
 
 import kinematics_r1 as K
 
-ROOT = Path(__file__).resolve().parent.parent.parent / "ROUND1_DEMO_CAD"
+import common_r1 as C
+ROOT = C.deliverable_root()
 CAND_DIRS = {"F09_L82": "F09_L82", "F07": "F07", "SCZ": "SCZ", "F08_OPTIONAL": "F08_OPTIONAL"}
 PREFIX = {"F09_L82": "F09", "F07": "F07", "SCZ": "SCZ", "F08_OPTIONAL": "F08"}
 
@@ -26,7 +27,7 @@ ALLOW_CONTACT = {
     "F09_L82": {
         ("CAR", "TWR"), ("CAR", "COL"), ("COL", "CAR"), ("COL", "XBAR"), ("COL", "BRG"),
         ("XBAR", "COL"), ("BRG", "COL"), ("SYNC", "CAR"), ("CAR", "SYNC"),
-        ("TWR", "BASE"), ("COL", "BASE"), ("ARM", "COL"), ("BED", "BASE"),
+        ("TWR", "BASE"), ("COL", "BASE"), ("ARM", "BRG"), ("BED", "BASE"),
         ("CAR", "BASE"), ("SYNC", "BASE"), ("XBAR", "BASE"), ("BRG", "BASE"),
     },
     "F07": {
@@ -347,6 +348,18 @@ def main():
         print(f"== {cand} L3 ==")
         l3 = l3_manufacturability(cand)
         (out / "L3_manufacturability.json").write_text(json.dumps(l3, ensure_ascii=False, indent=2), encoding="utf-8")
+        print(f"== {cand} L2b assembly closure ==")
+        import joints_r1 as JJ
+        clo = JJ.closure_check(cand, n=args.steps)
+        pins = JJ.pin_interface_audit(cand)
+        try:
+            holes = JJ.cad_hole_audit(cand)
+        except Exception as e:
+            holes = dict(error=str(e), passed=False)
+        l2b = dict(closure=clo, pin_interfaces=pins, cad_hole_audit=holes)
+        (out / "L2b_closure.json").write_text(json.dumps(l2b, ensure_ascii=False, indent=2), encoding="utf-8")
+        print(f"  joints={clo['n_joints']} closure_fails={len(clo['fails'])} "
+              f"hole_missing={len(holes.get('missing', []))} pin_ok={all(p['ok'] for p in pins)}")
     print("DONE")
 
 

@@ -1,11 +1,11 @@
 {
-  "cad_version": "R1-V5",
+  "cad_version": "R1-V6",
   "scale": 0.5,
   "parts": [
     {
       "part_id": "CP-PIN5-LADDER",
       "material": "PLA",
-      "cad_version": "R1-V5",
+      "cad_version": "R1-V6",
       "volume_cm3": 12.06,
       "mass_est_g": 9.0,
       "bbox_mm": [
@@ -19,7 +19,7 @@
     {
       "part_id": "CP-SLIDER-BASE",
       "material": "PLA",
-      "cad_version": "R1-V5",
+      "cad_version": "R1-V6",
       "volume_cm3": 16.371,
       "mass_est_g": 12.2,
       "bbox_mm": [
@@ -33,7 +33,7 @@
     {
       "part_id": "CP-SLIDER-TONGUES",
       "material": "PETG",
-      "cad_version": "R1-V5",
+      "cad_version": "R1-V6",
       "volume_cm3": 6.176,
       "mass_est_g": 4.7,
       "bbox_mm": [
@@ -47,7 +47,7 @@
     {
       "part_id": "CP-CLIP-BOARD",
       "material": "PLA",
-      "cad_version": "R1-V5",
+      "cad_version": "R1-V6",
       "volume_cm3": 11.908,
       "mass_est_g": 8.9,
       "bbox_mm": [
@@ -61,7 +61,7 @@
     {
       "part_id": "CP-SCZ-HOLES",
       "material": "PLA",
-      "cad_version": "R1-V5",
+      "cad_version": "R1-V6",
       "volume_cm3": 10.539,
       "mass_est_g": 7.8,
       "bbox_mm": [
@@ -75,7 +75,7 @@
     {
       "part_id": "CP-HINGE-CLEVIS",
       "material": "PLA",
-      "cad_version": "R1-V5",
+      "cad_version": "R1-V6",
       "volume_cm3": 13.217,
       "mass_est_g": 9.8,
       "bbox_mm": [
@@ -89,7 +89,7 @@
     {
       "part_id": "CP-HINGE-TONGUE",
       "material": "PETG",
-      "cad_version": "R1-V5",
+      "cad_version": "R1-V6",
       "volume_cm3": 2.609,
       "mass_est_g": 2.0,
       "bbox_mm": [
@@ -103,7 +103,7 @@
     {
       "part_id": "CP-PIN5",
       "material": "PETG",
-      "cad_version": "R1-V5",
+      "cad_version": "R1-V6",
       "volume_cm3": 0.369,
       "mass_est_g": 0.3,
       "bbox_mm": [
@@ -118,7 +118,7 @@
     {
       "part_id": "CP-PIN4",
       "material": "PETG",
-      "cad_version": "R1-V5",
+      "cad_version": "R1-V6",
       "volume_cm3": 0.218,
       "mass_est_g": 0.2,
       "bbox_mm": [
@@ -133,7 +133,7 @@
     {
       "part_id": "CP-CLIP5",
       "material": "PETG",
-      "cad_version": "R1-V5",
+      "cad_version": "R1-V6",
       "volume_cm3": 0.073,
       "mass_est_g": 0.1,
       "bbox_mm": [
@@ -148,7 +148,7 @@
     {
       "part_id": "CP-CLIP4",
       "material": "PETG",
-      "cad_version": "R1-V5",
+      "cad_version": "R1-V6",
       "volume_cm3": 0.058,
       "mass_est_g": 0.0,
       "bbox_mm": [

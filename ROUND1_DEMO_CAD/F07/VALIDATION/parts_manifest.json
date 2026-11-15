@@ -1,11 +1,11 @@
 {
-  "cad_version": "R1-V5",
+  "cad_version": "R1-V6",
   "scale": 0.5,
   "parts": [
     {
       "part_id": "F07-BASE",
       "material": "PLA",
-      "cad_version": "R1-V5",
+      "cad_version": "R1-V6",
       "volume_cm3": 274.516,
       "mass_est_g": 204.2,
       "bbox_mm": [
@@ -20,7 +20,7 @@
     {
       "part_id": "F07-BED",
       "material": "PLA",
-      "cad_version": "R1-V5",
+      "cad_version": "R1-V6",
       "volume_cm3": 32.4,
       "mass_est_g": 24.1,
       "bbox_mm": [
@@ -35,7 +35,7 @@
     {
       "part_id": "F07-TWR",
       "material": "PLA",
-      "cad_version": "R1-V5",
+      "cad_version": "R1-V6",
       "volume_cm3": 5.246,
       "mass_est_g": 3.9,
       "bbox_mm": [
@@ -50,7 +50,7 @@
     {
       "part_id": "F07-CAR",
       "material": "PLA",
-      "cad_version": "R1-V5",
+      "cad_version": "R1-V6",
       "volume_cm3": 6.984,
       "mass_est_g": 5.2,
       "bbox_mm": [
@@ -65,9 +65,9 @@
     {
       "part_id": "F07-COL",
       "material": "PLA",
-      "cad_version": "R1-V5",
-      "volume_cm3": 31.225,
-      "mass_est_g": 23.2,
+      "cad_version": "R1-V6",
+      "volume_cm3": 31.27,
+      "mass_est_g": 23.3,
       "bbox_mm": [
         35.5,
         28.4,
@@ -80,7 +80,7 @@
     {
       "part_id": "F07-ARM",
       "material": "PLA",
-      "cad_version": "R1-V5",
+      "cad_version": "R1-V6",
       "volume_cm3": 41.035,
       "mass_est_g": 30.5,
       "bbox_mm": [
@@ -95,7 +95,7 @@
     {
       "part_id": "F07-PIN5-L34",
       "material": "PETG",
-      "cad_version": "R1-V5",
+      "cad_version": "R1-V6",
       "volume_cm3": 0.723,
       "mass_est_g": 0.6,
       "bbox_mm": [
@@ -110,7 +110,7 @@
     {
       "part_id": "F07-PIN3-L34",
       "material": "PETG",
-      "cad_version": "R1-V5",
+      "cad_version": "R1-V6",
       "volume_cm3": 0.263,
       "mass_est_g": 0.2,
       "bbox_mm": [
@@ -125,7 +125,7 @@
     {
       "part_id": "F07-PIN3-L26",
       "material": "PETG",
-      "cad_version": "R1-V5",
+      "cad_version": "R1-V6",
       "volume_cm3": 0.207,
       "mass_est_g": 0.2,
       "bbox_mm": [
@@ -140,7 +140,7 @@
     {
       "part_id": "F07-PIN3-L14",
       "material": "PETG",
-      "cad_version": "R1-V5",
+      "cad_version": "R1-V6",
       "volume_cm3": 0.122,
       "mass_est_g": 0.1,
       "bbox_mm": [
@@ -155,7 +155,7 @@
     {
       "part_id": "F07-CLIP5",
       "material": "PETG",
-      "cad_version": "R1-V5",
+      "cad_version": "R1-V6",
       "volume_cm3": 0.073,
       "mass_est_g": 0.1,
       "bbox_mm": [
@@ -170,7 +170,7 @@
     {
       "part_id": "F07-CLIP3",
       "material": "PETG",
-      "cad_version": "R1-V5",
+      "cad_version": "R1-V6",
       "volume_cm3": 0.044,
       "mass_est_g": 0.0,
       "bbox_mm": [

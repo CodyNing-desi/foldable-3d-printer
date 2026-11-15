@@ -75,10 +75,14 @@ def phase_values(cand: str, t: float) -> dict:
         lift_max, shift_max = LIFT[cand], 0.0
     arm = min(1.0, t / 0.20) * 90.0
     lift = lift_max * ease((t - 0.20) / 0.20)
-    shift = shift_max * ease((t - 0.28) / 0.17)
-    root = min(1.0, max(0.0, (t - 0.45) / 0.50)) * 90.0
     if cand == "F08_OPTIONAL":
-        root = -root  # rearward fold
+        # V6: card L-slot requires lift THEN shift sequentially (no overlap),
+        # otherwise the root pin moves diagonally and binds in the L-slot.
+        shift = shift_max * ease((t - 0.40) / 0.15)
+        root = -min(1.0, max(0.0, (t - 0.55) / 0.40)) * 90.0
+    else:
+        shift = shift_max * ease((t - 0.28) / 0.17)
+        root = min(1.0, max(0.0, (t - 0.45) / 0.50)) * 90.0
     return dict(arm=arm, lift=lift, shift=shift, root=root)
 
 
@@ -127,7 +131,7 @@ def scz_placements(H: float) -> dict:
         out[f"SLT_{side}"] = ((sx, yB, hz), 0.0)
         out[f"POST_{side}"] = ((SCZ["fix_x"], yB, 0.0), 0.0)
     out["SHB"] = ((sx, 0, 4.0), 0.0)
-    out["SHT"] = ((SCZ["fix_x"], 0, hz + 9.0), 0.0)
+    out["SHT"] = ((sx, 0, hz + 9.0), 0.0)   # V6: top shaft follows top sliders (sx), not fix_x
     out["PLAT"] = ((SCZ["fix_x"], 0, hz), 0.0)
     return out
 

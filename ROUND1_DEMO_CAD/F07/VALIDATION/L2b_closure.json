@@ -1,0 +1,66 @@
+{
+  "closure": {
+    "steps": 2001,
+    "n_joints": 5,
+    "stats": {
+      "root_0": {
+        "max_point": 0.0,
+        "max_radial": 0.0,
+        "max_axis_deg": 0.0,
+        "max_rigid": 0.0,
+        "max_slide_dev": 0.0
+      },
+      "lift_0": {
+        "max_point": 0.0,
+        "max_radial": 0.0,
+        "max_axis_deg": 0.0,
+        "max_rigid": 0.0,
+        "max_slide_dev": 0.0
+      },
+      "arm": {
+        "max_point": 4.0194366942304644e-14,
+        "max_radial": 4.0194366942304644e-14,
+        "max_axis_deg": 0.0,
+        "max_rigid": 0.0,
+        "max_slide_dev": 0.0
+      },
+      "twr0_base": {
+        "max_point": 0.0,
+        "max_radial": 0.0,
+        "max_axis_deg": 0.0,
+        "max_rigid": 0.0,
+        "max_slide_dev": 0.0
+      },
+      "bed_base": {
+        "max_point": 0.0,
+        "max_radial": 0.0,
+        "max_axis_deg": 0.0,
+        "max_rigid": 0.0,
+        "max_slide_dev": 0.0
+      }
+    },
+    "fails": [],
+    "passed": true
+  },
+  "pin_interfaces": [
+    {
+      "joint": "root_0",
+      "pin_d": 5.0,
+      "hole_d": 5.3,
+      "diametral_clearance": 0.3,
+      "ok": true
+    },
+    {
+      "joint": "arm",
+      "pin_d": 5.0,
+      "hole_d": 5.3,
+      "diametral_clearance": 0.3,
+      "ok": true
+    }
+  ],
+  "cad_hole_audit": {
+    "n_checks": 4,
+    "missing": [],
+    "passed": true
+  }
+}

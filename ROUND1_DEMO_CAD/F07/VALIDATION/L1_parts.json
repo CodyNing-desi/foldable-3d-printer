@@ -94,8 +94,8 @@
     "watertight": true,
     "winding_consistent": true,
     "n_bodies": 1,
-    "volume_mm3": 31224.3,
-    "brep_volume_mm3": 31225.0,
+    "volume_mm3": 31269.3,
+    "brep_volume_mm3": 31270.0,
     "vol_dev_pct": 0.0,
     "bbox_mm": [
       35.5,
@@ -116,21 +116,6 @@
       5.5,
       5.5,
       14.0
-    ],
-    "n_faces": 1004
-  },
-  {
-    "part_id": "F07-PIN3-L20",
-    "watertight": true,
-    "winding_consistent": true,
-    "n_bodies": 1,
-    "volume_mm3": 164.0,
-    "brep_volume_mm3": 0,
-    "vol_dev_pct": null,
-    "bbox_mm": [
-      5.5,
-      5.5,
-      20.0
     ],
     "n_faces": 1004
   },

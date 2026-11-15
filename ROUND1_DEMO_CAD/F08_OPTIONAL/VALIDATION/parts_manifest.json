@@ -1,11 +1,11 @@
 {
-  "cad_version": "R1-V5",
+  "cad_version": "R1-V6",
   "scale": 0.5,
   "parts": [
     {
       "part_id": "F08-CARD",
       "material": "PLA",
-      "cad_version": "R1-V5",
+      "cad_version": "R1-V6",
       "volume_cm3": 103.65,
       "mass_est_g": 77.1,
       "bbox_mm": [
@@ -19,7 +19,7 @@
     {
       "part_id": "F08-SLIDER",
       "material": "PETG",
-      "cad_version": "R1-V5",
+      "cad_version": "R1-V6",
       "volume_cm3": 0.493,
       "mass_est_g": 0.4,
       "bbox_mm": [
@@ -33,7 +33,7 @@
     {
       "part_id": "F08-COL",
       "material": "PLA",
-      "cad_version": "R1-V5",
+      "cad_version": "R1-V6",
       "volume_cm3": 5.24,
       "mass_est_g": 3.9,
       "bbox_mm": [
@@ -47,7 +47,7 @@
     {
       "part_id": "F08-ARM",
       "material": "PLA",
-      "cad_version": "R1-V5",
+      "cad_version": "R1-V6",
       "volume_cm3": 4.549,
       "mass_est_g": 3.4,
       "bbox_mm": [
@@ -61,7 +61,7 @@
     {
       "part_id": "F08-FOOT",
       "material": "PETG",
-      "cad_version": "R1-V5",
+      "cad_version": "R1-V6",
       "volume_cm3": 0.965,
       "mass_est_g": 0.7,
       "bbox_mm": [
@@ -75,7 +75,7 @@
     {
       "part_id": "F08-PIN3-L14",
       "material": "PETG",
-      "cad_version": "R1-V5",
+      "cad_version": "R1-V6",
       "volume_cm3": 0.122,
       "mass_est_g": 0.1,
       "bbox_mm": [
@@ -90,7 +90,7 @@
     {
       "part_id": "F08-PIN3-L12",
       "material": "PETG",
-      "cad_version": "R1-V5",
+      "cad_version": "R1-V6",
       "volume_cm3": 0.108,
       "mass_est_g": 0.1,
       "bbox_mm": [
@@ -105,7 +105,7 @@
     {
       "part_id": "F08-PIN3-L10",
       "material": "PETG",
-      "cad_version": "R1-V5",
+      "cad_version": "R1-V6",
       "volume_cm3": 0.094,
       "mass_est_g": 0.1,
       "bbox_mm": [
@@ -120,7 +120,7 @@
     {
       "part_id": "F08-CLIP3",
       "material": "PETG",
-      "cad_version": "R1-V5",
+      "cad_version": "R1-V6",
       "volume_cm3": 0.044,
       "mass_est_g": 0.0,
       "bbox_mm": [

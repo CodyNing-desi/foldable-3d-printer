@@ -85,8 +85,10 @@ def build_carriage() -> Part:
     return p
 
 
-def build_column() -> Part:
-    """Local origin = root pivot. Tongue + tube + arm clevis + frame holes."""
+def build_column(with_arm_clevis: bool = True) -> Part:
+    """Local origin = root pivot. Tongue + tube + frame holes.
+    V6: F07 (single column) carries the arm clevis directly; F09 columns do NOT
+    (the central X-arm hinges to the bridge beam's central clevis instead)."""
     # tongue (20 thick) with rounded root
     t = Rot(90, 0, 0) * Cylinder(6, 20)
     t = t + Pos(0, 0, 5.5) * Box(12, 20, 11)
@@ -97,24 +99,24 @@ def build_column() -> Part:
     tube = Pos(0, 0, (11 + 169.5) / 2) * Box(15, 20, 158.5)
     tube = tube - Pos(0, 0, (11 + 169.5) / 2) * Box(9, 14, 158.52)
     p = p + tube
-    # arm tongue swing relief in tube front wall (quadrant x<7.5, z>137)
-    p = p - Pos(4.5, 0, 143.25) * Box(6.02, 20.8, 12.5)
-    # arm clevis (ears outboard of tube faces), pivot (16, 0, 137)
-    for sy in (-1, 1):
-        p = p + Pos(16, sy * 12.2, 136) * Box(24, 4, 15)
-        # bridge tying ear to tube wall (x4..8 stays behind arm bar swing at x>=8)
-        p = p + Pos(6, sy * 12, 129.75) * Box(4, 4.4, 2.5)
-    p = p - Pos(16, 0, 137) * y_hole(5.0, 32, CLR_ROT)
-    for sy in (-1, 1):
-        p = p - Pos(13, sy * 12.2, 140.5) * Box(6.02, 4.02, 6.02)  # tongue swing relief
-    p = p - Pos(24, 0, 137) * y_hole(3.0, 32, CLR_SLD)   # arm lock 0 deg
-    p = p - Pos(16, 0, 129) * y_hole(3.0, 32, CLR_SLD)   # arm lock 90 deg
+    if with_arm_clevis:
+        # arm tongue swing relief in tube front wall (quadrant x<7.5, z>137)
+        p = p - Pos(4.5, 0, 143.25) * Box(6.02, 20.8, 12.5)
+        # arm clevis (ears outboard of tube faces), pivot (16, 0, 137)
+        for sy in (-1, 1):
+            p = p + Pos(16, sy * 12.2, 136) * Box(24, 4, 15)
+            p = p + Pos(6, sy * 12, 129.75) * Box(4, 4.4, 2.5)
+        p = p - Pos(16, 0, 137) * y_hole(5.0, 32, CLR_ROT)
+        for sy in (-1, 1):
+            p = p - Pos(13, sy * 12.2, 140.5) * Box(6.02, 4.02, 6.02)
+        p = p - Pos(24, 0, 137) * y_hole(3.0, 32, CLR_SLD)   # arm lock 0 deg
+        p = p - Pos(16, 0, 129) * y_hole(3.0, 32, CLR_SLD)   # arm lock 90 deg
     # crossbar tenon pin holes (X) at z162
     p = p - Pos(0, 0, 162) * x_hole(3.0, 18, CLR_SLD)
-    # bridge pin holes (Y, both walls) at z117.5 + tenon notches in inner walls
+    # bridge tenon notches + pin holes (Y, both walls) at z132 (V6 bridge height)
     for sy in (-1, 1):
-        p = p - Pos(0, sy * 8.5, 117.5) * Box(8.8, 3.4, 15.2)
-        p = p - Pos(0, sy * 8.5, 117.5) * y_hole(3.0, 6.5, CLR_SLD)
+        p = p - Pos(0, sy * 8.5, 132) * Box(8.8, 3.4, 15.2)
+        p = p - Pos(0, sy * 8.5, 132) * y_hole(3.0, 6.5, CLR_SLD)
     p.label = "COL"
     return p
 
@@ -156,12 +158,25 @@ def build_xbar() -> Part:
 
 
 def build_bridge() -> Part:
-    """Local origin (20,0,13): mid beam + end tenons; arm swing slot through web."""
-    p = Pos(0, 0, 117.5) * Box(15, 110, 15)
+    """Local origin (20,0,13) = root frame. V6: mid beam carries the CENTRAL X-arm
+    clevis at (16,0,137) so the y=0 arm physically hinges to the gantry.
+    Body world z142.5..157.5; end tenons into column inner walls; full-height
+    central notch clears the arm tongue/bar swing."""
+    p = Pos(0, 0, 137) * Box(15, 110, 15)                  # body z129.5..144.5
+    # central tongue/bar swing notch (full height, front-center)
+    p = p - Pos(9, 0, 137) * Box(14.02, 20.8, 15.02)       # x2..16, y+-10.4
+    # central arm clevis ears (pivot 16,0,137), tied to body at x4..7.5
     for sy in (-1, 1):
-        p = p + Pos(0, sy * 61.5, 117.5) * Box(8.6, 13, 15)
-        p = p - Pos(0, sy * 61.5, 117.5) * y_hole(3.0, 16, CLR_SLD)
-    p = p - Pos(7.5, 0, 117.5) * Box(17.02, 18.02, 17.02)  # arm bar swing slot
+        p = p + Pos(16, sy * 12.2, 137) * Box(24, 4, 15)   # x4..28
+    p = p - Pos(16, 0, 137) * y_hole(5.0, 32, CLR_ROT)     # arm pivot
+    for sy in (-1, 1):
+        p = p - Pos(13, sy * 12.2, 140.5) * Box(6.02, 4.02, 6.02)  # tongue relief
+    p = p - Pos(24, 0, 137) * y_hole(3.0, 32, CLR_SLD)     # arm lock 0 deg
+    p = p - Pos(16, 0, 129) * y_hole(3.0, 32, CLR_SLD)     # arm lock 90 deg
+    # end tenons into column inner walls + pin holes at z132
+    for sy in (-1, 1):
+        p = p + Pos(0, sy * 61.5, 137) * Box(8.6, 13, 15)
+        p = p - Pos(0, sy * 61.5, 132) * y_hole(3.0, 16, CLR_SLD)
     p.label = "BRG"
     return p
 
@@ -187,7 +202,8 @@ def gantry_pins(cand: str) -> list[tuple[str, Part, str, int]]:
 
 def build_gantry_parts(cand: str) -> dict[str, Part]:
     parts = {"BASE": build_base(), "BED": build_bed(), "TWR": build_tower(),
-             "CAR": build_carriage(), "COL": build_column(), "ARM": build_arm()}
+             "CAR": build_carriage(), "COL": build_column(with_arm_clevis=(cand == "F07")),
+             "ARM": build_arm()}
     if cand == "F09_L82":
         parts.update(SYNC=build_sync(), XBAR=build_xbar(), BRG=build_bridge())
     return parts

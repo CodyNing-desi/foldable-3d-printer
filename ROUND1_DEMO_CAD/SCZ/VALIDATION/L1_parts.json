@@ -105,21 +105,6 @@
     "n_faces": 1004
   },
   {
-    "part_id": "SCZ-PIN3-L20",
-    "watertight": true,
-    "winding_consistent": true,
-    "n_bodies": 1,
-    "volume_mm3": 164.0,
-    "brep_volume_mm3": 0,
-    "vol_dev_pct": null,
-    "bbox_mm": [
-      5.5,
-      5.5,
-      20.0
-    ],
-    "n_faces": 1004
-  },
-  {
     "part_id": "SCZ-PIN3-L24",
     "watertight": true,
     "winding_consistent": true,
@@ -131,21 +116,6 @@
       5.5,
       5.5,
       24.0
-    ],
-    "n_faces": 1004
-  },
-  {
-    "part_id": "SCZ-PIN3-L26",
-    "watertight": true,
-    "winding_consistent": true,
-    "n_bodies": 1,
-    "volume_mm3": 206.3,
-    "brep_volume_mm3": 0,
-    "vol_dev_pct": null,
-    "bbox_mm": [
-      5.5,
-      5.5,
-      26.0
     ],
     "n_faces": 1004
   },

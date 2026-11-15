@@ -13,7 +13,7 @@ import build_gantry as G
 import build_scz as Z
 import build_f08 as E
 
-ROOT = Path(__file__).resolve().parent.parent.parent / "ROUND1_DEMO_CAD"
+ROOT = C.deliverable_root()
 
 CAND_DIRS = {"F09_L82": "F09_L82", "F07": "F07", "SCZ": "SCZ", "F08_OPTIONAL": "F08_OPTIONAL"}
 PREFIX = {"F09_L82": "F09", "F07": "F07", "SCZ": "SCZ", "F08_OPTIONAL": "F08"}

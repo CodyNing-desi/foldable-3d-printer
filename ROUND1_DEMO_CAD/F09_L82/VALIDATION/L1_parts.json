@@ -49,15 +49,15 @@
     "watertight": true,
     "winding_consistent": true,
     "n_bodies": 1,
-    "volume_mm3": 25540.9,
-    "brep_volume_mm3": 25540.0,
+    "volume_mm3": 28075.4,
+    "brep_volume_mm3": 28075.0,
     "vol_dev_pct": 0.0,
     "bbox_mm": [
-      15.0,
+      35.5,
       136.0,
       15.0
     ],
-    "n_faces": 564
+    "n_faces": 1756
   },
   {
     "part_id": "F09-CAR",
@@ -109,15 +109,15 @@
     "watertight": true,
     "winding_consistent": true,
     "n_bodies": 1,
-    "volume_mm3": 31224.3,
-    "brep_volume_mm3": 31225.0,
+    "volume_mm3": 29869.4,
+    "brep_volume_mm3": 29870.0,
     "vol_dev_pct": 0.0,
     "bbox_mm": [
-      35.5,
-      28.4,
+      15.0,
+      20.0,
       175.5
     ],
-    "n_faces": 2588
+    "n_faces": 1232
   },
   {
     "part_id": "F09-PIN3-L14",
@@ -146,21 +146,6 @@
       5.5,
       5.5,
       18.0
-    ],
-    "n_faces": 1004
-  },
-  {
-    "part_id": "F09-PIN3-L20",
-    "watertight": true,
-    "winding_consistent": true,
-    "n_bodies": 1,
-    "volume_mm3": 164.0,
-    "brep_volume_mm3": 0,
-    "vol_dev_pct": null,
-    "bbox_mm": [
-      5.5,
-      5.5,
-      20.0
     ],
     "n_faces": 1004
   },

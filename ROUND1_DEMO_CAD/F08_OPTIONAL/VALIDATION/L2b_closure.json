@@ -1,0 +1,59 @@
+{
+  "closure": {
+    "steps": 2001,
+    "n_joints": 4,
+    "stats": {
+      "root": {
+        "max_point": 1.5,
+        "max_radial": 0.0,
+        "max_axis_deg": 0.0,
+        "max_rigid": 0.0,
+        "max_slide_dev": 0.0
+      },
+      "arm": {
+        "max_point": 3.0,
+        "max_radial": 3.1776437161565096e-14,
+        "max_axis_deg": 0.0,
+        "max_rigid": 0.0,
+        "max_slide_dev": 0.0
+      },
+      "root_slot": {
+        "max_point": 0.0,
+        "max_radial": 0.0,
+        "max_axis_deg": 0.0,
+        "max_rigid": 0.0,
+        "max_slide_dev": 7.105427357601002e-15
+      },
+      "foot_card": {
+        "max_point": 0.0,
+        "max_radial": 0.0,
+        "max_axis_deg": 0.0,
+        "max_rigid": 0.0,
+        "max_slide_dev": 0.0
+      }
+    },
+    "fails": [],
+    "passed": true
+  },
+  "pin_interfaces": [
+    {
+      "joint": "root",
+      "pin_d": 3.0,
+      "hole_d": 3.3,
+      "diametral_clearance": 0.3,
+      "ok": true
+    },
+    {
+      "joint": "arm",
+      "pin_d": 3.0,
+      "hole_d": 3.3,
+      "diametral_clearance": 0.3,
+      "ok": true
+    }
+  ],
+  "cad_hole_audit": {
+    "n_checks": 3,
+    "missing": [],
+    "passed": true
+  }
+}

@@ -17,8 +17,25 @@ from build123d import (
     export_step, export_stl, fillet, chamfer,
 )
 
-CAD_VERSION = "R1-V5"
+CAD_VERSION = "R1-V6"
 SCALE = 0.5  # link geometry scale vs V3.2.1 full size
+
+
+def deliverable_root(start=None) -> Path:
+    """Locate ROUND1_DEMO_CAD robustly whether running from work/scripts or from
+    a self-contained CAD_SOURCE copy inside the deliverable."""
+    import os
+    env = os.environ.get("ROUND1_OUT")
+    if env:
+        return Path(env).resolve()
+    p = Path(start or __file__).resolve()
+    for d in [p, *p.parents]:
+        if d.name == "ROUND1_DEMO_CAD":
+            return d
+        cand = d / "ROUND1_DEMO_CAD"
+        if cand.is_dir():
+            return cand
+    return p.parent.parent / "ROUND1_DEMO_CAD"
 
 # ---------------- fits / materials ----------------
 CLR_ROT = 0.30    # diametral clearance, rotating pin-in-hole

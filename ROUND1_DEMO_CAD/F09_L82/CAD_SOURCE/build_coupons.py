@@ -5,9 +5,9 @@ from pathlib import Path
 
 from build123d import Box, Cylinder, Part, Pos, Rot
 
-from common_r1 import pin, clip, z_hole, y_hole, export_part, save_manifest, CLR_SLD
+from common_r1 import pin, clip, z_hole, y_hole, export_part, save_manifest, CLR_SLD, deliverable_root
 
-ROOT = Path(__file__).resolve().parent.parent.parent / "ROUND1_DEMO_CAD" / "COUPONS_L4"
+ROOT = deliverable_root() / "COUPONS_L4"
 
 
 def cp_pin_ladder() -> Part:
