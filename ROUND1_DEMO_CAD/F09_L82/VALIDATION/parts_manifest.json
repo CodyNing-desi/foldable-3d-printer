@@ -1,0 +1,261 @@
+{
+  "cad_version": "R1-V6",
+  "scale": 0.5,
+  "parts": [
+    {
+      "part_id": "F09-BASE",
+      "material": "PLA",
+      "cad_version": "R1-V6",
+      "volume_cm3": 274.516,
+      "mass_est_g": 204.2,
+      "bbox_mm": [
+        157.5,
+        173.5,
+        24.0
+      ],
+      "stl": "STL\\F09-BASE.stl",
+      "step": "STEP\\F09-BASE.step",
+      "qty": 1
+    },
+    {
+      "part_id": "F09-BED",
+      "material": "PLA",
+      "cad_version": "R1-V6",
+      "volume_cm3": 32.4,
+      "mass_est_g": 24.1,
+      "bbox_mm": [
+        90.0,
+        90.0,
+        4.0
+      ],
+      "stl": "STL\\F09-BED.stl",
+      "step": "STEP\\F09-BED.step",
+      "qty": 1
+    },
+    {
+      "part_id": "F09-TWR",
+      "material": "PLA",
+      "cad_version": "R1-V6",
+      "volume_cm3": 5.246,
+      "mass_est_g": 3.9,
+      "bbox_mm": [
+        20.0,
+        36.0,
+        67.0
+      ],
+      "stl": "STL\\F09-TWR.stl",
+      "step": "STEP\\F09-TWR.step",
+      "qty": 2
+    },
+    {
+      "part_id": "F09-CAR",
+      "material": "PLA",
+      "cad_version": "R1-V6",
+      "volume_cm3": 6.984,
+      "mass_est_g": 5.2,
+      "bbox_mm": [
+        34.0,
+        39.0,
+        20.0
+      ],
+      "stl": "STL\\F09-CAR.stl",
+      "step": "STEP\\F09-CAR.step",
+      "qty": 2
+    },
+    {
+      "part_id": "F09-COL",
+      "material": "PLA",
+      "cad_version": "R1-V6",
+      "volume_cm3": 29.87,
+      "mass_est_g": 22.2,
+      "bbox_mm": [
+        15.0,
+        20.0,
+        175.5
+      ],
+      "stl": "STL\\F09-COL.stl",
+      "step": "STEP\\F09-COL.step",
+      "qty": 2
+    },
+    {
+      "part_id": "F09-ARM",
+      "material": "PLA",
+      "cad_version": "R1-V6",
+      "volume_cm3": 41.035,
+      "mass_est_g": 30.5,
+      "bbox_mm": [
+        119.5,
+        26.0,
+        39.5
+      ],
+      "stl": "STL\\F09-ARM.stl",
+      "step": "STEP\\F09-ARM.step",
+      "qty": 1
+    },
+    {
+      "part_id": "F09-SYNC",
+      "material": "PLA",
+      "cad_version": "R1-V6",
+      "volume_cm3": 5.528,
+      "mass_est_g": 4.1,
+      "bbox_mm": [
+        6.5,
+        116.0,
+        8.0
+      ],
+      "stl": "STL\\F09-SYNC.stl",
+      "step": "STEP\\F09-SYNC.step",
+      "qty": 1
+    },
+    {
+      "part_id": "F09-XBAR",
+      "material": "PLA",
+      "cad_version": "R1-V6",
+      "volume_cm3": 23.273,
+      "mass_est_g": 17.3,
+      "bbox_mm": [
+        15.0,
+        166.0,
+        23.0
+      ],
+      "stl": "STL\\F09-XBAR.stl",
+      "step": "STEP\\F09-XBAR.step",
+      "qty": 1
+    },
+    {
+      "part_id": "F09-BRG",
+      "material": "PLA",
+      "cad_version": "R1-V6",
+      "volume_cm3": 28.075,
+      "mass_est_g": 20.9,
+      "bbox_mm": [
+        35.5,
+        136.0,
+        15.0
+      ],
+      "stl": "STL\\F09-BRG.stl",
+      "step": "STEP\\F09-BRG.step",
+      "qty": 1
+    },
+    {
+      "part_id": "F09-PIN5-L34",
+      "material": "PETG",
+      "cad_version": "R1-V6",
+      "volume_cm3": 0.723,
+      "mass_est_g": 0.6,
+      "bbox_mm": [
+        8.0,
+        8.0,
+        34.0
+      ],
+      "stl": "STL\\F09-PIN5-L34.stl",
+      "step": "STEP\\F09-PIN5-L34.step",
+      "qty": 3
+    },
+    {
+      "part_id": "F09-PIN3-L34",
+      "material": "PETG",
+      "cad_version": "R1-V6",
+      "volume_cm3": 0.263,
+      "mass_est_g": 0.2,
+      "bbox_mm": [
+        5.5,
+        5.5,
+        34.0
+      ],
+      "stl": "STL\\F09-PIN3-L34.stl",
+      "step": "STEP\\F09-PIN3-L34.step",
+      "qty": 3
+    },
+    {
+      "part_id": "F09-PIN3-L26",
+      "material": "PETG",
+      "cad_version": "R1-V6",
+      "volume_cm3": 0.207,
+      "mass_est_g": 0.2,
+      "bbox_mm": [
+        5.5,
+        5.5,
+        26.0
+      ],
+      "stl": "STL\\F09-PIN3-L26.stl",
+      "step": "STEP\\F09-PIN3-L26.step",
+      "qty": 4
+    },
+    {
+      "part_id": "F09-PIN3-L14",
+      "material": "PETG",
+      "cad_version": "R1-V6",
+      "volume_cm3": 0.122,
+      "mass_est_g": 0.1,
+      "bbox_mm": [
+        5.5,
+        5.5,
+        14.0
+      ],
+      "stl": "STL\\F09-PIN3-L14.stl",
+      "step": "STEP\\F09-PIN3-L14.step",
+      "qty": 8
+    },
+    {
+      "part_id": "F09-CLIP5",
+      "material": "PETG",
+      "cad_version": "R1-V6",
+      "volume_cm3": 0.073,
+      "mass_est_g": 0.1,
+      "bbox_mm": [
+        8.41,
+        8.9,
+        2.0
+      ],
+      "stl": "STL\\F09-CLIP5.stl",
+      "step": "STEP\\F09-CLIP5.step",
+      "qty": 3
+    },
+    {
+      "part_id": "F09-CLIP3",
+      "material": "PETG",
+      "cad_version": "R1-V6",
+      "volume_cm3": 0.044,
+      "mass_est_g": 0.0,
+      "bbox_mm": [
+        6.81,
+        7.0,
+        1.6
+      ],
+      "stl": "STL\\F09-CLIP3.stl",
+      "step": "STEP\\F09-CLIP3.step",
+      "qty": 23
+    },
+    {
+      "part_id": "F09-PIN3-L18",
+      "material": "PETG",
+      "cad_version": "R1-V6",
+      "volume_cm3": 0.15,
+      "mass_est_g": 0.1,
+      "bbox_mm": [
+        5.5,
+        5.5,
+        18.0
+      ],
+      "stl": "STL\\F09-PIN3-L18.stl",
+      "step": "STEP\\F09-PIN3-L18.step",
+      "qty": 6
+    },
+    {
+      "part_id": "F09-PIN3-L22",
+      "material": "PETG",
+      "cad_version": "R1-V6",
+      "volume_cm3": 0.178,
+      "mass_est_g": 0.1,
+      "bbox_mm": [
+        5.5,
+        5.5,
+        22.0
+      ],
+      "stl": "STL\\F09-PIN3-L22.stl",
+      "step": "STEP\\F09-PIN3-L22.step",
+      "qty": 2
+    }
+  ]
+}

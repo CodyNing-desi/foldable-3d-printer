@@ -1,0 +1,2113 @@
+{
+  "steps": 2001,
+  "penetrations": [
+    {
+      "t": 0.0,
+      "pair": [
+        "ARM_A_L",
+        "SHB"
+      ],
+      "vol_mm3": 37.3291
+    },
+    {
+      "t": 0.0,
+      "pair": [
+        "ARM_B_L",
+        "SLT_L"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.0,
+      "pair": [
+        "ARM_A_R",
+        "SHB"
+      ],
+      "vol_mm3": 37.3292
+    },
+    {
+      "t": 0.0,
+      "pair": [
+        "ARM_B_R",
+        "SLT_R"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.0005,
+      "pair": [
+        "ARM_A_L",
+        "SHB"
+      ],
+      "vol_mm3": 37.3291
+    },
+    {
+      "t": 0.0005,
+      "pair": [
+        "ARM_B_L",
+        "SLT_L"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.0005,
+      "pair": [
+        "ARM_A_R",
+        "SHB"
+      ],
+      "vol_mm3": 37.3292
+    },
+    {
+      "t": 0.0005,
+      "pair": [
+        "ARM_B_R",
+        "SLT_R"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.001,
+      "pair": [
+        "ARM_A_L",
+        "SHB"
+      ],
+      "vol_mm3": 37.3291
+    },
+    {
+      "t": 0.001,
+      "pair": [
+        "ARM_B_L",
+        "SLT_L"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.001,
+      "pair": [
+        "ARM_A_R",
+        "SHB"
+      ],
+      "vol_mm3": 37.3292
+    },
+    {
+      "t": 0.001,
+      "pair": [
+        "ARM_B_R",
+        "SLT_R"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.0015,
+      "pair": [
+        "ARM_A_L",
+        "SHB"
+      ],
+      "vol_mm3": 37.3291
+    },
+    {
+      "t": 0.0015,
+      "pair": [
+        "ARM_B_L",
+        "SLT_L"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.0015,
+      "pair": [
+        "ARM_A_R",
+        "SHB"
+      ],
+      "vol_mm3": 37.3292
+    },
+    {
+      "t": 0.0015,
+      "pair": [
+        "ARM_B_R",
+        "SLT_R"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.002,
+      "pair": [
+        "ARM_A_L",
+        "SHB"
+      ],
+      "vol_mm3": 37.3291
+    },
+    {
+      "t": 0.002,
+      "pair": [
+        "ARM_B_L",
+        "SLT_L"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.002,
+      "pair": [
+        "ARM_A_R",
+        "SHB"
+      ],
+      "vol_mm3": 37.3292
+    },
+    {
+      "t": 0.002,
+      "pair": [
+        "ARM_B_R",
+        "SLT_R"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.0025,
+      "pair": [
+        "ARM_A_L",
+        "SHB"
+      ],
+      "vol_mm3": 37.3291
+    },
+    {
+      "t": 0.0025,
+      "pair": [
+        "ARM_B_L",
+        "SLT_L"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.0025,
+      "pair": [
+        "ARM_A_R",
+        "SHB"
+      ],
+      "vol_mm3": 37.3292
+    },
+    {
+      "t": 0.0025,
+      "pair": [
+        "ARM_B_R",
+        "SLT_R"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.003,
+      "pair": [
+        "ARM_A_L",
+        "SHB"
+      ],
+      "vol_mm3": 37.3291
+    },
+    {
+      "t": 0.003,
+      "pair": [
+        "ARM_B_L",
+        "SLT_L"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.003,
+      "pair": [
+        "ARM_A_R",
+        "SHB"
+      ],
+      "vol_mm3": 37.3292
+    },
+    {
+      "t": 0.003,
+      "pair": [
+        "ARM_B_R",
+        "SLT_R"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.0035,
+      "pair": [
+        "ARM_A_L",
+        "SHB"
+      ],
+      "vol_mm3": 37.3291
+    },
+    {
+      "t": 0.0035,
+      "pair": [
+        "ARM_B_L",
+        "SLT_L"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.0035,
+      "pair": [
+        "ARM_A_R",
+        "SHB"
+      ],
+      "vol_mm3": 37.3292
+    },
+    {
+      "t": 0.0035,
+      "pair": [
+        "ARM_B_R",
+        "SLT_R"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.004,
+      "pair": [
+        "ARM_A_L",
+        "SHB"
+      ],
+      "vol_mm3": 37.3291
+    },
+    {
+      "t": 0.004,
+      "pair": [
+        "ARM_B_L",
+        "SLT_L"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.004,
+      "pair": [
+        "ARM_A_R",
+        "SHB"
+      ],
+      "vol_mm3": 37.3292
+    },
+    {
+      "t": 0.004,
+      "pair": [
+        "ARM_B_R",
+        "SLT_R"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.0045,
+      "pair": [
+        "ARM_A_L",
+        "SHB"
+      ],
+      "vol_mm3": 37.3291
+    },
+    {
+      "t": 0.0045,
+      "pair": [
+        "ARM_B_L",
+        "SLT_L"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.0045,
+      "pair": [
+        "ARM_A_R",
+        "SHB"
+      ],
+      "vol_mm3": 37.3292
+    },
+    {
+      "t": 0.0045,
+      "pair": [
+        "ARM_B_R",
+        "SLT_R"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.005,
+      "pair": [
+        "ARM_A_L",
+        "SHB"
+      ],
+      "vol_mm3": 37.3291
+    },
+    {
+      "t": 0.005,
+      "pair": [
+        "ARM_B_L",
+        "SLT_L"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.005,
+      "pair": [
+        "ARM_A_R",
+        "SHB"
+      ],
+      "vol_mm3": 37.3292
+    },
+    {
+      "t": 0.005,
+      "pair": [
+        "ARM_B_R",
+        "SLT_R"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.0055,
+      "pair": [
+        "ARM_A_L",
+        "SHB"
+      ],
+      "vol_mm3": 37.3291
+    },
+    {
+      "t": 0.0055,
+      "pair": [
+        "ARM_B_L",
+        "SLT_L"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.0055,
+      "pair": [
+        "ARM_A_R",
+        "SHB"
+      ],
+      "vol_mm3": 37.3292
+    },
+    {
+      "t": 0.0055,
+      "pair": [
+        "ARM_B_R",
+        "SLT_R"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.006,
+      "pair": [
+        "ARM_A_L",
+        "SHB"
+      ],
+      "vol_mm3": 37.3291
+    },
+    {
+      "t": 0.006,
+      "pair": [
+        "ARM_B_L",
+        "SLT_L"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.006,
+      "pair": [
+        "ARM_A_R",
+        "SHB"
+      ],
+      "vol_mm3": 37.3292
+    },
+    {
+      "t": 0.006,
+      "pair": [
+        "ARM_B_R",
+        "SLT_R"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.0065,
+      "pair": [
+        "ARM_A_L",
+        "SHB"
+      ],
+      "vol_mm3": 37.3291
+    },
+    {
+      "t": 0.0065,
+      "pair": [
+        "ARM_B_L",
+        "SLT_L"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.0065,
+      "pair": [
+        "ARM_A_R",
+        "SHB"
+      ],
+      "vol_mm3": 37.3292
+    },
+    {
+      "t": 0.0065,
+      "pair": [
+        "ARM_B_R",
+        "SLT_R"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.007,
+      "pair": [
+        "ARM_A_L",
+        "SHB"
+      ],
+      "vol_mm3": 37.3291
+    },
+    {
+      "t": 0.007,
+      "pair": [
+        "ARM_B_L",
+        "SLT_L"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.007,
+      "pair": [
+        "ARM_A_R",
+        "SHB"
+      ],
+      "vol_mm3": 37.3292
+    },
+    {
+      "t": 0.007,
+      "pair": [
+        "ARM_B_R",
+        "SLT_R"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.0075,
+      "pair": [
+        "ARM_A_L",
+        "SHB"
+      ],
+      "vol_mm3": 37.3291
+    },
+    {
+      "t": 0.0075,
+      "pair": [
+        "ARM_B_L",
+        "SLT_L"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.0075,
+      "pair": [
+        "ARM_A_R",
+        "SHB"
+      ],
+      "vol_mm3": 37.3292
+    },
+    {
+      "t": 0.0075,
+      "pair": [
+        "ARM_B_R",
+        "SLT_R"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.008,
+      "pair": [
+        "ARM_A_L",
+        "SHB"
+      ],
+      "vol_mm3": 37.3291
+    },
+    {
+      "t": 0.008,
+      "pair": [
+        "ARM_B_L",
+        "SLT_L"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.008,
+      "pair": [
+        "ARM_A_R",
+        "SHB"
+      ],
+      "vol_mm3": 37.3292
+    },
+    {
+      "t": 0.008,
+      "pair": [
+        "ARM_B_R",
+        "SLT_R"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.0085,
+      "pair": [
+        "ARM_A_L",
+        "SHB"
+      ],
+      "vol_mm3": 37.3291
+    },
+    {
+      "t": 0.0085,
+      "pair": [
+        "ARM_B_L",
+        "SLT_L"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.0085,
+      "pair": [
+        "ARM_A_R",
+        "SHB"
+      ],
+      "vol_mm3": 37.3292
+    },
+    {
+      "t": 0.0085,
+      "pair": [
+        "ARM_B_R",
+        "SLT_R"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.009,
+      "pair": [
+        "ARM_A_L",
+        "SHB"
+      ],
+      "vol_mm3": 37.3291
+    },
+    {
+      "t": 0.009,
+      "pair": [
+        "ARM_B_L",
+        "SLT_L"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.009,
+      "pair": [
+        "ARM_A_R",
+        "SHB"
+      ],
+      "vol_mm3": 37.3292
+    },
+    {
+      "t": 0.009,
+      "pair": [
+        "ARM_B_R",
+        "SLT_R"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.0095,
+      "pair": [
+        "ARM_A_L",
+        "SHB"
+      ],
+      "vol_mm3": 37.3291
+    },
+    {
+      "t": 0.0095,
+      "pair": [
+        "ARM_B_L",
+        "SLT_L"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.0095,
+      "pair": [
+        "ARM_A_R",
+        "SHB"
+      ],
+      "vol_mm3": 37.3292
+    },
+    {
+      "t": 0.0095,
+      "pair": [
+        "ARM_B_R",
+        "SLT_R"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.01,
+      "pair": [
+        "ARM_A_L",
+        "SHB"
+      ],
+      "vol_mm3": 37.3291
+    },
+    {
+      "t": 0.01,
+      "pair": [
+        "ARM_B_L",
+        "SLT_L"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.01,
+      "pair": [
+        "ARM_A_R",
+        "SHB"
+      ],
+      "vol_mm3": 37.3292
+    },
+    {
+      "t": 0.01,
+      "pair": [
+        "ARM_B_R",
+        "SLT_R"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.0105,
+      "pair": [
+        "ARM_A_L",
+        "SHB"
+      ],
+      "vol_mm3": 37.3291
+    },
+    {
+      "t": 0.0105,
+      "pair": [
+        "ARM_B_L",
+        "SLT_L"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.0105,
+      "pair": [
+        "ARM_A_R",
+        "SHB"
+      ],
+      "vol_mm3": 37.3292
+    },
+    {
+      "t": 0.0105,
+      "pair": [
+        "ARM_B_R",
+        "SLT_R"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.011,
+      "pair": [
+        "ARM_A_L",
+        "SHB"
+      ],
+      "vol_mm3": 37.3291
+    },
+    {
+      "t": 0.011,
+      "pair": [
+        "ARM_B_L",
+        "SLT_L"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.011,
+      "pair": [
+        "ARM_A_R",
+        "SHB"
+      ],
+      "vol_mm3": 37.3292
+    },
+    {
+      "t": 0.011,
+      "pair": [
+        "ARM_B_R",
+        "SLT_R"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.0115,
+      "pair": [
+        "ARM_A_L",
+        "SHB"
+      ],
+      "vol_mm3": 37.3291
+    },
+    {
+      "t": 0.0115,
+      "pair": [
+        "ARM_B_L",
+        "SLT_L"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.0115,
+      "pair": [
+        "ARM_A_R",
+        "SHB"
+      ],
+      "vol_mm3": 37.3292
+    },
+    {
+      "t": 0.0115,
+      "pair": [
+        "ARM_B_R",
+        "SLT_R"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.012,
+      "pair": [
+        "ARM_A_L",
+        "SHB"
+      ],
+      "vol_mm3": 37.3291
+    },
+    {
+      "t": 0.012,
+      "pair": [
+        "ARM_B_L",
+        "SLT_L"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.012,
+      "pair": [
+        "ARM_A_R",
+        "SHB"
+      ],
+      "vol_mm3": 37.3292
+    },
+    {
+      "t": 0.012,
+      "pair": [
+        "ARM_B_R",
+        "SLT_R"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.0125,
+      "pair": [
+        "ARM_A_L",
+        "SHB"
+      ],
+      "vol_mm3": 37.3291
+    },
+    {
+      "t": 0.0125,
+      "pair": [
+        "ARM_B_L",
+        "SLT_L"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.0125,
+      "pair": [
+        "ARM_A_R",
+        "SHB"
+      ],
+      "vol_mm3": 37.3292
+    },
+    {
+      "t": 0.0125,
+      "pair": [
+        "ARM_B_R",
+        "SLT_R"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.013,
+      "pair": [
+        "ARM_A_L",
+        "SHB"
+      ],
+      "vol_mm3": 37.3291
+    },
+    {
+      "t": 0.013,
+      "pair": [
+        "ARM_B_L",
+        "SLT_L"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.013,
+      "pair": [
+        "ARM_A_R",
+        "SHB"
+      ],
+      "vol_mm3": 37.3292
+    },
+    {
+      "t": 0.013,
+      "pair": [
+        "ARM_B_R",
+        "SLT_R"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.0135,
+      "pair": [
+        "ARM_A_L",
+        "SHB"
+      ],
+      "vol_mm3": 37.3291
+    },
+    {
+      "t": 0.0135,
+      "pair": [
+        "ARM_B_L",
+        "SLT_L"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.0135,
+      "pair": [
+        "ARM_A_R",
+        "SHB"
+      ],
+      "vol_mm3": 37.3292
+    },
+    {
+      "t": 0.0135,
+      "pair": [
+        "ARM_B_R",
+        "SLT_R"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.014,
+      "pair": [
+        "ARM_A_L",
+        "SHB"
+      ],
+      "vol_mm3": 37.3291
+    },
+    {
+      "t": 0.014,
+      "pair": [
+        "ARM_B_L",
+        "SLT_L"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.014,
+      "pair": [
+        "ARM_A_R",
+        "SHB"
+      ],
+      "vol_mm3": 37.3292
+    },
+    {
+      "t": 0.014,
+      "pair": [
+        "ARM_B_R",
+        "SLT_R"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.0145,
+      "pair": [
+        "ARM_A_L",
+        "SHB"
+      ],
+      "vol_mm3": 37.3291
+    },
+    {
+      "t": 0.0145,
+      "pair": [
+        "ARM_B_L",
+        "SLT_L"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.0145,
+      "pair": [
+        "ARM_A_R",
+        "SHB"
+      ],
+      "vol_mm3": 37.3292
+    },
+    {
+      "t": 0.0145,
+      "pair": [
+        "ARM_B_R",
+        "SLT_R"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.015,
+      "pair": [
+        "ARM_A_L",
+        "SHB"
+      ],
+      "vol_mm3": 37.3291
+    },
+    {
+      "t": 0.015,
+      "pair": [
+        "ARM_B_L",
+        "SLT_L"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.015,
+      "pair": [
+        "ARM_A_R",
+        "SHB"
+      ],
+      "vol_mm3": 37.3292
+    },
+    {
+      "t": 0.015,
+      "pair": [
+        "ARM_B_R",
+        "SLT_R"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.0155,
+      "pair": [
+        "ARM_A_L",
+        "SHB"
+      ],
+      "vol_mm3": 37.3291
+    },
+    {
+      "t": 0.0155,
+      "pair": [
+        "ARM_B_L",
+        "SLT_L"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.0155,
+      "pair": [
+        "ARM_A_R",
+        "SHB"
+      ],
+      "vol_mm3": 37.3292
+    },
+    {
+      "t": 0.0155,
+      "pair": [
+        "ARM_B_R",
+        "SLT_R"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.016,
+      "pair": [
+        "ARM_A_L",
+        "SHB"
+      ],
+      "vol_mm3": 37.3291
+    },
+    {
+      "t": 0.016,
+      "pair": [
+        "ARM_B_L",
+        "SLT_L"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.016,
+      "pair": [
+        "ARM_A_R",
+        "SHB"
+      ],
+      "vol_mm3": 37.3292
+    },
+    {
+      "t": 0.016,
+      "pair": [
+        "ARM_B_R",
+        "SLT_R"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.0165,
+      "pair": [
+        "ARM_A_L",
+        "SHB"
+      ],
+      "vol_mm3": 37.3291
+    },
+    {
+      "t": 0.0165,
+      "pair": [
+        "ARM_B_L",
+        "SLT_L"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.0165,
+      "pair": [
+        "ARM_A_R",
+        "SHB"
+      ],
+      "vol_mm3": 37.3292
+    },
+    {
+      "t": 0.0165,
+      "pair": [
+        "ARM_B_R",
+        "SLT_R"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.017,
+      "pair": [
+        "ARM_A_L",
+        "SHB"
+      ],
+      "vol_mm3": 37.3291
+    },
+    {
+      "t": 0.017,
+      "pair": [
+        "ARM_B_L",
+        "SLT_L"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.017,
+      "pair": [
+        "ARM_A_R",
+        "SHB"
+      ],
+      "vol_mm3": 37.3292
+    },
+    {
+      "t": 0.017,
+      "pair": [
+        "ARM_B_R",
+        "SLT_R"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.0175,
+      "pair": [
+        "ARM_A_L",
+        "SHB"
+      ],
+      "vol_mm3": 37.3291
+    },
+    {
+      "t": 0.0175,
+      "pair": [
+        "ARM_B_L",
+        "SLT_L"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.0175,
+      "pair": [
+        "ARM_A_R",
+        "SHB"
+      ],
+      "vol_mm3": 37.3292
+    },
+    {
+      "t": 0.0175,
+      "pair": [
+        "ARM_B_R",
+        "SLT_R"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.018,
+      "pair": [
+        "ARM_A_L",
+        "SHB"
+      ],
+      "vol_mm3": 37.3291
+    },
+    {
+      "t": 0.018,
+      "pair": [
+        "ARM_B_L",
+        "SLT_L"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.018,
+      "pair": [
+        "ARM_A_R",
+        "SHB"
+      ],
+      "vol_mm3": 37.3292
+    },
+    {
+      "t": 0.018,
+      "pair": [
+        "ARM_B_R",
+        "SLT_R"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.0185,
+      "pair": [
+        "ARM_A_L",
+        "SHB"
+      ],
+      "vol_mm3": 37.3291
+    },
+    {
+      "t": 0.0185,
+      "pair": [
+        "ARM_B_L",
+        "SLT_L"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.0185,
+      "pair": [
+        "ARM_A_R",
+        "SHB"
+      ],
+      "vol_mm3": 37.3292
+    },
+    {
+      "t": 0.0185,
+      "pair": [
+        "ARM_B_R",
+        "SLT_R"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.019,
+      "pair": [
+        "ARM_A_L",
+        "SHB"
+      ],
+      "vol_mm3": 37.3291
+    },
+    {
+      "t": 0.019,
+      "pair": [
+        "ARM_B_L",
+        "SLT_L"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.019,
+      "pair": [
+        "ARM_A_R",
+        "SHB"
+      ],
+      "vol_mm3": 37.3292
+    },
+    {
+      "t": 0.019,
+      "pair": [
+        "ARM_B_R",
+        "SLT_R"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.0195,
+      "pair": [
+        "ARM_A_L",
+        "SHB"
+      ],
+      "vol_mm3": 37.3291
+    },
+    {
+      "t": 0.0195,
+      "pair": [
+        "ARM_B_L",
+        "SLT_L"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.0195,
+      "pair": [
+        "ARM_A_R",
+        "SHB"
+      ],
+      "vol_mm3": 37.3292
+    },
+    {
+      "t": 0.0195,
+      "pair": [
+        "ARM_B_R",
+        "SLT_R"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.02,
+      "pair": [
+        "ARM_A_L",
+        "SHB"
+      ],
+      "vol_mm3": 37.3291
+    },
+    {
+      "t": 0.02,
+      "pair": [
+        "ARM_B_L",
+        "SLT_L"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.02,
+      "pair": [
+        "ARM_A_R",
+        "SHB"
+      ],
+      "vol_mm3": 37.3292
+    },
+    {
+      "t": 0.02,
+      "pair": [
+        "ARM_B_R",
+        "SLT_R"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.0205,
+      "pair": [
+        "ARM_A_L",
+        "SHB"
+      ],
+      "vol_mm3": 37.3291
+    },
+    {
+      "t": 0.0205,
+      "pair": [
+        "ARM_B_L",
+        "SLT_L"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.0205,
+      "pair": [
+        "ARM_A_R",
+        "SHB"
+      ],
+      "vol_mm3": 37.3292
+    },
+    {
+      "t": 0.0205,
+      "pair": [
+        "ARM_B_R",
+        "SLT_R"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.021,
+      "pair": [
+        "ARM_A_L",
+        "SHB"
+      ],
+      "vol_mm3": 37.3291
+    },
+    {
+      "t": 0.021,
+      "pair": [
+        "ARM_B_L",
+        "SLT_L"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.021,
+      "pair": [
+        "ARM_A_R",
+        "SHB"
+      ],
+      "vol_mm3": 37.3292
+    },
+    {
+      "t": 0.021,
+      "pair": [
+        "ARM_B_R",
+        "SLT_R"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.0215,
+      "pair": [
+        "ARM_A_L",
+        "SHB"
+      ],
+      "vol_mm3": 37.3291
+    },
+    {
+      "t": 0.0215,
+      "pair": [
+        "ARM_B_L",
+        "SLT_L"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.0215,
+      "pair": [
+        "ARM_A_R",
+        "SHB"
+      ],
+      "vol_mm3": 37.3292
+    },
+    {
+      "t": 0.0215,
+      "pair": [
+        "ARM_B_R",
+        "SLT_R"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.022,
+      "pair": [
+        "ARM_A_L",
+        "SHB"
+      ],
+      "vol_mm3": 37.3291
+    },
+    {
+      "t": 0.022,
+      "pair": [
+        "ARM_B_L",
+        "SLT_L"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.022,
+      "pair": [
+        "ARM_A_R",
+        "SHB"
+      ],
+      "vol_mm3": 37.3292
+    },
+    {
+      "t": 0.022,
+      "pair": [
+        "ARM_B_R",
+        "SLT_R"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.0225,
+      "pair": [
+        "ARM_A_L",
+        "SHB"
+      ],
+      "vol_mm3": 37.3291
+    },
+    {
+      "t": 0.0225,
+      "pair": [
+        "ARM_B_L",
+        "SLT_L"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.0225,
+      "pair": [
+        "ARM_A_R",
+        "SHB"
+      ],
+      "vol_mm3": 37.3292
+    },
+    {
+      "t": 0.0225,
+      "pair": [
+        "ARM_B_R",
+        "SLT_R"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.023,
+      "pair": [
+        "ARM_A_L",
+        "SHB"
+      ],
+      "vol_mm3": 37.3291
+    },
+    {
+      "t": 0.023,
+      "pair": [
+        "ARM_B_L",
+        "SLT_L"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.023,
+      "pair": [
+        "ARM_A_R",
+        "SHB"
+      ],
+      "vol_mm3": 37.3292
+    },
+    {
+      "t": 0.023,
+      "pair": [
+        "ARM_B_R",
+        "SLT_R"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.0235,
+      "pair": [
+        "ARM_A_L",
+        "SHB"
+      ],
+      "vol_mm3": 37.3291
+    },
+    {
+      "t": 0.0235,
+      "pair": [
+        "ARM_B_L",
+        "SLT_L"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.0235,
+      "pair": [
+        "ARM_A_R",
+        "SHB"
+      ],
+      "vol_mm3": 37.3292
+    },
+    {
+      "t": 0.0235,
+      "pair": [
+        "ARM_B_R",
+        "SLT_R"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.024,
+      "pair": [
+        "ARM_A_L",
+        "SHB"
+      ],
+      "vol_mm3": 37.3291
+    },
+    {
+      "t": 0.024,
+      "pair": [
+        "ARM_B_L",
+        "SLT_L"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.024,
+      "pair": [
+        "ARM_A_R",
+        "SHB"
+      ],
+      "vol_mm3": 37.3292
+    },
+    {
+      "t": 0.024,
+      "pair": [
+        "ARM_B_R",
+        "SLT_R"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.0245,
+      "pair": [
+        "ARM_A_L",
+        "SHB"
+      ],
+      "vol_mm3": 37.3291
+    },
+    {
+      "t": 0.0245,
+      "pair": [
+        "ARM_B_L",
+        "SLT_L"
+      ],
+      "vol_mm3": 116.2362
+    },
+    {
+      "t": 0.0245,
+      "pair": [
+        "ARM_A_R",
+        "SHB"
+      ],
+      "vol_mm3": 37.3292
+    },
+    {
+      "t": 0.0245,
+      "pair": [
+        "ARM_B_R",
+        "SLT_R"
+      ],
+      "vol_mm3": 116.2362
+    }
+  ],
+  "worst_by_pair": {
+    "ARM_A_L/SHB": {
+      "vol_mm3": 37.3291,
+      "t": 0.369
+    },
+    "ARM_B_L/SLT_L": {
+      "vol_mm3": 137.9343,
+      "t": 1.0
+    },
+    "ARM_A_R/SHB": {
+      "vol_mm3": 37.3292,
+      "t": 0.3695
+    },
+    "ARM_B_R/SLT_R": {
+      "vol_mm3": 137.9343,
+      "t": 1.0
+    }
+  },
+  "unresolved": [
+    [
+      0.0,
+      [
+        "ARM_A_L",
+        "SLB_L"
+      ]
+    ],
+    [
+      0.0,
+      [
+        "ARM_A_R",
+        "SLB_R"
+      ]
+    ],
+    [
+      0.0005,
+      [
+        "ARM_A_L",
+        "SLB_L"
+      ]
+    ],
+    [
+      0.0005,
+      [
+        "ARM_A_R",
+        "SLB_R"
+      ]
+    ],
+    [
+      0.001,
+      [
+        "ARM_A_L",
+        "SLB_L"
+      ]
+    ],
+    [
+      0.001,
+      [
+        "ARM_A_R",
+        "SLB_R"
+      ]
+    ],
+    [
+      0.0015,
+      [
+        "ARM_A_L",
+        "SLB_L"
+      ]
+    ],
+    [
+      0.0015,
+      [
+        "ARM_A_R",
+        "SLB_R"
+      ]
+    ],
+    [
+      0.002,
+      [
+        "ARM_A_L",
+        "SLB_L"
+      ]
+    ],
+    [
+      0.002,
+      [
+        "ARM_A_R",
+        "SLB_R"
+      ]
+    ],
+    [
+      0.0025,
+      [
+        "ARM_A_L",
+        "SLB_L"
+      ]
+    ],
+    [
+      0.0025,
+      [
+        "ARM_A_R",
+        "SLB_R"
+      ]
+    ],
+    [
+      0.003,
+      [
+        "ARM_A_L",
+        "SLB_L"
+      ]
+    ],
+    [
+      0.003,
+      [
+        "ARM_A_R",
+        "SLB_R"
+      ]
+    ],
+    [
+      0.0035,
+      [
+        "ARM_A_L",
+        "SLB_L"
+      ]
+    ],
+    [
+      0.0035,
+      [
+        "ARM_A_R",
+        "SLB_R"
+      ]
+    ],
+    [
+      0.004,
+      [
+        "ARM_A_L",
+        "SLB_L"
+      ]
+    ],
+    [
+      0.004,
+      [
+        "ARM_A_R",
+        "SLB_R"
+      ]
+    ],
+    [
+      0.0045000000000000005,
+      [
+        "ARM_A_L",
+        "SLB_L"
+      ]
+    ],
+    [
+      0.0045000000000000005,
+      [
+        "ARM_A_R",
+        "SLB_R"
+      ]
+    ],
+    [
+      0.005,
+      [
+        "ARM_A_L",
+        "SLB_L"
+      ]
+    ],
+    [
+      0.005,
+      [
+        "ARM_A_R",
+        "SLB_R"
+      ]
+    ],
+    [
+      0.0055,
+      [
+        "ARM_A_L",
+        "SLB_L"
+      ]
+    ],
+    [
+      0.0055,
+      [
+        "ARM_A_R",
+        "SLB_R"
+      ]
+    ],
+    [
+      0.006,
+      [
+        "ARM_A_L",
+        "SLB_L"
+      ]
+    ],
+    [
+      0.006,
+      [
+        "ARM_A_R",
+        "SLB_R"
+      ]
+    ],
+    [
+      0.006500000000000001,
+      [
+        "ARM_A_L",
+        "SLB_L"
+      ]
+    ],
+    [
+      0.006500000000000001,
+      [
+        "ARM_A_R",
+        "SLB_R"
+      ]
+    ],
+    [
+      0.007,
+      [
+        "ARM_A_L",
+        "SLB_L"
+      ]
+    ],
+    [
+      0.007,
+      [
+        "ARM_A_R",
+        "SLB_R"
+      ]
+    ],
+    [
+      0.0075,
+      [
+        "ARM_A_L",
+        "SLB_L"
+      ]
+    ],
+    [
+      0.0075,
+      [
+        "ARM_A_R",
+        "SLB_R"
+      ]
+    ],
+    [
+      0.008,
+      [
+        "ARM_A_L",
+        "SLB_L"
+      ]
+    ],
+    [
+      0.008,
+      [
+        "ARM_A_R",
+        "SLB_R"
+      ]
+    ],
+    [
+      0.0085,
+      [
+        "ARM_A_L",
+        "SLB_L"
+      ]
+    ],
+    [
+      0.0085,
+      [
+        "ARM_A_R",
+        "SLB_R"
+      ]
+    ],
+    [
+      0.009000000000000001,
+      [
+        "ARM_A_L",
+        "SLB_L"
+      ]
+    ],
+    [
+      0.009000000000000001,
+      [
+        "ARM_A_R",
+        "SLB_R"
+      ]
+    ],
+    [
+      0.0095,
+      [
+        "ARM_A_L",
+        "SLB_L"
+      ]
+    ],
+    [
+      0.0095,
+      [
+        "ARM_A_R",
+        "SLB_R"
+      ]
+    ],
+    [
+      0.01,
+      [
+        "ARM_A_L",
+        "SLB_L"
+      ]
+    ],
+    [
+      0.01,
+      [
+        "ARM_A_R",
+        "SLB_R"
+      ]
+    ],
+    [
+      0.0105,
+      [
+        "ARM_A_L",
+        "SLB_L"
+      ]
+    ],
+    [
+      0.0105,
+      [
+        "ARM_A_R",
+        "SLB_R"
+      ]
+    ],
+    [
+      0.011,
+      [
+        "ARM_A_L",
+        "SLB_L"
+      ]
+    ],
+    [
+      0.011,
+      [
+        "ARM_A_R",
+        "SLB_R"
+      ]
+    ],
+    [
+      0.0115,
+      [
+        "ARM_A_L",
+        "SLB_L"
+      ]
+    ],
+    [
+      0.0115,
+      [
+        "ARM_A_R",
+        "SLB_R"
+      ]
+    ],
+    [
+      0.012,
+      [
+        "ARM_A_L",
+        "SLB_L"
+      ]
+    ],
+    [
+      0.012,
+      [
+        "ARM_A_R",
+        "SLB_R"
+      ]
+    ]
+  ],
+  "n_penetrations": 8004,
+  "hull_checks": [
+    {
+      "phase": "scissor_stroke",
+      "moving": "ARM_A_L",
+      "static": "BASE",
+      "hull_volume_mm3": 36363.5,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_stroke",
+      "moving": "ARM_A_L",
+      "static": "POST_L",
+      "hull_volume_mm3": 36363.5,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_stroke",
+      "moving": "ARM_A_L",
+      "static": "POST_R",
+      "hull_volume_mm3": 36363.5,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_stroke",
+      "moving": "ARM_A_R",
+      "static": "BASE",
+      "hull_volume_mm3": 36363.5,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_stroke",
+      "moving": "ARM_A_R",
+      "static": "POST_L",
+      "hull_volume_mm3": 36363.5,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_stroke",
+      "moving": "ARM_A_R",
+      "static": "POST_R",
+      "hull_volume_mm3": 36363.5,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_stroke",
+      "moving": "ARM_B_L",
+      "static": "BASE",
+      "hull_volume_mm3": 39333.9,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_stroke",
+      "moving": "ARM_B_L",
+      "static": "POST_L",
+      "hull_volume_mm3": 39333.9,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_stroke",
+      "moving": "ARM_B_L",
+      "static": "POST_R",
+      "hull_volume_mm3": 39333.9,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_stroke",
+      "moving": "ARM_B_R",
+      "static": "BASE",
+      "hull_volume_mm3": 39333.9,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_stroke",
+      "moving": "ARM_B_R",
+      "static": "POST_L",
+      "hull_volume_mm3": 39333.9,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_stroke",
+      "moving": "ARM_B_R",
+      "static": "POST_R",
+      "hull_volume_mm3": 39333.9,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_stroke",
+      "moving": "PLAT",
+      "static": "BASE",
+      "hull_volume_mm3": 3286578.3,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_stroke",
+      "moving": "PLAT",
+      "static": "POST_L",
+      "hull_volume_mm3": 3286578.3,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_stroke",
+      "moving": "PLAT",
+      "static": "POST_R",
+      "hull_volume_mm3": 3286578.3,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    }
+  ]
+}

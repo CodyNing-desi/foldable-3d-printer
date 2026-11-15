@@ -1,0 +1,234 @@
+{
+  "closure": {
+    "steps": 2001,
+    "n_joints": 21,
+    "stats": {
+      "armA_bot_L": {
+        "max_point": 0.0,
+        "max_radial": 0.0,
+        "max_axis_deg": 0.0,
+        "max_rigid": 0.0,
+        "max_slide_dev": 0.0
+      },
+      "armB_bot_L": {
+        "max_point": 0.0,
+        "max_radial": 0.0,
+        "max_axis_deg": 0.0,
+        "max_rigid": 0.0,
+        "max_slide_dev": 0.0
+      },
+      "center_L": {
+        "max_point": 8.5,
+        "max_radial": 5.123796534383003e-14,
+        "max_axis_deg": 0.0,
+        "max_rigid": 0.0,
+        "max_slide_dev": 0.0
+      },
+      "armA_top_L": {
+        "max_point": 4.0194366942304644e-14,
+        "max_radial": 4.0194366942304644e-14,
+        "max_axis_deg": 0.0,
+        "max_rigid": 0.0,
+        "max_slide_dev": 0.0
+      },
+      "armB_top_L": {
+        "max_point": 9.099386826154683e-14,
+        "max_radial": 9.099386826154683e-14,
+        "max_axis_deg": 0.0,
+        "max_rigid": 0.0,
+        "max_slide_dev": 0.0
+      },
+      "slide_bot_L": {
+        "max_point": 0.0,
+        "max_radial": 0.0,
+        "max_axis_deg": 0.0,
+        "max_rigid": 0.0,
+        "max_slide_dev": 0.0
+      },
+      "slide_top_L": {
+        "max_point": 0.0,
+        "max_radial": 0.0,
+        "max_axis_deg": 0.0,
+        "max_rigid": 0.0,
+        "max_slide_dev": 0.0
+      },
+      "shb_slb_L": {
+        "max_point": 0.0,
+        "max_radial": 0.0,
+        "max_axis_deg": 0.0,
+        "max_rigid": 0.0,
+        "max_slide_dev": 0.0
+      },
+      "sht_slt_L": {
+        "max_point": 0.0,
+        "max_radial": 0.0,
+        "max_axis_deg": 0.0,
+        "max_rigid": 1.4210854715202004e-14,
+        "max_slide_dev": 0.0
+      },
+      "post_L_base": {
+        "max_point": 0.0,
+        "max_radial": 0.0,
+        "max_axis_deg": 0.0,
+        "max_rigid": 0.0,
+        "max_slide_dev": 0.0
+      },
+      "armA_bot_R": {
+        "max_point": 0.0,
+        "max_radial": 0.0,
+        "max_axis_deg": 0.0,
+        "max_rigid": 0.0,
+        "max_slide_dev": 0.0
+      },
+      "armB_bot_R": {
+        "max_point": 0.0,
+        "max_radial": 0.0,
+        "max_axis_deg": 0.0,
+        "max_rigid": 0.0,
+        "max_slide_dev": 0.0
+      },
+      "center_R": {
+        "max_point": 8.5,
+        "max_radial": 5.123796534383003e-14,
+        "max_axis_deg": 0.0,
+        "max_rigid": 0.0,
+        "max_slide_dev": 0.0
+      },
+      "armA_top_R": {
+        "max_point": 4.0194366942304644e-14,
+        "max_radial": 4.0194366942304644e-14,
+        "max_axis_deg": 0.0,
+        "max_rigid": 0.0,
+        "max_slide_dev": 0.0
+      },
+      "armB_top_R": {
+        "max_point": 9.099386826154683e-14,
+        "max_radial": 9.099386826154683e-14,
+        "max_axis_deg": 0.0,
+        "max_rigid": 0.0,
+        "max_slide_dev": 0.0
+      },
+      "slide_bot_R": {
+        "max_point": 0.0,
+        "max_radial": 0.0,
+        "max_axis_deg": 0.0,
+        "max_rigid": 0.0,
+        "max_slide_dev": 0.0
+      },
+      "slide_top_R": {
+        "max_point": 0.0,
+        "max_radial": 0.0,
+        "max_axis_deg": 0.0,
+        "max_rigid": 0.0,
+        "max_slide_dev": 0.0
+      },
+      "shb_slb_R": {
+        "max_point": 0.0,
+        "max_radial": 0.0,
+        "max_axis_deg": 0.0,
+        "max_rigid": 0.0,
+        "max_slide_dev": 0.0
+      },
+      "sht_slt_R": {
+        "max_point": 0.0,
+        "max_radial": 0.0,
+        "max_axis_deg": 0.0,
+        "max_rigid": 1.4210854715202004e-14,
+        "max_slide_dev": 0.0
+      },
+      "post_R_base": {
+        "max_point": 0.0,
+        "max_radial": 0.0,
+        "max_axis_deg": 0.0,
+        "max_rigid": 0.0,
+        "max_slide_dev": 0.0
+      },
+      "bed_base": {
+        "max_point": 0.0,
+        "max_radial": 0.0,
+        "max_axis_deg": 0.0,
+        "max_rigid": 0.0,
+        "max_slide_dev": 0.0
+      }
+    },
+    "fails": [],
+    "passed": true
+  },
+  "pin_interfaces": [
+    {
+      "joint": "armA_bot_L",
+      "pin_d": 4.0,
+      "hole_d": 4.3,
+      "diametral_clearance": 0.3,
+      "ok": true
+    },
+    {
+      "joint": "armB_bot_L",
+      "pin_d": 4.0,
+      "hole_d": 4.3,
+      "diametral_clearance": 0.3,
+      "ok": true
+    },
+    {
+      "joint": "center_L",
+      "pin_d": 4.0,
+      "hole_d": 4.3,
+      "diametral_clearance": 0.3,
+      "ok": true
+    },
+    {
+      "joint": "armA_top_L",
+      "pin_d": 4.0,
+      "hole_d": 4.3,
+      "diametral_clearance": 0.3,
+      "ok": true
+    },
+    {
+      "joint": "armB_top_L",
+      "pin_d": 4.0,
+      "hole_d": 4.3,
+      "diametral_clearance": 0.3,
+      "ok": true
+    },
+    {
+      "joint": "armA_bot_R",
+      "pin_d": 4.0,
+      "hole_d": 4.3,
+      "diametral_clearance": 0.3,
+      "ok": true
+    },
+    {
+      "joint": "armB_bot_R",
+      "pin_d": 4.0,
+      "hole_d": 4.3,
+      "diametral_clearance": 0.3,
+      "ok": true
+    },
+    {
+      "joint": "center_R",
+      "pin_d": 4.0,
+      "hole_d": 4.3,
+      "diametral_clearance": 0.3,
+      "ok": true
+    },
+    {
+      "joint": "armA_top_R",
+      "pin_d": 4.0,
+      "hole_d": 4.3,
+      "diametral_clearance": 0.3,
+      "ok": true
+    },
+    {
+      "joint": "armB_top_R",
+      "pin_d": 4.0,
+      "hole_d": 4.3,
+      "diametral_clearance": 0.3,
+      "ok": true
+    }
+  ],
+  "cad_hole_audit": {
+    "n_checks": 20,
+    "missing": [],
+    "passed": true
+  }
+}

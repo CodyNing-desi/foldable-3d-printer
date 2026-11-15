@@ -1,0 +1,110 @@
+[
+  {
+    "part_id": "F08-CARD",
+    "material": "PLA",
+    "bbox_mm": [
+      200.0,
+      175.0,
+      3.0
+    ],
+    "plate_250_ok": true,
+    "mass_est_g": 77.1,
+    "volume_cm3": 103.65
+  },
+  {
+    "part_id": "F08-SLIDER",
+    "material": "PETG",
+    "bbox_mm": [
+      12.0,
+      12.0,
+      12.0
+    ],
+    "plate_250_ok": true,
+    "mass_est_g": 0.4,
+    "volume_cm3": 0.493
+  },
+  {
+    "part_id": "F08-COL",
+    "material": "PLA",
+    "bbox_mm": [
+      20.03,
+      149.5,
+      3.0
+    ],
+    "plate_250_ok": true,
+    "mass_est_g": 3.9,
+    "volume_cm3": 5.24
+  },
+  {
+    "part_id": "F08-ARM",
+    "material": "PLA",
+    "bbox_mm": [
+      119.5,
+      16.0,
+      3.0
+    ],
+    "plate_250_ok": true,
+    "mass_est_g": 3.4,
+    "volume_cm3": 4.549
+  },
+  {
+    "part_id": "F08-FOOT",
+    "material": "PETG",
+    "bbox_mm": [
+      35.0,
+      10.0,
+      3.0
+    ],
+    "plate_250_ok": true,
+    "mass_est_g": 0.7,
+    "volume_cm3": 0.965
+  },
+  {
+    "part_id": "F08-PIN3-L14",
+    "material": "PETG",
+    "bbox_mm": [
+      5.5,
+      5.5,
+      14.0
+    ],
+    "plate_250_ok": true,
+    "mass_est_g": 0.1,
+    "volume_cm3": 0.122
+  },
+  {
+    "part_id": "F08-PIN3-L12",
+    "material": "PETG",
+    "bbox_mm": [
+      5.5,
+      5.5,
+      12.0
+    ],
+    "plate_250_ok": true,
+    "mass_est_g": 0.1,
+    "volume_cm3": 0.108
+  },
+  {
+    "part_id": "F08-PIN3-L10",
+    "material": "PETG",
+    "bbox_mm": [
+      5.5,
+      5.5,
+      10.0
+    ],
+    "plate_250_ok": true,
+    "mass_est_g": 0.1,
+    "volume_cm3": 0.094
+  },
+  {
+    "part_id": "F08-CLIP3",
+    "material": "PETG",
+    "bbox_mm": [
+      6.81,
+      7.0,
+      1.6
+    ],
+    "plate_250_ok": true,
+    "mass_est_g": 0.0,
+    "volume_cm3": 0.044
+  }
+]

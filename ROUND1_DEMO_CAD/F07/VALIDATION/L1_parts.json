@@ -1,0 +1,182 @@
+[
+  {
+    "part_id": "F07-ARM",
+    "watertight": true,
+    "winding_consistent": true,
+    "n_bodies": 1,
+    "volume_mm3": 41035.3,
+    "brep_volume_mm3": 41035.0,
+    "vol_dev_pct": 0.0,
+    "bbox_mm": [
+      119.5,
+      26.0,
+      39.5
+    ],
+    "n_faces": 812
+  },
+  {
+    "part_id": "F07-BASE",
+    "watertight": true,
+    "winding_consistent": true,
+    "n_bodies": 1,
+    "volume_mm3": 274517.6,
+    "brep_volume_mm3": 274516.0,
+    "vol_dev_pct": 0.0,
+    "bbox_mm": [
+      157.5,
+      173.5,
+      24.0
+    ],
+    "n_faces": 3356
+  },
+  {
+    "part_id": "F07-BED",
+    "watertight": true,
+    "winding_consistent": true,
+    "n_bodies": 1,
+    "volume_mm3": 32400.0,
+    "brep_volume_mm3": 32400.0,
+    "vol_dev_pct": 0.0,
+    "bbox_mm": [
+      90.0,
+      90.0,
+      4.0
+    ],
+    "n_faces": 12
+  },
+  {
+    "part_id": "F07-CAR",
+    "watertight": true,
+    "winding_consistent": true,
+    "n_bodies": 1,
+    "volume_mm3": 6982.9,
+    "brep_volume_mm3": 6984.0,
+    "vol_dev_pct": 0.02,
+    "bbox_mm": [
+      34.0,
+      39.0,
+      20.0
+    ],
+    "n_faces": 6024
+  },
+  {
+    "part_id": "F07-CLIP3",
+    "watertight": true,
+    "winding_consistent": true,
+    "n_bodies": 1,
+    "volume_mm3": 44.2,
+    "brep_volume_mm3": 44.0,
+    "vol_dev_pct": 0.53,
+    "bbox_mm": [
+      6.8,
+      6.99,
+      1.6
+    ],
+    "n_faces": 384
+  },
+  {
+    "part_id": "F07-CLIP5",
+    "watertight": true,
+    "winding_consistent": true,
+    "n_bodies": 1,
+    "volume_mm3": 73.0,
+    "brep_volume_mm3": 73.0,
+    "vol_dev_pct": 0.05,
+    "bbox_mm": [
+      8.41,
+      8.9,
+      2.0
+    ],
+    "n_faces": 408
+  },
+  {
+    "part_id": "F07-COL",
+    "watertight": true,
+    "winding_consistent": true,
+    "n_bodies": 1,
+    "volume_mm3": 31269.3,
+    "brep_volume_mm3": 31270.0,
+    "vol_dev_pct": 0.0,
+    "bbox_mm": [
+      35.5,
+      28.4,
+      175.5
+    ],
+    "n_faces": 2588
+  },
+  {
+    "part_id": "F07-PIN3-L14",
+    "watertight": true,
+    "winding_consistent": true,
+    "n_bodies": 1,
+    "volume_mm3": 121.6,
+    "brep_volume_mm3": 122.0,
+    "vol_dev_pct": 0.3,
+    "bbox_mm": [
+      5.5,
+      5.5,
+      14.0
+    ],
+    "n_faces": 1004
+  },
+  {
+    "part_id": "F07-PIN3-L26",
+    "watertight": true,
+    "winding_consistent": true,
+    "n_bodies": 1,
+    "volume_mm3": 206.3,
+    "brep_volume_mm3": 207.0,
+    "vol_dev_pct": 0.33,
+    "bbox_mm": [
+      5.5,
+      5.5,
+      26.0
+    ],
+    "n_faces": 1004
+  },
+  {
+    "part_id": "F07-PIN3-L34",
+    "watertight": true,
+    "winding_consistent": true,
+    "n_bodies": 1,
+    "volume_mm3": 262.8,
+    "brep_volume_mm3": 263.0,
+    "vol_dev_pct": 0.09,
+    "bbox_mm": [
+      5.5,
+      5.5,
+      34.0
+    ],
+    "n_faces": 1004
+  },
+  {
+    "part_id": "F07-PIN5-L34",
+    "watertight": true,
+    "winding_consistent": true,
+    "n_bodies": 1,
+    "volume_mm3": 721.5,
+    "brep_volume_mm3": 723.0,
+    "vol_dev_pct": 0.21,
+    "bbox_mm": [
+      8.0,
+      8.0,
+      34.0
+    ],
+    "n_faces": 1004
+  },
+  {
+    "part_id": "F07-TWR",
+    "watertight": true,
+    "winding_consistent": true,
+    "n_bodies": 1,
+    "volume_mm3": 5243.7,
+    "brep_volume_mm3": 5246.0,
+    "vol_dev_pct": 0.04,
+    "bbox_mm": [
+      20.0,
+      36.0,
+      67.0
+    ],
+    "n_faces": 2372
+  }
+]

@@ -1,0 +1,455 @@
+{
+  "steps": 2001,
+  "penetrations": [
+    {
+      "t": 0.1825,
+      "pair": [
+        "ARM",
+        "TWR_0"
+      ],
+      "vol_mm3": 0.4295
+    },
+    {
+      "t": 0.183,
+      "pair": [
+        "ARM",
+        "TWR_0"
+      ],
+      "vol_mm3": 6.0326
+    },
+    {
+      "t": 0.1835,
+      "pair": [
+        "ARM",
+        "TWR_0"
+      ],
+      "vol_mm3": 10.4149
+    },
+    {
+      "t": 0.184,
+      "pair": [
+        "ARM",
+        "TWR_0"
+      ],
+      "vol_mm3": 13.1835
+    },
+    {
+      "t": 0.1845,
+      "pair": [
+        "ARM",
+        "TWR_0"
+      ],
+      "vol_mm3": 14.3411
+    },
+    {
+      "t": 0.185,
+      "pair": [
+        "ARM",
+        "TWR_0"
+      ],
+      "vol_mm3": 13.89
+    },
+    {
+      "t": 0.1855,
+      "pair": [
+        "ARM",
+        "TWR_0"
+      ],
+      "vol_mm3": 11.8322
+    },
+    {
+      "t": 0.186,
+      "pair": [
+        "ARM",
+        "TWR_0"
+      ],
+      "vol_mm3": 8.17
+    },
+    {
+      "t": 0.1865,
+      "pair": [
+        "ARM",
+        "TWR_0"
+      ],
+      "vol_mm3": 3.4141
+    },
+    {
+      "t": 0.187,
+      "pair": [
+        "ARM",
+        "TWR_0"
+      ],
+      "vol_mm3": 0.5079
+    }
+  ],
+  "worst_by_pair": {
+    "ARM/TWR_0": {
+      "vol_mm3": 14.3411,
+      "t": 0.1845
+    }
+  },
+  "unresolved": [],
+  "n_penetrations": 10,
+  "hull_checks": [
+    {
+      "phase": "arm_fold",
+      "moving": "ARM",
+      "static": "BASE",
+      "hull_volume_mm3": 299863.4,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "arm_fold",
+      "moving": "ARM",
+      "static": "BED",
+      "hull_volume_mm3": 299863.4,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "arm_fold",
+      "moving": "ARM",
+      "static": "TWR_0",
+      "hull_volume_mm3": 299863.4,
+      "hull_intersects": true,
+      "intersection_mm3": 612.7971,
+      "status": "UNRESOLVED_NEEDS_REFINEMENT"
+    },
+    {
+      "phase": "arm_fold",
+      "moving": "ARM",
+      "static": "CAR_0",
+      "hull_volume_mm3": 299863.4,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_0",
+      "moving": "COL_0",
+      "static": "BED",
+      "hull_volume_mm3": 202915.0,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_0",
+      "moving": "COL_0",
+      "static": "TWR_0",
+      "hull_volume_mm3": 202915.0,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_0",
+      "moving": "ARM",
+      "static": "BASE",
+      "hull_volume_mm3": 143469.1,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_0",
+      "moving": "ARM",
+      "static": "BED",
+      "hull_volume_mm3": 143469.1,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_0",
+      "moving": "ARM",
+      "static": "TWR_0",
+      "hull_volume_mm3": 143469.1,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_0",
+      "moving": "ARM",
+      "static": "CAR_0",
+      "hull_volume_mm3": 143469.1,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_1",
+      "moving": "COL_0",
+      "static": "BED",
+      "hull_volume_mm3": 202915.0,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_1",
+      "moving": "COL_0",
+      "static": "TWR_0",
+      "hull_volume_mm3": 202915.0,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_1",
+      "moving": "ARM",
+      "static": "BASE",
+      "hull_volume_mm3": 143469.1,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_1",
+      "moving": "ARM",
+      "static": "BED",
+      "hull_volume_mm3": 143469.1,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_1",
+      "moving": "ARM",
+      "static": "TWR_0",
+      "hull_volume_mm3": 143469.1,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_1",
+      "moving": "ARM",
+      "static": "CAR_0",
+      "hull_volume_mm3": 143469.1,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_2",
+      "moving": "COL_0",
+      "static": "BED",
+      "hull_volume_mm3": 202915.0,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_2",
+      "moving": "COL_0",
+      "static": "TWR_0",
+      "hull_volume_mm3": 202915.0,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_2",
+      "moving": "ARM",
+      "static": "BASE",
+      "hull_volume_mm3": 143469.1,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_2",
+      "moving": "ARM",
+      "static": "BED",
+      "hull_volume_mm3": 143469.1,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_2",
+      "moving": "ARM",
+      "static": "TWR_0",
+      "hull_volume_mm3": 143469.1,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_2",
+      "moving": "ARM",
+      "static": "CAR_0",
+      "hull_volume_mm3": 143469.1,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_3",
+      "moving": "COL_0",
+      "static": "BED",
+      "hull_volume_mm3": 202915.0,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_3",
+      "moving": "COL_0",
+      "static": "TWR_0",
+      "hull_volume_mm3": 202915.0,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_3",
+      "moving": "ARM",
+      "static": "BASE",
+      "hull_volume_mm3": 143469.1,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_3",
+      "moving": "ARM",
+      "static": "BED",
+      "hull_volume_mm3": 143469.1,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_3",
+      "moving": "ARM",
+      "static": "TWR_0",
+      "hull_volume_mm3": 143469.1,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_3",
+      "moving": "ARM",
+      "static": "CAR_0",
+      "hull_volume_mm3": 143469.1,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_4",
+      "moving": "COL_0",
+      "static": "BED",
+      "hull_volume_mm3": 202915.0,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_4",
+      "moving": "COL_0",
+      "static": "TWR_0",
+      "hull_volume_mm3": 202915.0,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_4",
+      "moving": "ARM",
+      "static": "BASE",
+      "hull_volume_mm3": 143469.1,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_4",
+      "moving": "ARM",
+      "static": "BED",
+      "hull_volume_mm3": 143469.1,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_4",
+      "moving": "ARM",
+      "static": "TWR_0",
+      "hull_volume_mm3": 143469.1,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_4",
+      "moving": "ARM",
+      "static": "CAR_0",
+      "hull_volume_mm3": 143469.1,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_5",
+      "moving": "COL_0",
+      "static": "BED",
+      "hull_volume_mm3": 202915.0,
+      "hull_intersects": true,
+      "intersection_mm3": 263.526,
+      "status": "UNRESOLVED_NEEDS_REFINEMENT"
+    },
+    {
+      "phase": "root_fold_5",
+      "moving": "COL_0",
+      "static": "TWR_0",
+      "hull_volume_mm3": 202915.0,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_5",
+      "moving": "ARM",
+      "static": "BASE",
+      "hull_volume_mm3": 143469.1,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_5",
+      "moving": "ARM",
+      "static": "BED",
+      "hull_volume_mm3": 143469.1,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_5",
+      "moving": "ARM",
+      "static": "TWR_0",
+      "hull_volume_mm3": 143469.1,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_5",
+      "moving": "ARM",
+      "static": "CAR_0",
+      "hull_volume_mm3": 143469.1,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    }
+  ]
+}

@@ -1,0 +1,1170 @@
+{
+  "steps": 2001,
+  "penetrations": [],
+  "worst_by_pair": {},
+  "unresolved": [
+    [
+      0.0,
+      [
+        "ARM_A_L",
+        "SLB_L"
+      ]
+    ],
+    [
+      0.0,
+      [
+        "ARM_B_L",
+        "SLT_L"
+      ]
+    ],
+    [
+      0.0,
+      [
+        "ARM_A_R",
+        "SLB_R"
+      ]
+    ],
+    [
+      0.0,
+      [
+        "ARM_B_R",
+        "SLT_R"
+      ]
+    ],
+    [
+      0.0005,
+      [
+        "ARM_A_L",
+        "SLB_L"
+      ]
+    ],
+    [
+      0.0005,
+      [
+        "ARM_B_L",
+        "SLT_L"
+      ]
+    ],
+    [
+      0.0005,
+      [
+        "ARM_A_R",
+        "SLB_R"
+      ]
+    ],
+    [
+      0.0005,
+      [
+        "ARM_B_R",
+        "SLT_R"
+      ]
+    ],
+    [
+      0.001,
+      [
+        "ARM_A_L",
+        "SLB_L"
+      ]
+    ],
+    [
+      0.001,
+      [
+        "ARM_B_L",
+        "SLT_L"
+      ]
+    ],
+    [
+      0.001,
+      [
+        "ARM_A_R",
+        "SLB_R"
+      ]
+    ],
+    [
+      0.001,
+      [
+        "ARM_B_R",
+        "SLT_R"
+      ]
+    ],
+    [
+      0.0015,
+      [
+        "ARM_A_L",
+        "SLB_L"
+      ]
+    ],
+    [
+      0.0015,
+      [
+        "ARM_B_L",
+        "SLT_L"
+      ]
+    ],
+    [
+      0.0015,
+      [
+        "ARM_A_R",
+        "SLB_R"
+      ]
+    ],
+    [
+      0.0015,
+      [
+        "ARM_B_R",
+        "SLT_R"
+      ]
+    ],
+    [
+      0.002,
+      [
+        "ARM_A_L",
+        "SLB_L"
+      ]
+    ],
+    [
+      0.002,
+      [
+        "ARM_B_L",
+        "SLT_L"
+      ]
+    ],
+    [
+      0.002,
+      [
+        "ARM_A_R",
+        "SLB_R"
+      ]
+    ],
+    [
+      0.002,
+      [
+        "ARM_B_R",
+        "SLT_R"
+      ]
+    ],
+    [
+      0.0025,
+      [
+        "ARM_A_L",
+        "SLB_L"
+      ]
+    ],
+    [
+      0.0025,
+      [
+        "ARM_B_L",
+        "SLT_L"
+      ]
+    ],
+    [
+      0.0025,
+      [
+        "ARM_A_R",
+        "SLB_R"
+      ]
+    ],
+    [
+      0.0025,
+      [
+        "ARM_B_R",
+        "SLT_R"
+      ]
+    ],
+    [
+      0.003,
+      [
+        "ARM_A_L",
+        "SLB_L"
+      ]
+    ],
+    [
+      0.003,
+      [
+        "ARM_B_L",
+        "SLT_L"
+      ]
+    ],
+    [
+      0.003,
+      [
+        "ARM_A_R",
+        "SLB_R"
+      ]
+    ],
+    [
+      0.003,
+      [
+        "ARM_B_R",
+        "SLT_R"
+      ]
+    ],
+    [
+      0.0035,
+      [
+        "ARM_A_L",
+        "SLB_L"
+      ]
+    ],
+    [
+      0.0035,
+      [
+        "ARM_B_L",
+        "SLT_L"
+      ]
+    ],
+    [
+      0.0035,
+      [
+        "ARM_A_R",
+        "SLB_R"
+      ]
+    ],
+    [
+      0.0035,
+      [
+        "ARM_B_R",
+        "SLT_R"
+      ]
+    ],
+    [
+      0.004,
+      [
+        "ARM_A_L",
+        "SLB_L"
+      ]
+    ],
+    [
+      0.004,
+      [
+        "ARM_B_L",
+        "SLT_L"
+      ]
+    ],
+    [
+      0.004,
+      [
+        "ARM_A_R",
+        "SLB_R"
+      ]
+    ],
+    [
+      0.004,
+      [
+        "ARM_B_R",
+        "SLT_R"
+      ]
+    ],
+    [
+      0.0045000000000000005,
+      [
+        "ARM_A_L",
+        "SLB_L"
+      ]
+    ],
+    [
+      0.0045000000000000005,
+      [
+        "ARM_B_L",
+        "SLT_L"
+      ]
+    ],
+    [
+      0.0045000000000000005,
+      [
+        "ARM_A_R",
+        "SLB_R"
+      ]
+    ],
+    [
+      0.0045000000000000005,
+      [
+        "ARM_B_R",
+        "SLT_R"
+      ]
+    ],
+    [
+      0.005,
+      [
+        "ARM_A_L",
+        "SLB_L"
+      ]
+    ],
+    [
+      0.005,
+      [
+        "ARM_B_L",
+        "SLT_L"
+      ]
+    ],
+    [
+      0.005,
+      [
+        "ARM_A_R",
+        "SLB_R"
+      ]
+    ],
+    [
+      0.005,
+      [
+        "ARM_B_R",
+        "SLT_R"
+      ]
+    ],
+    [
+      0.0055,
+      [
+        "ARM_A_L",
+        "SLB_L"
+      ]
+    ],
+    [
+      0.0055,
+      [
+        "ARM_B_L",
+        "SLT_L"
+      ]
+    ],
+    [
+      0.0055,
+      [
+        "ARM_A_R",
+        "SLB_R"
+      ]
+    ],
+    [
+      0.0055,
+      [
+        "ARM_B_R",
+        "SLT_R"
+      ]
+    ],
+    [
+      0.006,
+      [
+        "ARM_A_L",
+        "SLB_L"
+      ]
+    ],
+    [
+      0.006,
+      [
+        "ARM_B_L",
+        "SLT_L"
+      ]
+    ]
+  ],
+  "n_penetrations": 0,
+  "hull_checks": [
+    {
+      "phase": "scissor_0",
+      "moving": "ARM_A_L",
+      "static": "BASE",
+      "hull_volume_mm3": 13337.2,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_0",
+      "moving": "ARM_A_L",
+      "static": "POST_L",
+      "hull_volume_mm3": 13337.2,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_0",
+      "moving": "ARM_A_L",
+      "static": "POST_R",
+      "hull_volume_mm3": 13337.2,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_0",
+      "moving": "ARM_A_R",
+      "static": "BASE",
+      "hull_volume_mm3": 13337.2,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_0",
+      "moving": "ARM_A_R",
+      "static": "POST_L",
+      "hull_volume_mm3": 13337.2,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_0",
+      "moving": "ARM_A_R",
+      "static": "POST_R",
+      "hull_volume_mm3": 13337.2,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_0",
+      "moving": "ARM_B_L",
+      "static": "BASE",
+      "hull_volume_mm3": 12952.3,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_0",
+      "moving": "ARM_B_L",
+      "static": "POST_L",
+      "hull_volume_mm3": 12952.3,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_0",
+      "moving": "ARM_B_L",
+      "static": "POST_R",
+      "hull_volume_mm3": 12952.3,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_0",
+      "moving": "ARM_B_R",
+      "static": "BASE",
+      "hull_volume_mm3": 12952.3,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_0",
+      "moving": "ARM_B_R",
+      "static": "POST_L",
+      "hull_volume_mm3": 12952.3,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_0",
+      "moving": "ARM_B_R",
+      "static": "POST_R",
+      "hull_volume_mm3": 12952.3,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_0",
+      "moving": "PLAT",
+      "static": "BASE",
+      "hull_volume_mm3": 935328.3,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_0",
+      "moving": "PLAT",
+      "static": "POST_L",
+      "hull_volume_mm3": 935328.3,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_0",
+      "moving": "PLAT",
+      "static": "POST_R",
+      "hull_volume_mm3": 935328.3,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_1",
+      "moving": "ARM_A_L",
+      "static": "BASE",
+      "hull_volume_mm3": 11649.2,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_1",
+      "moving": "ARM_A_L",
+      "static": "POST_L",
+      "hull_volume_mm3": 11649.2,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_1",
+      "moving": "ARM_A_L",
+      "static": "POST_R",
+      "hull_volume_mm3": 11649.2,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_1",
+      "moving": "ARM_A_R",
+      "static": "BASE",
+      "hull_volume_mm3": 11649.2,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_1",
+      "moving": "ARM_A_R",
+      "static": "POST_L",
+      "hull_volume_mm3": 11649.2,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_1",
+      "moving": "ARM_A_R",
+      "static": "POST_R",
+      "hull_volume_mm3": 11649.2,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_1",
+      "moving": "ARM_B_L",
+      "static": "BASE",
+      "hull_volume_mm3": 11301.5,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_1",
+      "moving": "ARM_B_L",
+      "static": "POST_L",
+      "hull_volume_mm3": 11301.5,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_1",
+      "moving": "ARM_B_L",
+      "static": "POST_R",
+      "hull_volume_mm3": 11301.5,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_1",
+      "moving": "ARM_B_R",
+      "static": "BASE",
+      "hull_volume_mm3": 11301.5,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_1",
+      "moving": "ARM_B_R",
+      "static": "POST_L",
+      "hull_volume_mm3": 11301.5,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_1",
+      "moving": "ARM_B_R",
+      "static": "POST_R",
+      "hull_volume_mm3": 11301.5,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_1",
+      "moving": "PLAT",
+      "static": "BASE",
+      "hull_volume_mm3": 935328.3,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_1",
+      "moving": "PLAT",
+      "static": "POST_L",
+      "hull_volume_mm3": 935328.3,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_1",
+      "moving": "PLAT",
+      "static": "POST_R",
+      "hull_volume_mm3": 935328.3,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_2",
+      "moving": "ARM_A_L",
+      "static": "BASE",
+      "hull_volume_mm3": 10789.1,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_2",
+      "moving": "ARM_A_L",
+      "static": "POST_L",
+      "hull_volume_mm3": 10789.1,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_2",
+      "moving": "ARM_A_L",
+      "static": "POST_R",
+      "hull_volume_mm3": 10789.1,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_2",
+      "moving": "ARM_A_R",
+      "static": "BASE",
+      "hull_volume_mm3": 10789.1,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_2",
+      "moving": "ARM_A_R",
+      "static": "POST_L",
+      "hull_volume_mm3": 10789.1,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_2",
+      "moving": "ARM_A_R",
+      "static": "POST_R",
+      "hull_volume_mm3": 10789.1,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_2",
+      "moving": "ARM_B_L",
+      "static": "BASE",
+      "hull_volume_mm3": 10499.0,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_2",
+      "moving": "ARM_B_L",
+      "static": "POST_L",
+      "hull_volume_mm3": 10499.0,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_2",
+      "moving": "ARM_B_L",
+      "static": "POST_R",
+      "hull_volume_mm3": 10499.0,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_2",
+      "moving": "ARM_B_R",
+      "static": "BASE",
+      "hull_volume_mm3": 10499.0,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_2",
+      "moving": "ARM_B_R",
+      "static": "POST_L",
+      "hull_volume_mm3": 10499.0,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_2",
+      "moving": "ARM_B_R",
+      "static": "POST_R",
+      "hull_volume_mm3": 10499.0,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_2",
+      "moving": "PLAT",
+      "static": "BASE",
+      "hull_volume_mm3": 935328.3,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_2",
+      "moving": "PLAT",
+      "static": "POST_L",
+      "hull_volume_mm3": 935328.3,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_2",
+      "moving": "PLAT",
+      "static": "POST_R",
+      "hull_volume_mm3": 935328.3,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_3",
+      "moving": "ARM_A_L",
+      "static": "BASE",
+      "hull_volume_mm3": 10259.4,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_3",
+      "moving": "ARM_A_L",
+      "static": "POST_L",
+      "hull_volume_mm3": 10259.4,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_3",
+      "moving": "ARM_A_L",
+      "static": "POST_R",
+      "hull_volume_mm3": 10259.4,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_3",
+      "moving": "ARM_A_R",
+      "static": "BASE",
+      "hull_volume_mm3": 10259.4,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_3",
+      "moving": "ARM_A_R",
+      "static": "POST_L",
+      "hull_volume_mm3": 10259.4,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_3",
+      "moving": "ARM_A_R",
+      "static": "POST_R",
+      "hull_volume_mm3": 10259.4,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_3",
+      "moving": "ARM_B_L",
+      "static": "BASE",
+      "hull_volume_mm3": 10032.5,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_3",
+      "moving": "ARM_B_L",
+      "static": "POST_L",
+      "hull_volume_mm3": 10032.5,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_3",
+      "moving": "ARM_B_L",
+      "static": "POST_R",
+      "hull_volume_mm3": 10032.5,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_3",
+      "moving": "ARM_B_R",
+      "static": "BASE",
+      "hull_volume_mm3": 10032.5,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_3",
+      "moving": "ARM_B_R",
+      "static": "POST_L",
+      "hull_volume_mm3": 10032.5,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_3",
+      "moving": "ARM_B_R",
+      "static": "POST_R",
+      "hull_volume_mm3": 10032.5,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_3",
+      "moving": "PLAT",
+      "static": "BASE",
+      "hull_volume_mm3": 935328.3,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_3",
+      "moving": "PLAT",
+      "static": "POST_L",
+      "hull_volume_mm3": 935328.3,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_3",
+      "moving": "PLAT",
+      "static": "POST_R",
+      "hull_volume_mm3": 935328.3,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_4",
+      "moving": "ARM_A_L",
+      "static": "BASE",
+      "hull_volume_mm3": 9906.9,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_4",
+      "moving": "ARM_A_L",
+      "static": "POST_L",
+      "hull_volume_mm3": 9906.9,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_4",
+      "moving": "ARM_A_L",
+      "static": "POST_R",
+      "hull_volume_mm3": 9906.9,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_4",
+      "moving": "ARM_A_R",
+      "static": "BASE",
+      "hull_volume_mm3": 9906.9,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_4",
+      "moving": "ARM_A_R",
+      "static": "POST_L",
+      "hull_volume_mm3": 9906.9,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_4",
+      "moving": "ARM_A_R",
+      "static": "POST_R",
+      "hull_volume_mm3": 9906.9,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_4",
+      "moving": "ARM_B_L",
+      "static": "BASE",
+      "hull_volume_mm3": 9745.6,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_4",
+      "moving": "ARM_B_L",
+      "static": "POST_L",
+      "hull_volume_mm3": 9745.6,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_4",
+      "moving": "ARM_B_L",
+      "static": "POST_R",
+      "hull_volume_mm3": 9745.6,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_4",
+      "moving": "ARM_B_R",
+      "static": "BASE",
+      "hull_volume_mm3": 9745.6,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_4",
+      "moving": "ARM_B_R",
+      "static": "POST_L",
+      "hull_volume_mm3": 9745.6,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_4",
+      "moving": "ARM_B_R",
+      "static": "POST_R",
+      "hull_volume_mm3": 9745.6,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_4",
+      "moving": "PLAT",
+      "static": "BASE",
+      "hull_volume_mm3": 935328.3,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_4",
+      "moving": "PLAT",
+      "static": "POST_L",
+      "hull_volume_mm3": 935328.3,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_4",
+      "moving": "PLAT",
+      "static": "POST_R",
+      "hull_volume_mm3": 935328.3,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_5",
+      "moving": "ARM_A_L",
+      "static": "BASE",
+      "hull_volume_mm3": 9668.3,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_5",
+      "moving": "ARM_A_L",
+      "static": "POST_L",
+      "hull_volume_mm3": 9668.3,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_5",
+      "moving": "ARM_A_L",
+      "static": "POST_R",
+      "hull_volume_mm3": 9668.3,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_5",
+      "moving": "ARM_A_R",
+      "static": "BASE",
+      "hull_volume_mm3": 9668.3,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_5",
+      "moving": "ARM_A_R",
+      "static": "POST_L",
+      "hull_volume_mm3": 9668.3,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_5",
+      "moving": "ARM_A_R",
+      "static": "POST_R",
+      "hull_volume_mm3": 9668.3,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_5",
+      "moving": "ARM_B_L",
+      "static": "BASE",
+      "hull_volume_mm3": 9573.9,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_5",
+      "moving": "ARM_B_L",
+      "static": "POST_L",
+      "hull_volume_mm3": 9573.9,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_5",
+      "moving": "ARM_B_L",
+      "static": "POST_R",
+      "hull_volume_mm3": 9573.9,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_5",
+      "moving": "ARM_B_R",
+      "static": "BASE",
+      "hull_volume_mm3": 9573.9,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_5",
+      "moving": "ARM_B_R",
+      "static": "POST_L",
+      "hull_volume_mm3": 9573.9,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_5",
+      "moving": "ARM_B_R",
+      "static": "POST_R",
+      "hull_volume_mm3": 9573.9,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_5",
+      "moving": "PLAT",
+      "static": "BASE",
+      "hull_volume_mm3": 935328.3,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_5",
+      "moving": "PLAT",
+      "static": "POST_L",
+      "hull_volume_mm3": 935328.3,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_5",
+      "moving": "PLAT",
+      "static": "POST_R",
+      "hull_volume_mm3": 935328.3,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    }
+  ]
+}

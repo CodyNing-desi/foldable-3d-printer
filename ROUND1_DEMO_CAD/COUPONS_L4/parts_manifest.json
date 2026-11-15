@@ -1,0 +1,164 @@
+{
+  "cad_version": "R1-V6",
+  "scale": 0.5,
+  "parts": [
+    {
+      "part_id": "CP-PIN5-LADDER",
+      "material": "PLA",
+      "cad_version": "R1-V6",
+      "volume_cm3": 12.06,
+      "mass_est_g": 9.0,
+      "bbox_mm": [
+        70.0,
+        30.0,
+        6.0
+      ],
+      "stl": "STL\\CP-PIN5-LADDER.stl",
+      "step": "STEP\\CP-PIN5-LADDER.step"
+    },
+    {
+      "part_id": "CP-SLIDER-BASE",
+      "material": "PLA",
+      "cad_version": "R1-V6",
+      "volume_cm3": 16.371,
+      "mass_est_g": 12.2,
+      "bbox_mm": [
+        80.0,
+        34.0,
+        8.0
+      ],
+      "stl": "STL\\CP-SLIDER-BASE.stl",
+      "step": "STEP\\CP-SLIDER-BASE.step"
+    },
+    {
+      "part_id": "CP-SLIDER-TONGUES",
+      "material": "PETG",
+      "cad_version": "R1-V6",
+      "volume_cm3": 6.176,
+      "mass_est_g": 4.7,
+      "bbox_mm": [
+        70.0,
+        20.0,
+        8.0
+      ],
+      "stl": "STL\\CP-SLIDER-TONGUES.stl",
+      "step": "STEP\\CP-SLIDER-TONGUES.step"
+    },
+    {
+      "part_id": "CP-CLIP-BOARD",
+      "material": "PLA",
+      "cad_version": "R1-V6",
+      "volume_cm3": 11.908,
+      "mass_est_g": 8.9,
+      "bbox_mm": [
+        60.0,
+        30.0,
+        22.0
+      ],
+      "stl": "STL\\CP-CLIP-BOARD.stl",
+      "step": "STEP\\CP-CLIP-BOARD.step"
+    },
+    {
+      "part_id": "CP-SCZ-HOLES",
+      "material": "PLA",
+      "cad_version": "R1-V6",
+      "volume_cm3": 10.539,
+      "mass_est_g": 7.8,
+      "bbox_mm": [
+        60.0,
+        30.0,
+        6.0
+      ],
+      "stl": "STL\\CP-SCZ-HOLES.stl",
+      "step": "STEP\\CP-SCZ-HOLES.step"
+    },
+    {
+      "part_id": "CP-HINGE-CLEVIS",
+      "material": "PLA",
+      "cad_version": "R1-V6",
+      "volume_cm3": 13.217,
+      "mass_est_g": 9.8,
+      "bbox_mm": [
+        40.0,
+        30.0,
+        22.0
+      ],
+      "stl": "STL\\CP-HINGE-CLEVIS.stl",
+      "step": "STEP\\CP-HINGE-CLEVIS.step"
+    },
+    {
+      "part_id": "CP-HINGE-TONGUE",
+      "material": "PETG",
+      "cad_version": "R1-V6",
+      "volume_cm3": 2.609,
+      "mass_est_g": 2.0,
+      "bbox_mm": [
+        12.0,
+        12.0,
+        22.0
+      ],
+      "stl": "STL\\CP-HINGE-TONGUE.stl",
+      "step": "STEP\\CP-HINGE-TONGUE.step"
+    },
+    {
+      "part_id": "CP-PIN5",
+      "material": "PETG",
+      "cad_version": "R1-V6",
+      "volume_cm3": 0.369,
+      "mass_est_g": 0.3,
+      "bbox_mm": [
+        8.0,
+        8.0,
+        16.0
+      ],
+      "stl": "STL\\CP-PIN5.stl",
+      "step": "STEP\\CP-PIN5.step",
+      "qty": 4
+    },
+    {
+      "part_id": "CP-PIN4",
+      "material": "PETG",
+      "cad_version": "R1-V6",
+      "volume_cm3": 0.218,
+      "mass_est_g": 0.2,
+      "bbox_mm": [
+        7.0,
+        7.0,
+        14.0
+      ],
+      "stl": "STL\\CP-PIN4.stl",
+      "step": "STEP\\CP-PIN4.step",
+      "qty": 3
+    },
+    {
+      "part_id": "CP-CLIP5",
+      "material": "PETG",
+      "cad_version": "R1-V6",
+      "volume_cm3": 0.073,
+      "mass_est_g": 0.1,
+      "bbox_mm": [
+        8.41,
+        8.9,
+        2.0
+      ],
+      "stl": "STL\\CP-CLIP5.stl",
+      "step": "STEP\\CP-CLIP5.step",
+      "qty": 6
+    },
+    {
+      "part_id": "CP-CLIP4",
+      "material": "PETG",
+      "cad_version": "R1-V6",
+      "volume_cm3": 0.058,
+      "mass_est_g": 0.0,
+      "bbox_mm": [
+        7.58,
+        7.9,
+        1.8
+      ],
+      "stl": "STL\\CP-CLIP4.stl",
+      "step": "STEP\\CP-CLIP4.step",
+      "qty": 3
+    }
+  ]
+}

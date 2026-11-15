@@ -1,0 +1,171 @@
+{
+  "steps": 2001,
+  "penetrations": [],
+  "worst_by_pair": {},
+  "unresolved": [],
+  "n_penetrations": 0,
+  "hull_checks": [
+    {
+      "phase": "scissor_0",
+      "moving": "PLAT",
+      "static": "BASE",
+      "hull_volume_mm3": 935328.3,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_0",
+      "moving": "PLAT",
+      "static": "POST_L",
+      "hull_volume_mm3": 935328.3,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_0",
+      "moving": "PLAT",
+      "static": "POST_R",
+      "hull_volume_mm3": 935328.3,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_1",
+      "moving": "PLAT",
+      "static": "BASE",
+      "hull_volume_mm3": 935328.3,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_1",
+      "moving": "PLAT",
+      "static": "POST_L",
+      "hull_volume_mm3": 935328.3,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_1",
+      "moving": "PLAT",
+      "static": "POST_R",
+      "hull_volume_mm3": 935328.3,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_2",
+      "moving": "PLAT",
+      "static": "BASE",
+      "hull_volume_mm3": 935328.3,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_2",
+      "moving": "PLAT",
+      "static": "POST_L",
+      "hull_volume_mm3": 935328.3,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_2",
+      "moving": "PLAT",
+      "static": "POST_R",
+      "hull_volume_mm3": 935328.3,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_3",
+      "moving": "PLAT",
+      "static": "BASE",
+      "hull_volume_mm3": 935328.3,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_3",
+      "moving": "PLAT",
+      "static": "POST_L",
+      "hull_volume_mm3": 935328.3,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_3",
+      "moving": "PLAT",
+      "static": "POST_R",
+      "hull_volume_mm3": 935328.3,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_4",
+      "moving": "PLAT",
+      "static": "BASE",
+      "hull_volume_mm3": 935328.3,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_4",
+      "moving": "PLAT",
+      "static": "POST_L",
+      "hull_volume_mm3": 935328.3,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_4",
+      "moving": "PLAT",
+      "static": "POST_R",
+      "hull_volume_mm3": 935328.3,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_5",
+      "moving": "PLAT",
+      "static": "BASE",
+      "hull_volume_mm3": 935328.3,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_5",
+      "moving": "PLAT",
+      "static": "POST_L",
+      "hull_volume_mm3": 935328.3,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "scissor_5",
+      "moving": "PLAT",
+      "static": "POST_R",
+      "hull_volume_mm3": 935328.3,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    }
+  ]
+}

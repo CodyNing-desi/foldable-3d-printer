@@ -1,0 +1,206 @@
+[
+  {
+    "part_id": "F09-BASE",
+    "material": "PLA",
+    "bbox_mm": [
+      157.5,
+      173.5,
+      24.0
+    ],
+    "plate_250_ok": true,
+    "mass_est_g": 204.2,
+    "volume_cm3": 274.516
+  },
+  {
+    "part_id": "F09-BED",
+    "material": "PLA",
+    "bbox_mm": [
+      90.0,
+      90.0,
+      4.0
+    ],
+    "plate_250_ok": true,
+    "mass_est_g": 24.1,
+    "volume_cm3": 32.4
+  },
+  {
+    "part_id": "F09-TWR",
+    "material": "PLA",
+    "bbox_mm": [
+      20.0,
+      36.0,
+      67.0
+    ],
+    "plate_250_ok": true,
+    "mass_est_g": 3.9,
+    "volume_cm3": 5.246
+  },
+  {
+    "part_id": "F09-CAR",
+    "material": "PLA",
+    "bbox_mm": [
+      34.0,
+      39.0,
+      20.0
+    ],
+    "plate_250_ok": true,
+    "mass_est_g": 5.2,
+    "volume_cm3": 6.984
+  },
+  {
+    "part_id": "F09-COL",
+    "material": "PLA",
+    "bbox_mm": [
+      15.0,
+      20.0,
+      175.5
+    ],
+    "plate_250_ok": true,
+    "mass_est_g": 22.2,
+    "volume_cm3": 29.87
+  },
+  {
+    "part_id": "F09-ARM",
+    "material": "PLA",
+    "bbox_mm": [
+      119.5,
+      26.0,
+      39.5
+    ],
+    "plate_250_ok": true,
+    "mass_est_g": 30.5,
+    "volume_cm3": 41.035
+  },
+  {
+    "part_id": "F09-SYNC",
+    "material": "PLA",
+    "bbox_mm": [
+      6.5,
+      116.0,
+      8.0
+    ],
+    "plate_250_ok": true,
+    "mass_est_g": 4.1,
+    "volume_cm3": 5.528
+  },
+  {
+    "part_id": "F09-XBAR",
+    "material": "PLA",
+    "bbox_mm": [
+      15.0,
+      166.0,
+      23.0
+    ],
+    "plate_250_ok": true,
+    "mass_est_g": 17.3,
+    "volume_cm3": 23.273
+  },
+  {
+    "part_id": "F09-BRG",
+    "material": "PLA",
+    "bbox_mm": [
+      35.5,
+      136.0,
+      15.0
+    ],
+    "plate_250_ok": true,
+    "mass_est_g": 20.9,
+    "volume_cm3": 28.075
+  },
+  {
+    "part_id": "F09-PIN5-L34",
+    "material": "PETG",
+    "bbox_mm": [
+      8.0,
+      8.0,
+      34.0
+    ],
+    "plate_250_ok": true,
+    "mass_est_g": 0.6,
+    "volume_cm3": 0.723
+  },
+  {
+    "part_id": "F09-PIN3-L34",
+    "material": "PETG",
+    "bbox_mm": [
+      5.5,
+      5.5,
+      34.0
+    ],
+    "plate_250_ok": true,
+    "mass_est_g": 0.2,
+    "volume_cm3": 0.263
+  },
+  {
+    "part_id": "F09-PIN3-L26",
+    "material": "PETG",
+    "bbox_mm": [
+      5.5,
+      5.5,
+      26.0
+    ],
+    "plate_250_ok": true,
+    "mass_est_g": 0.2,
+    "volume_cm3": 0.207
+  },
+  {
+    "part_id": "F09-PIN3-L14",
+    "material": "PETG",
+    "bbox_mm": [
+      5.5,
+      5.5,
+      14.0
+    ],
+    "plate_250_ok": true,
+    "mass_est_g": 0.1,
+    "volume_cm3": 0.122
+  },
+  {
+    "part_id": "F09-CLIP5",
+    "material": "PETG",
+    "bbox_mm": [
+      8.41,
+      8.9,
+      2.0
+    ],
+    "plate_250_ok": true,
+    "mass_est_g": 0.1,
+    "volume_cm3": 0.073
+  },
+  {
+    "part_id": "F09-CLIP3",
+    "material": "PETG",
+    "bbox_mm": [
+      6.81,
+      7.0,
+      1.6
+    ],
+    "plate_250_ok": true,
+    "mass_est_g": 0.0,
+    "volume_cm3": 0.044
+  },
+  {
+    "part_id": "F09-PIN3-L18",
+    "material": "PETG",
+    "bbox_mm": [
+      5.5,
+      5.5,
+      18.0
+    ],
+    "plate_250_ok": true,
+    "mass_est_g": 0.1,
+    "volume_cm3": 0.15
+  },
+  {
+    "part_id": "F09-PIN3-L22",
+    "material": "PETG",
+    "bbox_mm": [
+      5.5,
+      5.5,
+      22.0
+    ],
+    "plate_250_ok": true,
+    "mass_est_g": 0.1,
+    "volume_cm3": 0.178
+  }
+]
