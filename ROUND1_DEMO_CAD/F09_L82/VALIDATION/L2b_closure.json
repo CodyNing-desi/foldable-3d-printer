@@ -1,7 +1,7 @@
 {
   "closure": {
     "steps": 2001,
-    "n_joints": 14,
+    "n_joints": 15,
     "stats": {
       "root_0": {
         "max_point": 0.0,
@@ -88,6 +88,13 @@
         "max_slide_dev": 0.0
       },
       "twr1_base": {
+        "max_point": 0.0,
+        "max_radial": 0.0,
+        "max_axis_deg": 0.0,
+        "max_rigid": 0.0,
+        "max_slide_dev": 0.0
+      },
+      "cap1_twr": {
         "max_point": 0.0,
         "max_radial": 0.0,
         "max_axis_deg": 0.0,

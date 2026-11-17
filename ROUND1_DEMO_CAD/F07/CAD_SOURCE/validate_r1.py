@@ -29,10 +29,12 @@ ALLOW_CONTACT = {
         ("XBAR", "COL"), ("BRG", "COL"), ("SYNC", "CAR"), ("CAR", "SYNC"),
         ("TWR", "BASE"), ("COL", "BASE"), ("ARM", "BRG"), ("BED", "BASE"),
         ("CAR", "BASE"), ("SYNC", "BASE"), ("XBAR", "BASE"), ("BRG", "BASE"),
+        ("CAP", "TWR"), ("CAP", "SYNC"),
     },
     "F07": {
         ("CAR", "TWR"), ("CAR", "COL"), ("COL", "CAR"), ("TWR", "BASE"),
         ("COL", "BASE"), ("ARM", "COL"), ("BED", "BASE"), ("CAR", "BASE"),
+        ("CAP", "TWR"),
     },
     "SCZ": {
         ("ARM", "SLB"), ("ARM", "PLAT"), ("ARM", "POST"), ("ARM", "SLT"), ("ARM", "ARM"),
@@ -180,7 +182,7 @@ def sweep_hull_checks(cand: str, parts, n_sample=61):
             movers = ["COL_0", "COL_1", "XBAR", "BRG", "ARM"] if cand == "F09_L82" else ["COL_0", "ARM"]
             phases.append((f"root_fold_{i}", ta, tb, movers))
         statics = ["BASE", "BED"] + [f"TWR_{i}" for i in range(len(K.TOWER_Y[cand]))] \
-                  + [f"CAR_{i}" for i in range(len(K.TOWER_Y[cand]))]
+                  + [f"CAR_{i}" for i in range(len(K.TOWER_Y[cand]))]               + [f"CAP_{i}" for i in range(len(K.TOWER_Y[cand]))]
         if cand == "F09_L82":
             statics.append("SYNC")
     elif cand == "SCZ":

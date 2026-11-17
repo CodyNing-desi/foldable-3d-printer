@@ -17,7 +17,7 @@ from build123d import (
     export_step, export_stl, fillet, chamfer,
 )
 
-CAD_VERSION = "R1-V6"
+CAD_VERSION = "R1-V6.1"
 SCALE = 0.5  # link geometry scale vs V3.2.1 full size
 
 

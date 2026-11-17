@@ -93,6 +93,7 @@ def gantry_placements(cand: str, arm: float, lift: float, root: float) -> dict:
     out["BED"] = ((0, 0, 0), 0.0)
     for i, yc in enumerate(TOWER_Y[cand]):
         out[f"TWR_{i}"] = ((POST_X, yc, 10.0), 0.0)
+        out[f"CAP_{i}"] = ((POST_X, yc, 10.0), 0.0)  # V6.1 removable cap rides tower frame
         out[f"CAR_{i}"] = ((CAR["x0"], yc, CAR["z0"] + lift), 0.0)
     if cand == "F09_L82":
         out["SYNC"] = ((0, 0, CAR["z0"] + lift), 0.0)

@@ -62,6 +62,24 @@
     {
       "phase": "arm_fold_0",
       "moving": "ARM",
+      "static": "CAP_0",
+      "hull_volume_mm3": 118148.2,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "arm_fold_0",
+      "moving": "ARM",
+      "static": "CAP_1",
+      "hull_volume_mm3": 118148.2,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "arm_fold_0",
+      "moving": "ARM",
       "static": "SYNC",
       "hull_volume_mm3": 118148.2,
       "hull_intersects": false,
@@ -117,6 +135,24 @@
       "phase": "arm_fold_1",
       "moving": "ARM",
       "static": "CAR_1",
+      "hull_volume_mm3": 118148.2,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "arm_fold_1",
+      "moving": "ARM",
+      "static": "CAP_0",
+      "hull_volume_mm3": 118148.2,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "arm_fold_1",
+      "moving": "ARM",
+      "static": "CAP_1",
       "hull_volume_mm3": 118148.2,
       "hull_intersects": false,
       "intersection_mm3": 0.0,
@@ -188,6 +224,24 @@
     {
       "phase": "arm_fold_2",
       "moving": "ARM",
+      "static": "CAP_0",
+      "hull_volume_mm3": 118148.2,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "arm_fold_2",
+      "moving": "ARM",
+      "static": "CAP_1",
+      "hull_volume_mm3": 118148.2,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "arm_fold_2",
+      "moving": "ARM",
       "static": "SYNC",
       "hull_volume_mm3": 118148.2,
       "hull_intersects": false,
@@ -243,6 +297,24 @@
       "phase": "arm_fold_3",
       "moving": "ARM",
       "static": "CAR_1",
+      "hull_volume_mm3": 118148.2,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "arm_fold_3",
+      "moving": "ARM",
+      "static": "CAP_0",
+      "hull_volume_mm3": 118148.2,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "arm_fold_3",
+      "moving": "ARM",
+      "static": "CAP_1",
       "hull_volume_mm3": 118148.2,
       "hull_intersects": false,
       "intersection_mm3": 0.0,
@@ -314,6 +386,24 @@
     {
       "phase": "arm_fold_4",
       "moving": "ARM",
+      "static": "CAP_0",
+      "hull_volume_mm3": 118148.2,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "arm_fold_4",
+      "moving": "ARM",
+      "static": "CAP_1",
+      "hull_volume_mm3": 118148.2,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "arm_fold_4",
+      "moving": "ARM",
       "static": "SYNC",
       "hull_volume_mm3": 118148.2,
       "hull_intersects": false,
@@ -377,6 +467,24 @@
     {
       "phase": "arm_fold_5",
       "moving": "ARM",
+      "static": "CAP_0",
+      "hull_volume_mm3": 118148.2,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "arm_fold_5",
+      "moving": "ARM",
+      "static": "CAP_1",
+      "hull_volume_mm3": 118148.2,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "arm_fold_5",
+      "moving": "ARM",
       "static": "SYNC",
       "hull_volume_mm3": 118148.2,
       "hull_intersects": false,
@@ -413,6 +521,24 @@
     {
       "phase": "root_fold_0",
       "moving": "COL_0",
+      "static": "CAP_0",
+      "hull_volume_mm3": 89330.4,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_0",
+      "moving": "COL_0",
+      "static": "CAP_1",
+      "hull_volume_mm3": 89330.4,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_0",
+      "moving": "COL_0",
       "static": "SYNC",
       "hull_volume_mm3": 89330.4,
       "hull_intersects": false,
@@ -441,6 +567,24 @@
       "phase": "root_fold_0",
       "moving": "COL_1",
       "static": "TWR_1",
+      "hull_volume_mm3": 89330.4,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_0",
+      "moving": "COL_1",
+      "static": "CAP_0",
+      "hull_volume_mm3": 89330.4,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_0",
+      "moving": "COL_1",
+      "static": "CAP_1",
       "hull_volume_mm3": 89330.4,
       "hull_intersects": false,
       "intersection_mm3": 0.0,
@@ -503,6 +647,24 @@
     {
       "phase": "root_fold_0",
       "moving": "XBAR",
+      "static": "CAP_0",
+      "hull_volume_mm3": 129803.1,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_0",
+      "moving": "XBAR",
+      "static": "CAP_1",
+      "hull_volume_mm3": 129803.1,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_0",
+      "moving": "XBAR",
       "static": "SYNC",
       "hull_volume_mm3": 129803.1,
       "hull_intersects": false,
@@ -549,6 +711,24 @@
       "phase": "root_fold_0",
       "moving": "BRG",
       "static": "CAR_1",
+      "hull_volume_mm3": 97574.8,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_0",
+      "moving": "BRG",
+      "static": "CAP_0",
+      "hull_volume_mm3": 97574.8,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_0",
+      "moving": "BRG",
+      "static": "CAP_1",
       "hull_volume_mm3": 97574.8,
       "hull_intersects": false,
       "intersection_mm3": 0.0,
@@ -620,6 +800,24 @@
     {
       "phase": "root_fold_0",
       "moving": "ARM",
+      "static": "CAP_0",
+      "hull_volume_mm3": 111913.4,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_0",
+      "moving": "ARM",
+      "static": "CAP_1",
+      "hull_volume_mm3": 111913.4,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_0",
+      "moving": "ARM",
       "static": "SYNC",
       "hull_volume_mm3": 111913.4,
       "hull_intersects": false,
@@ -656,6 +854,24 @@
     {
       "phase": "root_fold_1",
       "moving": "COL_0",
+      "static": "CAP_0",
+      "hull_volume_mm3": 89330.4,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_1",
+      "moving": "COL_0",
+      "static": "CAP_1",
+      "hull_volume_mm3": 89330.4,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_1",
+      "moving": "COL_0",
       "static": "SYNC",
       "hull_volume_mm3": 89330.4,
       "hull_intersects": false,
@@ -684,6 +900,24 @@
       "phase": "root_fold_1",
       "moving": "COL_1",
       "static": "TWR_1",
+      "hull_volume_mm3": 89330.4,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_1",
+      "moving": "COL_1",
+      "static": "CAP_0",
+      "hull_volume_mm3": 89330.4,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_1",
+      "moving": "COL_1",
+      "static": "CAP_1",
       "hull_volume_mm3": 89330.4,
       "hull_intersects": false,
       "intersection_mm3": 0.0,
@@ -746,6 +980,24 @@
     {
       "phase": "root_fold_1",
       "moving": "XBAR",
+      "static": "CAP_0",
+      "hull_volume_mm3": 129803.1,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_1",
+      "moving": "XBAR",
+      "static": "CAP_1",
+      "hull_volume_mm3": 129803.1,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_1",
+      "moving": "XBAR",
       "static": "SYNC",
       "hull_volume_mm3": 129803.1,
       "hull_intersects": false,
@@ -792,6 +1044,24 @@
       "phase": "root_fold_1",
       "moving": "BRG",
       "static": "CAR_1",
+      "hull_volume_mm3": 97574.8,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_1",
+      "moving": "BRG",
+      "static": "CAP_0",
+      "hull_volume_mm3": 97574.8,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_1",
+      "moving": "BRG",
+      "static": "CAP_1",
       "hull_volume_mm3": 97574.8,
       "hull_intersects": false,
       "intersection_mm3": 0.0,
@@ -863,6 +1133,24 @@
     {
       "phase": "root_fold_1",
       "moving": "ARM",
+      "static": "CAP_0",
+      "hull_volume_mm3": 111913.4,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_1",
+      "moving": "ARM",
+      "static": "CAP_1",
+      "hull_volume_mm3": 111913.4,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_1",
+      "moving": "ARM",
       "static": "SYNC",
       "hull_volume_mm3": 111913.4,
       "hull_intersects": false,
@@ -899,6 +1187,24 @@
     {
       "phase": "root_fold_2",
       "moving": "COL_0",
+      "static": "CAP_0",
+      "hull_volume_mm3": 89330.4,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_2",
+      "moving": "COL_0",
+      "static": "CAP_1",
+      "hull_volume_mm3": 89330.4,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_2",
+      "moving": "COL_0",
       "static": "SYNC",
       "hull_volume_mm3": 89330.4,
       "hull_intersects": false,
@@ -927,6 +1233,24 @@
       "phase": "root_fold_2",
       "moving": "COL_1",
       "static": "TWR_1",
+      "hull_volume_mm3": 89330.4,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_2",
+      "moving": "COL_1",
+      "static": "CAP_0",
+      "hull_volume_mm3": 89330.4,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_2",
+      "moving": "COL_1",
+      "static": "CAP_1",
       "hull_volume_mm3": 89330.4,
       "hull_intersects": false,
       "intersection_mm3": 0.0,
@@ -989,6 +1313,24 @@
     {
       "phase": "root_fold_2",
       "moving": "XBAR",
+      "static": "CAP_0",
+      "hull_volume_mm3": 129803.1,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_2",
+      "moving": "XBAR",
+      "static": "CAP_1",
+      "hull_volume_mm3": 129803.1,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_2",
+      "moving": "XBAR",
       "static": "SYNC",
       "hull_volume_mm3": 129803.1,
       "hull_intersects": false,
@@ -1035,6 +1377,24 @@
       "phase": "root_fold_2",
       "moving": "BRG",
       "static": "CAR_1",
+      "hull_volume_mm3": 97574.8,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_2",
+      "moving": "BRG",
+      "static": "CAP_0",
+      "hull_volume_mm3": 97574.8,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_2",
+      "moving": "BRG",
+      "static": "CAP_1",
       "hull_volume_mm3": 97574.8,
       "hull_intersects": false,
       "intersection_mm3": 0.0,
@@ -1106,6 +1466,24 @@
     {
       "phase": "root_fold_2",
       "moving": "ARM",
+      "static": "CAP_0",
+      "hull_volume_mm3": 111913.4,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_2",
+      "moving": "ARM",
+      "static": "CAP_1",
+      "hull_volume_mm3": 111913.4,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_2",
+      "moving": "ARM",
       "static": "SYNC",
       "hull_volume_mm3": 111913.4,
       "hull_intersects": false,
@@ -1142,6 +1520,24 @@
     {
       "phase": "root_fold_3",
       "moving": "COL_0",
+      "static": "CAP_0",
+      "hull_volume_mm3": 89330.4,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_3",
+      "moving": "COL_0",
+      "static": "CAP_1",
+      "hull_volume_mm3": 89330.4,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_3",
+      "moving": "COL_0",
       "static": "SYNC",
       "hull_volume_mm3": 89330.4,
       "hull_intersects": false,
@@ -1170,6 +1566,24 @@
       "phase": "root_fold_3",
       "moving": "COL_1",
       "static": "TWR_1",
+      "hull_volume_mm3": 89330.4,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_3",
+      "moving": "COL_1",
+      "static": "CAP_0",
+      "hull_volume_mm3": 89330.4,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_3",
+      "moving": "COL_1",
+      "static": "CAP_1",
       "hull_volume_mm3": 89330.4,
       "hull_intersects": false,
       "intersection_mm3": 0.0,
@@ -1232,6 +1646,24 @@
     {
       "phase": "root_fold_3",
       "moving": "XBAR",
+      "static": "CAP_0",
+      "hull_volume_mm3": 129803.1,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_3",
+      "moving": "XBAR",
+      "static": "CAP_1",
+      "hull_volume_mm3": 129803.1,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_3",
+      "moving": "XBAR",
       "static": "SYNC",
       "hull_volume_mm3": 129803.1,
       "hull_intersects": false,
@@ -1278,6 +1710,24 @@
       "phase": "root_fold_3",
       "moving": "BRG",
       "static": "CAR_1",
+      "hull_volume_mm3": 97574.8,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_3",
+      "moving": "BRG",
+      "static": "CAP_0",
+      "hull_volume_mm3": 97574.8,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_3",
+      "moving": "BRG",
+      "static": "CAP_1",
       "hull_volume_mm3": 97574.8,
       "hull_intersects": false,
       "intersection_mm3": 0.0,
@@ -1349,6 +1799,24 @@
     {
       "phase": "root_fold_3",
       "moving": "ARM",
+      "static": "CAP_0",
+      "hull_volume_mm3": 111913.4,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_3",
+      "moving": "ARM",
+      "static": "CAP_1",
+      "hull_volume_mm3": 111913.4,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_3",
+      "moving": "ARM",
       "static": "SYNC",
       "hull_volume_mm3": 111913.4,
       "hull_intersects": false,
@@ -1385,6 +1853,24 @@
     {
       "phase": "root_fold_4",
       "moving": "COL_0",
+      "static": "CAP_0",
+      "hull_volume_mm3": 89330.4,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_4",
+      "moving": "COL_0",
+      "static": "CAP_1",
+      "hull_volume_mm3": 89330.4,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_4",
+      "moving": "COL_0",
       "static": "SYNC",
       "hull_volume_mm3": 89330.4,
       "hull_intersects": false,
@@ -1413,6 +1899,24 @@
       "phase": "root_fold_4",
       "moving": "COL_1",
       "static": "TWR_1",
+      "hull_volume_mm3": 89330.4,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_4",
+      "moving": "COL_1",
+      "static": "CAP_0",
+      "hull_volume_mm3": 89330.4,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_4",
+      "moving": "COL_1",
+      "static": "CAP_1",
       "hull_volume_mm3": 89330.4,
       "hull_intersects": false,
       "intersection_mm3": 0.0,
@@ -1475,6 +1979,24 @@
     {
       "phase": "root_fold_4",
       "moving": "XBAR",
+      "static": "CAP_0",
+      "hull_volume_mm3": 129803.1,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_4",
+      "moving": "XBAR",
+      "static": "CAP_1",
+      "hull_volume_mm3": 129803.1,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_4",
+      "moving": "XBAR",
       "static": "SYNC",
       "hull_volume_mm3": 129803.1,
       "hull_intersects": false,
@@ -1521,6 +2043,24 @@
       "phase": "root_fold_4",
       "moving": "BRG",
       "static": "CAR_1",
+      "hull_volume_mm3": 97574.8,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_4",
+      "moving": "BRG",
+      "static": "CAP_0",
+      "hull_volume_mm3": 97574.8,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_4",
+      "moving": "BRG",
+      "static": "CAP_1",
       "hull_volume_mm3": 97574.8,
       "hull_intersects": false,
       "intersection_mm3": 0.0,
@@ -1592,6 +2132,24 @@
     {
       "phase": "root_fold_4",
       "moving": "ARM",
+      "static": "CAP_0",
+      "hull_volume_mm3": 111913.4,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_4",
+      "moving": "ARM",
+      "static": "CAP_1",
+      "hull_volume_mm3": 111913.4,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_4",
+      "moving": "ARM",
       "static": "SYNC",
       "hull_volume_mm3": 111913.4,
       "hull_intersects": false,
@@ -1628,6 +2186,24 @@
     {
       "phase": "root_fold_5",
       "moving": "COL_0",
+      "static": "CAP_0",
+      "hull_volume_mm3": 89330.4,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_5",
+      "moving": "COL_0",
+      "static": "CAP_1",
+      "hull_volume_mm3": 89330.4,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_5",
+      "moving": "COL_0",
       "static": "SYNC",
       "hull_volume_mm3": 89330.4,
       "hull_intersects": false,
@@ -1656,6 +2232,24 @@
       "phase": "root_fold_5",
       "moving": "COL_1",
       "static": "TWR_1",
+      "hull_volume_mm3": 89330.4,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_5",
+      "moving": "COL_1",
+      "static": "CAP_0",
+      "hull_volume_mm3": 89330.4,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_5",
+      "moving": "COL_1",
+      "static": "CAP_1",
       "hull_volume_mm3": 89330.4,
       "hull_intersects": false,
       "intersection_mm3": 0.0,
@@ -1718,6 +2312,24 @@
     {
       "phase": "root_fold_5",
       "moving": "XBAR",
+      "static": "CAP_0",
+      "hull_volume_mm3": 129803.1,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_5",
+      "moving": "XBAR",
+      "static": "CAP_1",
+      "hull_volume_mm3": 129803.1,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_5",
+      "moving": "XBAR",
       "static": "SYNC",
       "hull_volume_mm3": 129803.1,
       "hull_intersects": false,
@@ -1764,6 +2376,24 @@
       "phase": "root_fold_5",
       "moving": "BRG",
       "static": "CAR_1",
+      "hull_volume_mm3": 97574.8,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_5",
+      "moving": "BRG",
+      "static": "CAP_0",
+      "hull_volume_mm3": 97574.8,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_5",
+      "moving": "BRG",
+      "static": "CAP_1",
       "hull_volume_mm3": 97574.8,
       "hull_intersects": false,
       "intersection_mm3": 0.0,
@@ -1835,6 +2465,24 @@
     {
       "phase": "root_fold_5",
       "moving": "ARM",
+      "static": "CAP_0",
+      "hull_volume_mm3": 111913.4,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_5",
+      "moving": "ARM",
+      "static": "CAP_1",
+      "hull_volume_mm3": 111913.4,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_5",
+      "moving": "ARM",
       "static": "SYNC",
       "hull_volume_mm3": 111913.4,
       "hull_intersects": false,
@@ -1871,6 +2519,24 @@
     {
       "phase": "root_fold_6",
       "moving": "COL_0",
+      "static": "CAP_0",
+      "hull_volume_mm3": 89330.4,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_6",
+      "moving": "COL_0",
+      "static": "CAP_1",
+      "hull_volume_mm3": 89330.4,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_6",
+      "moving": "COL_0",
       "static": "SYNC",
       "hull_volume_mm3": 89330.4,
       "hull_intersects": false,
@@ -1899,6 +2565,24 @@
       "phase": "root_fold_6",
       "moving": "COL_1",
       "static": "TWR_1",
+      "hull_volume_mm3": 89330.4,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_6",
+      "moving": "COL_1",
+      "static": "CAP_0",
+      "hull_volume_mm3": 89330.4,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_6",
+      "moving": "COL_1",
+      "static": "CAP_1",
       "hull_volume_mm3": 89330.4,
       "hull_intersects": false,
       "intersection_mm3": 0.0,
@@ -1961,6 +2645,24 @@
     {
       "phase": "root_fold_6",
       "moving": "XBAR",
+      "static": "CAP_0",
+      "hull_volume_mm3": 129803.1,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_6",
+      "moving": "XBAR",
+      "static": "CAP_1",
+      "hull_volume_mm3": 129803.1,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_6",
+      "moving": "XBAR",
       "static": "SYNC",
       "hull_volume_mm3": 129803.1,
       "hull_intersects": false,
@@ -2007,6 +2709,24 @@
       "phase": "root_fold_6",
       "moving": "BRG",
       "static": "CAR_1",
+      "hull_volume_mm3": 97574.8,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_6",
+      "moving": "BRG",
+      "static": "CAP_0",
+      "hull_volume_mm3": 97574.8,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_6",
+      "moving": "BRG",
+      "static": "CAP_1",
       "hull_volume_mm3": 97574.8,
       "hull_intersects": false,
       "intersection_mm3": 0.0,
@@ -2078,6 +2798,24 @@
     {
       "phase": "root_fold_6",
       "moving": "ARM",
+      "static": "CAP_0",
+      "hull_volume_mm3": 111913.4,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_6",
+      "moving": "ARM",
+      "static": "CAP_1",
+      "hull_volume_mm3": 111913.4,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_6",
+      "moving": "ARM",
       "static": "SYNC",
       "hull_volume_mm3": 111913.4,
       "hull_intersects": false,
@@ -2114,6 +2852,24 @@
     {
       "phase": "root_fold_7",
       "moving": "COL_0",
+      "static": "CAP_0",
+      "hull_volume_mm3": 89330.4,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_7",
+      "moving": "COL_0",
+      "static": "CAP_1",
+      "hull_volume_mm3": 89330.4,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_7",
+      "moving": "COL_0",
       "static": "SYNC",
       "hull_volume_mm3": 89330.4,
       "hull_intersects": false,
@@ -2142,6 +2898,24 @@
       "phase": "root_fold_7",
       "moving": "COL_1",
       "static": "TWR_1",
+      "hull_volume_mm3": 89330.4,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_7",
+      "moving": "COL_1",
+      "static": "CAP_0",
+      "hull_volume_mm3": 89330.4,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_7",
+      "moving": "COL_1",
+      "static": "CAP_1",
       "hull_volume_mm3": 89330.4,
       "hull_intersects": false,
       "intersection_mm3": 0.0,
@@ -2204,6 +2978,24 @@
     {
       "phase": "root_fold_7",
       "moving": "XBAR",
+      "static": "CAP_0",
+      "hull_volume_mm3": 129803.1,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_7",
+      "moving": "XBAR",
+      "static": "CAP_1",
+      "hull_volume_mm3": 129803.1,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_7",
+      "moving": "XBAR",
       "static": "SYNC",
       "hull_volume_mm3": 129803.1,
       "hull_intersects": false,
@@ -2250,6 +3042,24 @@
       "phase": "root_fold_7",
       "moving": "BRG",
       "static": "CAR_1",
+      "hull_volume_mm3": 97574.8,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_7",
+      "moving": "BRG",
+      "static": "CAP_0",
+      "hull_volume_mm3": 97574.8,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_7",
+      "moving": "BRG",
+      "static": "CAP_1",
       "hull_volume_mm3": 97574.8,
       "hull_intersects": false,
       "intersection_mm3": 0.0,
@@ -2321,6 +3131,24 @@
     {
       "phase": "root_fold_7",
       "moving": "ARM",
+      "static": "CAP_0",
+      "hull_volume_mm3": 111913.4,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_7",
+      "moving": "ARM",
+      "static": "CAP_1",
+      "hull_volume_mm3": 111913.4,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_7",
+      "moving": "ARM",
       "static": "SYNC",
       "hull_volume_mm3": 111913.4,
       "hull_intersects": false,
@@ -2357,6 +3185,24 @@
     {
       "phase": "root_fold_8",
       "moving": "COL_0",
+      "static": "CAP_0",
+      "hull_volume_mm3": 89330.4,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_8",
+      "moving": "COL_0",
+      "static": "CAP_1",
+      "hull_volume_mm3": 89330.4,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_8",
+      "moving": "COL_0",
       "static": "SYNC",
       "hull_volume_mm3": 89330.4,
       "hull_intersects": false,
@@ -2385,6 +3231,24 @@
       "phase": "root_fold_8",
       "moving": "COL_1",
       "static": "TWR_1",
+      "hull_volume_mm3": 89330.4,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_8",
+      "moving": "COL_1",
+      "static": "CAP_0",
+      "hull_volume_mm3": 89330.4,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_8",
+      "moving": "COL_1",
+      "static": "CAP_1",
       "hull_volume_mm3": 89330.4,
       "hull_intersects": false,
       "intersection_mm3": 0.0,
@@ -2447,6 +3311,24 @@
     {
       "phase": "root_fold_8",
       "moving": "XBAR",
+      "static": "CAP_0",
+      "hull_volume_mm3": 129803.1,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_8",
+      "moving": "XBAR",
+      "static": "CAP_1",
+      "hull_volume_mm3": 129803.1,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_8",
+      "moving": "XBAR",
       "static": "SYNC",
       "hull_volume_mm3": 129803.1,
       "hull_intersects": false,
@@ -2493,6 +3375,24 @@
       "phase": "root_fold_8",
       "moving": "BRG",
       "static": "CAR_1",
+      "hull_volume_mm3": 97574.8,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_8",
+      "moving": "BRG",
+      "static": "CAP_0",
+      "hull_volume_mm3": 97574.8,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_8",
+      "moving": "BRG",
+      "static": "CAP_1",
       "hull_volume_mm3": 97574.8,
       "hull_intersects": false,
       "intersection_mm3": 0.0,
@@ -2564,6 +3464,24 @@
     {
       "phase": "root_fold_8",
       "moving": "ARM",
+      "static": "CAP_0",
+      "hull_volume_mm3": 111913.4,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_8",
+      "moving": "ARM",
+      "static": "CAP_1",
+      "hull_volume_mm3": 111913.4,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_8",
+      "moving": "ARM",
       "static": "SYNC",
       "hull_volume_mm3": 111913.4,
       "hull_intersects": false,
@@ -2600,6 +3518,24 @@
     {
       "phase": "root_fold_9",
       "moving": "COL_0",
+      "static": "CAP_0",
+      "hull_volume_mm3": 89330.4,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_9",
+      "moving": "COL_0",
+      "static": "CAP_1",
+      "hull_volume_mm3": 89330.4,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_9",
+      "moving": "COL_0",
       "static": "SYNC",
       "hull_volume_mm3": 89330.4,
       "hull_intersects": false,
@@ -2628,6 +3564,24 @@
       "phase": "root_fold_9",
       "moving": "COL_1",
       "static": "TWR_1",
+      "hull_volume_mm3": 89330.4,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_9",
+      "moving": "COL_1",
+      "static": "CAP_0",
+      "hull_volume_mm3": 89330.4,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_9",
+      "moving": "COL_1",
+      "static": "CAP_1",
       "hull_volume_mm3": 89330.4,
       "hull_intersects": false,
       "intersection_mm3": 0.0,
@@ -2690,6 +3644,24 @@
     {
       "phase": "root_fold_9",
       "moving": "XBAR",
+      "static": "CAP_0",
+      "hull_volume_mm3": 129803.1,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_9",
+      "moving": "XBAR",
+      "static": "CAP_1",
+      "hull_volume_mm3": 129803.1,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_9",
+      "moving": "XBAR",
       "static": "SYNC",
       "hull_volume_mm3": 129803.1,
       "hull_intersects": false,
@@ -2736,6 +3708,24 @@
       "phase": "root_fold_9",
       "moving": "BRG",
       "static": "CAR_1",
+      "hull_volume_mm3": 97574.8,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_9",
+      "moving": "BRG",
+      "static": "CAP_0",
+      "hull_volume_mm3": 97574.8,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_9",
+      "moving": "BRG",
+      "static": "CAP_1",
       "hull_volume_mm3": 97574.8,
       "hull_intersects": false,
       "intersection_mm3": 0.0,
@@ -2807,6 +3797,24 @@
     {
       "phase": "root_fold_9",
       "moving": "ARM",
+      "static": "CAP_0",
+      "hull_volume_mm3": 111913.4,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_9",
+      "moving": "ARM",
+      "static": "CAP_1",
+      "hull_volume_mm3": 111913.4,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_9",
+      "moving": "ARM",
       "static": "SYNC",
       "hull_volume_mm3": 111913.4,
       "hull_intersects": false,
@@ -2843,6 +3851,24 @@
     {
       "phase": "root_fold_10",
       "moving": "COL_0",
+      "static": "CAP_0",
+      "hull_volume_mm3": 89330.4,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_10",
+      "moving": "COL_0",
+      "static": "CAP_1",
+      "hull_volume_mm3": 89330.4,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_10",
+      "moving": "COL_0",
       "static": "SYNC",
       "hull_volume_mm3": 89330.4,
       "hull_intersects": false,
@@ -2871,6 +3897,24 @@
       "phase": "root_fold_10",
       "moving": "COL_1",
       "static": "TWR_1",
+      "hull_volume_mm3": 89330.4,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_10",
+      "moving": "COL_1",
+      "static": "CAP_0",
+      "hull_volume_mm3": 89330.4,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_10",
+      "moving": "COL_1",
+      "static": "CAP_1",
       "hull_volume_mm3": 89330.4,
       "hull_intersects": false,
       "intersection_mm3": 0.0,
@@ -2933,6 +3977,24 @@
     {
       "phase": "root_fold_10",
       "moving": "XBAR",
+      "static": "CAP_0",
+      "hull_volume_mm3": 129803.1,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_10",
+      "moving": "XBAR",
+      "static": "CAP_1",
+      "hull_volume_mm3": 129803.1,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_10",
+      "moving": "XBAR",
       "static": "SYNC",
       "hull_volume_mm3": 129803.1,
       "hull_intersects": false,
@@ -2979,6 +4041,24 @@
       "phase": "root_fold_10",
       "moving": "BRG",
       "static": "CAR_1",
+      "hull_volume_mm3": 97574.8,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_10",
+      "moving": "BRG",
+      "static": "CAP_0",
+      "hull_volume_mm3": 97574.8,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_10",
+      "moving": "BRG",
+      "static": "CAP_1",
       "hull_volume_mm3": 97574.8,
       "hull_intersects": false,
       "intersection_mm3": 0.0,
@@ -3050,6 +4130,24 @@
     {
       "phase": "root_fold_10",
       "moving": "ARM",
+      "static": "CAP_0",
+      "hull_volume_mm3": 111913.4,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_10",
+      "moving": "ARM",
+      "static": "CAP_1",
+      "hull_volume_mm3": 111913.4,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_10",
+      "moving": "ARM",
       "static": "SYNC",
       "hull_volume_mm3": 111913.4,
       "hull_intersects": false,
@@ -3086,6 +4184,24 @@
     {
       "phase": "root_fold_11",
       "moving": "COL_0",
+      "static": "CAP_0",
+      "hull_volume_mm3": 89330.4,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_11",
+      "moving": "COL_0",
+      "static": "CAP_1",
+      "hull_volume_mm3": 89330.4,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_11",
+      "moving": "COL_0",
       "static": "SYNC",
       "hull_volume_mm3": 89330.4,
       "hull_intersects": false,
@@ -3114,6 +4230,24 @@
       "phase": "root_fold_11",
       "moving": "COL_1",
       "static": "TWR_1",
+      "hull_volume_mm3": 89330.4,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_11",
+      "moving": "COL_1",
+      "static": "CAP_0",
+      "hull_volume_mm3": 89330.4,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_11",
+      "moving": "COL_1",
+      "static": "CAP_1",
       "hull_volume_mm3": 89330.4,
       "hull_intersects": false,
       "intersection_mm3": 0.0,
@@ -3176,6 +4310,24 @@
     {
       "phase": "root_fold_11",
       "moving": "XBAR",
+      "static": "CAP_0",
+      "hull_volume_mm3": 129803.1,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_11",
+      "moving": "XBAR",
+      "static": "CAP_1",
+      "hull_volume_mm3": 129803.1,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_11",
+      "moving": "XBAR",
       "static": "SYNC",
       "hull_volume_mm3": 129803.1,
       "hull_intersects": false,
@@ -3222,6 +4374,24 @@
       "phase": "root_fold_11",
       "moving": "BRG",
       "static": "CAR_1",
+      "hull_volume_mm3": 97574.8,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_11",
+      "moving": "BRG",
+      "static": "CAP_0",
+      "hull_volume_mm3": 97574.8,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_11",
+      "moving": "BRG",
+      "static": "CAP_1",
       "hull_volume_mm3": 97574.8,
       "hull_intersects": false,
       "intersection_mm3": 0.0,
@@ -3285,6 +4455,24 @@
       "phase": "root_fold_11",
       "moving": "ARM",
       "static": "CAR_1",
+      "hull_volume_mm3": 111913.4,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_11",
+      "moving": "ARM",
+      "static": "CAP_0",
+      "hull_volume_mm3": 111913.4,
+      "hull_intersects": false,
+      "intersection_mm3": 0.0,
+      "status": "CLEAR_CONSERVATIVE"
+    },
+    {
+      "phase": "root_fold_11",
+      "moving": "ARM",
+      "static": "CAP_1",
       "hull_volume_mm3": 111913.4,
       "hull_intersects": false,
       "intersection_mm3": 0.0,

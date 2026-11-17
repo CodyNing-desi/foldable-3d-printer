@@ -12,7 +12,8 @@ META = {
     "BASE": ("底座板(床支撑/塔安装孔/根铰让位坑)", "基架", "塔销孔Ø3.4@y0,±65; 底面卡圈让位坑", "平放, 底面朝下", "F09/F07共享"),
     "SCZ-BASE": ("SCZ底座(导槽+横轴窗+支脚)", "基架", "舌槽6.4@y±62.5; 横轴窗x0..85,z0..6; 支脚6mm; 锁孔@y±66.2", "平放, 支脚朝下", "—"),
     "BED": ("热床包络标记板", "基架", "搁于底座床支撑墙顶 z26", "平放", "可省略(仅影响避让演示)"),
-    "TWR": ("导向塔(双Ø5立导柱+顶盖)", "抬升移动副", "导柱Ø5@±15; 柱顶横孔Ø3.2@z48; 足部4×Ø3.4", "立放, 导柱竖直", "导柱可改Ø6(需同步改滑座孔)"),
+    "TWR": ("导向塔(双Ø5立导柱, V6.1起不含顶盖)", "抬升移动副", "导柱Ø5@±15; 锁孔Ø3.2@z48; 顶盖销孔Ø3.2@z65; 足部4×Ø3.4", "立放, 导柱竖直", "导柱可改Ø6(需同步改滑座孔)"),
+    "CAP": ("可拆顶盖(V6.1新增, 套导柱顶+横销)", "抬升移动副", "套孔Ø5.3@±15; 横销Ø3.2@z65, 每塔2×PIN3-L14", "平放", "修复一体顶盖导致的滑座/SYNC不可装问题"),
     "CAR": ("抬升滑座(双轴套+根部叉耳+旋钮)", "抬升移动副/根部转动副", "轴套孔Ø5.3; 叉耳孔Ø5.3@ (14,3); 锁孔Ø3.2", "旋钮轴朝上(绕Y转-90°)", "轴套可嵌铜螺母(非必须)"),
     "COL": ("立柱管(根舌板+框连接孔; F07另含柱顶臂叉耳)", "根部转动副/(F07)臂转动副", "舌板20厚Ø5.3; 管15×20壁3; 框榫孔Ø3.2@z132/162; F07臂叉耳孔Ø5.3@(16,137)", "立放", "F09/F07柱几何不同(臂叉耳)"),
     "ARM": ("X臂+工具头包络标记(107.5)", "臂转动副", "根舌20厚Ø5.3; 锁孔Ø3.2@x8; 臂16×12", "平放, 臂水平", "工具头标记可拆(减重)"),
@@ -120,7 +121,7 @@ def write_print_plan(rows):
     lines = [
         "# 5 台打印机并行打印计划（ROUND1 缩比演示模型）",
         "",
-        f"CAD 版本: R1-V6。质量估算 = 实体体积 × 材料密度 × 0.60（3 壁 + 20% 填充近似）。",
+        f"CAD 版本: R1-V6.1。质量估算 = 实体体积 × 材料密度 × 0.60（3 壁 + 20% 填充近似）。",
         "**以下质量与机时均为 CAD 体积估算，非真实切片结果**；估算打印速度按 15–25 g/h",
         "（0.4 喷嘴, 0.2 层高, Bambu 标准速度）。实际耗材/机时以 Bambu Studio 切片为准。",
         "",
@@ -151,8 +152,8 @@ def write_print_plan(rows):
         "",
         "| 机器 | 任务 | 说明 |",
         "|---|---|---|",
-        "| P1 | F09_L82 全部 PLA 件 | BASE/BED/TWR×2/CAR×2/COL×2/ARM/XBAR/BRG/SYNC |",
-        "| P2 | F09_L82 全部 PETG 件 + F07 PLA 件 | 销/卡圈/滑座类; F07 BASE/BED/TWR/CAR/COL/ARM |",
+        "| P1 | F09_L82 全部 PLA 件 | BASE/BED/TWR×2/CAP×2/CAR×2/COL×2/ARM/XBAR/BRG/SYNC |",
+        "| P2 | F09_L82 全部 PETG 件 + F07 PLA 件 | 销/卡圈/滑座类; F07 BASE/BED/TWR/CAP/CAR/COL/ARM |",
         "| P3 | F07 PETG 件 + SCZ PLA 件 | SCZ BASE/BED/POST×2/PLAT |",
         "| P4 | SCZ PETG 件 + F08_OPTIONAL 全部 | SCZ 臂×4/滑块×4/轴×2/销; F08 卡/连杆/销 |",
         "| P5 | L4 接口试件 + 全部易损件备件 | 先打印试件! 销/卡圈按 BOM 数量 ×2 备件 |",
@@ -187,7 +188,7 @@ def write_motion_report():
     lines = [
         "# ROUND1 缩比演示模型 · 运动与装配验证报告",
         "",
-        "CAD 版本 R1-V6 · 连杆几何 1:2（V3.2.1 冻结参数 × 0.5）· 单位 mm",
+        "CAD 版本 R1-V6.1 · 连杆几何 1:2（V3.2.1 冻结参数 × 0.5）· 单位 mm",
         "",
         "## 0. 证据等级与方法（必读）",
         "",
@@ -227,6 +228,9 @@ def write_motion_report():
         "SCZ 错层 8.5 mm（原 10×0.5=5，放大避让）、底铰抬高 6 mm（固定座叉耳强度）；F09 顶横梁改为柱顶盖板+榫（+8 mm）。",
         "**V6 关键修正：F09 中央 X 臂（y=0）铰接于中横梁 BRG 的中央叉耳（而非悬空/动画连接），",
         "中横梁抬高至 world z142.5–157.5 承载臂铰；F07 单柱则由柱顶叉耳直接承臂。**",
+        "**V6.1 装配拓扑修复：一体式塔顶盖封死导柱顶端，滑座（闭口轴套）与 SYNC（过柱孔）物理上无法装入，",
+        "运动学/碰撞验证无法发现此类问题。顶盖拆分为独立 CAP 件（每塔 2×PIN3-L14 销接），先套件后锁顶盖；",
+        "复跑 L1/L2/L2b：0 穿透、0 闭合失败、0 孔缺失，新增 CAP 相关扫掠凸包经细化采样确认无穿透。**",
         "",
         "## 2. 各方案结果",
         "",
@@ -367,6 +371,9 @@ def write_limitations():
   P1-3 SCALE_JUSTIFICATION 缩比依据 + 耗材口径统一（MASTER 去重，标注非真实切片）；
   附加 F08 L 槽相位顺序化。逐项见 CHANGELOG_V5_V6.md。
   V1–V5 记录保留于 notes.md §6 与 VALIDATION/HISTORY/。
+- **R1-V6.1（当前，装配拓扑修复）**：一体式塔顶盖导致滑座/SYNC 物理不可装（闭口轴套 vs 两端封闭导柱），
+  顶盖拆分为独立 CAP 件（套导柱顶 z63..67 + 每塔 2×PIN3-L14 横销 z65）；TWR 增顶盖销孔；
+  运动学/验证/BOM/3MF/装配指南同步；复跑 L1/L2/L2b 全绿（详见 CHANGELOG_V6_1.md）。
 - 后续如实测/装配失败 → V7 并重新验证。
 """
     (ROOT / "MODEL_LIMITATIONS.md").write_text(txt, encoding="utf-8")
@@ -375,6 +382,9 @@ def write_limitations():
 
 def write_assembly_guide():
     txt = """# ROUND1 缩比演示模型 · 装配指南（ASSEMBLY_GUIDE）
+
+> **V6.1 装配修复**：导向塔顶盖拆分为独立 CAP 件（每塔 2×PIN3-L14 横销+卡圈）。
+> V6 及之前的一体式顶盖封死导柱顶端，滑座与 SYNC 在物理上无法套入；V6.1 起先套件、后锁顶盖。
 
 通用约定：销轴插入后在尾槽卡入 C 形卡圈（PETG）；转动配合孔 = 销径 +0.3 mm，滑动 +0.4 mm。
 锁销（PIN3）在两个极限位置之间移插，实现"简化锁止"。装配前请先完成 `COUPONS_L4` 试配。
@@ -387,6 +397,7 @@ def write_assembly_guide():
 2. 塔×2 装于 y=±65：4×PIN3-L14 竖直穿过塔足+底座，底面让位坑内卡 CLIP3。
 3. 滑座×2 套入塔导柱（轴套孔 Ø5.3），压到底；旋钮朝后（背面）。
 4. SYNC 杆置于两滑座顶面，4×PIN3-L18 水平穿滑座凸台+杆端，卡 CLIP3 → 双滑座刚性同步。
+   然后装可拆顶盖：CAP×2 分别套入两塔导柱顶（z63..67），每塔 2×PIN3-L14 横穿顶盖+导柱 z65 孔，卡 CLIP3。
 5. 柱×2 根舌板插入滑座叉耳，PIN5-L34 横穿，卡 CLIP5；0° 锁销 PIN3-L34 插 (14,·,11) 孔。
 6. XBAR 榫插入两柱顶，2×PIN3-L22 横穿；BRG 端榫插入柱内壁(z132)，2×PIN3-L18 横穿 → 刚性龙门。
 7. **X臂根舌插入中横梁 BRG 中央叉耳(y=0)**，PIN5-L34 横穿，卡 CLIP5；0° 锁销 PIN3-L34 插臂锁孔。
@@ -396,7 +407,8 @@ def write_assembly_guide():
 
 ## B. F07（单柱抬升+根部翻折）
 与 F09 共享 BASE/BED/TWR/CAR/ARM；**COL 不同**：F07 柱顶带臂叉耳（直接承臂），F09 柱不带（臂铰于 BRG）。
-仅装中央塔(y=0)、单滑座、单柱，无 SYNC/XBAR/BRG。步骤同 A.1–A.3、A.5；臂根舌插入**柱顶叉耳**，
+仅装中央塔(y=0)、单滑座、单柱，无 SYNC/XBAR/BRG。步骤同 A.1–A.3；**A.3 滑座试装顺畅后立即装顶盖 CAP**
+（2×PIN3-L14 横穿+卡圈），再继续 A.5；臂根舌插入**柱顶叉耳**，
 PIN5-L34 横穿+卡圈，0° 锁销 PIN3-L34。导向由双 Ø5 导柱抗转。演示顺序同 A。
 
 ## C. SCZ（剪叉升降，1 手动输入）
@@ -438,7 +450,7 @@ def write_readme():
     dedup = sum(float(r["预计耗材质量_g"]) * int(r["数量"]) for r in master)
     txt = f"""# ROUND1_DEMO_CAD — 可折叠3D打印机 第一轮缩比机械原理演示模型
 
-版本 **R1-V6** · 2026-11-15 · 连杆几何 1:2（V3.2.1 冻结参数 ×0.5）· 单位 mm
+版本 **R1-V6.1** · 2026-11-17 · 连杆几何 1:2（V3.2.1 冻结参数 ×0.5）· 单位 mm
 
 ## 来源与版本
 - 参数基准: GitHub CodyNing-desi/foldable-3d-printer **PR#1 (sync/v2-to-v3_2_1 @ 6229d60)**，
@@ -446,6 +458,7 @@ def write_readme():
   main 不是最新；旧 stageB 交付包为外购五金夹具体系，本轮已重建为纯打印可活动机构。
 - 候选: M1 F09_L82 / M2 F07 / M3 SCZ / M4 F08_OPTIONAL（F12 No-Go 不制造）。
 - V6 回应独立审查 P0-1/P0-2/P0-3/P1-1/P1-2/P1-3，逐项见 **CHANGELOG_V5_V6.md**。
+- **V6.1 装配拓扑修复**：一体顶盖封死导柱导致滑座/SYNC 不可装，顶盖拆分为独立 CAP 销接件，见 **CHANGELOG_V6_1.md**。
 
 ## 目录
 - `F09_L82/ F07/ SCZ/ F08_OPTIONAL/`: 各含 CAD_SOURCE(自包含参数化 build123d 源) / STEP(逐件+装配) /
@@ -453,7 +466,7 @@ def write_readme():
   VALIDATION(L1/L2/L2b/L3 JSON+清单, HISTORY/ 归档旧版) / BOM.csv。
 - `COUPONS_L4/`: 接口试件 STL + TEST_PLAN.md（待现场确认）。
 - 根级: MASTER_PARTS_BOM.csv / MOTION_VALIDATION_REPORT.md / PRINT_PLAN_5_MACHINES.md /
-  ASSEMBLY_GUIDE.md / MODEL_LIMITATIONS.md / SCALE_JUSTIFICATION.md / CHANGELOG_V5_V6.md /
+  ASSEMBLY_GUIDE.md / MODEL_LIMITATIONS.md / SCALE_JUSTIFICATION.md / CHANGELOG_V5_V6.md / CHANGELOG_V6_1.md /
   PURCHASE_INTERFACE.md / REPRODUCTION_REPORT.md / SHA256SUMS.txt。
 
 ## 再生成（CAD_SOURCE 自包含，可在干净目录运行）
@@ -500,7 +513,7 @@ def write_purchase_interface():
 | 滑槽磨损过快 | 无（改打印参数/材料） | — | — | — |
 
 **本 Agent 不下单、不询价、不选商家**；以上仅为接口建议，由采购 Agent 转化为采购计划。
-BOM 版本: **R1-V6**（最终接口 BOM，供采购 Agent 核对）；设计调整导致零件变化时更新 BOM 版本并通知采购 Agent。
+BOM 版本: **R1-V6.1**（最终接口 BOM，供采购 Agent 核对）；设计调整导致零件变化时更新 BOM 版本并通知采购 Agent。
 
 ## 共享件提示
 BASE/BED 几何在 F09_L82/F07/SCZ 间完全相同（MASTER_PARTS_BOM 已去重合并数量），

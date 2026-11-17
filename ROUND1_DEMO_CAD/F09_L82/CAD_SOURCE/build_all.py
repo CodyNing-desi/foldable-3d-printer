@@ -29,7 +29,7 @@ def export_candidate(cand: str):
         parts = G.build_gantry_parts(cand)
         mat = {k: "PLA" for k in parts}
         mat["ARM"] = "PLA"
-        qty = {"TWR": 2, "CAR": 2, "COL": 2} if cand == "F09_L82" else {}
+        qty = {"TWR": 2, "CAR": 2, "COL": 2, "CAP": 2} if cand == "F09_L82" else {}
         for pid, part in parts.items():
             full = f"{pfx}-{pid}"
             r = C.export_part(part, out, full, mat[pid])

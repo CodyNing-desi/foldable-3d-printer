@@ -49,6 +49,7 @@ def joints(cand: str) -> list[dict]:
             J.append(_j("RIGID", "CAR_1", (2, -10, 17), "SYNC", (8, -55, 17), X, name="car1_sync"))
         for i in range(len(ys)):
             J.append(_j("RIGID", f"TWR_{i}", (0, 0, 0), "BASE", (10, ys[i], 10), Z, name=f"twr{i}_base"))
+        J.append(_j("RIGID", f"CAP_{i}", (0, 15, 65), f"TWR_{i}", (0, 15, 65), Z, name=f"cap{i}_twr"))
         J.append(_j("RIGID", "BED", (80, 0, 26), "BASE", (80, 0, 26), Z, name="bed_base"))
     elif cand == "SCZ":
         for side, sy in (("L", -1), ("R", 1)):

@@ -64,4 +64,7 @@
   P1-3 SCALE_JUSTIFICATION 缩比依据 + 耗材口径统一（MASTER 去重，标注非真实切片）；
   附加 F08 L 槽相位顺序化。逐项见 CHANGELOG_V5_V6.md。
   V1–V5 记录保留于 notes.md §6 与 VALIDATION/HISTORY/。
+- **R1-V6.1（当前，装配拓扑修复）**：一体式塔顶盖导致滑座/SYNC 物理不可装（闭口轴套 vs 两端封闭导柱），
+  顶盖拆分为独立 CAP 件（套导柱顶 z63..67 + 每塔 2×PIN3-L14 横销 z65）；TWR 增顶盖销孔；
+  运动学/验证/BOM/3MF/装配指南同步；复跑 L1/L2/L2b 全绿（详见 CHANGELOG_V6_1.md）。
 - 后续如实测/装配失败 → V7 并重新验证。

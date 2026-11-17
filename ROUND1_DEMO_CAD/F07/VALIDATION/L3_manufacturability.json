@@ -32,8 +32,20 @@
       67.0
     ],
     "plate_250_ok": true,
-    "mass_est_g": 3.9,
-    "volume_cm3": 5.246
+    "mass_est_g": 3.1,
+    "volume_cm3": 4.157
+  },
+  {
+    "part_id": "F07-CAP",
+    "material": "PLA",
+    "bbox_mm": [
+      8.0,
+      36.0,
+      4.0
+    ],
+    "plate_250_ok": true,
+    "mass_est_g": 0.7,
+    "volume_cm3": 0.943
   },
   {
     "part_id": "F07-CAR",

@@ -1,6 +1,6 @@
 # ROUND1_DEMO_CAD — 可折叠3D打印机 第一轮缩比机械原理演示模型
 
-版本 **R1-V6** · 2026-11-15 · 连杆几何 1:2（V3.2.1 冻结参数 ×0.5）· 单位 mm
+版本 **R1-V6.1** · 2026-11-17 · 连杆几何 1:2（V3.2.1 冻结参数 ×0.5）· 单位 mm
 
 ## 来源与版本
 - 参数基准: GitHub CodyNing-desi/foldable-3d-printer **PR#1 (sync/v2-to-v3_2_1 @ 6229d60)**，
@@ -8,6 +8,7 @@
   main 不是最新；旧 stageB 交付包为外购五金夹具体系，本轮已重建为纯打印可活动机构。
 - 候选: M1 F09_L82 / M2 F07 / M3 SCZ / M4 F08_OPTIONAL（F12 No-Go 不制造）。
 - V6 回应独立审查 P0-1/P0-2/P0-3/P1-1/P1-2/P1-3，逐项见 **CHANGELOG_V5_V6.md**。
+- **V6.1 装配拓扑修复**：一体顶盖封死导柱导致滑座/SYNC 不可装，顶盖拆分为独立 CAP 销接件，见 **CHANGELOG_V6_1.md**。
 
 ## 目录
 - `F09_L82/ F07/ SCZ/ F08_OPTIONAL/`: 各含 CAD_SOURCE(自包含参数化 build123d 源) / STEP(逐件+装配) /
@@ -15,7 +16,7 @@
   VALIDATION(L1/L2/L2b/L3 JSON+清单, HISTORY/ 归档旧版) / BOM.csv。
 - `COUPONS_L4/`: 接口试件 STL + TEST_PLAN.md（待现场确认）。
 - 根级: MASTER_PARTS_BOM.csv / MOTION_VALIDATION_REPORT.md / PRINT_PLAN_5_MACHINES.md /
-  ASSEMBLY_GUIDE.md / MODEL_LIMITATIONS.md / SCALE_JUSTIFICATION.md / CHANGELOG_V5_V6.md /
+  ASSEMBLY_GUIDE.md / MODEL_LIMITATIONS.md / SCALE_JUSTIFICATION.md / CHANGELOG_V5_V6.md / CHANGELOG_V6_1.md /
   PURCHASE_INTERFACE.md / REPRODUCTION_REPORT.md / SHA256SUMS.txt。
 
 ## 再生成（CAD_SOURCE 自包含，可在干净目录运行）

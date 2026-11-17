@@ -38,7 +38,10 @@ def copy_sources():
         cs = ROOT / d / "CAD_SOURCE"
         cs.mkdir(parents=True, exist_ok=True)
         for s in SCRIPTS:
-            shutil.copy2(WORK / s, cs / s)
+            srcf, dstf = WORK / s, cs / s
+            if srcf.exists() and dstf.exists() and srcf.read_bytes() == dstf.read_bytes():
+                continue  # identical (incl. WORK == cs self-copy)
+            shutil.copy2(srcf, dstf)
         (cs / "README.md").write_text(
             f"# {cand} CAD_SOURCE\n\n"
             "自包含参数化源（build123d, Python 3.12 + cadquery-ocp-novtk）。\n\n"

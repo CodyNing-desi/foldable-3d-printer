@@ -45,6 +45,21 @@
     "n_faces": 12
   },
   {
+    "part_id": "F07-CAP",
+    "watertight": true,
+    "winding_consistent": true,
+    "n_bodies": 1,
+    "volume_mm3": 942.8,
+    "brep_volume_mm3": 943.0,
+    "vol_dev_pct": 0.02,
+    "bbox_mm": [
+      8.0,
+      36.0,
+      4.0
+    ],
+    "n_faces": 1020
+  },
+  {
     "part_id": "F07-CAR",
     "watertight": true,
     "winding_consistent": true,
@@ -169,14 +184,14 @@
     "watertight": true,
     "winding_consistent": true,
     "n_bodies": 1,
-    "volume_mm3": 5243.7,
-    "brep_volume_mm3": 5246.0,
-    "vol_dev_pct": 0.04,
+    "volume_mm3": 4154.8,
+    "brep_volume_mm3": 4157.0,
+    "vol_dev_pct": 0.05,
     "bbox_mm": [
       20.0,
       36.0,
       67.0
     ],
-    "n_faces": 2372
+    "n_faces": 3124
   }
 ]

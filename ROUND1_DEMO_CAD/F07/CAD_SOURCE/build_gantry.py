@@ -39,19 +39,32 @@ def build_bed() -> Part:
 
 
 def build_tower() -> Part:
-    """Local origin (10, yc, 10). Foot + 2 guide posts + top cap.
-    V2: foot notched for root tongue swing; cap raised to z73..77 and narrowed
-    to x4..12 so it clears the column tube (x12.5+) and sync beam (z65..73)."""
+    """Local origin (10, yc, 10). Foot + 2 guide posts (NO cap since V6.1).
+    V2: foot notched for root tongue swing.
+    V6.1: top cap split into separate CAP part (build_cap) so the carriage and
+    SYNC can actually be threaded onto the posts; cap pinned at z65."""
     p = Pos(2, 0, 2) * Box(20, 36, 4)
     p = p - Pos(7, 0, 2) * Box(10.02, 22, 4.02)  # tongue swing notch (world x12..22)
     for dy in (-15.0, 15.0):
         p = p + Pos(0, dy, (4 + 67) / 2) * Cylinder(2.5, 63)
         p = p - Pos(0, dy, 48) * x_hole(3.0, 8, CLR_SLD)  # carriage lock cross-hole
-    p = p + Pos(-2, 0, 65) * Box(8, 36, 4)  # cap world z73..77, x4..12
+        p = p - Pos(0, dy, 65) * x_hole(3.0, 8, CLR_SLD)  # V6.1 cap pin cross-hole
     for dx in (-6.0, 6.0):
         for dy in (-14.0, 14.0):
             p = p - Pos(dx, dy, 2) * z_hole(3.0, 6, CLR_SLD)
     p.label = "TWR"
+    return p
+
+
+def build_cap() -> Part:
+    """V6.1 removable top cap, separate printable part. Same local frame as tower.
+    Slips over post tops (post z4..67, cap z63..67) and pins through cap+post
+    cross holes at z65 with 2x PIN3-L14. Keeps V2 clearance: world z73..77, x4..12."""
+    p = Pos(-2, 0, 65) * Box(8, 36, 4)
+    for dy in (-15.0, 15.0):
+        p = p - Pos(0, dy, 65) * z_hole(5.0, 8, CLR_ROT)   # slip over post tops
+        p = p - Pos(0, dy, 65) * x_hole(3.0, 10, CLR_SLD)  # cap pin
+    p.label = "CAP"
     return p
 
 
@@ -188,9 +201,9 @@ def gantry_pins(cand: str) -> list[tuple[str, Part, str, int]]:
         ("PIN5-L34", pin(5, 34), "PETG", n_t + 1),      # root hinge + arm hinge
         ("PIN3-L34", pin(3, 34), "PETG", n_t + 1),      # root + arm lock (moved between poses)
         ("PIN3-L26", pin(3, 26), "PETG", 2 * n_t),      # carriage-post top lock
-        ("PIN3-L14", pin(3, 14), "PETG", 4 * n_t),      # tower mount (clip in base pocket)
+        ("PIN3-L14", pin(3, 14), "PETG", 6 * n_t),      # tower mount(4/t) + cap pin(2/t)
         ("CLIP5", clip(5), "PETG", n_t + 1),
-        ("CLIP3", clip(3), "PETG", n_t + 1 + 2 * n_t + 4 * n_t + (8 if cand == "F09_L82" else 0)),
+        ("CLIP3", clip(3), "PETG", n_t + 1 + 2 * n_t + 6 * n_t + (8 if cand == "F09_L82" else 0)),
     ]
     if cand == "F09_L82":
         items += [
@@ -202,8 +215,8 @@ def gantry_pins(cand: str) -> list[tuple[str, Part, str, int]]:
 
 def build_gantry_parts(cand: str) -> dict[str, Part]:
     parts = {"BASE": build_base(), "BED": build_bed(), "TWR": build_tower(),
-             "CAR": build_carriage(), "COL": build_column(with_arm_clevis=(cand == "F07")),
-             "ARM": build_arm()}
+             "CAP": build_cap(), "CAR": build_carriage(),
+             "COL": build_column(with_arm_clevis=(cand == "F07")), "ARM": build_arm()}
     if cand == "F09_L82":
         parts.update(SYNC=build_sync(), XBAR=build_xbar(), BRG=build_bridge())
     return parts
